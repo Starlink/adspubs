@@ -2,4 +2,5 @@ Title: Starlink Bulletin
 Editors: Murray, Jo; Lawden Mike
 Year: 1988
 Month: January
+Issue: 1
 Publisher: Starlink Project
