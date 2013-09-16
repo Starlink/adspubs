@@ -1,0 +1,4 @@
+%T PGPLOT in the frozen North
+%A McCaughrean, Mark
+%F AA(Edinburgh University)
+%P 14

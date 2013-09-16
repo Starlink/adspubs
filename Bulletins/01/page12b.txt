@@ -1,0 +1,4 @@
+%T Current UK IUE de-archiving facilities
+%A Bromage, Gordon
+%F AA(Rutherford Appleton Laboratory)
+%P 12

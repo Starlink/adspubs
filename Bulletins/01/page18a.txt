@@ -1,0 +1,4 @@
+%T The case for TeX
+%A O'Brien, Paul
+%F AA(University College London)
+%P 18

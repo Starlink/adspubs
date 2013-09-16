@@ -1,0 +1,4 @@
+%T Starlink Project News
+%A Bromage, Gordon; Lawden, Mike; Terrett, Dave
+%F AA(Rutherford Appleton Laboratory)
+%P 2

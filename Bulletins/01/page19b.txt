@@ -1,0 +1,4 @@
+%T JCMT data reduction
+%A Prestage, Richard
+%F AA(Jodrell Bank)
+%P 19

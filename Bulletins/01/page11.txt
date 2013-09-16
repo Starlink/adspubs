@@ -1,0 +1,4 @@
+%T NOT! the Starlink programming standards
+%A Godwin, John
+%F AA(Oxford University)
+%P 11
