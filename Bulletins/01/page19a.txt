@@ -1,5 +1,5 @@
 %T IUEDR release
 %A Rees, Paul
-%F AA(University College London)
 %P 19
 %L 19
+%F AA(University College London)

@@ -1,5 +1,5 @@
 %T Recent developments at Jodrell Bank
 %A Pedlar, Alan; McIlwrath, Brian
-%F AA(Jodrell Bank)
 %P 13
 %L 13
+%F AA(Jodrell Bank)

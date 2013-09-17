@@ -1,5 +1,5 @@
 %T IRAS SIG news
 %A Stewart, Brian
-%F AA(Rutherford Appleton Laboratory)
 %P 9
 %L 9
+%F AA(Rutherford Appleton Laboratory)

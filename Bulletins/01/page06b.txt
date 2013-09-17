@@ -1,7 +1,7 @@
 %T Solar Spectra at IUE dispersion
 %A Philips, Ken
-%F AA(Rutherford Appleton Laboratory)
 %P 6
 %L 6
+%F AA(Rutherford Appleton Laboratory)
 %Z 1986MNRAS.220.1021B
    1981NASRP1069.....C

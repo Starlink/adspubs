@@ -1,5 +1,5 @@
 %T IUE low-dispersion spectra archive
 %A Driessen, Cornelius
-%F AA(European Space Agency, VILSPA, Madrid)
 %P 12
 %L 12
+%F AA(European Space Agency, VILSPA, Madrid)

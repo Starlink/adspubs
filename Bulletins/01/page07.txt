@@ -1,5 +1,5 @@
 %T 'I've Got this tape'
 %A Allan, Peter
-%F AA(Manchester University)
 %P 7
 %L 7
+%F AA(Manchester University)

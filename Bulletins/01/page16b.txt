@@ -1,5 +1,5 @@
 %T Model atmosphere analyses from within DIPSO
 %A Dufton, Philip
-%F AA(Queen's University, Belfast)
 %P 16
 %L 17
+%F AA(Queen's University, Belfast)

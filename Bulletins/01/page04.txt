@@ -1,5 +1,5 @@
 %T ADAM
 %A Chipperfield, Alan; Wallace, Pat
-%F AA(Rutherford Appleton Laboratory)
 %P 4
 %L 4
+%F AA(Rutherford Appleton Laboratory)
