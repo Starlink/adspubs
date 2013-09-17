@@ -3,3 +3,4 @@
 %P 9
 %L 9
 %F AA(Royal Observatory Edinburgh)
+%Z SUN/70
