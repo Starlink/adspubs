@@ -1,0 +1,6 @@
+%T Standard data formats
+%A Currie, Malcolm
+%P 11
+%L 11
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/38

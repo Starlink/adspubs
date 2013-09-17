@@ -1,0 +1,6 @@
+%T The design of a new analysis package for X-ray astronomy -- the job so far
+%A Saxton, Richard
+%P 16
+%L 16
+%F AA(Leicester University)
+%Z SGP/38

@@ -1,0 +1,8 @@
+%T Letters to the editor
+%A Richards, Phil; Howarth, Ian; Stickland, Dave
+%P 10
+%L 10
+%F  AA(Rutherford Appleton Laboratory) AB(University College London)
+%Z SUN/23
+   SUN/24
+   SG/1

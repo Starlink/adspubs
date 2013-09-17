@@ -1,0 +1,6 @@
+%T A fringe-removal algorithm for the RCA CCD
+%A Warren, Graeme
+%P 12
+%L 13
+%F AA(Queen's University Belfast)
+%Z SUN/86

@@ -1,0 +1,6 @@
+%T SpecSIG and IUESIG
+%A Rees, Paul
+%P 8
+%L 8
+%F AA(University College London)
+%Z SGP/38

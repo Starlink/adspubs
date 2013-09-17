@@ -1,0 +1,6 @@
+%T Obituary - Dave Pearce
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/2
