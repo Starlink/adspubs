@@ -28,3 +28,5 @@ SC/21 etc).
 Ideally bulletin articles that reference SUNs and SGPs (etc) should reference them using %Z entries
 but it will probably be easiest to defer that until we know if SUNs et al are to be included in
 ADS.
+
+Starlink bulletins can currently be found at http://starlink.jach.hawaii.edu/starlink/Bulletins
