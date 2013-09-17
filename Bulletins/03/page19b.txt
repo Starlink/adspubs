@@ -1,0 +1,6 @@
+%T The distribution of 2.2 million galaxies brighter than B_J = 20.4 in the Southern Galactic cap
+%A Maddox,Steve
+%P 19
+%L 20
+%F AA(University of Cambidge)
+%Z 1988IAUS..130..151M

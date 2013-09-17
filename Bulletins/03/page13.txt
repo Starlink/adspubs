@@ -1,0 +1,6 @@
+%T Applications Graphics Interface (AGI)
+%A Eaton,Nick
+%P 13
+%L 13
+%F AA(Durham University)
+%Z SUN/48

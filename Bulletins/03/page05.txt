@@ -1,0 +1,22 @@
+%T Software and documentation news
+%A Lawden,Mike
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/48
+   SB3/13
+   SUN/42
+   SUN/41
+   SUN/46
+   SUN/45
+   SUN/39
+   SUN/47
+   SUN/24
+   SB3/14
+   SG/1
+   SUN/95
+   SUN/28
+   SGP/25
+   SGP/37
+   SGP/16
+   SSN/41

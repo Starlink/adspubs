@@ -1,0 +1,7 @@
+%T ADAM latest
+%A Chipperfield,Alan
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+%Z SSN/45
+   SB3/13

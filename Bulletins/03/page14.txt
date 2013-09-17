@@ -1,0 +1,5 @@
+%T EDRSX -- more new IRAS software
+%A Berry,Dave
+%P 14
+%L 15
+%F AA(Manchester University)

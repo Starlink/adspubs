@@ -1,0 +1,5 @@
+%T Figaro corner
+%A Shortridge,Keith
+%P 7
+%L 7
+%F AA(Anglo-Australian Observatory)

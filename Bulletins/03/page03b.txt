@@ -1,0 +1,5 @@
+%T Where does all the RAL manpower go?
+%A Wallace,Patrick;Sherman,John
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)

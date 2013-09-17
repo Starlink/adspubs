@@ -1,0 +1,6 @@
+%T Letters to the editor
+%A Shortridge,Keith;Pike,Dave
+%P 10
+%L 10
+%F AA(Anglo-Australian Observatory)AB(VILSPA)
+%Z SUN/20
