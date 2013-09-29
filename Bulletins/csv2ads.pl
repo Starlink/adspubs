@@ -106,7 +106,8 @@ for my $page (1..$#pages) { # Note that we will have filled using 1 to N as the 
     print $fh '%A '.$art->{authors}."\n";
     print $fh '%P '.$art->{startpage}."\n";
     print $fh '%L '.$art->{endpage}."\n";
-    print $fh '%F '.$art->{affiliation}."\n";
+    print $fh '%F '.$art->{affiliation}."\n"
+      if (exists $art->{affiliation} && defined $art->{affiliation});
 
     if (exists $art->{references}) {
       # space-separated
