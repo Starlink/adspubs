@@ -1,0 +1,88 @@
+number|authors|year|title
+O2|Unknown|---|MAG [+]
+1.24|Rankin,Steve;Lawden, Mike;Bly, Martin|2003|STARLINK Software Collection
+2.8|Berry, D. S.; Taylor, M. B.|2012|NDG -- Routines for Accessing Groups of NDFs
+3.6|Lawden, M. D.|1989|FORMCON -- Data Format Conversion
+4.7|Lawden, M. D.|1989|INTERIM -- Starlink Software Environment
+5.18|Wallace, P. T.; Gray, Norman|2003|ASTROM -- Basic astrometry program
+6.2|Wallace, P. T.|1986|AATGS -- Guide Probe Predictions for AAT
+7.5|Beard, S. M.; Allan, P. M.; Currie, Malcolm J.;Draper, Peter W.|2006|GENERIC -- A Utility for Compiling Generic Fortran Subroutines
+8.2|Wallace, P. T.|LIBX -- Simple Library Tools
+9.7|Charles,Anne; Laspias, Vassilis; Currie, Malcolm J.|1997|LaTeX -- A Document Preparation System [*]
+10.3|Gallop, J. R.; Lawden, M. D.|1986|ARGSLIB - ARGS Subroutine Library
+11.5|Warren-Smith, R. F.; Berry, D. S.|2012|ARY -- A Subroutine Library for Accessing ARRAY Data Structures
+12.2|Lawden, M. D.|1989|LaTeX Cook-book [->SC/9]
+13.2|Allan, P. M.|1992|ASURV -- Astronomical Survival
+14.1|Walker, H; Giaretta, D.|1989|IRASLRS -- Obtaining Spectra fomr the IRAS LRS Database
+15.8|Terrett, D. L.; Bly, M. J.|1999|PGPLOT -- Graphics Subroutine Library
+16.4|Wilkins, T. N.; Axon, D. J.|1994|TWODSPEC -- Some Additions to Figaro
+17.8|Prestage, R. M.; Meyerdierks, H.; Lightfoot, J. F.; Jenness, T.; Tilanus, R. P. J.; Padman, R.|2000|SPECX -- A Millimetre Wave Spectral Reduction Package
+18.6|Ricketts, Martin|1996|RPS -- ROSAT Proposal Submission
+19.5|Privett, G. J.; Gold, J.; Fuller, N.; Lewis, J.; Benn, C.|1996|NDPROGS -- n-D Image Manipulation
+20.4|Murray, M. J.; Stickland, D.J.|1993|ULDA/USSP -- Accessing the IUE Uniform Low-Dispersion Archive
+21.6|Lawden, M. D.|1989|TAPEIO -- Magnetic Tape Routines
+22.6|Penny, Alan J.; Martin, Bill L.|FORMLOAD -- LaTeX Form Generator
+23.14|Lawden, M. D.; Berry, D. S.|1991|ASPIC -- Image Process programs (1)
+24.2|Lawden, M. D.|1988|ASPIC -- Image processing programs (2)
+25.2|Black, S. E.; Lawden, M. D.|1990|LZCMP -- File compression [*]
+26.2|Currie, Malcolm J.; Parker, Quentin A.|CLUSTAN -- A Cluster-Analysis Package
+27.5|Daly, P. N.; Beard, S. M.|1996|Portable-CGS4DR -- CGS4 Data Reduction [*]
+28.9|Bly, M. J.; Lawden, M. D.|1992|NAG -- Mathematical Subroutine Library Mk 15
+29.1|Bly, M. J.|1991|NAGRAF -- NAG Graphics Library Mk 3
+30.2|Giaretta, David|1989|Using the Starlink Database MicroVAX computer
+31.5|Warren-Smith, R. F.; Chipperfield, A. J.|1998|REF -- Routines for Handling References to HDS Objects
+32.12|Carey, J. V.; Hartley, K. F.; Allan, P. M.|1989|CHART -- Finding chart and stellar data system [*]
+33.10|Warren-Smith, R. F.; Berry, D. S.|2012|NDF -- Routines for Accessing the Extensible N-Dimensional Data Format
+34.1|Mellor, G. R.|1991|GNU EMACS -- Display Editor
+35.2|Chipperfield, A. J.|1995|ICL -- Interactive Command Language: An Introduction
+36.14|Allan, P. M.; Terrett, D. L.|1990|Starlink Networking
+37.11|Giddings, Jack; Rees, Paul; Mills, Dave; Clayton, Martin|1996|IUEDR -- IUE Data Reduction Package
+38.8|Bly, M. J.; Allan, P. M.|1996|DOCFIND -- Starlink document index searching
+39.2|Warren-Smith R. F.|1995|PRIMDAT -- Processing of Primitive Numerical Data
+40.6|Charles, A.C; Rees, P. C. T.; Chipperfield, A. J.; Jenness, T.|2005|CHR -- Character Handling Routines
+41.4|Aspin, Colin; Emerson, J. P.; Currie, Malcolm J.; Economou, Frossie|IRCAMDR -- IRCAM3 Data Reduction Software [*]
+42.5|Eaton, Nicholas; Privett, Grant|1996|DAOPHOT -- Stellar Photometry Package
+43.1|Shortridge, Keith|1989|EDFITS -- Copy FITS Tapes
+44.1|Clayton, C. A.|1988|VAXnotes -- An introduction
+45.16|Eaton, Nicholas; Draper, Peter W.; Allan, Alasdair|PHOTOM -- A Photometry Package
+46.1|Prestage, Richard M.|1988|NOD2 -- A mm-wave Continuum Data Reduction Package
+47.3|Terrett, D. L.|1989|TAPECOPY -- Magnetic tape copying utility
+58.7|Lloyd, C.|1995|IUEDA -- Access to the IUE data archive
+63.4|Rees, Paul|1992|SPAG -- Spaghetti Unscramble
+73.1|Lawden, M. D.|1990|FORCHECK -- A Fortran Verifier and Programming Aid
+82.4|Parsons, D. C.; Walker, H. J.|1993|IRAS -- Data Products Primer
+91.2|Parsons, D. C.; Richards, P. J.; Giaretta, D. L.|1989|IRAS -- Calibrated Raw Detector Data Analysis
+101.2|Murray, Jo|1991|Introduction to ADAM Programming
+107.4|Bly, M. J.|1998|MAPLE -- Mathematical Manipulation Language
+119.2|Wood, A. R.|1992|CHI -- Catalogue Handling Interface
+127.6|Osborne, Julian|1991|The EXOSAT Database System
+145.6|Lawden, M. D.; Mellor, G. R.; Smalley, B.|1996|UNIX -- An Introduction
+161.2|Parsons, D. C.; Berry, D. S.; Gong, W.; Walker, H. J.|1994|IRAS90 -- Introductory/User Guide to Calibrated Reconstructed Detector Data Analysis
+162.1|Davenhall, A. C.|1993|A Guide to Astronomical Catalogues, Databases and Archives available through Starlink
+163.3|Berry, David S.; Gong, W.; Parsons, D. C.|1995|IRAS90 -- IRAS Survey and PO Data Analysis Package -- Reference Guide
+165.4|Berry, David S.; Parsons, Diana|1995|IRAS90 -- Programmer's Guide
+168.3|McIlwrath, B. K.; Page, C. G.|1998|EDT mode for JED -- An advanced Unix text editor
+169.3|Mellor, G. R.|1994|PINE -- Electronic mail interface
+170.2|Clayton, C. A.|1997|Editors on Unix
+172.1|Page, Clive G.|1993|FTNCHECK -- A Fortran77 Source-code Checker
+174.1|Davenhall, A. C.|1993|An Astronomer's Guide to On-line Bibliographic Databases and Information Services
+189.3|Clayton, Martin|1996|ISPELL -- Spelling Checker
+192.1|Rehan, S. C.|1995|nu/TPU -- A DEC TPU compatible editor for UNIX
+197.2|Bly, M. J.|1997|GHOSTSCRIPT -- Postscript Interpreter/previewer
+201.1|Bly, M. J.|1995|LATEX2HTML -- LaTeX to HTML converter
+202.2|Bly, M. J.|1998|Starlink Subroutine Libraries -- A Guide for Program Development and Linking
+205.1|Rawlinson, D. J.; Sherman, J. C.|1995|FORUM -- Starlink Conferencing Software
+207.1|Palmer, J. W.|1996|AIPS -- Astronomical Image Processing System
+243.41|Draper, Peter W.;Taylor, Mark;Neves, Margarida Castro|2013|SPLAT-VO -- A VO-enabled Spectral Analysis Tool
+247.1|Davenhall, A. C.; Playon, R. T.|2004|XRT -- ROSAT XRT Data Reduction
+248.1|Gray, Norman; Ranking, Steve; Draper, Peter|2007|Building Starlink Software
+249.2|Taylor, Mark|2005|INT-WFC -- Astrometric Calibration for the INT Wide Field Camera
+253|Taylor, Mark|2013|TOPCAT -- Tool for OPerations on Catalogues And Tables
+254.0|Allan, Alasdair|2004|FROG -- A Time Series Analysis Package
+256|Taylor, Mark|2013|STILTS -- Starlink Tables Infrastructure Library Tool Set
+267.1|Jenness, Tim|2012|PAL -- Positional Astronomy Library
+
+
+
+# [+] Original SUN. Number was reused later.
+# [*] Includes authors from earlier versions that are not listed on most recent editions.
