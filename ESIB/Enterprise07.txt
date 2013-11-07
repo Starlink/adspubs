@@ -1,0 +1,7 @@
+%R 1982ESIB....7......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin
+%V 7
+%D 12/1982
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise07.pdf
+
