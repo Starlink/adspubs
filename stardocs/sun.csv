@@ -1,5 +1,17 @@
 number|authors|year|title
-O2|Unknown|---|MAG [+]
+O2||---|MAG [+]
+O9||---|STAK and TRAK IUE data reduction tasks
+O11||---|GKS 6.2 [+]
+O12||---|GKS something [+]
+O13||---|GKS/HIGR - DRPLOT Graphs and histograms [+]
+O14||---|GKS/HIGR - CONTOUR Contour drawing [+]
+O16||---|GKS/HIGR - HIST3D 3D Histograms [+]
+O19||---|SPICA -- Spectral Data Reduction System [+]
+O20||---|VLBI -- Very Long Baseline Interferometry reduction package [+]
+O29||---|Interrogating tape catalogues from CDS [+]
+O33||---|SGS Graphics Library [+]
+
+
 1.24|Rankin,Steve;Lawden, Mike;Bly, Martin|2003|STARLINK Software Collection
 2.8|Berry, D. S.; Taylor, M. B.|2012|NDG -- Routines for Accessing Groups of NDFs
 3.6|Lawden, M. D.|1989|FORMCON -- Data Format Conversion
