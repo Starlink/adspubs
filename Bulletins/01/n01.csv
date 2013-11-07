@@ -1,10 +1,14 @@
 title|authors|startpage|endpage|affiliation|references
-Starlink Project News|Bromage, Gordon; Lawden, Mike; Terrett, Dave|2|4|AA(Rutherford Appleton Laboratory)|SUN/1 SUN/36
+Editorial|Murray,Jo; Lawden, Mike|2|2|AA(RAL)|SB1/16 SB1/8b SB1/8c SB1/9a SB1/9b SB1/4a
+The Starlink Project in 1988|Bromage, Gordon|2|3|AA(RAL)|
+Starlink Project News: Software and Documentation News|Lawden, Mike|3|3|AA(RAL)|SUN/1 SB1/18
+Starlink nework MAIL addresses|Terrett, Dave|4|4|AA(RAL)|SUN/36
 ADAM|Chipperfield, Alan; Wallace, Pat|4|4|AA(Rutherford Appleton Laboratory)|SUN/94
 KAPPA - son of ASPIC|Currie, Malcolm|5|5|AA(Rutherford Appleton Laboratory)|SUN/95
 Great observatory computing centres of the world -- No. 1 in a short series|Shortridge, Keith|6|6|AA(Anglo-Australian Observatory)|
 Solar Spectra at IUE dispersion|Philips, Ken|6|6|AA(Rutherford Appleton Laboratory)|1986MNRAS.220.1021B 1981NASRP1069.....C
 'I've Got this tape'|Allan, Peter|7|7|AA(Manchester University)|
+SIG news|Murray, Jo; Lawden, Mike|8|8|AA(RAL)|SB1/8b SB1/8c SB1/9a SB1/9b SGP/14
 HST SIG news|Charles, Phil|8|8|AA(Oxford University)|
 2-D SIG news|Warren-Smith, Rodney|8|8|AA(Durham University)|
 Database SIG -- uses of database software|Kelly, Dennis|9|9|AA(Royal Observatory Edinburgh)|SUN/70
@@ -19,7 +23,9 @@ PGPLOT in the frozen North|McCaughrean, Mark|14|14|AA(Edinburgh University)|
 The view from the trenches|Wallace, Pat|14|15|AA(Rutherford Appleton Laboratory)|SB1/14a SGP/16
 A node for Northern Ireland|Murphy, Martin|16|16|AA(Armagh Observatory)|
 Model atmosphere analyses from within DIPSO|Dufton, Philip|16|17|AA(Queen's University, Belfast)|
+The great TeX debate|Murray, Jo; Lawden, Mike|18|18|AA(RAL)|SUN/93
 The case for TeX|O'Brien, Paul|18|18|AA(University College London)|SGP/35
 TeX and Starlink documents|Benn, Chris; Martin, Ralph|18|18|AA(Royal Greenwich Observatory)|
 IUEDR release|Rees, Paul|19|19|AA(University College London)|
 JCMT data reduction|Prestage, Richard|19|19|AA(Jodrell Bank)|
+Image Processing of a simulated CCD exposure of Beta Pictoris|Wallce, P. T.; Currie, M. J.|20|20|AA(RAL)|
