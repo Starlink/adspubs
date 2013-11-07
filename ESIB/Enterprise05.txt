@@ -7,3 +7,11 @@
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments. If you are wondering about the significance of the name - so are we.
 %C (C) 1982: Rutherford Appleton Laboratory
+%Z Original Starlink User Note 19, "SPICA"
+   Starlink User Note 23, "ASPIC"
+   Original Starlink User Note 13, "DRPLOT"
+   Original Starlink User Note 14, "CONTOUR"
+   Original Starlink User Note 16, "HIST3D"
+   Original Starlink User Note 20, "VLBI -- Very Long Baseline Interferometry reduction package"
+   Starlink User Note 32, "CHART"
+   Original Starlink User Note 29, "Interrogating tape catalogues from CDS"

@@ -7,3 +7,11 @@
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments. If you are wondering about the significance of the name - so are we.
 %C (C) 1983: Rutherford Appleton Laboratory
+%Z Starlink User Note 38, "DOCFIND"
+   1982ESIB....7......
+   Starlink User Note 37, "IUEDR"
+   Starlink User Note 23, "ASPIC"
+   Original Starlink User Note 19, "SPICA"
+   Original Starlink User Note 11, "GKS 6.2"
+   Original Starlink User Note 12, "GKS/HIGR"
+   Starlink General Paper 8, "Starlink Local Management"

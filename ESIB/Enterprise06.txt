@@ -7,3 +7,14 @@
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments. If you are wondering about the significance of the name - so are we.
 %C (C) 1982: Rutherford Appleton Laboratory
+%Z 1982ESIB....5......
+   Starlink System Note 17, "Communications Routes into Starlink"
+   Starlink User Note 23, "ASPIC --- Image processing programs (1)"
+   Original Starlink User Note 11, "GKS 6.2"
+   Original Starlink User Note 20, "VLBI -- Very Long Baseline Interferometry reduction package"
+   Original Starlink User Note 29, "Interrogating tape catalogues from CDS"
+   Original Starlink User Note 33, "SGS Graphics Library"
+   Original Starlink User Note 13, "DRPLOT"
+   Original Starlink User Note 14, "CONTOUR"
+   Original Starlink User Note 16, "HIST3D"
+
