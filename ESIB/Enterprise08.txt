@@ -4,4 +4,6 @@
 %V 8
 %D 04/1983
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise08.pdf
-
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments. If you are wondering about the significance of the name - so are we.
+%C (C) 1983: Rutherford Appleton Laboratory
