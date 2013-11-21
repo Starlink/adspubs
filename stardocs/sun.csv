@@ -59,22 +59,22 @@ O33||---|SGS Graphics Library [+]
 45.16|Eaton, Nicholas; Draper, Peter W.; Allan, Alasdair|PHOTOM -- A Photometry Package
 46.1|Prestage, Richard M.|1988|NOD2 -- A mm-wave Continuum Data Reduction Package
 47.3|Terrett, D. L.|1989|TAPECOPY -- Magnetic tape copying utility
-48.|
-49.|
-50.|
-51.|
-52.|
-53.|
-54.|
-55.|
-56.|
-57.|
+48.8|Eaton, Nicholas; McIlwrath, Brian|2013|AGI -- Applications Graphics Interface Library
+49.1|Lotts, A. P.|1989|QUOTAS -- A utility to display VMS disk quotas
+50.24|Howarth, I. D.; Murray, J.; Mills, D.; Berry, D. S.|2004|DIPSO -- A friendly spectrum analysis program
+51.1|Clayton, C. A.|1988|Submission of NEWS items
+52.5|Bly, M. J.|1991|RGASP -- Reduced GAlaxy Surface Photometry package
+53.3|Fisher, Marion; Lupton, William; Charles, Anne|1996|ECHWIND -- UCL Echelle Spectrograph Observation Planning Program
+54.1|Lawden, M. D.|1990|GENSTAT -- Statistical Data Analysis
+55.29|Currie, Malcolm J.;Privett, G. J.;Berry, D. S.;Davenhall, A. C.|2013|CONVERT -- A Format-conversion Package
+56.10|Wallace, P. T.|1995|COCO -- Conversion of Celestial Coordinates
+57.9|Terrett, David; Eaton, Nicholas|1995|GNS -- Graphics Wokstation Name Service
 58.7|Lloyd, C.|1995|IUEDA -- Access to the IUE data archive
-59.|
-60.|
-61.|
-62.|
-63.4|Rees, Paul|1992|SPAG -- Spaghetti Unscramble
+59.|Lawden, M. D.|1989|Starlink Software Reorganisation
+60.5|Richards, P. J.|1987|IRAS -- Image Analysis Software
+61.4|Warren-Smith, R. F.|2006|TRANSFORM -- Coordinate Transformation Facility
+62.5|Denby, M.; McGale, P.|1995|WFCPACK -- ROSAT Wide Field Camera data reduction
+63.4|Rees, Paul|1992|SPAG -- Spaghetti Unscrambler
 64.|
 65.|
 66.|
@@ -279,7 +279,7 @@ O33||---|SGS Graphics Library [+]
 265.|
 266.|
 267.1|Jenness, Tim|2012|PAL -- Positional Astronomy Library
-
+268.1|Berry, D. S.; Currie, M. J.|2013|CVG -- A Library of Format Conversion Utilities
 
 
 # [+] Original SUN. Number was reused later.
