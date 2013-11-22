@@ -10,7 +10,9 @@ O19||---|SPICA -- Spectral Data Reduction System [+]
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package [+]
 O29||---|Interrogating tape catalogues from CDS [+]
 O33||---|SGS Graphics Library [+]
-
+O73.1|Zealey,W.J.|1985|UKIRTHELP -- A UKIRT help library
+O75.1|Terrett,D.L.|1985|Graphics on the Verstec and Printronix Printers
+O77.1|Lotts,A.P.|1988|DVIDIS -- a DVI file previewer
 
 1.24|Rankin,Steve;Lawden, Mike;Bly, Martin|2003|STARLINK Software Collection
 2.8|Berry, D. S.; Taylor, M. B.|2012|NDG -- Routines for Accessing Groups of NDFs
@@ -75,43 +77,43 @@ O33||---|SGS Graphics Library [+]
 61.4|Warren-Smith, R. F.|2006|TRANSFORM -- Coordinate Transformation Facility
 62.5|Denby, M.; McGale, P.|1995|WFCPACK -- ROSAT Wide Field Camera data reduction
 63.4|Rees, Paul|1992|SPAG -- Spaghetti Unscrambler
-64.|
-65.|
-66.|
-67.|
-68.|
-69.|
-70.|
-71.|
-72.|
+64.4|Terrett,D.L.|1987|MONGO - Interactive Plotting Program
+65.8|Eaton, Nicholas|1995|IDI -- Image Display Interface Programmer's Guide
+66.5|Bailey, Jeremy|1997|TSP -- A Time Series/Polarimetry Package
+67.70|Wallace, P. T.|2005|SLALIB -- Positional Astronomy Library
+68.3|Terrett, D. L.|1989|TPU -- Tape Processing Utility
+69.4|Page, Clive G.|1993|CDCOPY -- Reading CDROMs
+70.11|Walker, H. J.; Fairclough, J. H.; Lawden, M. D.|1990|SCAR -- Starlink Catalogue Access and Reporting
+71.4|Page, Clive G.;Mellor, G. R.|1992|IKONPAINT -- Ikon and GWM window to Inkjet Hard-copy
+72.2|Clayton, C. A.; Wilkins, T. N.|1991|HONEY -- The Honeywell Camera
 73.1|Lawden, M. D.|1990|FORCHECK -- A Fortran Verifier and Programming Aid
-74.|
-75.|
-76.|
-77.|
-78.|
-79.|
-80.|
-81.|
+74.3|Lupton, W. F.|1987|DSCL -- Starlink Command Language
+75.1|Lawden, M. D.; Bly, M. J.|1990|TOOLPACK -- Fortran 77 Software Tools
+76.5|Tappin, James|1992|HXIS -- Hard X-ray Imaging Spectrometer
+77.8|Lupton, W. F.; Allan, D. J.;Bly, M. J.; Jenness, Tim|1995|NBS -- The Noticeboard System
+78.9|Wallace, P. T.; Clayton, C. A.|1997|RV -- Radial Components of Observer's Velocity
+79.3|Fairclough, J. H.; Lawden, M. D.|1986|CDS - Cenre de Donnees Stellarie Catalogues
+80.2|Stewart, B. C.|1986|IRAS -- Extended Emission and Pointed Observation Data: User Guide
+81.2|Richards, P. J.|1986|LRSEXT -- IRAS LRS Spectra Extraction
 82.4|Parsons, D. C.; Walker, H. J.|1993|IRAS -- Data Products Primer
-83.|
-84.|
-85.|
-86.|
-87.|
-88.|
-89.|
-90.|
+83.13|Terrett, D. L.|1995|GKS -- Graphical Kernel System
+84.1|Wallace, P. T.; Lotts, A. P.|1989|MAILCLUB -- Serveral users sharing one MAIL address
+85.6|Wallace, P. T.; Terrett, D. L.|1995|SGS -- Simple Graphics System
+86.21|Shortridge, Keith; Meyerdierks, Horst; Currie, Malcolm; Clayton, Chris;Lockley, Jon;Charles, Anne;Davenhall, Clive;Taylor, Mark; Ash, Tim; Wilkins, Tim; Axon, Dave;Palmer, John; Holloway, Anthony; Graffagnino, Vito|2004|FIGARO -- A general data reduction system
+87.6|Wallace, P. T.; Broderick, A. J. J.|2000|JPL -- Solar System Ephemeris
+88.6|Rees, P. C. T.; Bly, M. J.; Terrett, D. L.|1999|NCAR -- Graphics Utilities
+89.2|Straede, J.|1986|APLATE -- Aperture Plate Preparation Program
+90.|Rees, P. C. T.; Bly, M. J.; Wallace, P. T.|1995|SNX -- Starlink Extensions to the NCAR Graphics Utilities
 91.2|Parsons, D. C.; Richards, P. J.; Giaretta, D. L.|1989|IRAS -- Calibrated Raw Detector Data Analysis
-92.|
-93.|
-94.|
-95.|
-96.|
-97.|
-98.|
-99.|
-100.|
+92.12|Warren-Smith, R. F.; Lawden, M. D.|1999|HDS -- Hierarchical Data System
+93.3|Murray, Jo; Charles, Anne|1995|TeX -- A superior document preparation system
+94.4|Chipperfield,A.J.|1989|ADAM -- Starlink Software Environemnt
+95.40|Currie, Malcolm J.; Berry, David. S.|2013|KAPPA -- Kernel Application Package
+96.1|Chipperfield,A.J.|1986|STARIN -- Convert INTERIM to HDS Image Data Format
+97.2|Lawden, M. D.|1987|REXEC -- Introduction & Comparison with SCAR
+98.6|Allan, D. J.; Vallance, R. J.; Saxton, R. D.|1995|ASTERIX -- X-ray Data Processing System
+99.4|Beard, S. M.|1991|LIBMAINT -- A tool for library maintenance
+100.|Wallace, P. T.|1994|TPOINT -- Telescope Pointing Analysis System
 101.2|Murray, Jo|1991|Introduction to ADAM Programming
 102.|
 103.|
