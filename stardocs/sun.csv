@@ -13,6 +13,7 @@ O33||---|SGS Graphics Library [+]
 O73.1|Zealey,W.J.|1985|UKIRTHELP -- A UKIRT help library
 O75.1|Terrett,D.L.|1985|Graphics on the Versatec and Printronix Printers
 O77.1|Lotts,A.P.|1988|DVIDIS -- a DVI file previewer
+O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 
 1.24|Rankin,Steve;Lawden, Mike;Bly, Martin|2003|STARLINK Software Collection
 2.8|Berry, D. S.; Taylor, M. B.|2012|NDG -- Routines for Accessing Groups of NDFs
@@ -115,55 +116,55 @@ O77.1|Lotts,A.P.|1988|DVIDIS -- a DVI file previewer
 99.4|Beard, S. M.|1991|LIBMAINT -- A tool for library maintenance
 100.|Wallace, P. T.|1994|TPOINT -- Telescope Pointing Analysis System
 101.2|Murray, Jo|1991|Introduction to ADAM Programming
-102.|
-103.|
-104.|
-105.|
-106.|
+102.3|Currie, Malcolm J.|1993|HDSTRACE -- Listing HDS Data Files
+103.2|Davenhall, A. C.; Pettini, M.|1990|APIG -- Absorption Profiles in the Interstellar Gas
+104.12|Rees, P. C. T; Chipperfield, A. J.; Jenness, T.|2009|MERS (MSG and ERR) -- Message and Error Reporting System
+105.5|Warren-Smith, R. F.|1991|STARLSE -- Starlink Extensions to the VAX Language Sensitive Editor
+106.1|Wood, A. R.|1990|SCAR -- Beginner's Guide
 107.4|Bly, M. J.|1998|MAPLE -- Mathematical Manipulation Language
-108.|
-109.|
-110.|
-111.|
-112.|
-113.|
-114.|
-115.|
-116.|
-117.|
-118.|
+108.3|Clayton, C. A.|1991|Using the Starlink SI59 Exabyte drives
+109.|Draper, Peter W.; Eaton, Nicholas|2002|PISA - Position Intensity and Shape Analysis
+110.2|Warren-Smith, R. F.|1990|SST - A Simple Software Tools Package
+111.2|Terrett, D. L.; Allan, P. M.|1993|SPT -- Software Porting Tools
+112.1|Allan, P. M.|1991|JTMP -- Using the Job Transfer Manipulation Protocol
+113.5|Allan, P. M.; Chipperfield, A. J.;Terrett, D. L.|1995|ADAM Graphics Programmer's Guide
+114.|Currie, Malcolm J.; Chipperfield, Alan J.|1999|PAR -- Interface to the ADAM Parameter System
+115.3|Chipperfield, A. J.; Kelly, B. D.; Wright, S. L.|2002|ADAM -- Interface Module Reference Manual
+116.2|Berry, D. S.|1992|MEMCRDD -- Maximum Entropy Imaging of IRAS CRDD
+117.4|Berry, D. S.|1993|MEMSYS -- A Maximum Entrop image reconstruction package
+118.10|Bly, Martin|1992|Starlink Software on Unix
 119.2|Wood, A. R.|1992|CHI -- Catalogue Handling Interface
-120.|
-121.|
-122.|
+120.3|Wood, A. R.|1994|CATPAC -- Catalogue Applications Package on UNIX
+121.6|Allan, P. M.; Chipperfield, A. J.; Jenness, T.; Berry, David, S.|2007|PSX -- POSIX Interface Routines
+122.1|Clayton, C. A.|1991|Colour hard-copy from workstation screens
 123.|
-124.|
-125.|
-126.|
+124.10|Wallace, P. T.|1995|HLP -- Interactive Help System
+125.1|Fish, Adrian|1991|STEVE -- a thinking person's screen editor
+126.2|Fish, Adrian|1992|STEVE -- User Guide and Reference Manual
 127.6|Osborne, Julian|1991|The EXOSAT Database System
-128.|
-129.|
-130.|
-131.|
-132.|
+128.2|Lawden, M. D.|1993|QDP -- Quick and Dandy Plotter
+129.5|Bly, M. J.; Allan, P. M.; McIlwrath, B. K.|2000|XDISPLAY -- Setting remote X windows
+130.5|Terrett, David; Eaton, Nicholas|1995|GWM -- X Graphics Window Manager
+131.1|Rawlinson, D. J.; Clayton, C. A.|1991|Printing on a PostScript laser printer
+132.3|Lightfoot, J. F.; Harrison, P. A.; Meyerdierks, H.; Jenness, T.|2003|JCMTDR -- Applications for Reducing JCMT GSD Data
 133.|
-134.|
-135.|
-136.|
-137.|
-138.|
-139.|
-140.|
-141.|
+134.3|Kelly, B. D.; Chipperfield, A. J.|1992|ADAM -- Guide to Writing Instrumentation Tasks
+135.2|Allan, P. M.|1992|LOG -- A logical name utility
+136.4|Bly, M. J.|1994|FITSIO -- Disk FITS Input/Output Subroutines
+137.|Harrison, Paul; Rees, Paul; Draper Peter W.;Allan, Alasdair|2008|PONGO -- A Set of Applications for Interactive Data Plotting
+138.1|McSherry, M|1991|HRTS -- NRL High Resolution Telescope and Spectrograph Package
+139.18|Draper, Peter W.; Taylor, Mark; Allan, Alasdair|2011|CCDPACK -- CCD data reduction package
+140.4|Meyerdierks, H.|1995|SPECDRE -- Spectroscopy Data Reduction
+141.|Penny, Alan, J.|1995|STARMAN -- A Stellar Photometry and Image/Table Handling Package
 142.|
-143.|
-144.|
+143.4|Allan, P. M.; Chipperfield, A. J.|2001|FIO/RIO -- FORTRAN file I/O routines
+144.15|Chipperfield, A. J.|2001|ADAM -- Unix Version
 145.6|Lawden, M. D.; Mellor, G. R.; Smalley, B.|1996|UNIX -- An Introduction
-146.|
-147.|
-148.|
-149.|
-150.|
+146.4|Osborne, Julian; Ashley, Jeremy; Privett, Grant|1996|OBSERVE -- Check Star Observability
+147.1|Bly, M. J.|1992|TAUCAL -- TAURUS data reduction
+148.1|Lewis, J. R.|1992|SCP -- A Simple CCD Processing Package
+149.1|Lewis, J. R.|1992|SAM -- A Spectral Extraction Package
+150.10|Berry, D. S.|2012|GRP -- Routines for Managing Groups of Objects
 151.|
 152.|
 153.|
