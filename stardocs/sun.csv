@@ -165,125 +165,136 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 148.1|Lewis, J. R.|1992|SCP -- A Simple CCD Processing Package
 149.1|Lewis, J. R.|1992|SAM -- A Spectral Extraction Package
 150.10|Berry, D. S.|2012|GRP -- Routines for Managing Groups of Objects
-151.|
-152.|
-153.|
-154.|
-155.|
+151.2|Clayton, C. A.; Tappin, S. J.|1992|VMSBACKUP -- VMS backup reader for UNIX
+152.4|Mills, Dave; Webb, John; Clayton, Martin|2003|ECHOMOP -- Echelle Data Reduction Package
+153.1|Laspias, V.|1992|RNOTOTEX -- Converting RUNOFF to LaTeX
+154.1|Bly, M. J.|1992|LTEX -- Additional TeX and LaTeX facilities
+155.1|Laspias, V.|1992|TEXLSE -- An LSE Environment for LaTeX
 156.|
 157.|
 158.|
-159.|
-160.|
+159.|McSherry, M.; Lawden, M. D.|1993|XRP -- SMM XRP Data Analysis & Reduction
+160.|Draper, P. W.; Warren-Smith, R. F.|2003|IMG -- Simple Image Data Access
 161.2|Parsons, D. C.; Berry, D. S.; Gong, W.; Walker, H. J.|1994|IRAS90 -- Introductory/User Guide to Calibrated Reconstructed Detector Data Analysis
 162.1|Davenhall, A. C.|1993|A Guide to Astronomical Catalogues, Databases and Archives available through Starlink
 163.3|Berry, David S.; Gong, W.; Parsons, D. C.|1995|IRAS90 -- IRAS Survey and PO Data Analysis Package -- Reference Guide
-164.|
+164.2|Terrett, D. L.|1998|PSMERGE -- Encapsulated Postscript Handling Utility
 165.4|Berry, David S.; Parsons, Diana|1995|IRAS90 -- Programmer's Guide
-166.|
-167.|
+166.2|Morris, Rhys|1994|SAOIMAGE -- Astronomical image display
+167.6|Dhillon, V. S.; Privett, G. J.; Duffey, K. P.|2001|PERIOD -- A Time-Series Analysis Package
 168.3|McIlwrath, B. K.; Page, C. G.|1998|EDT mode for JED -- An advanced Unix text editor
 169.3|Mellor, G. R.|1994|PINE -- Electronic mail interface
 170.2|Clayton, C. A.|1997|Editors on Unix
-171.|
+171.1|Allan, P. M.; Chipperfield, A. J.|1996|MAG -- Access to magnetic tapes
 172.1|Page, Clive G.|1993|FTNCHECK -- A Fortran77 Source-code Checker
-173.|
+173.1|Lawden, M. D.|1993|LOOKUP -- Looking up commands in applications
 174.1|Davenhall, A. C.|1993|An Astronomer's Guide to On-line Bibliographic Databases and Information Services
-175.|
+175.|Allan, P. M.|1993|MOSAIC -- A hypertext help system
 176.|
-177.|
-178.|
-179.|
-180.|
-181.|
-182.|
-183.|
-184.|
-185.|
-186.|
-187.|
-188.|
+177.|Berry, David S.|1994|IRCAMPACK -- IRCAM Data Reduction on Starlink
+178.1|Terrett, D. L.|1994|XAdam -- a GUI for running ADAM applications
+179.3|Morris, Rhys; Privett, Grant|1995|IRAF -- Image Reduction Analysis Facility
+180.5|Gray, Norman; Taylor, Mark; Privett, Grant|2008|ESP -- Extended Surface Photometry
+181.11|Davenhall, A. C.; Berry, D. S.|2013|CAT -- Catalogue and Table Manipulation Library
+182.7|Bly, M. J.; Mellor, G. R.|2000|EMAIL -- E-mail address searching
+183.6|Berry, D. S.|2007|ARD -- A Textual Language for Describing Regions within a Data Array
+184.2|Bly, M. J.|1997|A2PS -- Ascii to PostScript converter
+185.2|Chipperfield, A. J.; McIlwrath, B. K.|1994|MESSGEN -- Starlink Facility Error Message Generation
+186.3|Terrett, D. L.|1999|STARTCL -- Starlink Extensions to Tcl & Tk
+187.1|Bly, Martin J.|1995|SKYCAL -- Interactive almanac and calculator
+188.6|Warren-Smith, R. F.; Draper, P. W.|2010|Hypertext Cross-Reference Utilities
 189.3|Clayton, Martin|1996|ISPELL -- Spelling Checker
-190.|
-191.|
+190.11|Davenhall, A. C.|2001|CURSA -- Catalogue and Table Manipulation Applications
+191.2|Bly, M. J.; Draper, P. W.|2008|SAE -- Starlink Applications Environment special files
 192.1|Rehan, S. C.|1995|nu/TPU -- A DEC TPU compatible editor for UNIX
-193.|
-194.|
-195.|
-196.|
+193.7|Bly, Martin J.|2004|PERL -- Practical Extraction and Report Language
+194.3|Meyerdierks, H.; Berry, D. S.; Draper, P. W.; Privett, G.; Currie, M. J.|2005|PDA -- Public Domain Algorithms
+195.1|Mellor, G.|1995|NEWS -- Starlink Online Information System
+196.1|Rehan, Subhash|1995|tcsh -- C-Shell with enhancements
 197.2|Bly, M. J.|1997|GHOSTSCRIPT -- Postscript Interpreter/previewer
 198.|
-199.|
-200.|
+199.12|Draper, P. W.; Chipperfield, A. J.; Lawden, M. D.|2009|Star2HTML -- Converting Starlink Documents to Hypertext
+200.3|Bly, M. J.|2000|TCLSYS -- Tcl, Tk, incr Tcl and Expect: Tcl/Tk components and extensions
 201.1|Bly, M. J.|1995|LATEX2HTML -- LaTeX to HTML converter
 202.2|Bly, M. J.|1998|Starlink Subroutine Libraries -- A Guide for Program Development and Linking
-203.|
-204.|
+203.3|Berry, D. S.; Privett, G. J.; Davenhall, A. C.|1997|SX & DX -- IBM Data Explorer for Data Visulaisation
+204.1|Harries, T. J.|1996|POLMAP -- An interactive data analysis package for linear spectropolarimetry
 205.1|Rawlinson, D. J.; Sherman, J. C.|1995|FORUM -- Starlink Conferencing Software
-206.|
+206.1|Daly, P. N.; Krisciunas, K.; Bridger, A.|1996|Portable CGS3DR -- CGS3 Data Reduction
 207.1|Palmer, J. W.|1996|AIPS -- Astronomical Image Processing System
-208.|
-209.|
-210.|
-211.|
-212.|
-213.|
-214.|
+208.1|McGale, P.; West, Richard|1996|REPACK - Handle ROSAT Wide Field Camera survey data
+209.11|Allan, P. M.; Chipperfield, A. J.; Warren-Smith, R. F.; Draper, P. W.; Berry, D. S.|2011|CNF and F77 -- Mixed Language Programming: Fortran and C
+210.27|Warren-Smith, R. F.; Berry, D. S.|2013|AST -- A Library for Handling World Coordinates Systems in Astronomy (Fortran Version)
+211.27|Warren-Smith, R. F.; Berry, D. S.|2013|AST -- A Library for Handling World Coordinates Systems in Astronomy (C Version)
+212.12|Rankin, S. E.; Bly, M. J.|2003|Starlink Software CD-ROMs
+213.4|Privett, G.; Jenness, T.; Matthews, H. E.; Barnard, V.|2012|FLUXES -- JCMT Position and Flux Density Calibration
+214.43|Draper, Peter, W.; Gray, Norman; Berry, David S.; Talyor, Mark|2012|GAIA -- Graphical Astronomy and Image Analysis Tool
 215.|
-216.|
-217.|
-218.|
-219.|
-220.|
-221.|
-222.|
-223.|
-224.|
-225.|
-226.|
-227.|
-228.|
-229.|
-230.|
-231.|
-232.|
-233.|
-234.|
-235.|
-236.|
-237.|
-238.|
-239.|
-240.|
-241.|
-242.|
+216.8|Jenness, T.; Lightfoot, J. F.|2003|SURF -- SCUBA User Reduction Facility
+217.2|Chipperfield, A. J.|1997|Running Starlink Applications from IRAF CL
+218.1|Bly, M. J.|1997|JPEG -- The JPEG library and utilities
+219.1|Bly, M. J.|1997|The GWM Xdisplay Widget
+220.2|Chipperfileld, A. J.|1997|IRAFFIG -- Figaro for IRAF
+221.1|Chipperfield, A. J.|1997|KAPPA for IRAF
+222.1|Jenness, T.; Bly, M. J.|1998|NDFPERL -- Perl interface to NDF
+223.7|Berry, D. S.; Gledhill, T. M.|2012|POLPACK -- An Imaging Polarimetry Reduction Package
+224.2|Chipperfield, A. J.|2000|HDSPAR - HDS Parameter Routines
+225.2|Taylor, M. B.|1999|SCB -- Source Code Browser
+226.12|Chipperfield, A. J.; Draper, P. W.|2009|EXTRACTOR -- An Astronomical Source Detection Program
+227.5|Rankin, S. E.; Bly, M. J.|2009|CFITSIO -- Disk FITS Input/Output Functions
+228.05|Jenness, Tim; Economou, Frossie|2003|STARPERL -- Starlink Perl Modules
+229.1|Jenness, Tim; Tilanus, Remo; Meyerdierks, Horst; Fairclough, Jon|1999|The Global Section Datafile (GSD) access library
+230.6|Economou, Frossie; Jenness, Tim; Currie, Malcolm J.; Adamson, Andy; Allan, Alasdair; Cavanagh, Brad|2004|ORAC-DR: Overview and General Introduction
+231.4|Jenness, Tim; Economou, Frossie|2004|ORAC-DR -- SCUBA Pipeline Data Reduction
+232.8|Currie, Malcolm J.; Cavanagh, Brad|2004|ORAC-DR -- imaging data reduction
+233.4|Jenness, Tim; Economou, Frossie; Cavanagh, Brad|2004|ORAC-DR -- Programmer's Guide
+234.4|Platon, R. T.; Jenness, T.|2011|ONE -- Odd and Ends Library
+235.3|Davenhall, A. C.|2002|NAOS -- finding NAOMI guid stars
+236.5|Hirst, Paul; Cavanagh, Brad|2005|ORAC-DR -- spectroscopy data reduction
+237.4|Allan, Alasdair; Currie, Malcolm J.|2010|DATACUBE -- An IFS datacube manipulation package
+238.8|Berry, D. S.; Currie, Malcolm, J.|2011|KAPLIBS -- Internal subroutines used within the KAPPA package
+239.2|Berry, David S.|2001|KAPRH -- A home for retired KAPPA applications
+240.1|Davenhall, A. C.|2001|FINDCOORDS -- Finding the Coordinates of a Named Object
+241.0|Kelly, B. D.; Chipperfield, A. J.|2001|AMS -- The Unix ADAM Message System
+242.|Gray, Norman; Cavanagh, Brad|2006|Autoastrometry for Mosaics
 243.41|Draper, Peter W.;Taylor, Mark;Neves, Margarida Castro|2013|SPLAT-VO -- A VO-enabled Spectral Analysis Tool
 244.|
-245.|
-246.|
+245.0|Chipperfield, A. J.|2002|HDSTOOLS -- Tools to Display and Edit HDS Objects
+246.2|Todd, Stephen|2004|ORAC-DR -- integral field spectroscopy data reduction
 247.1|Davenhall, A. C.; Playon, R. T.|2004|XRT -- ROSAT XRT Data Reduction
 248.1|Gray, Norman; Ranking, Steve; Draper, Peter|2007|Building Starlink Software
 249.2|Taylor, Mark|2005|INT-WFC -- Astrometric Calibration for the INT Wide Field Camera
 250.|
-251.|
-252.|
+251.2|Rankin, S. E.|2004|Getting Started with the Starlink Java Infrastructure and Applications Set
+252.0|Taylor, Mark|2013|STIL - Starlink Tables Infrastructure Library
 253|Taylor, Mark|2013|TOPCAT -- Tool for OPerations on Catalogues And Tables
 254.0|Allan, Alasdair|2004|FROG -- A Time Series Analysis Package
-255.|
+255.2|Berry, D. S.|2013|CUPID -- A 3D Clump Identification and Analysis Package
 256|Taylor, Mark|2013|STILTS -- Starlink Tables Infrastructure Library Tool Set
-257.|
-258.|
-259.|
-260.|
-261.|
-262.|
-263.|
-264.|
-265.|
-266.|
+257.0|Berry, D. S.|2006|ATL -- A Library of AST Utility Routines
+258.3|Chapin, Edward; Gibb, Andrew G.; Jenness, Tim; Berry, David S.; Scott, Douglas; Tilanus, Remo P. J.|2013|SMURF -- the Sub-Millimetre User Reduction Facility
+259.1|Balfour, Jen|2008|GSD2ACSIS -- Programmer's Guide
+260.1|Cavanagh, Brad|2008|ORAC-DR -- ACSIS pipeline data reduction
+261.2|Berry, D. S.; Currie, Malcolm, J.|2012|IRQ -- Handling of QUALITY in NDFs
+262.1|Berry, D. S.; Currie, Malcolm, J.|2009|CTG -- Accessing Groups of catalogues
+263.1|Currie, Malcolm J.; Berry, D. S.|2009|LPG -- Loop processing of groups
+264.0|Gibb, Andrew G.; Jenness, Tim|2013|ORAC-DR -- SCUBA-2 Pipeline Data Reduction
+265.0|Gibb, Andrew G.; Jenness, Tim; Economou, Frossie|2013|PICARD - A PIpeline for Combining and Analyzing Reduced Data
+266.0|Berry, D. S.|2001|THR -- A Thread Management Library
 267.1|Jenness, Tim|2012|PAL -- Positional Astronomy Library
 268.1|Berry, D. S.; Currie, M. J.|2013|CVG -- A Library of Format Conversion Utilities
 
 
 # [+] Original SUN. Number was reused later.
 # [*] Includes authors from earlier versions that are not listed on most recent editions.
+
+Listed in docs_lis but not in Starlink repo:
+
+187
+193
+196
+235
+251
+
+SUN/252 not in starjava but on MBT website
+
