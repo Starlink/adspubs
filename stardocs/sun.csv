@@ -191,7 +191,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 173.1|Lawden, M. D.|1993|LOOKUP -- Looking up commands in applications
 174.1|Davenhall, A. C.|1993|An Astronomer's Guide to On-line Bibliographic Databases and Information Services
 175.|Allan, P. M.|1993|MOSAIC -- A hypertext help system
-176.|
+176.|Laspias, V.||DVIPS: A TeX driver
 177.|Berry, David S.|1994|IRCAMPACK -- IRCAM Data Reduction on Starlink
 178.1|Terrett, D. L.|1994|XAdam -- a GUI for running ADAM applications
 179.3|Morris, Rhys; Privett, Grant|1995|IRAF -- Image Reduction Analysis Facility
@@ -298,4 +298,9 @@ Listed in docs_lis but not in Starlink repo:
 251
 
 SUN/252 not in starjava but on MBT website
+
+Hints:
+
+SUN/176 is mentioned in SUN/9.4 as "For more information on dvips and PS read SUN/176."
+No date although SUN/9.4 was written in 1993
 
