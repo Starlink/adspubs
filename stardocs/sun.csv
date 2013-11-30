@@ -181,7 +181,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 163.3|Berry, David S.; Gong, W.; Parsons, D. C.|1995|IRAS90 -- IRAS Survey and PO Data Analysis Package -- Reference Guide
 164.2|Terrett, D. L.|1998|PSMERGE -- Encapsulated Postscript Handling Utility
 165.4|Berry, David S.; Parsons, Diana|1995|IRAS90 -- Programmer's Guide
-166.2|Morris, Rhys|1994|SAOIMAGE -- Astronomical image display
+166.4|Morris, Rhys; Privett, G. J.|1996|SAOIMAGE -- Astronomical image display
 167.6|Dhillon, V. S.; Privett, G. J.; Duffey, K. P.|2001|PERIOD -- A Time-Series Analysis Package
 168.3|McIlwrath, B. K.; Page, C. G.|1998|EDT mode for JED -- An advanced Unix text editor
 169.3|Mellor, G. R.|1994|PINE -- Electronic mail interface
@@ -303,4 +303,6 @@ Hints:
 
 SUN/176 is mentioned in SUN/9.4 as "For more information on dvips and PS read SUN/176."
 No date although SUN/9.4 was written in 1993
+
+SG/12 indicates that there was a 1996 version of SUN/166 but we do not have access to thathat.
 
