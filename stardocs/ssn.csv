@@ -19,59 +19,74 @@
 19.1|Rees, Paul|1993|Software Requirements for the Move to Unix
 20.3|Warren-Smith, R. F.; Berry, D. S.|2000|Adding Format Conversion Facilities to the NDF Data Access Library
 21.2|Bly, M. J.|1996|STARX -- X Library linking
-22.|
-23.|
-24.|
-25.|
-26.|
-27.|
+22.3|Wallace, P. T.; Bly, M. J.|1992|Coordinate Systems for Pixel Arrays
+23.3|Gledhill, T. M.; Clayton, C. A.|1997|Starlink Benchmarking Utility
+24.3|Charles, Anne|1997|Notes for Site Managers about TeX and LaTeX
+25.2|Dhillon, V. S.; Privett, G. J.|1997|PERIOD -- Installation Notes
+26.1|Clayton, C. A.|1995|Configuring, monitoring and tuning SPARC/Solaris systems
+27.1|Fish, Adrian|1995|Staradmin -- Starlink User Database Maintainer
 28.|
-29.|
-30.|
-31.|
-32.|
-33.|
-34.|
-35.|
-36.|
-37.|
+29.5|Chipperfield, A. J.|2001|PCS -- The Parameter and Communication Subsystems
+30.2|Gledhill, T. M.|1996|SYSTUNE -- Tools for SPARC/Solaris Performance Monitoring and Tuning
+31.1|Duffey, K. P.|1995|A Starlink Guide to Cartridge Tape Subsystems
+32.1|Mellor, Geoff|1995|Custom Jumpstart Tutorial
+33.1|Fish, Adrian|1995|Installing Starlink FORUM -- A Conferencing Facility on the World Wide Web
+34.3|Day, J. P.|1986|CDS - Database Administrator's Guide
+35.3|Chipperfield, A. J.; Terrett, D. L.|1997|IRAFSTAR -- The IRAF/Starlink Inter-operability Infrastructure
+36.1|Duffey, K. P.|1996|XpressWare Installation User guide
+37.1|Clayton, C. A.|1996|Starlink Security
 38.|
-39.|
-40.|
-41.|
+39.6|Terrett, D. L.|1992|GKS -- Installation and Modification
+40.8|Shortridge, K.; Meyerdierks, H.|1992|Figaro Release Notes -- Standard and National Figaro 3.0-3
+41.7|Lawden, M. D.; Bly, M. J.|1993|Starlink Software Changes
 42.|
 43.|
-44.|
-45.|
-46.|
+44.11|Chipperfield, A. J.|1994|ADAM -- Installation Guide
+45.17|Chipperfield, A. J.|1994|ADAM -- Release Notes
+46.|XXX||Shell Package Startup Scripts
 47.|
-48.|
+48.1|Allan, P. M.|1987|BACKUP -- Recovering from incremental tape backups
 49.|
-50.|
-51.|
-52.|
-53.|
+50.3|Daly, P. N.|1989|NEWSMAINT -- News Maintenance Procedure
+51.1|Terrett, D. L.|1988|VAXnotes
+52.1|Lotts, A. P.|1988|Clustering and Installing Satellite Nodes
+53.1|Lotss, A. P.|1989|UNIBUS and Q-BUS Configuration
 54.|
 55.|
-56.|
+56.1|Lawden, M. D.|1988|Updating Starlink Software over a Network
 57.|
 58.|
 59.|
-60.|
+60.1|Berry, D. S.|1988|ASPIC -- Release notes for EDRS and EDRSX
 61.|
 62.|
-63.|
-64.|
-65.|
-66.|
-67.|
-68.|
+63.1|Clayton, C. A.|1989|PAD_AUDIT -- PAD Auditing Package
+64.5|Chipperfield, A. J.|2002|ADAM -- Organization of Application Packages
+65.1|Huckle, H. E.; Clayton, C. A.|1989|VSHC -- VAXstation VWS hardcopy
+66.2|Terrett, D. L.|1992|Starlink Software organization on UNIX
+67.1|Rehan, S. C.|1996|Unix Security Cookbook
+68.3|Chipperfield, A. J.|1997|IFD -- Interface Definition Files
 69.|
-70.|
-71.|
-72.|
-73.|
+70.|Gray, Norman; Taylor, Mark|2001|The Starlink SGML Set
+71.|Gray, Norman|2005|Dvi2bitmap -- convert DVI files to bitmap images
+72.2|Jenness, Tim; Lightfoot, John F.|2000|SURF Programming Interface
+73.2|Taylor, Mark|2001|EXTREME -- Handling extreme data sets
 74.|
-75.|
-76.|
-77.|
+75.1|Davenhall, A. C.|2000|Writing Catalogue and Image Servers for GAIA and CURSA
+76.2|Davenhall, A. C.|2001|CATREMOTE -- A Tool for Querying Remote Catalogues
+77.0|Chipperfield, A. J.|2001|ADAM -- The Control Subsystem
+
+Re-purposed
+
+27.5|Lupton, W. F.|1989|HDS -- Hierarchical Data System
+29.3|Lawden, M. D.|1987|SSL -- Starup, Shutdown, Login files
+33.6|Terrett, D. L.|1990|Configuring Queues for Starlink Graphics
+64.2|Chipperfield, A. J.|1992|ADAM -- VAX Organization of Applications
+
+Notes
+
+SSN/38 seems to have been a Red Hat Linux user guide repointed to
+ http://www.starlink.ac.uk/~djr/LINUX/RHL-4.2-Users-Guide-HTML/manual/index.html
+
+SSN/46 referenced from SUN/144
+Hints at that being "Shell Package Startup Scripts"
