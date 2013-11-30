@@ -1,4 +1,3 @@
-
 Starlink General Paper 23, "SERCNET Security" referened in Dec 1982 Enterprise 7
 SGP/26 referenced from SG/1 referring to GKS device numbers or workstation names
 
@@ -21,7 +20,7 @@ Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfa
 6.|||First Draft Proposal for Starlink Command Language
 7.1|Wallace, P. T.|1991|Unix and Starlink
 8.9|Bromage, G. E.|1992|Starlink Local Management
-9.|
+9.1|Lawden, M.D.|1991|Starlink Software Survey -- 1991
 10.1|Jeffery, C. S.; Rees, P. C. T.|1991|Theoretical Astrophysics Subroutine Library
 11.1|Clayton, C. A.; Bly, M. J.|1991|Starlink Software Submission for UNIX Systems
 12.1|Terrett, D. L.|1992|AVS as a GUI for ADAM
@@ -30,7 +29,7 @@ Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfa
 15.|
 16.10|Wallace, P. T.|1992|Starlink Application Programming Standard
 17.|
-18.|
+18.1||1981|Starlink Primitive Interface Mk. 2
 19.5|Lawden, M. D.|1987|Starlink Software Submission
 20.6|Lawden, M. D.|1990|Starlink Software Management
 21.10|Lawden, M. D.; Bly, M. J.; Sherman, J. C.|2000|Starlink Software Distribution Policy
@@ -46,8 +45,8 @@ Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfa
 31.11|Lawden, M. D.|1996|STARLINK
 32.|||1985 ADAM Workshop via Bulletin 3
 33.|||1986 ADAM Workshop via Bulletin 3
-34.|
-35.|XXX|1986|Analysis of 1986 Questionnaire on the Future Direction of Starlink
+34.1|Lawden, M.D.|1986|Starlink Questionnaire -- Distribution and Response
+35.1|XXX|1986|Analysis of 1986 Questionnaire on the Future Direction of Starlink
 36.|
 37.5|Lawden, M. D.; Sherman, J. C.|1990|Starlink Site Manager's Guide -- Minor Nodes
 38.3|Currie, Malcolm J.; Wallace, P. T.; Warren-Smith, R. F.|2009|Starlink Standard Data Structures
