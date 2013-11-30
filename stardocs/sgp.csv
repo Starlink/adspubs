@@ -1,3 +1,68 @@
+
+Starlink General Paper 23, "SERCNET Security" referened in Dec 1982 Enterprise 7
+SGP/26 referenced from SG/1 referring to GKS device numbers or workstation names
+
+SGP/32 and SGP/33 are referenced as 1985/86 ADAM workshops [no repo copy]
+
+# Earlier/Reused
+
 Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfaces"
-Starlink General Paper 6, "First Draft Proposal for Starlink Command Language"
-Starlink General Paper 23, "SERNET Security"
+
+7.x|||Specification of Starlink Subroutine Interfaces
+31.9|Lawden, M. D.|1990|THE STARLINK PROJECT
+
+# Current
+
+1.1|Rawlinson, D. J.|1989|Procedure for reporting bugs
+2.2|Wallace, P. T.|1990|Starlink Software Support Responsibilities
+3.1|Allan, P. M.|1990|Network Futures
+4.2|Charles, Anne; Murray, Jo|1994|Starlink C Programming Standard
+5.1|Allan, P. M.|1991|CNF and F77 -- Mixed Language Programmin: Fortran and C
+6.|||First Draft Proposal for Starlink Command Language
+7.1|Wallace, P. T.|1991|Unix and Starlink
+8.9|Bromage, G. E.|1992|Starlink Local Management
+9.|
+10.1|Jeffery, C. S.; Rees, P. C. T.|1991|Theoretical Astrophysics Subroutine Library
+11.1|Clayton, C. A.; Bly, M. J.|1991|Starlink Software Submission for UNIX Systems
+12.1|Terrett, D. L.|1992|AVS as a GUI for ADAM
+13.3|Dickens, R. J.; Fosbury, R. A. E.; Wallace, P. T.; Lawden, M. D.|1987|Starlink Application Software Development
+14.5|Bromage, G. E.|1988|Starlink Special Interest Groups -- SIGs
+15.|
+16.10|Wallace, P. T.|1992|Starlink Application Programming Standard
+17.|
+18.|
+19.5|Lawden, M. D.|1987|Starlink Software Submission
+20.6|Lawden, M. D.|1990|Starlink Software Management
+21.10|Lawden, M. D.; Bly, M. J.; Sherman, J. C.|2000|Starlink Software Distribution Policy
+22.|
+23.x||>=1982|Policy on SERCNET Access and Security Control
+24.|
+25.13|Sherman, J. C.; Roberts, A. V.; Clayton, C. A.; Lawden, M. D.; Bly, M. J; Currie, M. J.; Penny, A. J.; Rawlinson, D. J.|1997|Starlink Site Manager's Guide
+26.|||Something to do with GKS
+27.|
+28.8|Lawden, M. D.; Charles, A. C.|1997|How to write good documents for Starlink
+29.|
+30.|
+31.11|Lawden, M. D.|1996|STARLINK
+32.|||1985 ADAM Workshop via Bulletin 3
+33.|||1986 ADAM Workshop via Bulletin 3
+34.|
+35.|XXX|1986|Analysis of 1986 Questionnaire on the Future Direction of Starlink
+36.|
+37.5|Lawden, M. D.; Sherman, J. C.|1990|Starlink Site Manager's Guide -- Minor Nodes
+38.3|Currie, Malcolm J.; Wallace, P. T.; Warren-Smith, R. F.|2009|Starlink Standard Data Structures
+39.1|Sherman, J. C.|1987|Upgrades to Starlink Hardware and Software
+40.1|Sherman, J. C.|1990|The Rolw of Wish-lists in Starlink's Purchasing
+41.1|Wallace, P. T.|1994|Local Management Arrangements
+42.1|Warren-Smith, R. F.|1995|Starlink Software Strategy
+43.||1994|1993-94 Starlink Software Survey
+44.1|Warren-Smith, R. F.|1995|Guidelines for Starlink Software Strategy Groups
+45.1|McIlwrath, B. K.|1995|ADAM Review Panel Report
+46.2|Warren-Smih, R. F.|1997|Starlink's Software Work During 1996
+47.1|Clayton, Marting|1997|Computer Algebra Software
+48.1|Warren-Smith, R. F.|1996|Starlink Software Priorities for 1996
+49.1|Sherman, J. C.; Clayton, C. A.|1996|Starlink's Support for PCs
+50.3|Lawden, M. D.|1997|Starlink Document Styles
+51.1|Bly, M. J.; Warren-Smith, R. F.|1997|Starlink Software Maintenance Procedures
+52.1|Bly, M. J.|1997|Plan for Starlink Software Distribution
+
