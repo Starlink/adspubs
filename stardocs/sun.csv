@@ -229,7 +229,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 211.27|Warren-Smith, R. F.; Berry, D. S.|2013|AST -- A Library for Handling World Coordinates Systems in Astronomy (C Version)
 212.12|Rankin, S. E.; Bly, M. J.|2003|Starlink Software CD-ROMs
 213.4|Privett, G.; Jenness, T.; Matthews, H. E.; Barnard, V.|2012|FLUXES -- JCMT Position and Flux Density Calibration
-214.43|Draper, Peter, W.; Gray, Norman; Berry, David S.; Talyor, Mark|2012|GAIA -- Graphical Astronomy and Image Analysis Tool
+214.43|Draper, Peter, W.; Gray, Norman; Berry, David S.; Taylor, Mark|2012|GAIA -- Graphical Astronomy and Image Analysis Tool
 215.|
 216.8|Jenness, T.; Lightfoot, J. F.|2003|SURF -- SCUBA User Reduction Facility
 217.2|Chipperfield, A. J.|1997|Running Starlink Applications from IRAF CL
@@ -304,5 +304,5 @@ Hints:
 SUN/176 is mentioned in SUN/9.4 as "For more information on dvips and PS read SUN/176."
 No date although SUN/9.4 was written in 1993
 
-SG/12 indicates that there was a 1996 version of SUN/166 but we do not have access to thathat.
+SG/12 indicates that there was a 1996 version of SUN/166 but we do not have access to that.
 
