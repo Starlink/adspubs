@@ -1,13 +1,13 @@
 number|authors|year|title
 O2||---|MAG [+]
-O9||---|STAK and TRAK IUE data reduction tasks
+O9|Giddings,J.|1981|STAK and TRAK IUE data reduction tasks
 O11||---|GKS 6.2 [+]
 O12||---|GKS something [+]
 O13||---|GKS/HIGR - DRPLOT Graphs and histograms [+]
 O14||---|GKS/HIGR - CONTOUR Contour drawing [+]
 O15|Pearce, Dave; Pavelin, Cliff|198x|Something to do with INTERIM, referenced from SUN/4
 O16||---|GKS/HIGR - HIST3D 3D Histograms [+]
-O19||---|SPICA -- Spectral Data Reduction System [+]
+O19|Bridger,A.|1984|SPICA -- Spectral Data Reduction System [+]
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package [+]
 O27||---|Seems to be an NDPROGS document
 O29||---|Interrogating tape catalogues from CDS [+]
