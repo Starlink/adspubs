@@ -1,17 +1,17 @@
 number|authors|year|title
-O2||---|MAG [+]
+O2||---|MAG
 O9|Giddings,J.|1981|STAK and TRAK IUE data reduction tasks
-O11||---|GKS 6.2 [+]
-O12||---|GKS something [+]
-O13||---|GKS/HIGR - DRPLOT Graphs and histograms [+]
-O14||---|GKS/HIGR - CONTOUR Contour drawing [+]
+O11||---|GKS 6.2
+O12||---|GKS something
+O13||---|GKS/HIGR - DRPLOT Graphs and histograms
+O14||---|GKS/HIGR - CONTOUR Contour drawing
 O15|Pearce, Dave; Pavelin, Cliff|198x|Something to do with INTERIM, referenced from SUN/4
-O16||---|GKS/HIGR - HIST3D 3D Histograms [+]
-O19|Bridger,A.|1984|SPICA -- Spectral Data Reduction System [+]
-O20||---|VLBI -- Very Long Baseline Interferometry reduction package [+]
+O16||---|GKS/HIGR - HIST3D 3D Histograms
+O19|Bridger,A.|1984|SPICA -- Spectral Data Reduction System
+O20||---|VLBI -- Very Long Baseline Interferometry reduction package
 O27||---|Seems to be an NDPROGS document
-O29||---|Interrogating tape catalogues from CDS [+]
-O33||---|SGS Graphics Library [+]
+O29||---|Interrogating tape catalogues from CDS
+O33||---|SGS Graphics Library
 O73.1|Zealey,W.J.|1985|UKIRTHELP -- A UKIRT help library
 O75.1|Terrett,D.L.|1985|Graphics on the Versatec and Printronix Printers
 O77.1|Lotts,A.P.|1988|DVIDIS -- a DVI file previewer
@@ -140,7 +140,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 120.3|Wood, A. R.|1994|CATPAC -- Catalogue Applications Package on UNIX
 121.6|Allan, P. M.; Chipperfield, A. J.; Jenness, T.; Berry, David, S.|2007|PSX -- POSIX Interface Routines
 122.1|Clayton, C. A.|1991|Colour hard-copy from workstation screens
-123.|
+123.
 124.10|Wallace, P. T.|1995|HLP -- Interactive Help System
 125.1|Fish, Adrian|1991|STEVE -- a thinking person's screen editor
 126.2|Fish, Adrian|1992|STEVE -- User Guide and Reference Manual
@@ -150,7 +150,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 130.5|Terrett, David; Eaton, Nicholas|1995|GWM -- X Graphics Window Manager
 131.1|Rawlinson, D. J.; Clayton, C. A.|1991|Printing on a PostScript laser printer
 132.3|Lightfoot, J. F.; Harrison, P. A.; Meyerdierks, H.; Jenness, T.|2003|JCMTDR -- Applications for Reducing JCMT GSD Data
-133.|
+133.
 134.3|Kelly, B. D.; Chipperfield, A. J.|1992|ADAM -- Guide to Writing Instrumentation Tasks
 135.2|Allan, P. M.|1992|LOG -- A logical name utility
 136.4|Bly, M. J.|1994|FITSIO -- Disk FITS Input/Output Subroutines
@@ -159,7 +159,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 139.18|Draper, Peter W.; Taylor, Mark; Allan, Alasdair|2011|CCDPACK -- CCD data reduction package
 140.4|Meyerdierks, H.|1995|SPECDRE -- Spectroscopy Data Reduction
 141.|Penny, Alan, J.|1995|STARMAN -- A Stellar Photometry and Image/Table Handling Package
-142.|
+142.
 143.4|Allan, P. M.; Chipperfield, A. J.|2001|FIO/RIO -- FORTRAN file I/O routines
 144.15|Chipperfield, A. J.|2001|ADAM -- Unix Version
 145.6|Lawden, M. D.; Mellor, G. R.; Smalley, B.|1996|UNIX -- An Introduction
@@ -173,9 +173,9 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 153.1|Laspias, V.|1992|RNOTOTEX -- Converting RUNOFF to LaTeX
 154.1|Bly, M. J.|1992|LTEX -- Additional TeX and LaTeX facilities
 155.1|Laspias, V.|1992|TEXLSE -- An LSE Environment for LaTeX
-156.|
-157.|
-158.|
+156.
+157.
+158.
 159.|McSherry, M.; Lawden, M. D.|1993|XRP -- SMM XRP Data Analysis & Reduction
 160.|Draper, P. W.; Warren-Smith, R. F.|2003|IMG -- Simple Image Data Access
 161.2|Parsons, D. C.; Berry, D. S.; Gong, W.; Walker, H. J.|1994|IRAS90 -- Introductory/User Guide to Calibrated Reconstructed Detector Data Analysis
@@ -215,7 +215,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 195.1|Mellor, G.|1995|NEWS -- Starlink Online Information System
 196.1|Rehan, Subhash|1995|tcsh -- C-Shell with enhancements
 197.2|Bly, M. J.|1997|GHOSTSCRIPT -- Postscript Interpreter/previewer
-198.|
+198.
 199.12|Draper, P. W.; Chipperfield, A. J.; Lawden, M. D.|2009|Star2HTML -- Converting Starlink Documents to Hypertext
 200.3|Bly, M. J.|2000|TCLSYS -- Tcl, Tk, incr Tcl and Expect: Tcl/Tk components and extensions
 201.1|Bly, M. J.|1995|LATEX2HTML -- LaTeX to HTML converter
@@ -232,12 +232,12 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 212.12|Rankin, S. E.; Bly, M. J.|2003|Starlink Software CD-ROMs
 213.4|Privett, G.; Jenness, T.; Matthews, H. E.; Barnard, V.|2012|FLUXES -- JCMT Position and Flux Density Calibration
 214.43|Draper, Peter, W.; Gray, Norman; Berry, David S.; Taylor, Mark|2012|GAIA -- Graphical Astronomy and Image Analysis Tool
-215.|
+215.
 216.8|Jenness, T.; Lightfoot, J. F.|2003|SURF -- SCUBA User Reduction Facility
 217.2|Chipperfield, A. J.|1997|Running Starlink Applications from IRAF CL
 218.1|Bly, M. J.|1997|JPEG -- The JPEG library and utilities
 219.1|Bly, M. J.|1997|The GWM Xdisplay Widget
-220.2|Chipperfileld, A. J.|1997|IRAFFIG -- Figaro for IRAF
+220.2|Chipperfield, A. J.|1997|IRAFFIG -- Figaro for IRAF
 221.1|Chipperfield, A. J.|1997|KAPPA for IRAF
 222.1|Jenness, T.; Bly, M. J.|1998|NDFPERL -- Perl interface to NDF
 223.7|Berry, D. S.; Gledhill, T. M.|2012|POLPACK -- An Imaging Polarimetry Reduction Package
@@ -264,10 +264,10 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 244.1|Taylor, Mark|2001|TREEVIEW -- Hierarchical data viewer
 245.0|Chipperfield, A. J.|2002|HDSTOOLS -- Tools to Display and Edit HDS Objects
 246.2|Todd, Stephen|2004|ORAC-DR -- integral field spectroscopy data reduction
-247.1|Davenhall, A. C.; Playon, R. T.|2004|XRT -- ROSAT XRT Data Reduction
+247.1|Davenhall, A. C.; Platon, R. T.|2004|XRT -- ROSAT XRT Data Reduction
 248.1|Gray, Norman; Ranking, Steve; Draper, Peter|2007|Building Starlink Software
 249.2|Taylor, Mark|2005|INT-WFC -- Astrometric Calibration for the INT Wide Field Camera
-250.|
+250.
 251.2|Rankin, S. E.|2004|Getting Started with the Starlink Java Infrastructure and Applications Set
 252.0|Taylor, Mark|2013|STIL - Starlink Tables Infrastructure Library
 253|Taylor, Mark|2013|TOPCAT -- Tool for OPerations on Catalogues And Tables
@@ -288,7 +288,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 268.1|Berry, D. S.; Currie, M. J.|2013|CVG -- A Library of Format Conversion Utilities
 
 
-# [+] Original SUN. Number was reused later.
+# "O" prefix: Original SUN. Number was reused later.
 # [*] Includes authors from earlier versions that are not listed on most recent editions.
 
 Listed in docs_lis but not in Starlink repo:
