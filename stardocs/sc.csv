@@ -1,3 +1,5 @@
+number|authors|year|title
+
 1.2|Meyerdierks, H.; Ward-Thompson, D.|1995|JCMTDR - Cookbook
 2.3|Davenhall, A. C.|1997|The DX cookbook
 3.2|Clayton, Martin|2003|Echelle Data Reduction Cookbook
@@ -15,7 +17,7 @@
 15.2|Allan, A.; Terrett, D. L.|2000|The Graphics Cookbook
 16.2|Allan, A.; Currie, Malcolm, J.|2008|The IFU Data product cookbook
 17.1|Davenhall, A. C.; Draper, P. W.|2001|The GAIA Cookbook
-18.|
+18.
 19.3|Chapin, Edward; Dempsey, Jessica; Jenness, Tim; Scott, Douglas; Thomas, Holly; Tilanus, Remo P. J.|2010|The SCUBA-2 SRO data reduction cookbook
 20.|||ACSIS Data-reduction Cookbook
 21.1|Thomas, Holly S.|2013|The SCUBA-2 Data Reduction Cookbook

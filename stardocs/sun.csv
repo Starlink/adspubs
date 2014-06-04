@@ -1,20 +1,20 @@
 number|authors|year|title
 O2||---|MAG
-O9|Giddings,J.|1981|STAK and TRAK IUE data reduction tasks
+O9|Giddings, J.|1981|STAK and TRAK IUE data reduction tasks
 O11||---|GKS 6.2
 O12||---|GKS something
 O13||---|GKS/HIGR - DRPLOT Graphs and histograms
 O14||---|GKS/HIGR - CONTOUR Contour drawing
 O15|Pearce, Dave; Pavelin, Cliff|198x|Something to do with INTERIM, referenced from SUN/4
 O16||---|GKS/HIGR - HIST3D 3D Histograms
-O19|Bridger,A.|1984|SPICA -- Spectral Data Reduction System
+O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
 O27||---|Seems to be an NDPROGS document
 O29||---|Interrogating tape catalogues from CDS
 O33||---|SGS Graphics Library
-O73.1|Zealey,W.J.|1985|UKIRTHELP -- A UKIRT help library
-O75.1|Terrett,D.L.|1985|Graphics on the Versatec and Printronix Printers
-O77.1|Lotts,A.P.|1988|DVIDIS -- a DVI file previewer
+O73.1|Zealey, W.J.|1985|UKIRTHELP -- A UKIRT help library
+O75.1|Terrett ,D.L.|1985|Graphics on the Versatec and Printronix Printers
+O77.1|Lotts, A.P.|1988|DVIDIS -- a DVI file previewer
 O84.1|Peden, Jim|1985|ASTERIX X-Ray data reduction
 O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 
@@ -24,9 +24,9 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 4.7|Lawden, M. D.|1989|INTERIM -- Starlink Software Environment
 5.18|Wallace, P. T.; Gray, Norman|2003|ASTROM -- Basic astrometry program
 6.2|Wallace, P. T.|1986|AATGS -- Guide Probe Predictions for AAT
-7.5|Beard, S. M.; Allan, P. M.; Currie, Malcolm J.;Draper, Peter W.|2006|GENERIC -- A Utility for Compiling Generic Fortran Subroutines
-8.2|Wallace, P. T.|LIBX -- Simple Library Tools
-9.7|Murray, Jo;Charles,Anne; Laspias, Vassilis; Currie, Malcolm J.|1997|LaTeX -- A Document Preparation System [*]
+7.5|Beard, S. M.; Allan, P. M.; Currie, Malcolm J.; Draper, Peter W.|2006|GENERIC -- A Utility for Compiling Generic Fortran Subroutines
+8.2|Wallace, P. T.|1989|LIBX -- Simple Library Tools
+9.7|Murray, Jo; Charles,Anne; Laspias, Vassilis; Currie, Malcolm J.|1997|LaTeX -- A Document Preparation System
 10.3|Gallop, J. R.; Lawden, M. D.|1986|ARGSLIB - ARGS Subroutine Library
 11.5|Warren-Smith, R. F.; Berry, D. S.|2012|ARY -- A Subroutine Library for Accessing ARRAY Data Structures
 12.2|Lawden, M. D.|1989|LaTeX Cook-book [->SC/9]
@@ -39,17 +39,17 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 19.5|Privett, G. J.; Gold, J.; Fuller, N.; Lewis, J.; Benn, C.|1996|NDPROGS -- n-D Image Manipulation
 20.4|Murray, M. J.; Stickland, D.J.|1993|ULDA/USSP -- Accessing the IUE Uniform Low-Dispersion Archive
 21.6|Lawden, M. D.|1989|TAPEIO -- Magnetic Tape Routines
-22.6|Penny, Alan J.; Martin, Bill L.|FORMLOAD -- LaTeX Form Generator
+22.6|Penny, Alan J.; Martin, Bill L.|1996|FORMLOAD -- LaTeX Form Generator
 23.14|Lawden, M. D.; Berry, D. S.|1991|ASPIC -- Image Process programs (1)
 24.2|Lawden, M. D.|1988|ASPIC -- Image processing programs (2)
-25.2|Black, S. E.; Lawden, M. D.|1990|LZCMP -- File compression [*]
-26.2|Currie, Malcolm J.; Parker, Quentin A.|CLUSTAN -- A Cluster-Analysis Package
-27.5|Daly, P. N.; Beard, S. M.|1996|Portable-CGS4DR -- CGS4 Data Reduction [*]
+25.2|Black, S. E.; Lawden, M. D.|1990|LZCMP -- File compression
+26.2|Currie, Malcolm J.; Parker, Quentin A.|1993|CLUSTAN -- A Cluster-Analysis Package
+27.5|Daly, P. N.; Beard, S. M.|1996|Portable-CGS4DR -- CGS4 Data Reduction
 28.9|Bly, M. J.; Lawden, M. D.|1992|NAG -- Mathematical Subroutine Library Mk 15
 29.1|Bly, M. J.|1991|NAGRAF -- NAG Graphics Library Mk 3
 30.2|Giaretta, David|1989|Using the Starlink Database MicroVAX computer
 31.5|Warren-Smith, R. F.; Chipperfield, A. J.|1998|REF -- Routines for Handling References to HDS Objects
-32.12|Carey, J. V.; Hartley, K. F.; Allan, P. M.|1989|CHART -- Finding chart and stellar data system [*]
+32.12|Carey, J. V.; Hartley, K. F.; Allan, P. M.|1989|CHART -- Finding chart and stellar data system
 33.10|Warren-Smith, R. F.; Berry, D. S.|2012|NDF -- Routines for Accessing the Extensible N-Dimensional Data Format
 34.1|Mellor, G. R.|1991|GNU EMACS -- Display Editor
 35.2|Chipperfield, A. J.|1995|ICL -- Interactive Command Language: An Introduction
@@ -58,11 +58,11 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 38.8|Bly, M. J.; Allan, P. M.|1996|DOCFIND -- Starlink document index searching
 39.2|Warren-Smith R. F.|1995|PRIMDAT -- Processing of Primitive Numerical Data
 40.6|Charles, A.C; Rees, P. C. T.; Chipperfield, A. J.; Jenness, T.|2005|CHR -- Character Handling Routines
-41.4|Aspin, Colin; Emerson, J. P.; Currie, Malcolm J.; Economou, Frossie|IRCAMDR -- IRCAM3 Data Reduction Software [*]
+41.4|Aspin, Colin; Emerson, J. P.; Currie, Malcolm J.; Economou, Frossie|1996|IRCAMDR -- IRCAM3 Data Reduction Software
 42.5|Eaton, Nicholas; Privett, Grant|1996|DAOPHOT -- Stellar Photometry Package
 43.1|Shortridge, Keith|1989|EDFITS -- Copy FITS Tapes
 44.1|Clayton, C. A.|1988|VAXnotes -- An introduction
-45.16|Eaton, Nicholas; Draper, Peter W.; Allan, Alasdair|PHOTOM -- A Photometry Package
+45.16|Eaton, Nicholas; Draper, Peter W.; Allan, Alasdair|2009|PHOTOM -- A Photometry Package
 46.1|Prestage, Richard M.|1988|NOD2 -- A mm-wave Continuum Data Reduction Package
 47.3|Terrett, D. L.|1989|TAPECOPY -- Magnetic tape copying utility
 48.8|Eaton, Nicholas; McIlwrath, Brian|2013|AGI -- Applications Graphics Interface Library
@@ -289,7 +289,6 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 
 
 # "O" prefix: Original SUN. Number was reused later.
-# [*] Includes authors from earlier versions that are not listed on most recent editions.
 
 Listed in docs_lis but not in Starlink repo:
 
