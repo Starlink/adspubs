@@ -1,17 +1,27 @@
+# 1993MNRAS.263..131M and 1994MNRAS.270..597K indicates that IUEDR
+#   is Rees & Giddings 1989 SUN/3
+#   and Tweedy 1991 SUN/7
+
 number|authors|year|title
 O2||---|MAG
+O3|Rees, P.; Giddings, J.|1989|IUEDR
+O7|Tweedy, R.W.|1991|IUEDR
 O9|Giddings, J.|1981|STAK and TRAK IUE data reduction tasks
 O11||---|GKS 6.2
 O12||---|GKS something
 O13||---|GKS/HIGR - DRPLOT Graphs and histograms
 O14||---|GKS/HIGR - CONTOUR Contour drawing
-O15|Pearce, Dave; Pavelin, Cliff|198x|Something to do with INTERIM, referenced from SUN/4
+O15|Pearce, Dave; Pavelin, Cliff|1981|INTERIM
 O16||---|GKS/HIGR - HIST3D 3D Histograms
+O17|Giddings, J.|1983|IUEDR
 O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
 O27||---|Seems to be an NDPROGS document
 O29||---|Interrogating tape catalogues from CDS
 O33||---|SGS Graphics Library
+O53||---|ASPIC --- Application Packages [cited in SUN/4]
+O65||---|SGS --- Reference Manual [cited in SUN/4]
+O73|Giddings, J.|1983|IUEDR
 O73.1|Zealey, W.J.|1985|UKIRTHELP -- A UKIRT help library
 O75.1|Terrett ,D.L.|1985|Graphics on the Versatec and Printronix Printers
 O77.1|Lotts, A.P.|1988|DVIDIS -- a DVI file previewer
@@ -21,12 +31,12 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 1.24|Rankin,Steve;Lawden, Mike;Bly, Martin|2003|STARLINK Software Collection
 2.8|Berry, D. S.; Taylor, M. B.|2012|NDG -- Routines for Accessing Groups of NDFs
 3.6|Lawden, M. D.|1989|FORMCON -- Data Format Conversion
-4.7|Lawden, M. D.|1989|INTERIM -- Starlink Software Environment
+4.7|Lawden, M. D.; Pearce, Dave; Pavelin, Cliff|1989|INTERIM -- Starlink Software Environment
 5.18|Wallace, P. T.; Gray, Norman|2003|ASTROM -- Basic astrometry program
 6.2|Wallace, P. T.|1986|AATGS -- Guide Probe Predictions for AAT
 7.5|Beard, S. M.; Allan, P. M.; Currie, Malcolm J.; Draper, Peter W.|2006|GENERIC -- A Utility for Compiling Generic Fortran Subroutines
 8.2|Wallace, P. T.|1989|LIBX -- Simple Library Tools
-9.7|Murray, Jo; Charles,Anne; Laspias, Vassilis; Currie, Malcolm J.|1997|LaTeX -- A Document Preparation System
+9.7|Murray, Jo; Charles,Anne; Laspias, Vassilis; Currie, Malcolm J.; Terrett, Dave; Lotts, Alan; Lawden, Mike; Bly, Martin|1997|LaTeX -- A Document Preparation System
 10.3|Gallop, J. R.; Lawden, M. D.|1986|ARGSLIB - ARGS Subroutine Library
 11.5|Warren-Smith, R. F.; Berry, D. S.|2012|ARY -- A Subroutine Library for Accessing ARRAY Data Structures
 12.2|Lawden, M. D.|1989|LaTeX Cook-book [->SC/9]
@@ -75,7 +85,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 55.29|Currie, Malcolm J.;Privett, G. J.;Berry, D. S.;Davenhall, A. C.|2013|CONVERT -- A Format-conversion Package
 56.10|Wallace, P. T.|1995|COCO -- Conversion of Celestial Coordinates
 57.9|Terrett, David; Eaton, Nicholas|1995|GNS -- Graphics Wokstation Name Service
-58.7|Lloyd, C.|1995|IUEDA -- Access to the IUE data archive
+58.7|Lloyd, C.; Giaretta, D.|1995|IUEDA -- Access to the IUE data archive
 59.|Lawden, M. D.|1989|Starlink Software Reorganisation
 60.5|Richards, P. J.|1987|IRAS -- Image Analysis Software
 61.4|Warren-Smith, R. F.|2006|TRANSFORM -- Coordinate Transformation Facility
@@ -88,7 +98,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 68.3|Terrett, D. L.|1989|TPU -- Tape Processing Utility
 69.4|Page, Clive G.|1993|CDCOPY -- Reading CDROMs
 70.11|Walker, H. J.; Fairclough, J. H.; Lawden, M. D.|1990|SCAR -- Starlink Catalogue Access and Reporting
-71.4|Page, Clive G.;Mellor, G. R.|1992|IKONPAINT -- Ikon and GWM window to Inkjet Hard-copy
+71.4|Page, Clive G.; Mellor, G. R.|1992|IKONPAINT -- Ikon and GWM window to Inkjet Hard-copy
 72.2|Clayton, C. A.; Wilkins, T. N.|1991|HONEY -- The Honeywell Camera
 73.1|Lawden, M. D.|1990|FORCHECK -- A Fortran Verifier and Programming Aid
 74.3|Lupton, W. F.|1987|DSCL -- Starlink Command Language
@@ -103,7 +113,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 83.13|Terrett, D. L.|1995|GKS -- Graphical Kernel System
 84.1|Wallace, P. T.; Lotts, A. P.|1989|MAILCLUB -- Serveral users sharing one MAIL address
 85.6|Wallace, P. T.; Terrett, D. L.|1995|SGS -- Simple Graphics System
-86.21|Shortridge, Keith; Meyerdierks, Horst; Currie, Malcolm; Clayton, Chris;Lockley, Jon;Charles, Anne;Davenhall, Clive;Taylor, Mark; Ash, Tim; Wilkins, Tim; Axon, Dave;Palmer, John; Holloway, Anthony; Graffagnino, Vito|2004|FIGARO -- A general data reduction system
+86.21|Shortridge, Keith; Meyerdierks, Horst; Currie, Malcolm; Clayton, Chris;Lockley, Jon;Charles, Anne;Davenhall, Clive;Taylor, Mark; Ash, Tim; Wilkins, Tim; Axon, Dave;Palmer, John; Holloway, Anthony; Graffagnino, Vito; Fuller, N.M.|2004|FIGARO -- A general data reduction system
 87.6|Wallace, P. T.; Broderick, A. J. J.|2000|JPL -- Solar System Ephemeris
 88.6|Rees, P. C. T.; Bly, M. J.; Terrett, D. L.|1999|NCAR -- Graphics Utilities
 89.2|Straede, J.|1986|APLATE -- Aperture Plate Preparation Program
