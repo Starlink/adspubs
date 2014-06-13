@@ -1,11 +1,5 @@
-# 1993MNRAS.263..131M and 1994MNRAS.270..597K indicates that IUEDR
-#   is Rees & Giddings 1989 SUN/3
-#   and Tweedy 1991 SUN/7
-
 number|authors|year|title
 O2||---|MAG
-O3|Rees, P.; Giddings, J.|1989|IUEDR
-O7|Tweedy, R.W.|1991|IUEDR
 O9|Giddings, J.|1981|STAK and TRAK IUE data reduction tasks
 O11||---|GKS 6.2
 O12||---|GKS something
@@ -13,7 +7,6 @@ O13||---|GKS/HIGR - DRPLOT Graphs and histograms
 O14||---|GKS/HIGR - CONTOUR Contour drawing
 O15|Pearce, Dave; Pavelin, Cliff|1981|INTERIM
 O16||---|GKS/HIGR - HIST3D 3D Histograms
-O17|Giddings, J.|1983|IUEDR
 O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
 O27||---|Seems to be an NDPROGS document
@@ -21,7 +14,6 @@ O29||---|Interrogating tape catalogues from CDS
 O33||---|SGS Graphics Library
 O53||---|ASPIC --- Application Packages [cited in SUN/4]
 O65||---|SGS --- Reference Manual [cited in SUN/4]
-O73|Giddings, J.|1983|IUEDR
 O73.1|Zealey, W.J.|1985|UKIRTHELP -- A UKIRT help library
 O75.1|Terrett ,D.L.|1985|Graphics on the Versatec and Printronix Printers
 O77.1|Lotts, A.P.|1988|DVIDIS -- a DVI file previewer
