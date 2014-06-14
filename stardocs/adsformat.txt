@@ -1,0 +1,3514 @@
+-*- Text -*-
+
+%R 1981StaUN...9.....G
+%T STAK and TRAK IUE data reduction tasks
+%A Giddings, J.
+%D 00/1981
+%J Starlink User Note 9
+
+---sep---
+
+%R 1981StaUN..15.....P
+%T INTERIM
+%A Pearce, Dave; Pavelin, Cliff
+%D 00/1981
+%J Starlink User Note 15
+
+---sep---
+
+%R 1984StaUN..19.....B
+%T SPICA -- Spectral Data Reduction System
+%A Bridger, A.
+%D 00/1984
+%J Starlink User Note 19
+
+---sep---
+
+%R 1985StaUN..73.....Z
+%T UKIRTHELP -- A UKIRT help library
+%A Zealey, W.J.
+%D 00/1985
+%J Starlink User Note 73
+
+---sep---
+
+%R 1985StaUN..75.....T
+%T Graphics on the Versatec and Printronix Printers
+%A Terrett ,D.L.
+%D 00/1985
+%J Starlink User Note 75
+
+---sep---
+
+%R 1988StaUN..77.....L
+%T DVIDIS -- a DVI file previewer
+%A Lotts, A.P.
+%D 00/1988
+%J Starlink User Note 77
+
+---sep---
+
+%R 1985StaUN..84.....P
+%T ASTERIX X-Ray data reduction
+%A Peden, Jim
+%D 00/1985
+%J Starlink User Note 84
+
+---sep---
+
+%R 1993StaUN.129.....A
+%T TPAU -- The Peter Allan Utilities
+%A Allan, P. M.
+%D 00/1993
+%J Starlink User Note 129
+
+---sep---
+
+%R 2003StaUN...1.....R
+%T STARLINK Software Collection
+%A Rankin,Steve; Lawden, Mike; Bly, Martin
+%D 00/2003
+%J Starlink User Note 1
+%B The Starlink Software Collection is a set of software which is managed
+   and distributed by the Starlink Project.  Some of the software was
+   written by members of the Project, but some of it comes from outside
+   the Project.  This note describes the functions of the individual items
+   in the Collection and provides an overview of the software so that
+   readers can identify the items they need.
+
+   The software is classified into four main divisions:
+
+   * Packages -- are large collections of programs for people
+     who want to analyse, convert, and display data.  They are subdivided
+     into eleven classes to help you find what you want.
+
+   * Utilities -- are small programs devoted to a specific
+     purpose.  For example, they help you prepare for observations, write
+     documents, and write programs.
+
+   * Subroutine Libraries -- are for programmers writing
+     astronomical software.  They provide facilities such as astronomical
+     calculations, data management and graphics.
+
+   * Infrastructure -- are items which are mainly of interest to
+     people writing programs within the Starlink Software Environment.  They
+     are included for completeness.
+
+   Each item is described in sufficient detail for you to decide whether or
+   not to investigate it further.
+   If you want to find out more about an item, follow the document references
+   given opposite the item name.
+   If you are using the hypertext version of this document, the most up-to-date
+   document references can be found by following the link from the software item
+   name.
+%Z SC/1
+   SC/10
+   SC/11
+   SC/16
+   SC/2
+   SG/3
+   SG/4
+   SG/5
+   SG/6
+   SG/7
+   SG/8
+   SGP/38
+   SGP/42
+   SGP/44
+   SGP/45
+   SGP/47
+   SGP/50
+   SSN/20
+   SSN/21
+   SSN/24
+   SSN/25
+   SSN/27
+   SSN/29
+   SSN/33
+   SSN/39
+   SSN/4
+   SSN/64
+   SUG
+   SUN/101
+   SUN/102
+   SUN/104
+   SUN/107
+   SUN/109
+   SUN/11
+   SUN/111
+   SUN/113
+   SUN/114
+   SUN/115
+   SUN/117
+   SUN/12
+   SUN/120
+   SUN/121
+   SUN/124
+   SUN/129
+   SUN/13
+   SUN/130
+   SUN/132
+   SUN/134
+   SUN/136
+   SUN/137
+   SUN/139
+   SUN/141
+   SUN/143
+   SUN/144
+   SUN/146
+   SUN/15
+   SUN/150
+   SUN/152
+   SUN/160
+   SUN/161
+   SUN/163
+   SUN/164
+   SUN/165
+   SUN/166
+   SUN/167
+   SUN/168
+   SUN/169
+   SUN/17
+   SUN/170
+   SUN/171
+   SUN/172
+   SUN/177
+   SUN/179
+   SUN/180
+   SUN/181
+   SUN/182
+   SUN/183
+   SUN/184
+   SUN/185
+   SUN/186
+   SUN/187
+   SUN/188
+   SUN/189
+   SUN/19
+   SUN/190
+   SUN/191
+   SUN/192
+   SUN/193
+   SUN/194
+   SUN/195
+   SUN/197
+   SUN/199
+   SUN/2
+   SUN/200
+   SUN/201
+   SUN/203
+   SUN/204
+   SUN/205
+   SUN/207
+   SUN/208
+   SUN/209
+   SUN/210
+   SUN/212
+   SUN/213
+   SUN/214
+   SUN/216
+   SUN/222
+   SUN/223
+   SUN/226
+   SUN/227
+   SUN/229
+   SUN/230
+   SUN/231
+   SUN/232
+   SUN/234
+   SUN/235
+   SUN/237
+   SUN/238
+   SUN/239
+   SUN/240
+   SUN/242
+   SUN/243
+   SUN/245
+   SUN/246
+   SUN/251
+   SUN/27
+   SUN/28
+   SUN/29
+   SUN/31
+   SUN/32
+   SUN/33
+   SUN/34
+   SUN/37
+   SUN/38
+   SUN/39
+   SUN/40
+   SUN/41
+   SUN/42
+   SUN/45
+   SUN/48
+   SUN/5
+   SUN/50
+   SUN/53
+   SUN/55
+   SUN/56
+   SUN/57
+   SUN/61
+   SUN/62
+   SUN/63
+   SUN/64
+   SUN/65
+   SUN/66
+   SUN/67
+   SUN/7
+   SUN/77
+   SUN/78
+   SUN/82
+   SUN/83
+   SUN/85
+   SUN/86
+   SUN/87
+   SUN/88
+   SUN/9
+   SUN/90
+   SUN/92
+   SUN/93
+   SUN/95
+   SUN/98
+
+---sep---
+
+%R 2012StaUN...2.....B
+%T NDG -- Routines for Accessing Groups of NDFs
+%A Berry, D. S.; Taylor, M. B.
+%D 00/2012
+%J Starlink User Note 2
+%B This document describes the routines provided within the NDG subroutine
+   library for accessing groups of NDF data objects.
+%Z SUN/33
+   SSN/20
+   SUN/150
+
+
+---sep---
+
+%R 1989StaUN...3.....L
+%T FORMCON -- Data Format Conversion
+%A Lawden, M. D.
+%D 00/1989
+%J Starlink User Note 3
+%Z SUN/4
+
+---sep---
+
+%R 1989StaUN...4.....L
+%T INTERIM -- Starlink Software Environment
+%A Lawden, M. D.
+%D 00/1989
+%J Starlink User Note 4
+%Z SUN/74
+   SUN/83
+   SUN/85
+   SGP/16
+   1979ipia.coll..445W
+
+---sep---
+
+%R 2003StaUN...5.....W
+%T ASTROM -- Basic astrometry program
+%A Wallace, P. T.; Gray, Norman
+%D 00/2003
+%J Starlink User Note 5
+%B ASTROM performs ``plate reductions''.  You supply star positions from a
+   catalogue and the (x,y) ccoordinates of the corresponding star images.
+   ASTROM uses this information to establish the relationship between
+   (x,y) and (ra,dec) enabling the coordinates of ``unknown stars'' to be
+   determined.
+%Z SUN/67
+   2002A&A...395.1061G
+   2002A&A...395.1077C
+
+---sep---
+
+%R 1986StaUN...6.....W
+%T AATGS -- Guide Probe Predictions for AAT
+%A Wallace, P. T.
+%D 00/1986
+%J Starlink User Note 6
+%B AATGS is a version of the AAO program GS.  This note is a  preface  to
+   the  AAO  document, a copy of which is attached.  AATGS predicts guide
+   probe settings, given the celestial coordinates of  the  field  centre
+   and  of  a  guide  star,  for  the  guiding  systems  at the prime and
+   Cassegrain foci of the AAT.
+
+---sep---
+
+%R 2006StaUN...7.....B
+%T GENERIC -- A Utility for Compiling Generic Fortran Subroutines
+%A Beard, S. M.; Allan, P. M.; Currie, Malcolm J.; Draper, Peter W.
+%D 00/2006
+%J Starlink User Note 7
+%B GENERIC is tool for Fortran 77 and C developers to create type-specific
+   code from a generic source that includes tokens for type-dependent elements.
+   This saves effort supporting multiple versions of the source code.
+%Z SUN/92
+   SSN/29
+   SUN/98
+   SUN/39
+   SUN/114
+
+---sep---
+
+%R 1989StaUN...8.....W
+%T LIBX -- Simple Library Tools
+%A Wallace, P. T.
+%D 00/1989
+%J Starlink User Note 8
+%Z SUN/99
+
+---sep---
+
+%R 1997StaUN...9.....M
+%T LaTeX -- A Document Preparation System
+%A Murray, Jo; Charles,Anne; Laspias, Vassilis; Currie, Malcolm J.; Terrett, Dave; Lotts, Alan; Lawden, Mike; Bly, Martin
+%D 00/1997
+%J Starlink User Note 9
+%B This is a guide to the LaTeX
+   facilities available on Starlink. It gives a
+   brief description of how LaTeX works.
+   It also tells how to display or print the
+   document, and how to include a PostScript file.
+%Z SUN/93
+   SC/9
+   SGP/28
+   SGP/50
+   SUN/199
+   SUN/129
+   SUN/85
+   SUN/15
+   1994ldps.book.....L
+   1984texb.book.....K
+
+---sep---
+
+%R 1986StaUN..10.....G
+%T ARGSLIB - ARGS Subroutine Library
+%A Gallop, J. R.; Lawden, M. D.
+%D 00/1986
+%J Starlink User Note 10
+%Z SUN/83
+
+---sep---
+
+%R 2012StaUN..11.....W
+%T ARY -- A Subroutine Library for Accessing ARRAY Data Structures
+%A Warren-Smith, R. F.; Berry, D. S.
+%D 00/2012
+%J Starlink User Note 11
+%B The ARY library is a set of routines for accessing Starlink ARRAY data
+   structures built using the Hierarchical Data System (HDS).
+%Z SGP/38
+   SUN/33
+   SUN/92
+
+---sep---
+
+%R 1989StaUN..12.....L
+%T LaTeX Cook-book
+%A Lawden, M. D.
+%D 00/1989
+%J Starlink User Note 12
+%Z SUN/9
+   SUN/93
+   1986ldps.book.....L
+
+---sep---
+
+%R 1992StaUN..13.....A
+%T ASURV -- Astronomical Survival
+%A Allan, P. M.
+%D 00/1992
+%J Starlink User Note 13
+%B 1986ApJ...306..490I
+   1985ApJ...293..192F
+
+---sep---
+
+%R 1989StaUN..14.....W
+%T IRASLRS -- Obtaining Spectra from the IRAS LRS Database
+%A Walker, H; Giaretta, D.
+%D 00/1989
+%J Starlink User Note 14
+
+---sep---
+
+%R 1999StaUN..15.....T
+%T PGPLOT -- Graphics Subroutine Library
+%A Terrett, D. L.; Bly, M. J.
+%D 00/1999
+%J Starlink User Note 15
+%B PGPLOT is the de facto standard plotting library in Astronomy.
+   Starlink supports both the original `Native' version and the GKS-based
+   `Starlink' version. This document describes their use on Starlink systems.
+%Z SUN/113
+   SUN/15
+   SUN/83
+
+---sep---
+
+%R 1994StaUN..16.....W
+%T TWODSPEC -- Some Additions to Figaro
+%A Wilkins, T. N.; Axon, D. J.
+%D 00/1994
+%J Starlink User Note 16
+%Z SG/5
+   1986PhDT.......143B
+   SUN/35
+   1981ApJ...247..403H
+   SG/4
+   SUN/78
+   SUN/67
+   1985MNRAS.213....1W
+   1988PhDT.........8W
+   1992ASPC...25..427W
+   SUN/86
+
+---sep---
+
+%R 2000StaUN..17.....P
+%T SPECX -- A Millimetre Wave Spectral Reduction Package
+%A Prestage, R. M.; Meyerdierks, H.; Lightfoot, J. F.; Jenness, T.; Tilanus, R. P. J.; Padman, R.
+%D 00/2000
+%J Starlink User Note 17
+%B SPECX is a general purpose mm and submm
+   spectral line data reduction system. This document provides an overview
+   of the JAC/Starlink version of SPECX. See MUD/070 for a full manual to
+   SPECX.
+%Z SUN/229
+   SUN/92
+   SUN/83
+   SUN/67
+   SUN/78
+   1966raas.book.....K
+   1956QB633.M34......
+   1976MExP...12..277G
+
+---sep---
+
+%R 1996StaUN..18.....R
+%T RPS -- ROSAT Proposal Submission
+%A Ricketts, Martin
+%D 00/1996
+%J Starlink User Note 18
+%B This Note describes RPS released to support proposal submission for
+   AO-7 of the Rosat Pointed Observation Programme, which has a deadline
+   for submission of May 15th 1996.  AO-7 covers observations with the HRI
+   and WFC. RPS provides data-checking, proposal printing, and electronic
+   proposal submission.  Details of the AO-7 Proposer's Guide are
+   available from the Leicester Database and Archive Service WWW page:
+   http://ledas-www.star.le.ac.uk/
+
+---sep---
+
+%R 1996StaUN..19.....P
+%T NDPROGS -- n-D Image Manipulation
+%A Privett, G. J.; Gold, J.; Fuller, N.; Lewis, J.; Benn, C.
+%D 00/1996
+%J Starlink User Note 19
+%B NDPROGS is a set of programs which perform basic manipulation and display
+   functions on images with up to six dimensions.
+   The programs were written at the RGO, primarily for the
+   manipulation of TAURUS spectral line data cubes, but they contain
+   no instrument-specific features and can therefore be used in the
+   analysis of other similar data.
+
+   The term `image' as used in this note simply means a regular data
+   array, which might be anything from a 1-D spectrum or profile to a 4-D
+   array consisting of several long-slit spectra with polarization vectors.
+%Z SUN/86
+   SUN/33
+   SG/5
+   SGP/38
+   SUN/98
+   SUN/7
+   SSN/39
+   SUN/15
+
+---sep---
+
+%R 1993StaUN..20.....M
+%T ULDA/USSP -- Accessing the IUE Uniform Low-Dispersion Archive
+%A Murray, M. J.; Stickland, D.J.
+%D 00/1993
+%J Starlink User Note 20
+%Z SUN/58
+   SUN/37
+   1988EIUEN..30.....T
+   SUN/50
+
+---sep---
+
+%R 1989StaUN..21.....L
+%T TAPEIO -- Magnetic Tape Routines
+%A Lawden, M. D.
+%D 00/1989
+%J Starlink User Note 21
+
+---sep---
+
+%R 1996StaUN..22.....P
+%T FORMLOAD -- LaTeX Form Generator
+%A Penny, Alan J.; Martin, Bill L.
+%D 00/1996
+%J Starlink User Note 22
+
+---sep---
+
+%R 1991StaUN..23.....L
+%T ASPIC -- Image Process programs (1)
+%A Lawden, M. D.; Berry, D. S.; King, Dave; Hartley, Ken
+%D 00/1991
+%J Starlink User Note 23
+%B ASPIC is a collection of image processing programs.
+   It is not a monolithic package of the usual kind, nor even a tight group of
+   interacting programs like SPICA.
+%Z SUN/4
+   SUN/32
+   SUN/24
+   SUN/74
+   SG/1
+   SUN/53
+   SUN/94
+
+---sep---
+
+%R 1988StaUN..24.....L
+%T ASPIC -- Image processing programs (2)
+%A Lawden, M. D.
+%D 00/1988
+%J Starlink User Note 24
+
+---sep---
+
+%R 1990StaUN..25.....B
+%T LZCMP -- File compression
+%A Black, S. E.; Lawden, M. D.
+%D 00/1990
+%J Starlink User Note 25
+
+---sep---
+
+%R 1993StaUN..26.....C
+%T CLUSTAN -- A Cluster-Analysis Package
+%A Currie, Malcolm J.; Parker, Quentin A.
+%D 00/1993
+%J Starlink User Note 26
+
+---sep---
+
+%R 1996StaUN..27.....D
+%T Portable-CGS4DR -- CGS4 Data Reduction
+%A Daly, P. N.; Beard, S. M.
+%D 00/1996
+%J Starlink User Note 27
+
+---sep---
+
+%R 1992StaUN..28.....B
+%T NAG -- Mathematical Subroutine Library Mk 15
+%A Bly, M. J.; Lawden, M. D.
+%D 00/1992
+%J Starlink User Note 28
+
+---sep---
+
+%R 1991StaUN..29.....B
+%T NAGRAF -- NAG Graphics Library Mk 3
+%A Bly, M. J.
+%D 00/1991
+%J Starlink User Note 29
+
+---sep---
+
+%R 1989StaUN..30.....G
+%T Using the Starlink Database MicroVAX computer
+%A Giaretta, David
+%D 00/1989
+%J Starlink User Note 30
+
+---sep---
+
+%R 1998StaUN..31.....W
+%T REF -- Routines for Handling References to HDS Objects
+%A Warren-Smith, R. F.; Chipperfield, A. J.
+%D 00/1998
+%J Starlink User Note 31
+
+---sep---
+
+%R 1989StaUN..32.....C
+%T CHART -- Finding chart and stellar data system
+%A Carey, J. V.; Hartley, K. F.; Allan, P. M.
+%D 00/1989
+%J Starlink User Note 32
+
+---sep---
+
+%R 2012StaUN..33.....W
+%T NDF -- Routines for Accessing the Extensible N-Dimensional Data Format
+%A Warren-Smith, R. F.; Berry, D. S.
+%D 00/2012
+%J Starlink User Note 33
+
+---sep---
+
+%R 1991StaUN..34.....M
+%T GNU EMACS -- Display Editor
+%A Mellor, G. R.
+%D 00/1991
+%J Starlink User Note 34
+
+---sep---
+
+%R 1995StaUN..35.....C
+%T ICL -- Interactive Command Language: An Introduction
+%A Chipperfield, A. J.
+%D 00/1995
+%J Starlink User Note 35
+
+---sep---
+
+%R 1990StaUN..36.....A
+%T Starlink Networking
+%A Allan, P. M.; Terrett, D. L.
+%D 00/1990
+%J Starlink User Note 36
+
+---sep---
+
+%R 1996StaUN..37.....G
+%T IUEDR -- IUE Data Reduction Package
+%A Giddings, Jack; Rees, Paul; Mills, Dave; Clayton, Martin
+%D 00/1996
+%J Starlink User Note 37
+
+---sep---
+
+%R 1996StaUN..38.....B
+%T DOCFIND -- Starlink document index searching
+%A Bly, M. J.; Allan, P. M.
+%D 00/1996
+%J Starlink User Note 38
+
+---sep---
+
+%R 1995StaUN..39.....W
+%T PRIMDAT -- Processing of Primitive Numerical Data
+%A Warren-Smith R. F.
+%D 00/1995
+%J Starlink User Note 39
+
+---sep---
+
+%R 2005StaUN..40.....C
+%T CHR -- Character Handling Routines
+%A Charles, A.C; Rees, P. C. T.; Chipperfield, A. J.; Jenness, T.
+%D 00/2005
+%J Starlink User Note 40
+
+---sep---
+
+%R 1996StaUN..41.....A
+%T IRCAMDR -- IRCAM3 Data Reduction Software
+%A Aspin, Colin; Emerson, J. P.; Currie, Malcolm J.; Economou, Frossie
+%D 00/1996
+%J Starlink User Note 41
+
+---sep---
+
+%R 1996StaUN..42.....E
+%T DAOPHOT -- Stellar Photometry Package
+%A Eaton, Nicholas; Privett, Grant
+%D 00/1996
+%J Starlink User Note 42
+
+---sep---
+
+%R 1989StaUN..43.....S
+%T EDFITS -- Copy FITS Tapes
+%A Shortridge, Keith
+%D 00/1989
+%J Starlink User Note 43
+
+---sep---
+
+%R 1988StaUN..44.....C
+%T VAXnotes -- An introduction
+%A Clayton, C. A.
+%D 00/1988
+%J Starlink User Note 44
+
+---sep---
+
+%R 2009StaUN..45.....E
+%T PHOTOM -- A Photometry Package
+%A Eaton, Nicholas; Draper, Peter W.; Allan, Alasdair
+%D 00/2009
+%J Starlink User Note 45
+
+---sep---
+
+%R 1988StaUN..46.....P
+%T NOD2 -- A mm-wave Continuum Data Reduction Package
+%A Prestage, Richard M.
+%D 00/1988
+%J Starlink User Note 46
+
+---sep---
+
+%R 1989StaUN..47.....T
+%T TAPECOPY -- Magnetic tape copying utility
+%A Terrett, D. L.
+%D 00/1989
+%J Starlink User Note 47
+
+---sep---
+
+%R 2013StaUN..48.....E
+%T AGI -- Applications Graphics Interface Library
+%A Eaton, Nicholas; McIlwrath, Brian
+%D 00/2013
+%J Starlink User Note 48
+
+---sep---
+
+%R 1989StaUN..49.....L
+%T QUOTAS -- A utility to display VMS disk quotas
+%A Lotts, A. P.
+%D 00/1989
+%J Starlink User Note 49
+
+---sep---
+
+%R 2004StaUN..50.....H
+%T DIPSO -- A friendly spectrum analysis program
+%A Howarth, I. D.; Murray, J.; Mills, D.; Berry, D. S.
+%D 00/2004
+%J Starlink User Note 50
+
+---sep---
+
+%R 1988StaUN..51.....C
+%T Submission of NEWS items
+%A Clayton, C. A.
+%D 00/1988
+%J Starlink User Note 51
+
+---sep---
+
+%R 1991StaUN..52.....B
+%T RGASP -- Reduced GAlaxy Surface Photometry package
+%A Bly, M. J.
+%D 00/1991
+%J Starlink User Note 52
+
+---sep---
+
+%R 1996StaUN..53.....F
+%T ECHWIND -- UCL Echelle Spectrograph Observation Planning Program
+%A Fisher, Marion; Lupton, William; Charles, Anne
+%D 00/1996
+%J Starlink User Note 53
+
+---sep---
+
+%R 1990StaUN..54.....L
+%T GENSTAT -- Statistical Data Analysis
+%A Lawden, M. D.
+%D 00/1990
+%J Starlink User Note 54
+
+---sep---
+
+%R 2013StaUN..55.....C
+%T CONVERT -- A Format-conversion Package
+%A Currie, Malcolm J.;Privett, G. J.;Berry, D. S.;Davenhall, A. C.
+%D 00/2013
+%J Starlink User Note 55
+
+---sep---
+
+%R 1995StaUN..56.....W
+%T COCO -- Conversion of Celestial Coordinates
+%A Wallace, P. T.
+%D 00/1995
+%J Starlink User Note 56
+
+---sep---
+
+%R 1995StaUN..57.....T
+%T GNS -- Graphics Wokstation Name Service
+%A Terrett, David; Eaton, Nicholas
+%D 00/1995
+%J Starlink User Note 57
+
+---sep---
+
+%R 1995StaUN..58.....L
+%T IUEDA -- Access to the IUE data archive
+%A Lloyd, C.; Giaretta, D.
+%D 00/1995
+%J Starlink User Note 58
+
+---sep---
+
+%R 1989StaUN..59.....L
+%T Starlink Software Reorganisation
+%A Lawden, M. D.
+%D 00/1989
+%J Starlink User Note 59
+
+---sep---
+
+%R 1987StaUN..60.....R
+%T IRAS -- Image Analysis Software
+%A Richards, P. J.
+%D 00/1987
+%J Starlink User Note 60
+
+---sep---
+
+%R 2006StaUN..61.....W
+%T TRANSFORM -- Coordinate Transformation Facility
+%A Warren-Smith, R. F.
+%D 00/2006
+%J Starlink User Note 61
+
+---sep---
+
+%R 1995StaUN..62.....D
+%T WFCPACK -- ROSAT Wide Field Camera data reduction
+%A Denby, M.; McGale, P.
+%D 00/1995
+%J Starlink User Note 62
+
+---sep---
+
+%R 1992StaUN..63.....R
+%T SPAG -- Spaghetti Unscrambler
+%A Rees, Paul
+%D 00/1992
+%J Starlink User Note 63
+
+---sep---
+
+%R 1987StaUN..64.....T
+%T MONGO - Interactive Plotting Program
+%A Terrett,D.L.
+%D 00/1987
+%J Starlink User Note 64
+
+---sep---
+
+%R 1995StaUN..65.....E
+%T IDI -- Image Display Interface Programmer's Guide
+%A Eaton, Nicholas
+%D 00/1995
+%J Starlink User Note 65
+
+---sep---
+
+%R 1997StaUN..66.....B
+%T TSP -- A Time Series/Polarimetry Package
+%A Bailey, Jeremy
+%D 00/1997
+%J Starlink User Note 66
+
+---sep---
+
+%R 2005StaUN..67.....W
+%T SLALIB -- Positional Astronomy Library
+%A Wallace, P. T.
+%D 00/2005
+%J Starlink User Note 67
+
+---sep---
+
+%R 1989StaUN..68.....T
+%T TPU -- Tape Processing Utility
+%A Terrett, D. L.
+%D 00/1989
+%J Starlink User Note 68
+
+---sep---
+
+%R 1993StaUN..69.....P
+%T CDCOPY -- Reading CDROMs
+%A Page, Clive G.
+%D 00/1993
+%J Starlink User Note 69
+
+---sep---
+
+%R 1990StaUN..70.....W
+%T SCAR -- Starlink Catalogue Access and Reporting
+%A Walker, H. J.; Fairclough, J. H.; Lawden, M. D.
+%D 00/1990
+%J Starlink User Note 70
+
+---sep---
+
+%R 1992StaUN..71.....P
+%T IKONPAINT -- Ikon and GWM window to Inkjet Hard-copy
+%A Page, Clive G.;Mellor, G. R.
+%D 00/1992
+%J Starlink User Note 71
+
+---sep---
+
+%R 1991StaUN..72.....C
+%T HONEY -- The Honeywell Camera
+%A Clayton, C. A.; Wilkins, T. N.
+%D 00/1991
+%J Starlink User Note 72
+
+---sep---
+
+%R 1990StaUN..73.....L
+%T FORCHECK -- A Fortran Verifier and Programming Aid
+%A Lawden, M. D.
+%D 00/1990
+%J Starlink User Note 73
+
+---sep---
+
+%R 1987StaUN..74.....L
+%T DSCL -- Starlink Command Language
+%A Lupton, W. F.
+%D 00/1987
+%J Starlink User Note 74
+
+---sep---
+
+%R 1990StaUN..75.....L
+%T TOOLPACK -- Fortran 77 Software Tools
+%A Lawden, M. D.; Bly, M. J.
+%D 00/1990
+%J Starlink User Note 75
+
+---sep---
+
+%R 1992StaUN..76.....T
+%T HXIS -- Hard X-ray Imaging Spectrometer
+%A Tappin, James
+%D 00/1992
+%J Starlink User Note 76
+
+---sep---
+
+%R 1995StaUN..77.....L
+%T NBS -- The Noticeboard System
+%A Lupton, W. F.; Allan, D. J.;Bly, M. J.; Jenness, Tim
+%D 00/1995
+%J Starlink User Note 77
+
+---sep---
+
+%R 1997StaUN..78.....W
+%T RV -- Radial Components of Observer's Velocity
+%A Wallace, P. T.; Clayton, C. A.
+%D 00/1997
+%J Starlink User Note 78
+
+---sep---
+
+%R 1986StaUN..79.....F
+%T CDS - Cenre de Donnees Stellarie Catalogues
+%A Fairclough, J. H.; Lawden, M. D.
+%D 00/1986
+%J Starlink User Note 79
+
+---sep---
+
+%R 1986StaUN..80.....S
+%T IRAS -- Extended Emission and Pointed Observation Data: User Guide
+%A Stewart, B. C.
+%D 00/1986
+%J Starlink User Note 80
+
+---sep---
+
+%R 1986StaUN..81.....R
+%T LRSEXT -- IRAS LRS Spectra Extraction
+%A Richards, P. J.
+%D 00/1986
+%J Starlink User Note 81
+
+---sep---
+
+%R 1993StaUN..82.....P
+%T IRAS -- Data Products Primer
+%A Parsons, D. C.; Walker, H. J.
+%D 00/1993
+%J Starlink User Note 82
+
+---sep---
+
+%R 1995StaUN..83.....T
+%T GKS -- Graphical Kernel System
+%A Terrett, D. L.
+%D 00/1995
+%J Starlink User Note 83
+
+---sep---
+
+%R 1989StaUN..84.....W
+%T MAILCLUB -- Serveral users sharing one MAIL address
+%A Wallace, P. T.; Lotts, A. P.
+%D 00/1989
+%J Starlink User Note 84
+
+---sep---
+
+%R 1995StaUN..85.....W
+%T SGS -- Simple Graphics System
+%A Wallace, P. T.; Terrett, D. L.
+%D 00/1995
+%J Starlink User Note 85
+
+---sep---
+
+%R 2004StaUN..86.....S
+%T FIGARO -- A general data reduction system
+%A Shortridge, Keith; Meyerdierks, Horst; Currie, Malcolm; Clayton, Chris;Lockley, Jon;Charles, Anne;Davenhall, Clive;Taylor, Mark; Ash, Tim; Wilkins, Tim; Axon, Dave;Palmer, John; Holloway, Anthony; Graffagnino, Vito
+%D 00/2004
+%J Starlink User Note 86
+
+---sep---
+
+%R 2000StaUN..87.....W
+%T JPL -- Solar System Ephemeris
+%A Wallace, P. T.; Broderick, A. J. J.
+%D 00/2000
+%J Starlink User Note 87
+
+---sep---
+
+%R 1999StaUN..88.....R
+%T NCAR -- Graphics Utilities
+%A Rees, P. C. T.; Bly, M. J.; Terrett, D. L.
+%D 00/1999
+%J Starlink User Note 88
+
+---sep---
+
+%R 1986StaUN..89.....S
+%T APLATE -- Aperture Plate Preparation Program
+%A Straede, J.
+%D 00/1986
+%J Starlink User Note 89
+
+---sep---
+
+%R 1995StaUN..90.....R
+%T SNX -- Starlink Extensions to the NCAR Graphics Utilities
+%A Rees, P. C. T.; Bly, M. J.; Wallace, P. T.
+%D 00/1995
+%J Starlink User Note 90
+
+---sep---
+
+%R 1989StaUN..91.....P
+%T IRAS -- Calibrated Raw Detector Data Analysis
+%A Parsons, D. C.; Richards, P. J.; Giaretta, D. L.
+%D 00/1989
+%J Starlink User Note 91
+
+---sep---
+
+%R 2008StaUN..92.....W
+%T HDS -- Hierarchical Data System
+%A Warren-Smith, R. F.; Lawden, M. D.; McIlwrath, B. K; Jenness, T.; Draper, P. W., Peden, J. C. M.
+%D 00/2008
+%J Starlink User Note 92
+
+---sep---
+
+%R 1995StaUN..93.....M
+%T TeX -- A superior document preparation system
+%A Murray, Jo; Charles, Anne
+%D 00/1995
+%J Starlink User Note 93
+
+---sep---
+
+%R 1989StaUN..94.....C
+%T ADAM -- Starlink Software Environemnt
+%A Chipperfield,A.J.
+%D 00/1989
+%J Starlink User Note 94
+
+---sep---
+
+%R 2013StaUN..95.....C
+%T KAPPA -- Kernel Application Package
+%A Currie, Malcolm J.; Berry, David. S.
+%D 00/2013
+%J Starlink User Note 95
+
+---sep---
+
+%R 1986StaUN..96.....C
+%T STARIN -- Convert INTERIM to HDS Image Data Format
+%A Chipperfield,A.J.
+%D 00/1986
+%J Starlink User Note 96
+
+---sep---
+
+%R 1987StaUN..97.....L
+%T REXEC -- Introduction & Comparison with SCAR
+%A Lawden, M. D.
+%D 00/1987
+%J Starlink User Note 97
+
+---sep---
+
+%R 1995StaUN..98.....A
+%T ASTERIX -- X-ray Data Processing System
+%A Allan, D. J.; Vallance, R. J.; Saxton, R. D.
+%D 00/1995
+%J Starlink User Note 98
+
+---sep---
+
+%R 1991StaUN..99.....B
+%T LIBMAINT -- A tool for library maintenance
+%A Beard, S. M.
+%D 00/1991
+%J Starlink User Note 99
+
+---sep---
+
+%R 1994StaUN.100.....W
+%T TPOINT -- Telescope Pointing Analysis System
+%A Wallace, P. T.
+%D 00/1994
+%J Starlink User Note 100
+
+---sep---
+
+%R 1991StaUN.101.....M
+%T Introduction to ADAM Programming
+%A Murray, Jo
+%D 00/1991
+%J Starlink User Note 101
+
+---sep---
+
+%R 1993StaUN.102.....C
+%T HDSTRACE -- Listing HDS Data Files
+%A Currie, Malcolm J.
+%D 00/1993
+%J Starlink User Note 102
+
+---sep---
+
+%R 1990StaUN.103.....D
+%T APIG -- Absorption Profiles in the Interstellar Gas
+%A Davenhall, A. C.; Pettini, M.
+%D 00/1990
+%J Starlink User Note 103
+
+---sep---
+
+%R 2009StaUN.104.....R
+%T MERS (MSG and ERR) -- Message and Error Reporting System
+%A Rees, P. C. T; Chipperfield, A. J.; Jenness, T.
+%D 00/2009
+%J Starlink User Note 104
+
+---sep---
+
+%R 1991StaUN.105.....W
+%T STARLSE -- Starlink Extensions to the VAX Language Sensitive Editor
+%A Warren-Smith, R. F.
+%D 00/1991
+%J Starlink User Note 105
+
+---sep---
+
+%R 1990StaUN.106.....W
+%T SCAR -- Beginner's Guide
+%A Wood, A. R.
+%D 00/1990
+%J Starlink User Note 106
+
+---sep---
+
+%R 1998StaUN.107.....B
+%T MAPLE -- Mathematical Manipulation Language
+%A Bly, M. J.
+%D 00/1998
+%J Starlink User Note 107
+
+---sep---
+
+%R 1991StaUN.108.....C
+%T Using the Starlink SI59 Exabyte drives
+%A Clayton, C. A.
+%D 00/1991
+%J Starlink User Note 108
+
+---sep---
+
+%R 2002StaUN.109.....D
+%T PISA - Position Intensity and Shape Analysis
+%A Draper, Peter W.; Eaton, Nicholas
+%D 00/2002
+%J Starlink User Note 109
+
+---sep---
+
+%R 1990StaUN.110.....W
+%T SST - A Simple Software Tools Package
+%A Warren-Smith, R. F.
+%D 00/1990
+%J Starlink User Note 110
+
+---sep---
+
+%R 1993StaUN.111.....T
+%T SPT -- Software Porting Tools
+%A Terrett, D. L.; Allan, P. M.
+%D 00/1993
+%J Starlink User Note 111
+
+---sep---
+
+%R 1991StaUN.112.....A
+%T JTMP -- Using the Job Transfer Manipulation Protocol
+%A Allan, P. M.
+%D 00/1991
+%J Starlink User Note 112
+
+---sep---
+
+%R 1995StaUN.113.....A
+%T ADAM Graphics Programmer's Guide
+%A Allan, P. M.; Chipperfield, A. J.;Terrett, D. L.
+%D 00/1995
+%J Starlink User Note 113
+
+---sep---
+
+%R 1999StaUN.114.....C
+%T PAR -- Interface to the ADAM Parameter System
+%A Currie, Malcolm J.; Chipperfield, Alan J.
+%D 00/1999
+%J Starlink User Note 114
+
+---sep---
+
+%R 2002StaUN.115.....C
+%T ADAM -- Interface Module Reference Manual
+%A Chipperfield, A. J.; Kelly, B. D.; Wright, S. L.
+%D 00/2002
+%J Starlink User Note 115
+
+---sep---
+
+%R 1992StaUN.116.....B
+%T MEMCRDD -- Maximum Entropy Imaging of IRAS CRDD
+%A Berry, D. S.
+%D 00/1992
+%J Starlink User Note 116
+
+---sep---
+
+%R 1993StaUN.117.....B
+%T MEMSYS -- A Maximum Entrop image reconstruction package
+%A Berry, D. S.
+%D 00/1993
+%J Starlink User Note 117
+
+---sep---
+
+%R 1992StaUN.118.....B
+%T Starlink Software on Unix
+%A Bly, Martin
+%D 00/1992
+%J Starlink User Note 118
+
+---sep---
+
+%R 1992StaUN.119.....W
+%T CHI -- Catalogue Handling Interface
+%A Wood, A. R.
+%D 00/1992
+%J Starlink User Note 119
+
+---sep---
+
+%R 1994StaUN.120.....W
+%T CATPAC -- Catalogue Applications Package on UNIX
+%A Wood, A. R.
+%D 00/1994
+%J Starlink User Note 120
+
+---sep---
+
+%R 2007StaUN.121.....A
+%T PSX -- POSIX Interface Routines
+%A Allan, P. M.; Chipperfield, A. J.; Jenness, T.; Berry, David, S.
+%D 00/2007
+%J Starlink User Note 121
+
+---sep---
+
+%R 1991StaUN.122.....C
+%T Colour hard-copy from workstation screens
+%A Clayton, C. A.
+%D 00/1991
+%J Starlink User Note 122
+
+---sep---
+
+%R 1995StaUN.124.....W
+%T HLP -- Interactive Help System
+%A Wallace, P. T.
+%D 00/1995
+%J Starlink User Note 124
+
+---sep---
+
+%R 1991StaUN.125.....F
+%T STEVE -- a thinking person's screen editor
+%A Fish, Adrian
+%D 00/1991
+%J Starlink User Note 125
+
+---sep---
+
+%R 1992StaUN.126.....F
+%T STEVE -- User Guide and Reference Manual
+%A Fish, Adrian
+%D 00/1992
+%J Starlink User Note 126
+
+---sep---
+
+%R 1991StaUN.127.....O
+%T The EXOSAT Database System
+%A Osborne, Julian
+%D 00/1991
+%J Starlink User Note 127
+
+---sep---
+
+%R 1993StaUN.128.....L
+%T QDP -- Quick and Dandy Plotter
+%A Lawden, M. D.
+%D 00/1993
+%J Starlink User Note 128
+
+---sep---
+
+%R 2000StaUN.129.....B
+%T XDISPLAY -- Setting remote X windows
+%A Bly, M. J.; Allan, P. M.; McIlwrath, B. K.
+%D 00/2000
+%J Starlink User Note 129
+
+---sep---
+
+%R 1995StaUN.130.....T
+%T GWM -- X Graphics Window Manager
+%A Terrett, David; Eaton, Nicholas
+%D 00/1995
+%J Starlink User Note 130
+
+---sep---
+
+%R 1991StaUN.131.....R
+%T Printing on a PostScript laser printer
+%A Rawlinson, D. J.; Clayton, C. A.
+%D 00/1991
+%J Starlink User Note 131
+
+---sep---
+
+%R 2003StaUN.132.....L
+%T JCMTDR -- Applications for Reducing JCMT GSD Data
+%A Lightfoot, J. F.; Harrison, P. A.; Meyerdierks, H.; Jenness, T.
+%D 00/2003
+%J Starlink User Note 132
+
+---sep---
+
+%R 1992StaUN.134.....K
+%T ADAM -- Guide to Writing Instrumentation Tasks
+%A Kelly, B. D.; Chipperfield, A. J.
+%D 00/1992
+%J Starlink User Note 134
+
+---sep---
+
+%R 1992StaUN.135.....A
+%T LOG -- A logical name utility
+%A Allan, P. M.
+%D 00/1992
+%J Starlink User Note 135
+
+---sep---
+
+%R 1994StaUN.136.....B
+%T FITSIO -- Disk FITS Input/Output Subroutines
+%A Bly, M. J.
+%D 00/1994
+%J Starlink User Note 136
+
+---sep---
+
+%R 2008StaUN.137.....H
+%T PONGO -- A Set of Applications for Interactive Data Plotting
+%A Harrison, Paul; Rees, Paul; Draper Peter W.;Allan, Alasdair
+%D 00/2008
+%J Starlink User Note 137
+
+---sep---
+
+%R 1991StaUN.138.....M
+%T HRTS -- NRL High Resolution Telescope and Spectrograph Package
+%A McSherry, M
+%D 00/1991
+%J Starlink User Note 138
+
+---sep---
+
+%R 2011StaUN.139.....D
+%T CCDPACK -- CCD data reduction package
+%A Draper, Peter W.; Taylor, Mark; Allan, Alasdair
+%D 00/2011
+%J Starlink User Note 139
+
+---sep---
+
+%R 1995StaUN.140.....M
+%T SPECDRE -- Spectroscopy Data Reduction
+%A Meyerdierks, H.
+%D 00/1995
+%J Starlink User Note 140
+
+---sep---
+
+%R 1995StaUN.141.....P
+%T STARMAN -- A Stellar Photometry and Image/Table Handling Package
+%A Penny, Alan, J.
+%D 00/1995
+%J Starlink User Note 141
+
+---sep---
+
+%R 2001StaUN.143.....A
+%T FIO/RIO -- FORTRAN file I/O routines
+%A Allan, P. M.; Chipperfield, A. J.
+%D 00/2001
+%J Starlink User Note 143
+
+---sep---
+
+%R 2001StaUN.144.....C
+%T ADAM -- Unix Version
+%A Chipperfield, A. J.
+%D 00/2001
+%J Starlink User Note 144
+
+---sep---
+
+%R 1996StaUN.145.....L
+%T UNIX -- An Introduction
+%A Lawden, M. D.; Mellor, G. R.; Smalley, B.
+%D 00/1996
+%J Starlink User Note 145
+
+---sep---
+
+%R 1996StaUN.146.....O
+%T OBSERVE -- Check Star Observability
+%A Osborne, Julian; Ashley, Jeremy; Privett, Grant
+%D 00/1996
+%J Starlink User Note 146
+
+---sep---
+
+%R 1992StaUN.147.....B
+%T TAUCAL -- TAURUS data reduction
+%A Bly, M. J.
+%D 00/1992
+%J Starlink User Note 147
+
+---sep---
+
+%R 1992StaUN.148.....L
+%T SCP -- A Simple CCD Processing Package
+%A Lewis, J. R.
+%D 00/1992
+%J Starlink User Note 148
+
+---sep---
+
+%R 1992StaUN.149.....L
+%T SAM -- A Spectral Extraction Package
+%A Lewis, J. R.
+%D 00/1992
+%J Starlink User Note 149
+
+---sep---
+
+%R 2012StaUN.150.....B
+%T GRP -- Routines for Managing Groups of Objects
+%A Berry, D. S.
+%D 00/2012
+%J Starlink User Note 150
+
+---sep---
+
+%R 1992StaUN.151.....C
+%T VMSBACKUP -- VMS backup reader for UNIX
+%A Clayton, C. A.; Tappin, S. J.
+%D 00/1992
+%J Starlink User Note 151
+
+---sep---
+
+%R 2003StaUN.152.....M
+%T ECHOMOP -- Echelle Data Reduction Package
+%A Mills, Dave; Webb, John; Clayton, Martin
+%D 00/2003
+%J Starlink User Note 152
+
+---sep---
+
+%R 1992StaUN.153.....L
+%T RNOTOTEX -- Converting RUNOFF to LaTeX
+%A Laspias, V.
+%D 00/1992
+%J Starlink User Note 153
+
+---sep---
+
+%R 1992StaUN.154.....B
+%T LTEX -- Additional TeX and LaTeX facilities
+%A Bly, M. J.
+%D 00/1992
+%J Starlink User Note 154
+
+---sep---
+
+%R 1992StaUN.155.....L
+%T TEXLSE -- An LSE Environment for LaTeX
+%A Laspias, V.
+%D 00/1992
+%J Starlink User Note 155
+
+---sep---
+
+%R 1993StaUN.159.....M
+%T XRP -- SMM XRP Data Analysis & Reduction
+%A McSherry, M.; Lawden, M. D.
+%D 00/1993
+%J Starlink User Note 159
+
+---sep---
+
+%R 2003StaUN.160.....D
+%T IMG -- Simple Image Data Access
+%A Draper, P. W.; Warren-Smith, R. F.
+%D 00/2003
+%J Starlink User Note 160
+
+---sep---
+
+%R 1994StaUN.161.....P
+%T IRAS90 -- Introductory/User Guide to Calibrated Reconstructed Detector Data Analysis
+%A Parsons, D. C.; Berry, D. S.; Gong, W.; Walker, H. J.
+%D 00/1994
+%J Starlink User Note 161
+
+---sep---
+
+%R 1993StaUN.162.....D
+%T A Guide to Astronomical Catalogues, Databases and Archives available through Starlink
+%A Davenhall, A. C.
+%D 00/1993
+%J Starlink User Note 162
+
+---sep---
+
+%R 1995StaUN.163.....B
+%T IRAS90 -- IRAS Survey and PO Data Analysis Package -- Reference Guide
+%A Berry, David S.; Gong, W.; Parsons, D. C.
+%D 00/1995
+%J Starlink User Note 163
+
+---sep---
+
+%R 1998StaUN.164.....T
+%T PSMERGE -- Encapsulated Postscript Handling Utility
+%A Terrett, D. L.
+%D 00/1998
+%J Starlink User Note 164
+
+---sep---
+
+%R 1995StaUN.165.....B
+%T IRAS90 -- Programmer's Guide
+%A Berry, David S.; Parsons, Diana
+%D 00/1995
+%J Starlink User Note 165
+
+---sep---
+
+%R 1996StaUN.166.....M
+%T SAOIMAGE -- Astronomical image display
+%A Morris, Rhys; Privett, G. J.
+%D 00/1996
+%J Starlink User Note 166
+
+---sep---
+
+%R 2001StaUN.167.....D
+%T PERIOD -- A Time-Series Analysis Package
+%A Dhillon, V. S.; Privett, G. J.; Duffey, K. P.
+%D 00/2001
+%J Starlink User Note 167
+
+---sep---
+
+%R 1998StaUN.168.....M
+%T EDT mode for JED -- An advanced Unix text editor
+%A McIlwrath, B. K.; Page, C. G.
+%D 00/1998
+%J Starlink User Note 168
+
+---sep---
+
+%R 1994StaUN.169.....M
+%T PINE -- Electronic mail interface
+%A Mellor, G. R.
+%D 00/1994
+%J Starlink User Note 169
+
+---sep---
+
+%R 1997StaUN.170.....C
+%T Editors on Unix
+%A Clayton, C. A.
+%D 00/1997
+%J Starlink User Note 170
+
+---sep---
+
+%R 1996StaUN.171.....A
+%T MAG -- Access to magnetic tapes
+%A Allan, P. M.; Chipperfield, A. J.
+%D 00/1996
+%J Starlink User Note 171
+
+---sep---
+
+%R 1993StaUN.172.....P
+%T FTNCHECK -- A Fortran77 Source-code Checker
+%A Page, Clive G.
+%D 00/1993
+%J Starlink User Note 172
+
+---sep---
+
+%R 1993StaUN.173.....L
+%T LOOKUP -- Looking up commands in applications
+%A Lawden, M. D.
+%D 00/1993
+%J Starlink User Note 173
+
+---sep---
+
+%R 1993StaUN.174.....D
+%T An Astronomer's Guide to On-line Bibliographic Databases and Information Services
+%A Davenhall, A. C.
+%D 00/1993
+%J Starlink User Note 174
+
+---sep---
+
+%R 1993StaUN.175.....A
+%T MOSAIC -- A hypertext help system
+%A Allan, P. M.
+%D 00/1993
+%J Starlink User Note 175
+
+---sep---
+
+%R 1993StaUN.176.....L
+%T DVIPS: A TeX driver
+%A Laspias, V.
+%D 00/1993
+%J Starlink User Note 176
+
+---sep---
+
+%R 1994StaUN.177.....B
+%T IRCAMPACK -- IRCAM Data Reduction on Starlink
+%A Berry, David S.
+%D 00/1994
+%J Starlink User Note 177
+
+---sep---
+
+%R 1994StaUN.178.....T
+%T XAdam -- a GUI for running ADAM applications
+%A Terrett, D. L.
+%D 00/1994
+%J Starlink User Note 178
+
+---sep---
+
+%R 1995StaUN.179.....M
+%T IRAF -- Image Reduction Analysis Facility
+%A Morris, Rhys; Privett, Grant
+%D 00/1995
+%J Starlink User Note 179
+
+---sep---
+
+%R 2008StaUN.180.....G
+%T ESP -- Extended Surface Photometry
+%A Gray, Norman; Taylor, Mark; Privett, Grant
+%D 00/2008
+%J Starlink User Note 180
+
+---sep---
+
+%R 2013StaUN.181.....D
+%T CAT -- Catalogue and Table Manipulation Library
+%A Davenhall, A. C.; Berry, D. S.
+%D 00/2013
+%J Starlink User Note 181
+
+---sep---
+
+%R 2000StaUN.182.....B
+%T EMAIL -- E-mail address searching
+%A Bly, M. J.; Mellor, G. R.
+%D 00/2000
+%J Starlink User Note 182
+
+---sep---
+
+%R 2007StaUN.183.....B
+%T ARD -- A Textual Language for Describing Regions within a Data Array
+%A Berry, D. S.
+%D 00/2007
+%J Starlink User Note 183
+
+---sep---
+
+%R 1997StaUN.184.....B
+%T A2PS -- Ascii to PostScript converter
+%A Bly, M. J.
+%D 00/1997
+%J Starlink User Note 184
+
+---sep---
+
+%R 1994StaUN.185.....C
+%T MESSGEN -- Starlink Facility Error Message Generation
+%A Chipperfield, A. J.; McIlwrath, B. K.
+%D 00/1994
+%J Starlink User Note 185
+
+---sep---
+
+%R 1999StaUN.186.....T
+%T STARTCL -- Starlink Extensions to Tcl & Tk
+%A Terrett, D. L.
+%D 00/1999
+%J Starlink User Note 186
+
+---sep---
+
+%R 1995StaUN.187.....B
+%T SKYCAL -- Interactive almanac and calculator
+%A Bly, Martin J.
+%D 00/1995
+%J Starlink User Note 187
+
+---sep---
+
+%R 2010StaUN.188.....W
+%T Hypertext Cross-Reference Utilities
+%A Warren-Smith, R. F.; Draper, P. W.
+%D 00/2010
+%J Starlink User Note 188
+
+---sep---
+
+%R 1996StaUN.189.....C
+%T ISPELL -- Spelling Checker
+%A Clayton, Martin
+%D 00/1996
+%J Starlink User Note 189
+
+---sep---
+
+%R 2001StaUN.190.....D
+%T CURSA -- Catalogue and Table Manipulation Applications
+%A Davenhall, A. C.
+%D 00/2001
+%J Starlink User Note 190
+
+---sep---
+
+%R 2008StaUN.191.....B
+%T SAE -- Starlink Applications Environment special files
+%A Bly, M. J.; Draper, P. W.
+%D 00/2008
+%J Starlink User Note 191
+
+---sep---
+
+%R 1995StaUN.192.....R
+%T nu/TPU -- A DEC TPU compatible editor for UNIX
+%A Rehan, S. C.
+%D 00/1995
+%J Starlink User Note 192
+
+---sep---
+
+%R 2004StaUN.193.....B
+%T PERL -- Practical Extraction and Report Language
+%A Bly, Martin J.
+%D 00/2004
+%J Starlink User Note 193
+
+---sep---
+
+%R 2005StaUN.194.....M
+%T PDA -- Public Domain Algorithms
+%A Meyerdierks, H.; Berry, D. S.; Draper, P. W.; Privett, G.; Currie, M. J.
+%D 00/2005
+%J Starlink User Note 194
+
+---sep---
+
+%R 1995StaUN.195.....M
+%T NEWS -- Starlink Online Information System
+%A Mellor, G.
+%D 00/1995
+%J Starlink User Note 195
+
+---sep---
+
+%R 1995StaUN.196.....R
+%T tcsh -- C-Shell with enhancements
+%A Rehan, Subhash
+%D 00/1995
+%J Starlink User Note 196
+
+---sep---
+
+%R 1997StaUN.197.....B
+%T GHOSTSCRIPT -- Postscript Interpreter/previewer
+%A Bly, M. J.
+%D 00/1997
+%J Starlink User Note 197
+
+---sep---
+
+%R 2009StaUN.199.....D
+%T Star2HTML -- Converting Starlink Documents to Hypertext
+%A Draper, P. W.; Chipperfield, A. J.; Lawden, M. D.
+%D 00/2009
+%J Starlink User Note 199
+
+---sep---
+
+%R 2000StaUN.200.....B
+%T TCLSYS -- Tcl, Tk, incr Tcl and Expect: Tcl/Tk components and extensions
+%A Bly, M. J.
+%D 00/2000
+%J Starlink User Note 200
+
+---sep---
+
+%R 1995StaUN.201.....B
+%T LATEX2HTML -- LaTeX to HTML converter
+%A Bly, M. J.
+%D 00/1995
+%J Starlink User Note 201
+
+---sep---
+
+%R 1998StaUN.202.....B
+%T Starlink Subroutine Libraries -- A Guide for Program Development and Linking
+%A Bly, M. J.
+%D 00/1998
+%J Starlink User Note 202
+
+---sep---
+
+%R 1997StaUN.203.....B
+%T SX & DX -- IBM Data Explorer for Data Visulaisation
+%A Berry, D. S.; Privett, G. J.; Davenhall, A. C.
+%D 00/1997
+%J Starlink User Note 203
+
+---sep---
+
+%R 1996StaUN.204.....H
+%T POLMAP -- An interactive data analysis package for linear spectropolarimetry
+%A Harries, T. J.
+%D 00/1996
+%J Starlink User Note 204
+
+---sep---
+
+%R 1995StaUN.205.....R
+%T FORUM -- Starlink Conferencing Software
+%A Rawlinson, D. J.; Sherman, J. C.
+%D 00/1995
+%J Starlink User Note 205
+
+---sep---
+
+%R 1996StaUN.206.....D
+%T Portable CGS3DR -- CGS3 Data Reduction
+%A Daly, P. N.; Krisciunas, K.; Bridger, A.
+%D 00/1996
+%J Starlink User Note 206
+
+---sep---
+
+%R 1996StaUN.207.....P
+%T AIPS -- Astronomical Image Processing System
+%A Palmer, J. W.
+%D 00/1996
+%J Starlink User Note 207
+
+---sep---
+
+%R 1996StaUN.208.....M
+%T REPACK - Handle ROSAT Wide Field Camera survey data
+%A McGale, P.; West, Richard
+%D 00/1996
+%J Starlink User Note 208
+
+---sep---
+
+%R 2011StaUN.209.....A
+%T CNF and F77 -- Mixed Language Programming: Fortran and C
+%A Allan, P. M.; Chipperfield, A. J.; Warren-Smith, R. F.; Draper, P. W.; Berry, D. S.
+%D 00/2011
+%J Starlink User Note 209
+
+---sep---
+
+%R 2013StaUN.210.....W
+%T AST -- A Library for Handling World Coordinates Systems in Astronomy (Fortran Version)
+%A Warren-Smith, R. F.; Berry, D. S.
+%D 00/2013
+%J Starlink User Note 210
+
+---sep---
+
+%R 2013StaUN.211.....W
+%T AST -- A Library for Handling World Coordinates Systems in Astronomy (C Version)
+%A Warren-Smith, R. F.; Berry, D. S.
+%D 00/2013
+%J Starlink User Note 211
+
+---sep---
+
+%R 2003StaUN.212.....R
+%T Starlink Software CD-ROMs
+%A Rankin, S. E.; Bly, M. J.
+%D 00/2003
+%J Starlink User Note 212
+
+---sep---
+
+%R 2012StaUN.213.....P
+%T FLUXES -- JCMT Position and Flux Density Calibration
+%A Privett, G.; Jenness, T.; Matthews, H. E.; Barnard, V.
+%D 00/2012
+%J Starlink User Note 213
+
+---sep---
+
+%R 2012StaUN.214.....D
+%T GAIA -- Graphical Astronomy and Image Analysis Tool
+%A Draper, Peter, W.; Gray, Norman; Berry, David S.; Taylor, Mark
+%D 00/2012
+%J Starlink User Note 214
+
+---sep---
+
+%R 2003StaUN.216.....J
+%T SURF -- SCUBA User Reduction Facility
+%A Jenness, T.; Lightfoot, J. F.
+%D 00/2003
+%J Starlink User Note 216
+
+---sep---
+
+%R 1997StaUN.217.....C
+%T Running Starlink Applications from IRAF CL
+%A Chipperfield, A. J.
+%D 00/1997
+%J Starlink User Note 217
+
+---sep---
+
+%R 1997StaUN.218.....B
+%T JPEG -- The JPEG library and utilities
+%A Bly, M. J.
+%D 00/1997
+%J Starlink User Note 218
+
+---sep---
+
+%R 1997StaUN.219.....B
+%T The GWM Xdisplay Widget
+%A Bly, M. J.
+%D 00/1997
+%J Starlink User Note 219
+
+---sep---
+
+%R 1997StaUN.220.....C
+%T IRAFFIG -- Figaro for IRAF
+%A Chipperfield, A. J.
+%D 00/1997
+%J Starlink User Note 220
+
+---sep---
+
+%R 1997StaUN.221.....C
+%T KAPPA for IRAF
+%A Chipperfield, A. J.
+%D 00/1997
+%J Starlink User Note 221
+
+---sep---
+
+%R 1998StaUN.222.....J
+%T NDFPERL -- Perl interface to NDF
+%A Jenness, T.; Bly, M. J.
+%D 00/1998
+%J Starlink User Note 222
+
+---sep---
+
+%R 2012StaUN.223.....B
+%T POLPACK -- An Imaging Polarimetry Reduction Package
+%A Berry, D. S.; Gledhill, T. M.
+%D 00/2012
+%J Starlink User Note 223
+
+---sep---
+
+%R 2000StaUN.224.....C
+%T HDSPAR - HDS Parameter Routines
+%A Chipperfield, A. J.
+%D 00/2000
+%J Starlink User Note 224
+
+---sep---
+
+%R 1999StaUN.225.....T
+%T SCB -- Source Code Browser
+%A Taylor, M. B.
+%D 00/1999
+%J Starlink User Note 225
+
+---sep---
+
+%R 2009StaUN.226.....C
+%T EXTRACTOR -- An Astronomical Source Detection Program
+%A Chipperfield, A. J.; Draper, P. W.
+%D 00/2009
+%J Starlink User Note 226
+
+---sep---
+
+%R 2009StaUN.227.....R
+%T CFITSIO -- Disk FITS Input/Output Functions
+%A Rankin, S. E.; Bly, M. J.
+%D 00/2009
+%J Starlink User Note 227
+
+---sep---
+
+%R 2003StaUN.228.....J
+%T STARPERL -- Starlink Perl Modules
+%A Jenness, Tim; Economou, Frossie
+%D 00/2003
+%J Starlink User Note 228
+
+---sep---
+
+%R 1999StaUN.229.....J
+%T The Global Section Datafile (GSD) access library
+%A Jenness, Tim; Tilanus, Remo; Meyerdierks, Horst; Fairclough, Jon
+%D 00/1999
+%J Starlink User Note 229
+
+---sep---
+
+%R 2004StaUN.230.....E
+%T ORAC-DR: Overview and General Introduction
+%A Economou, Frossie; Jenness, Tim; Currie, Malcolm J.; Adamson, Andy; Allan, Alasdair; Cavanagh, Brad
+%D 00/2004
+%J Starlink User Note 230
+
+---sep---
+
+%R 2004StaUN.231.....J
+%T ORAC-DR -- SCUBA Pipeline Data Reduction
+%A Jenness, Tim; Economou, Frossie
+%D 00/2004
+%J Starlink User Note 231
+
+---sep---
+
+%R 2004StaUN.232.....C
+%T ORAC-DR -- imaging data reduction
+%A Currie, Malcolm J.; Cavanagh, Brad
+%D 00/2004
+%J Starlink User Note 232
+
+---sep---
+
+%R 2004StaUN.233.....J
+%T ORAC-DR -- Programmer's Guide
+%A Jenness, Tim; Economou, Frossie; Cavanagh, Brad
+%D 00/2004
+%J Starlink User Note 233
+
+---sep---
+
+%R 2011StaUN.234.....P
+%T ONE -- Odd and Ends Library
+%A Platon, R. T.; Jenness, T.
+%D 00/2011
+%J Starlink User Note 234
+
+---sep---
+
+%R 2002StaUN.235.....D
+%T NAOS -- finding NAOMI guid stars
+%A Davenhall, A. C.
+%D 00/2002
+%J Starlink User Note 235
+
+---sep---
+
+%R 2005StaUN.236.....H
+%T ORAC-DR -- spectroscopy data reduction
+%A Hirst, Paul; Cavanagh, Brad
+%D 00/2005
+%J Starlink User Note 236
+
+---sep---
+
+%R 2010StaUN.237.....A
+%T DATACUBE -- An IFS datacube manipulation package
+%A Allan, Alasdair; Currie, Malcolm J.
+%D 00/2010
+%J Starlink User Note 237
+
+---sep---
+
+%R 2011StaUN.238.....B
+%T KAPLIBS -- Internal subroutines used within the KAPPA package
+%A Berry, D. S.; Currie, Malcolm, J.
+%D 00/2011
+%J Starlink User Note 238
+
+---sep---
+
+%R 2001StaUN.239.....B
+%T KAPRH -- A home for retired KAPPA applications
+%A Berry, David S.
+%D 00/2001
+%J Starlink User Note 239
+
+---sep---
+
+%R 2001StaUN.240.....D
+%T FINDCOORDS -- Finding the Coordinates of a Named Object
+%A Davenhall, A. C.
+%D 00/2001
+%J Starlink User Note 240
+
+---sep---
+
+%R 2001StaUN.241.....K
+%T AMS -- The Unix ADAM Message System
+%A Kelly, B. D.; Chipperfield, A. J.
+%D 00/2001
+%J Starlink User Note 241
+
+---sep---
+
+%R 2006StaUN.242.....G
+%T Autoastrometry for Mosaics
+%A Gray, Norman; Cavanagh, Brad
+%D 00/2006
+%J Starlink User Note 242
+
+---sep---
+
+%R 2013StaUN.243.....D
+%T SPLAT-VO -- A VO-enabled Spectral Analysis Tool
+%A Draper, Peter W.;Taylor, Mark;Neves, Margarida Castro
+%D 00/2013
+%J Starlink User Note 243
+
+---sep---
+
+%R 2001StaUN.244.....T
+%T TREEVIEW -- Hierarchical data viewer
+%A Taylor, Mark
+%D 00/2001
+%J Starlink User Note 244
+
+---sep---
+
+%R 2002StaUN.245.....C
+%T HDSTOOLS -- Tools to Display and Edit HDS Objects
+%A Chipperfield, A. J.
+%D 00/2002
+%J Starlink User Note 245
+
+---sep---
+
+%R 2004StaUN.246.....T
+%T ORAC-DR -- integral field spectroscopy data reduction
+%A Todd, Stephen
+%D 00/2004
+%J Starlink User Note 246
+
+---sep---
+
+%R 2004StaUN.247.....D
+%T XRT -- ROSAT XRT Data Reduction
+%A Davenhall, A. C.; Platon, R. T.
+%D 00/2004
+%J Starlink User Note 247
+
+---sep---
+
+%R 2007StaUN.248.....G
+%T Building Starlink Software
+%A Gray, Norman; Ranking, Steve; Draper, Peter
+%D 00/2007
+%J Starlink User Note 248
+
+---sep---
+
+%R 2005StaUN.249.....T
+%T INT-WFC -- Astrometric Calibration for the INT Wide Field Camera
+%A Taylor, Mark
+%D 00/2005
+%J Starlink User Note 249
+
+---sep---
+
+%R 2004StaUN.251.....R
+%T Getting Started with the Starlink Java Infrastructure and Applications Set
+%A Rankin, S. E.
+%D 00/2004
+%J Starlink User Note 251
+
+---sep---
+
+%R 2013StaUN.252.....T
+%T STIL - Starlink Tables Infrastructure Library
+%A Taylor, Mark
+%D 00/2013
+%J Starlink User Note 252
+
+---sep---
+
+%R 2013StaUN.253.....T
+%T TOPCAT -- Tool for OPerations on Catalogues And Tables
+%A Taylor, Mark
+%D 00/2013
+%J Starlink User Note 253
+
+---sep---
+
+%R 2004StaUN.254.....A
+%T FROG -- A Time Series Analysis Package
+%A Allan, Alasdair
+%D 00/2004
+%J Starlink User Note 254
+
+---sep---
+
+%R 2013StaUN.255.....B
+%T CUPID -- A 3D Clump Identification and Analysis Package
+%A Berry, D. S.
+%D 00/2013
+%J Starlink User Note 255
+
+---sep---
+
+%R 2013StaUN.256.....T
+%T STILTS -- Starlink Tables Infrastructure Library Tool Set
+%A Taylor, Mark
+%D 00/2013
+%J Starlink User Note 256
+
+---sep---
+
+%R 2006StaUN.257.....B
+%T ATL -- A Library of AST Utility Routines
+%A Berry, D. S.
+%D 00/2006
+%J Starlink User Note 257
+
+---sep---
+
+%R 2013StaUN.258.....C
+%T SMURF -- the Sub-Millimetre User Reduction Facility
+%A Chapin, Edward; Gibb, Andrew G.; Jenness, Tim; Berry, David S.; Scott, Douglas; Tilanus, Remo P. J.
+%D 00/2013
+%J Starlink User Note 258
+
+---sep---
+
+%R 2008StaUN.259.....B
+%T GSD2ACSIS -- Programmer's Guide
+%A Balfour, Jen
+%D 00/2008
+%J Starlink User Note 259
+
+---sep---
+
+%R 2008StaUN.260.....C
+%T ORAC-DR -- ACSIS pipeline data reduction
+%A Cavanagh, Brad
+%D 00/2008
+%J Starlink User Note 260
+
+---sep---
+
+%R 2012StaUN.261.....B
+%T IRQ -- Handling of QUALITY in NDFs
+%A Berry, D. S.; Currie, Malcolm, J.
+%D 00/2012
+%J Starlink User Note 261
+
+---sep---
+
+%R 2009StaUN.262.....B
+%T CTG -- Accessing Groups of catalogues
+%A Berry, D. S.; Currie, Malcolm, J.
+%D 00/2009
+%J Starlink User Note 262
+
+---sep---
+
+%R 2009StaUN.263.....C
+%T LPG -- Loop processing of groups
+%A Currie, Malcolm J.; Berry, D. S.
+%D 00/2009
+%J Starlink User Note 263
+
+---sep---
+
+%R 2013StaUN.264.....G
+%T ORAC-DR -- SCUBA-2 Pipeline Data Reduction
+%A Gibb, Andrew G.; Jenness, Tim
+%D 00/2013
+%J Starlink User Note 264
+
+---sep---
+
+%R 2013StaUN.265.....G
+%T PICARD - A PIpeline for Combining and Analyzing Reduced Data
+%A Gibb, Andrew G.; Jenness, Tim; Economou, Frossie
+%D 00/2013
+%J Starlink User Note 265
+
+---sep---
+
+%R 2001StaUN.266.....B
+%T THR -- A Thread Management Library
+%A Berry, D. S.
+%D 00/2001
+%J Starlink User Note 266
+
+---sep---
+
+%R 2012StaUN.267.....J
+%T PAL -- Positional Astronomy Library
+%A Jenness, Tim
+%D 00/2012
+%J Starlink User Note 267
+
+---sep---
+
+%R 2013StaUN.268.....B
+%T CVG -- A Library of Format Conversion Utilities
+%A Berry, D. S.; Currie, M. J.
+%D 00/2013
+%J Starlink User Note 268
+
+---sep---
+
+%R 1990StaGP..31.....L
+%T THE STARLINK PROJECT
+%A Lawden, M. D.
+%D 00/1990
+%J Starlink General Paper 31
+
+---sep---
+
+%R 1989StaGP...1.....R
+%T Procedure for reporting bugs
+%A Rawlinson, D. J.
+%D 00/1989
+%J Starlink General Paper 1
+
+---sep---
+
+%R 1990StaGP...2.....W
+%T Starlink Software Support Responsibilities
+%A Wallace, P. T.
+%D 00/1990
+%J Starlink General Paper 2
+
+---sep---
+
+%R 1990StaGP...3.....A
+%T Network Futures
+%A Allan, P. M.
+%D 00/1990
+%J Starlink General Paper 3
+
+---sep---
+
+%R 1994StaGP...4.....C
+%T Starlink C Programming Standard
+%A Charles, Anne; Murray, Jo
+%D 00/1994
+%J Starlink General Paper 4
+
+---sep---
+
+%R 1991StaGP...5.....A
+%T CNF and F77 -- Mixed Language Programmin: Fortran and C
+%A Allan, P. M.
+%D 00/1991
+%J Starlink General Paper 5
+
+---sep---
+
+%R 1991StaGP...7.....W
+%T Unix and Starlink
+%A Wallace, P. T.
+%D 00/1991
+%J Starlink General Paper 7
+
+---sep---
+
+%R 1992StaGP...8.....B
+%T Starlink Local Management
+%A Bromage, G. E.
+%D 00/1992
+%J Starlink General Paper 8
+
+---sep---
+
+%R 1991StaGP...9.....L
+%T Starlink Software Survey -- 1991
+%A Lawden, M.D.
+%D 00/1991
+%J Starlink General Paper 9
+
+---sep---
+
+%R 1991StaGP..10.....J
+%T Theoretical Astrophysics Subroutine Library
+%A Jeffery, C. S.; Rees, P. C. T.
+%D 00/1991
+%J Starlink General Paper 10
+
+---sep---
+
+%R 1991StaGP..11.....C
+%T Starlink Software Submission for UNIX Systems
+%A Clayton, C. A.; Bly, M. J.
+%D 00/1991
+%J Starlink General Paper 11
+
+---sep---
+
+%R 1992StaGP..12.....T
+%T AVS as a GUI for ADAM
+%A Terrett, D. L.
+%D 00/1992
+%J Starlink General Paper 12
+
+---sep---
+
+%R 1987StaGP..13.....D
+%T Starlink Application Software Development
+%A Dickens, R. J.; Fosbury, R. A. E.; Wallace, P. T.; Lawden, M. D.
+%D 00/1987
+%J Starlink General Paper 13
+
+---sep---
+
+%R 1988StaGP..14.....B
+%T Starlink Special Interest Groups -- SIGs
+%A Bromage, G. E.
+%D 00/1988
+%J Starlink General Paper 14
+
+---sep---
+
+%R 1992StaGP..16.....W
+%T Starlink Application Programming Standard
+%A Wallace, P. T.
+%D 00/1992
+%J Starlink General Paper 16
+
+---sep---
+
+%R 1987StaGP..19.....L
+%T Starlink Software Submission
+%A Lawden, M. D.
+%D 00/1987
+%J Starlink General Paper 19
+
+---sep---
+
+%R 1990StaGP..20.....L
+%T Starlink Software Management
+%A Lawden, M. D.
+%D 00/1990
+%J Starlink General Paper 20
+
+---sep---
+
+%R 2000StaGP..21.....L
+%T Starlink Software Distribution Policy
+%A Lawden, M. D.; Bly, M. J.; Sherman, J. C.
+%D 00/2000
+%J Starlink General Paper 21
+
+---sep---
+
+%R 1997StaGP..25.....S
+%T Starlink Site Manager's Guide
+%A Sherman, J. C.; Roberts, A. V.; Clayton, C. A.; Lawden, M. D.; Bly, M. J; Currie, M. J.; Penny, A. J.; Rawlinson, D. J.
+%D 00/1997
+%J Starlink General Paper 25
+
+---sep---
+
+%R 1997StaGP..28.....L
+%T How to write good documents for Starlink
+%A Lawden, M. D.; Charles, A. C.; Terrett, D. L.
+%D 00/1997
+%J Starlink General Paper 28
+
+---sep---
+
+%R 1996StaGP..31.....L
+%T STARLINK
+%A Lawden, M. D.
+%D 00/1996
+%J Starlink General Paper 31
+
+---sep---
+
+%R 1986StaGP..33.....W
+%T Software Environment Review
+%A Wallace, P.T.
+%D 00/1986
+%J Starlink General Paper 33
+
+---sep---
+
+%R 1986StaGP..34.....L
+%T Starlink Questionnaire -- Distribution and Response
+%A Lawden, M.D.
+%D 00/1986
+%J Starlink General Paper 34
+
+---sep---
+
+%R 1986StaGP..35.....X
+%T Analysis of 1986 Questionnaire on the Future Direction of Starlink
+%A XXX
+%D 00/1986
+%J Starlink General Paper 35
+
+---sep---
+
+%R 1990StaGP..37.....L
+%T Starlink Site Manager's Guide -- Minor Nodes
+%A Lawden, M. D.; Sherman, J. C.
+%D 00/1990
+%J Starlink General Paper 37
+
+---sep---
+
+%R 2009StaGP..38.....C
+%T Starlink Standard Data Structures
+%A Currie, Malcolm J.; Wallace, P. T.; Warren-Smith, R. F.
+%D 00/2009
+%J Starlink General Paper 38
+
+---sep---
+
+%R 1987StaGP..39.....S
+%T Upgrades to Starlink Hardware and Software
+%A Sherman, J. C.
+%D 00/1987
+%J Starlink General Paper 39
+
+---sep---
+
+%R 1990StaGP..40.....S
+%T The Rolw of Wish-lists in Starlink's Purchasing
+%A Sherman, J. C.
+%D 00/1990
+%J Starlink General Paper 40
+
+---sep---
+
+%R 1994StaGP..41.....W
+%T Local Management Arrangements
+%A Wallace, P. T.
+%D 00/1994
+%J Starlink General Paper 41
+
+---sep---
+
+%R 1995StaGP..42.....W
+%T Starlink Software Strategy
+%A Warren-Smith, R. F.
+%D 00/1995
+%J Starlink General Paper 42
+
+---sep---
+
+%R 1995StaGP..44.....W
+%T Guidelines for Starlink Software Strategy Groups
+%A Warren-Smith, R. F.
+%D 00/1995
+%J Starlink General Paper 44
+
+---sep---
+
+%R 1995StaGP..45.....M
+%T ADAM Review Panel Report
+%A McIlwrath, B. K.
+%D 00/1995
+%J Starlink General Paper 45
+
+---sep---
+
+%R 1997StaGP..46.....W
+%T Starlink's Software Work During 1996
+%A Warren-Smih, R. F.
+%D 00/1997
+%J Starlink General Paper 46
+
+---sep---
+
+%R 1997StaGP..47.....C
+%T Computer Algebra Software
+%A Clayton, Martin
+%D 00/1997
+%J Starlink General Paper 47
+
+---sep---
+
+%R 1996StaGP..48.....W
+%T Starlink Software Priorities for 1996
+%A Warren-Smith, R. F.
+%D 00/1996
+%J Starlink General Paper 48
+
+---sep---
+
+%R 1996StaGP..49.....S
+%T Starlink's Support for PCs
+%A Sherman, J. C.; Clayton, C. A.
+%D 00/1996
+%J Starlink General Paper 49
+
+---sep---
+
+%R 1997StaGP..50.....L
+%T Starlink Document Styles
+%A Lawden, M. D.
+%D 00/1997
+%J Starlink General Paper 50
+
+---sep---
+
+%R 1997StaGP..51.....B
+%T Starlink Software Maintenance Procedures
+%A Bly, M. J.; Warren-Smith, R. F.
+%D 00/1997
+%J Starlink General Paper 51
+
+---sep---
+
+%R 1997StaGP..52.....B
+%T Plan for Starlink Software Distribution
+%A Bly, M. J.
+%D 00/1997
+%J Starlink General Paper 52
+
+---sep---
+
+%R 1988StarG...1.....B
+%T ASPIC
+%A Benn, C. R.
+%D 00/1988
+%J Starlink Guide 1
+
+---sep---
+
+%R 1993StarG...3.....R
+%T IUEDR -- Reference Manual
+%A Rees, Paul; Giddings, Jack; Mills, Dave
+%D 00/1993
+%J Starlink Guide 3
+
+---sep---
+
+%R 1992StarG...4.....L
+%T ADAM -- The Starlink Software Environment
+%A Lawden, M. D; Hartley, K. F.
+%D 00/1992
+%J Starlink Guide 4
+
+---sep---
+
+%R 1998StarG...5.....B
+%T ICL -- The Interactive Command Language for ADAM
+%A Bailey, J. A.
+%D 00/1998
+%J Starlink Guide 5
+
+---sep---
+
+%R 1994StarG...6.....W
+%T ADAM Programmer's Facilities & Documentation Guide
+%A Warren-Smith, R. F.
+%D 00/1994
+%J Starlink Guide 6
+
+---sep---
+
+%R 1996StarG...7.....T
+%T IUE Analysis -- A Tutorial
+%A Tweedy, R. W.; Clayton, Martin
+%D 00/1996
+%J Starlink Guide 7
+
+---sep---
+
+%R 1997StarG...8.....D
+%T An Introduction to Visualisation Software for Astronomy
+%A Davenhall, A. C.
+%D 00/1997
+%J Starlink Guide 8
+
+---sep---
+
+%R 1996StarG...9.....C
+%T Introduction to Echelle Spectroscopy
+%A Clayton, Martin
+%D 00/1996
+%J Starlink Guide 9
+
+---sep---
+
+%R 1998StarG..10.....P
+%T Software and WWW-Based Resources
+%A Privett, Grant
+%D 00/1998
+%J Starlink Guide 10
+
+---sep---
+
+%R 1999StarG..12.....M
+%T An Introduction to IRAF
+%A Morris, R.; Privett, G. J.; Davenhall, A. C.
+%D 00/1999
+%J Starlink Guide 12
+
+---sep---
+
+%R 1991StaSN...1.....A
+%T NOCBS -- Use of CBS mail on satellites
+%A Allan, P. M
+%D 00/1991
+%J Starlink System Note 1
+
+---sep---
+
+%R 1989StaSN...2.....B
+%T MSP -- Message System Primitive Routines
+%A Bailey, Jeremy
+%D 00/1989
+%J Starlink System Note 2
+
+---sep---
+
+%R 1989StaSN...3.....L
+%T The ECH Echelle Spectrograph Model Package
+%A Lupton, William
+%D 00/1989
+%J Starlink System Note 3
+
+---sep---
+
+%R 2008StaSN...4.....R
+%T EMS -- Error Message Service
+%A Rees, P. C. T.; Chipperfield, A. J.; Draper, P. W.
+%D 00/2008
+%J Starlink System Note 4
+
+---sep---
+
+%R 1990StaSN...5.....D
+%T APIG -- Installation Guide
+%A Davenhall, A. C.
+%D 00/1990
+%J Starlink System Note 5
+
+---sep---
+
+%R 1990StaSN...6.....C
+%T The Cipher M990 Tape drive
+%A Clayton, C. A.
+%D 00/1990
+%J Starlink System Note 6
+
+---sep---
+
+%R 1991StaSN...7.....C
+%T Administering Starlink Sun systems
+%A Clayton, C. A.
+%D 00/1991
+%J Starlink System Note 7
+
+---sep---
+
+%R 1991StaSN...8.....W
+%T Naming Conventions for Accessing Starlink Subroutine Libraries
+%A Warren-Smith, R. F.
+%D 00/1991
+%J Starlink System Note 8
+
+---sep---
+
+%R 1995StaSN...9.....B
+%T Installing the Unix Starlink Software
+%A Bly, M. J.
+%D 00/1995
+%J Starlink System Note 9
+
+---sep---
+
+%R 1992StaSN..10.....B
+%T GENSTAT 5 -- Installation Instructions
+%A Bly, Martin
+%D 00/1992
+%J Starlink System Note 10
+
+---sep---
+
+%R 1989StaSN..12.....T
+%T ARGSMAC - Programming the ARGS
+%A Terrett, D. L.
+%D 00/1989
+%J Starlink System Note 12
+
+---sep---
+
+%R 1992StaSN..13.....R
+%T COLDMON -- Cold File Analysis Package
+%A Rawlinson, D. J.
+%D 00/1992
+%J Starlink System Note 13
+
+---sep---
+
+%R 1992StaSN..14.....D
+%T Installing the CGS4DR V1.6-0 Software
+%A Daly, P. N.
+%D 00/1992
+%J Starlink System Note 14
+
+---sep---
+
+%R 1992StaSN..15.....B
+%T Starlink Software Installation -- VMS
+%A Bly, M. J.; Lawden, M. D.; Terrett, D. L.
+%D 00/1992
+%J Starlink System Note 15
+
+---sep---
+
+%R 1982StaSN..17.....X
+%T Communications Routes into Starlink
+%A XXXX
+%D 00/1982
+%J Starlink System Note 17
+
+---sep---
+
+%R 1994StaSN..18.....C
+%T Administering Solaris Sun systems
+%A Clayton, C. A.
+%D 00/1994
+%J Starlink System Note 18
+
+---sep---
+
+%R 1993StaSN..19.....R
+%T Software Requirements for the Move to Unix
+%A Rees, Paul
+%D 00/1993
+%J Starlink System Note 19
+
+---sep---
+
+%R 2000StaSN..20.....W
+%T Adding Format Conversion Facilities to the NDF Data Access Library
+%A Warren-Smith, R. F.; Berry, D. S.
+%D 00/2000
+%J Starlink System Note 20
+
+---sep---
+
+%R 1996StaSN..21.....B
+%T STARX -- X Library linking
+%A Bly, M. J.
+%D 00/1996
+%J Starlink System Note 21
+
+---sep---
+
+%R 1992StaSN..22.....W
+%T Coordinate Systems for Pixel Arrays
+%A Wallace, P. T.; Bly, M. J.
+%D 00/1992
+%J Starlink System Note 22
+
+---sep---
+
+%R 1997StaSN..23.....G
+%T Starlink Benchmarking Utility
+%A Gledhill, T. M.; Clayton, C. A.
+%D 00/1997
+%J Starlink System Note 23
+
+---sep---
+
+%R 1997StaSN..24.....C
+%T Notes for Site Managers about TeX and LaTeX
+%A Charles, Anne
+%D 00/1997
+%J Starlink System Note 24
+
+---sep---
+
+%R 1997StaSN..25.....D
+%T PERIOD -- Installation Notes
+%A Dhillon, V. S.; Privett, G. J.
+%D 00/1997
+%J Starlink System Note 25
+
+---sep---
+
+%R 1995StaSN..26.....C
+%T Configuring, monitoring and tuning SPARC/Solaris systems
+%A Clayton, C. A.
+%D 00/1995
+%J Starlink System Note 26
+
+---sep---
+
+%R 1995StaSN..27.....F
+%T Staradmin -- Starlink User Database Maintainer
+%A Fish, Adrian
+%D 00/1995
+%J Starlink System Note 27
+
+---sep---
+
+%R 2001StaSN..29.....C
+%T PCS -- The Parameter and Communication Subsystems
+%A Chipperfield, A. J.
+%D 00/2001
+%J Starlink System Note 29
+
+---sep---
+
+%R 1996StaSN..30.....G
+%T SYSTUNE -- Tools for SPARC/Solaris Performance Monitoring and Tuning
+%A Gledhill, T. M.
+%D 00/1996
+%J Starlink System Note 30
+
+---sep---
+
+%R 1995StaSN..31.....D
+%T A Starlink Guide to Cartridge Tape Subsystems
+%A Duffey, K. P.
+%D 00/1995
+%J Starlink System Note 31
+
+---sep---
+
+%R 1995StaSN..32.....M
+%T Custom Jumpstart Tutorial
+%A Mellor, Geoff
+%D 00/1995
+%J Starlink System Note 32
+
+---sep---
+
+%R 1995StaSN..33.....F
+%T Installing Starlink FORUM -- A Conferencing Facility on the World Wide Web
+%A Fish, Adrian
+%D 00/1995
+%J Starlink System Note 33
+
+---sep---
+
+%R 1986StaSN..34.....D
+%T CDS - Database Administrator's Guide
+%A Day, J. P.
+%D 00/1986
+%J Starlink System Note 34
+
+---sep---
+
+%R 1997StaSN..35.....C
+%T IRAFSTAR -- The IRAF/Starlink Inter-operability Infrastructure
+%A Chipperfield, A. J.; Terrett, D. L.
+%D 00/1997
+%J Starlink System Note 35
+
+---sep---
+
+%R 1996StaSN..36.....D
+%T XpressWare Installation User guide
+%A Duffey, K. P.
+%D 00/1996
+%J Starlink System Note 36
+
+---sep---
+
+%R 1996StaSN..37.....C
+%T Starlink Security
+%A Clayton, C. A.
+%D 00/1996
+%J Starlink System Note 37
+
+---sep---
+
+%R 1992StaSN..39.....T
+%T GKS -- Installation and Modification
+%A Terrett, D. L.
+%D 00/1992
+%J Starlink System Note 39
+
+---sep---
+
+%R 1992StaSN..40.....S
+%T Figaro Release Notes -- Standard and National Figaro 3.0-3
+%A Shortridge, K.; Meyerdierks, H.; Bridger, A.
+%D 00/1992
+%J Starlink System Note 40
+
+---sep---
+
+%R 1993StaSN..41.....L
+%T Starlink Software Changes
+%A Lawden, M. D.; Bly, M. J.
+%D 00/1993
+%J Starlink System Note 41
+
+---sep---
+
+%R 1994StaSN..44.....C
+%T ADAM -- Installation Guide
+%A Chipperfield, A. J.
+%D 00/1994
+%J Starlink System Note 44
+
+---sep---
+
+%R 1994StaSN..45.....C
+%T ADAM -- Release Notes
+%A Chipperfield, A. J.
+%D 00/1994
+%J Starlink System Note 45
+
+---sep---
+
+%R 1987StaSN..48.....A
+%T BACKUP -- Recovering from incremental tape backups
+%A Allan, P. M.
+%D 00/1987
+%J Starlink System Note 48
+
+---sep---
+
+%R 1989StaSN..50.....D
+%T NEWSMAINT -- News Maintenance Procedure
+%A Daly, P. N.
+%D 00/1989
+%J Starlink System Note 50
+
+---sep---
+
+%R 1988StaSN..51.....T
+%T VAXnotes
+%A Terrett, D. L.
+%D 00/1988
+%J Starlink System Note 51
+
+---sep---
+
+%R 1988StaSN..52.....L
+%T Clustering and Installing Satellite Nodes
+%A Lotts, A. P.
+%D 00/1988
+%J Starlink System Note 52
+
+---sep---
+
+%R 1989StaSN..53.....L
+%T UNIBUS and Q-BUS Configuration
+%A Lotts, A. P.
+%D 00/1989
+%J Starlink System Note 53
+
+---sep---
+
+%R 1988StaSN..56.....L
+%T Updating Starlink Software over a Network
+%A Lawden, M. D.
+%D 00/1988
+%J Starlink System Note 56
+
+---sep---
+
+%R 1988StaSN..60.....B
+%T ASPIC -- Release notes for EDRS and EDRSX
+%A Berry, D. S.
+%D 00/1988
+%J Starlink System Note 60
+
+---sep---
+
+%R 1989StaSN..63.....C
+%T PAD_AUDIT -- PAD Auditing Package
+%A Clayton, C. A.
+%D 00/1989
+%J Starlink System Note 63
+
+---sep---
+
+%R 2002StaSN..64.....C
+%T ADAM -- Organization of Application Packages
+%A Chipperfield, A. J.
+%D 00/2002
+%J Starlink System Note 64
+
+---sep---
+
+%R 1989StaSN..65.....H
+%T VSHC -- VAXstation VWS hardcopy
+%A Huckle, H. E.; Clayton, C. A.
+%D 00/1989
+%J Starlink System Note 65
+
+---sep---
+
+%R 1992StaSN..66.....T
+%T Starlink Software organization on UNIX
+%A Terrett, D. L.
+%D 00/1992
+%J Starlink System Note 66
+
+---sep---
+
+%R 1996StaSN..67.....R
+%T Unix Security Cookbook
+%A Rehan, S. C.
+%D 00/1996
+%J Starlink System Note 67
+
+---sep---
+
+%R 1997StaSN..68.....C
+%T IFD -- Interface Definition Files
+%A Chipperfield, A. J.
+%D 00/1997
+%J Starlink System Note 68
+
+---sep---
+
+%R 2001StaSN..70.....G
+%T The Starlink SGML Set
+%A Gray, Norman; Taylor, Mark
+%D 00/2001
+%J Starlink System Note 70
+
+---sep---
+
+%R 2005StaSN..71.....G
+%T Dvi2bitmap -- convert DVI files to bitmap images
+%A Gray, Norman
+%D 00/2005
+%J Starlink System Note 71
+
+---sep---
+
+%R 2000StaSN..72.....J
+%T SURF Programming Interface
+%A Jenness, Tim; Lightfoot, John F.
+%D 00/2000
+%J Starlink System Note 72
+
+---sep---
+
+%R 2001StaSN..73.....T
+%T EXTREME -- Handling extreme data sets
+%A Taylor, Mark
+%D 00/2001
+%J Starlink System Note 73
+
+---sep---
+
+%R 2000StaSN..75.....D
+%T Writing Catalogue and Image Servers for GAIA and CURSA
+%A Davenhall, A. C.
+%D 00/2000
+%J Starlink System Note 75
+
+---sep---
+
+%R 2001StaSN..76.....D
+%T CATREMOTE -- A Tool for Querying Remote Catalogues
+%A Davenhall, A. C.
+%D 00/2001
+%J Starlink System Note 76
+
+---sep---
+
+%R 2001StaSN..77.....C
+%T ADAM -- The Control Subsystem
+%A Chipperfield, A. J.
+%D 00/2001
+%J Starlink System Note 77
+
+---sep---
+
+%R 1989StaSN..27.....L
+%T HDS -- Hierarchical Data System
+%A Lupton, W. F.
+%D 00/1989
+%J Starlink System Note 27
+
+---sep---
+
+%R 1987StaSN..29.....L
+%T SSL -- Startup, Shutdown, Login files
+%A Lawden, M. D.
+%D 00/1987
+%J Starlink System Note 29
+
+---sep---
+
+%R 1990StaSN..33.....T
+%T Configuring Queues for Starlink Graphics
+%A Terrett, D. L.
+%D 00/1990
+%J Starlink System Note 33
+
+---sep---
+
+%R 1992StaSN..64.....C
+%T ADAM -- VAX Organization of Applications
+%A Chipperfield, A. J.
+%D 00/1992
+%J Starlink System Note 64
+
+---sep---
+
+%R 1995StarC...1.....M
+%T JCMTDR - Cookbook
+%A Meyerdierks, H.; Ward-Thompson, D.
+%D 00/1995
+%J Starlink Cookbook 1
+
+---sep---
+
+%R 1997StarC...2.....D
+%T The DX cookbook
+%A Davenhall, A. C.
+%D 00/1997
+%J Starlink Cookbook 2
+
+---sep---
+
+%R 2003StarC...3.....C
+%T Echelle Data Reduction Cookbook
+%A Clayton, Martin
+%D 00/2003
+%J Starlink Cookbook 3
+
+---sep---
+
+%R 2006StarC...4.....C
+%T C-Shell Cookbook
+%A Currie, Malcolm J.
+%D 00/2006
+%J Starlink Cookbook 4
+
+---sep---
+
+%R 2001StarC...5.....D
+%T The 2-d CCD Data Reduction Cookbook
+%A Davenhall, A. C.; Privett, G. J.; Taylor, M. B.
+%D 00/2001
+%J Starlink Cookbook 5
+
+---sep---
+
+%R 2001StarC...6.....P
+%T The CCD Photometric Calibration Cookbook
+%A Palmer, J.; Davenhall, A. C.
+%D 00/2001
+%J Starlink Cookbook 6
+
+---sep---
+
+%R 1998StarC...7.....C
+%T Simple Spectroscopy Reductions
+%A Clayton, Martin; Holloway, Anthony
+%D 00/1998
+%J Starlink Cookbook 7
+
+---sep---
+
+%R 1997StarC...8.....M
+%T Specx Cookbook - Reduction of millimetre-wave data
+%A Matthews, Henry E.; Jenness, Tim
+%D 00/1997
+%J Starlink Cookbook 8
+
+---sep---
+
+%R 1997StarC...9.....L
+%T LaTeX Cookbook
+%A Lawden, M. D.; Charles, Anne
+%D 00/1997
+%J Starlink Cookbook 9
+
+---sep---
+
+%R 1997StarC..10.....S
+%T The SCUBA photometry cookbook
+%A Stevens, J. A.; Ivison, R. J.; Jenness, T.
+%D 00/1997
+%J Starlink Cookbook 10
+
+---sep---
+
+%R 2001StarC..11.....S
+%T The SCUBA map reduction cookbook
+%A Sandell, G.; Jessop, N.; Jenness, T.
+%D 00/2001
+%J Starlink Cookbook 11
+
+---sep---
+
+%R 1997StarC..12.....L
+%T Writing your own data reduction software
+%A Lockley, Jon
+%D 00/1997
+%J Starlink Cookbook 12
+
+---sep---
+
+%R 2003StarC..13.....G
+%T Theory and Modelling Resources Cookbook
+%A Gray, Norman
+%D 00/2003
+%J Starlink Cookbook 13
+
+---sep---
+
+%R 1999StarC..14.....D
+%T The Fibre Spectroscopy Cookbook
+%A Davenhall, A. C.
+%D 00/1999
+%J Starlink Cookbook 14
+
+---sep---
+
+%R 2000StarC..15.....A
+%T The Graphics Cookbook
+%A Allan, A.; Terrett, D. L.
+%D 00/2000
+%J Starlink Cookbook 15
+
+---sep---
+
+%R 2008StarC..16.....A
+%T The IFU Data product cookbook
+%A Allan, A.; Currie, Malcolm, J.
+%D 00/2008
+%J Starlink Cookbook 16
+
+---sep---
+
+%R 2001StarC..17.....D
+%T The GAIA Cookbook
+%A Davenhall, A. C.; Draper, P. W.
+%D 00/2001
+%J Starlink Cookbook 17
+
+---sep---
+
+%R 2010StarC..19.....C
+%T The SCUBA-2 SRO data reduction cookbook
+%A Chapin, Edward; Dempsey, Jessica; Jenness, Tim; Scott, Douglas; Thomas, Holly; Tilanus, Remo P. J.
+%D 00/2010
+%J Starlink Cookbook 19
+
+---sep---
+
+%R 2014StarC..21.....T
+%T The SCUBA-2 Data Reduction Cookbook
+%A Thomas, Holly S.; Currie, Malcolm J.
+%D 00/2014
+%J Starlink Cookbook 21
+
+---sep---
+
