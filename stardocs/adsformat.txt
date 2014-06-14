@@ -24,6 +24,94 @@
 
 ---sep---
 
+%R 1984StaUN..27.....L
+%T ASPIC -- Image processing programs (3)
+%A Lawden, M. D.
+%D 00/1984
+%J Starlink User Note 27
+
+---sep---
+
+%R 1983StaUN..39.....D
+%T GALPHOT - Bright galaxy photometry
+%A Davenhall, A. C.
+%D 00/1983
+%J Starlink User Note 39
+
+---sep---
+
+%R 1984StaUN..40.....B
+%T EDRSX - An extension to the EDRS image processing package
+%A Berry, D. S.
+%D 00/1984
+%J Starlink User Note 40
+
+---sep---
+
+%R 1984StaUN..41.....D
+%T STARSIM - Generate simulate starfields
+%A Davenhall, A. C.
+%D 00/1984
+%J Starlink User Note 41
+
+---sep---
+
+%R 1984StaUN..42.....B
+%T 2D polarization programs
+%A Baines, D. W. T.
+%D 00/1984
+%J Starlink User Note 42
+
+---sep---
+
+%R 1984StaUN..43.....T
+%T IAM - Image Analysis
+%A Tudhope, D. S.; Kelly, B. D.; Davenhall, A. C.
+%D 00/1984
+%J Starlink User Note 43
+
+---sep---
+
+%R 1984StaUN..44.....T
+%T MODPIX - Picture Modification
+%A Tudhope, D. S.; Brownrigg, D. R. K.
+%D 00/1984
+%J Starlink User Note 44
+
+---sep---
+
+%R 1984StaUN..45.....T
+%T CALIB - Intensity calibration
+%A Tudhope, D. S.; Cooke, J. A.
+%D 00/1984
+%J Starlink User Note 45
+
+---sep---
+
+%R 1984StaUN..46.....T
+%T Modifying 2D tables of real numbers
+%A Tudhope, D. S.
+%D 00/1984
+%J Starlink User Note 46
+
+---sep---
+
+%R 1984StaUN..59.....W
+%T EDRS -- Electronography Data Reduction System
+%A Warren-Smith, R. F.
+%D 09/1984
+%J Starlink User Note 59
+
+---sep---
+
+%R 1985StaUN..63.....H
+%T PERIODS -- Analysing periodic phenomena
+%A Hartley, K. F.
+%D 00/1985
+%J Starlink User Note 63
+
+---sep---
+
 %R 1985StaUN..73.....Z
 %T UKIRTHELP -- A UKIRT help library
 %A Zealey, W.J.
@@ -595,6 +683,17 @@
    1982MNRAS.199...53F
    1981ApJS...45....1S
    1979ipia.coll..218L
+   1984StaUN..27.....L
+   1983StaUN..39.....D
+   1984StaUN..40.....B
+   1984StaUN..41.....D
+   1984StaUN..42.....B
+   1984StaUN..43.....T
+   1984StaUN..44.....T
+   1984StaUN..45.....T
+   1984StaUN..46.....T
+   1984StaUN..59.....W
+   1985StaUN..63.....H
 
 ---sep---
 
@@ -648,6 +747,7 @@
 %A Bly, M. J.
 %D 00/1991
 %J Starlink User Note 29
+%Z SUN/83
 
 ---sep---
 
@@ -656,6 +756,13 @@
 %A Giaretta, David
 %D 00/1989
 %J Starlink User Note 30
+%Z SUN/36
+   SUN/20
+   SUN/70
+   SUN/63
+   SUN/14
+   SUN/58
+   SUN/87
 
 ---sep---
 
@@ -664,14 +771,35 @@
 %A Warren-Smith, R. F.; Chipperfield, A. J.
 %D 00/1998
 %J Starlink User Note 31
+%B It is sometimes useful to use the Hierarchical Data System HDS
+   SUN/92 to store references or pointers
+   to other HDS objects. For instance, this allows the same data object to
+   be used in several places without the need to have more than one copy.
+   The REF library is provided to facilitate this data object
+   referencing process and the subsequent accessing of objects
+   which have been referenced in this way.
+%Z SG/4
+   SSN/4
+   SUN/104
+   SUN/92
 
 ---sep---
 
 %R 1989StaUN..32.....C
 %T CHART -- Finding chart and stellar data system
-%A Carey, J. V.; Hartley, K. F.; Allan, P. M.
+%A Carey, J. V.; Hartley, K. F.; Allan, P. M.; Currie, Malcolm J.
 %D 00/1989
 %J Starlink User Note 32
+%B The CHART package extracts positions, magnitudes and other data from certain
+   stellar and non-stellar astronomical catalogues.
+   The results may be listed on a terminal or printer, or used to plot finding
+   charts or perform astrometric reductions.
+%Z SUN/5
+   1975BICDS...8....2O
+   1974A&AS...15..215O
+   1981A&AS...43..259O
+   1978BICDS..14...32M
+   1980mlno.book.....D
 
 ---sep---
 
