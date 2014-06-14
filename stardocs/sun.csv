@@ -9,10 +9,21 @@ O15|Pearce, Dave; Pavelin, Cliff|1981|INTERIM
 O16||---|GKS/HIGR - HIST3D 3D Histograms
 O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
+O27|Lawden, M. D.|---|ASPIC -- Image processing programs (3)
 O27||---|Seems to be an NDPROGS document
 O29||---|Interrogating tape catalogues from CDS
 O33||---|SGS Graphics Library
+O39|Davenhall, A. C.|---|GALPHOT - Bright galaxy photometry
+O40|Berry, D. S.|---|EDRSX - An extension to the EDRS image processing package
+O41|Davenhall, A. C.|---|STARSIM - Generate simulate starfields
+O42|Baines, D. W. T.|---|2D polarization programs
+O43|Tudhope, D. S.; Kelly, B. D.; Davenhall, A. C.|---|IAM - Image Analysis
+O44|Tudhope, D. S.; Brownrigg, D. R. K.|---|MODPIX - Picture Modification
+O45|Tudhope, D. S.; Cooke, J. A.|---|CALIB - Intensity calibration
+O46|Tudhope, D. S.|---|Modifying 2D tables of real numbers
 O53||---|ASPIC --- Application Packages [cited in SUN/4 and SUN/23]
+O59|Warren-Smith, R. F.|---|EDRS -- Electronography Data Reduction System
+O63|Hartley, K. F.|---|PERIODS - Analysing periodic phenomena
 O65||---|SGS --- Reference Manual [cited in SUN/4]
 O73.1|Zealey, W.J.|1985|UKIRTHELP -- A UKIRT help library
 O75.1|Terrett ,D.L.|1985|Graphics on the Versatec and Printronix Printers
