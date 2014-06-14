@@ -12,7 +12,7 @@ O20||---|VLBI -- Very Long Baseline Interferometry reduction package
 O27||---|Seems to be an NDPROGS document
 O29||---|Interrogating tape catalogues from CDS
 O33||---|SGS Graphics Library
-O53||---|ASPIC --- Application Packages [cited in SUN/4]
+O53||---|ASPIC --- Application Packages [cited in SUN/4 and SUN/23]
 O65||---|SGS --- Reference Manual [cited in SUN/4]
 O73.1|Zealey, W.J.|1985|UKIRTHELP -- A UKIRT help library
 O75.1|Terrett ,D.L.|1985|Graphics on the Versatec and Printronix Printers
@@ -42,7 +42,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 20.4|Murray, M. J.; Stickland, D.J.|1993|ULDA/USSP -- Accessing the IUE Uniform Low-Dispersion Archive
 21.6|Lawden, M. D.|1989|TAPEIO -- Magnetic Tape Routines
 22.6|Penny, Alan J.; Martin, Bill L.|1996|FORMLOAD -- LaTeX Form Generator
-23.14|Lawden, M. D.; Berry, D. S.|1991|ASPIC -- Image Process programs (1)
+23.14|Lawden, M. D.; Berry, D. S.; King, Dave; Hartley, Ken|1991|ASPIC -- Image Process programs (1)
 24.2|Lawden, M. D.|1988|ASPIC -- Image processing programs (2)
 25.2|Black, S. E.; Lawden, M. D.|1990|LZCMP -- File compression
 26.2|Currie, Malcolm J.; Parker, Quentin A.|1993|CLUSTAN -- A Cluster-Analysis Package
