@@ -1,4 +1,8 @@
 number|authors|year|title
+
+# SUN/24 cites many old documents so those citations
+# should be added to SUN/24 entry if we come up with years
+
 O2||---|MAG
 O9|Giddings, J.|1981|STAK and TRAK IUE data reduction tasks
 O11||---|GKS 6.2
@@ -54,7 +58,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 21.6|Lawden, M. D.|1989|TAPEIO -- Magnetic Tape Routines
 22.6|Penny, Alan J.; Martin, Bill L.|1996|FORMLOAD -- LaTeX Form Generator
 23.14|Lawden, M. D.; Berry, D. S.; King, Dave; Hartley, Ken|1991|ASPIC -- Image Process programs (1)
-24.2|Lawden, M. D.|1988|ASPIC -- Image processing programs (2)
+24.2|Lawden, M. D.; Davenhall, A. C.; Berry, D. S.; Baines, D. W. T.; Tudhope, D. S.; Kelly, B. D.; Brownrigg, D. R. K.; Cooke, J. A.; Warren-Smith, R. F.; Hartley, K. F.|1988|ASPIC -- Image processing programs (2)
 25.2|Black, S. E.; Lawden, M. D.|1990|LZCMP -- File compression
 26.2|Currie, Malcolm J.; Parker, Quentin A.|1993|CLUSTAN -- A Cluster-Analysis Package
 27.5|Daly, P. N.; Beard, S. M.|1996|Portable-CGS4DR -- CGS4 Data Reduction

@@ -578,9 +578,23 @@
 
 %R 1988StaUN..24.....L
 %T ASPIC -- Image processing programs (2)
-%A Lawden, M. D.
+%A Lawden, M. D. ; Davenhall, A. C.; Berry, D. S.; Baines, D. W. T.; Tudhope, D. S.; Kelly, B. D.; Brownrigg, D. R. K.; Cooke, J. A.; Warren-Smith, R. F.; Hartley, K. F.
 %D 00/1988
 %J Starlink User Note 24
+%Z SUN/23
+   SUN/91
+   SUN/4
+   1979pkdg.conf..135B
+   1977ApJ...217..406K
+   1977AnTok..16..122O
+   1962IAUS...15....3D
+   1969A&A.....3..455M
+   1962AJ.....67..471K
+   1983MNRAS.203..917D
+   1975RvGSP..13..183U
+   1982MNRAS.199...53F
+   1981ApJS...45....1S
+   1979ipia.coll..218L
 
 ---sep---
 
@@ -597,6 +611,9 @@
 %A Currie, Malcolm J.; Parker, Quentin A.
 %D 00/1993
 %J Starlink User Note 26
+%Z 1973caa..book.....A
+   1985Msngr..41...22H
+   1987ASSL..131.....M
 
 ---sep---
 
@@ -605,6 +622,16 @@
 %A Daly, P. N.; Beard, S. M.
 %D 00/1996
 %J Starlink User Note 27
+%Z 1990SPIE.1235...25M
+   1991ApJ...381L...5C
+   1993SPIE.1946..547W
+   1993ASPC...52..219S
+   SG/4
+   1988PhDT........16P
+   1985A&A...151..399M
+   1995ASPC...77..375D
+   1994ttt..book.....O
+   SUN/186
 
 ---sep---
 
