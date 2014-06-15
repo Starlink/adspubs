@@ -808,6 +808,37 @@
 %A Warren-Smith, R. F.; Berry, D. S.
 %D 00/2012
 %J Starlink User Note 33
+%B The Extensible N-Dimensional Data Format (NDF) is a format for
+   storing bulk data in the form of N-dimensional arrays of numbers. It
+   is typically used for storing spectra, images and similar datasets
+   with higher dimensionality. The NDF format is based on the
+   Hierarchical Data System (HDS) (SUN/92) and is
+   extensible; not only does it provide a comprehensive set of standard
+   ancillary items to describe the data, it can also be extended
+   indefinitely to handle additional user-defined information of any
+   type.
+
+   This document describes the routines provided for accessing NDF data
+   objects. It also discusses all the important NDF concepts and includes
+   a selection of simple example applications.
+%Z SG/4
+   SG/5
+   SGP/38
+   SSN/20
+   SSN/4
+   SSN/78
+   SUN/101
+   SUN/104
+   SUN/11
+   SUN/115
+   SUN/143
+   SUN/144
+   SUN/209
+   SUN/210
+   SUN/211
+   SUN/39
+   SUN/7
+   SUN/92
 
 ---sep---
 
@@ -832,6 +863,8 @@
 %A Allan, P. M.; Terrett, D. L.
 %D 00/1990
 %J Starlink User Note 36
+%Z SUN/30
+   SUN/25
 
 ---sep---
 
@@ -840,6 +873,13 @@
 %A Giddings, Jack; Rees, Paul; Mills, Dave; Clayton, Martin
 %D 00/1996
 %J Starlink User Note 37
+%B IUEDR is a program that provides facilities for the reduction of IUE data.
+   It addresses the problem of working from the IUE Guest Observer tape or disk
+   file through to a calibrated spectrum that can be used in scientific analysis.
+   In this respect, it aims to be a "complete" system for IUE data reduction.
+%Z SG/3
+   SUN/50
+   SUN/83
 
 ---sep---
 
@@ -848,6 +888,7 @@
 %A Bly, M. J.; Allan, P. M.
 %D 00/1996
 %J Starlink User Note 38
+%Z SUN/188
 
 ---sep---
 
@@ -856,6 +897,15 @@
 %A Warren-Smith R. F.
 %D 00/1995
 %J Starlink User Note 39
+%B This document describes version 1.0 of the PRIMDAT package, which
+   is a collection of Fortran functions and subroutines providing support for
+   ``primitive data processing''.
+   Routines from this package may be used to perform arithmetic, mathematical
+   operations, type conversion and inter-comparison of any of the primitive
+   numerical data types supported by the Starlink Hierarchical Data System HDS.
+%Z SUN/92
+   SUN/7
+   SGP/38
 
 ---sep---
 
@@ -864,6 +914,17 @@
 %A Charles, A.C; Rees, P. C. T.; Chipperfield, A. J.; Jenness, T.
 %D 00/2005
 %J Starlink User Note 40
+%B This document describes the Character Handling Routine library, CHR,
+   and its use.
+   The CHR library augments the limited character handling facilities
+   provided by the Fortran 77 standard.
+   It offers a range of character handling facilities: from formatting
+   Fortran data types into text strings and the reverse, to higher level
+   functions such as wild card matching, string sorting, paragraph
+   reformatting and justification.
+   The library may be used simply for building text strings for interactive
+   applications or as a basis for more complex text processing applications.
+%Z SUN/104
 
 ---sep---
 
@@ -1229,7 +1290,7 @@
 
 %R 2004StaUN..86.....S
 %T FIGARO -- A general data reduction system
-%A Shortridge, Keith; Meyerdierks, Horst; Currie, Malcolm; Clayton, Chris;Lockley, Jon;Charles, Anne;Davenhall, Clive;Taylor, Mark; Ash, Tim; Wilkins, Tim; Axon, Dave;Palmer, John; Holloway, Anthony; Graffagnino, Vito
+%A Shortridge, Keith; Meyerdierks, Horst; Currie, Malcolm; Clayton, Chris;Lockley, Jon;Charles, Anne;Davenhall, Clive;Taylor, Mark; Ash, Tim; Wilkins, Tim; Axon, Dave;Palmer, John; Holloway, Anthony; Graffagnino, Vito; Bridger, Alan; Fuller, N. M.
 %D 00/2004
 %J Starlink User Note 86
 
