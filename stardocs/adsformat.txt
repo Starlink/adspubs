@@ -933,6 +933,18 @@
 %A Aspin, Colin; Emerson, J. P.; Currie, Malcolm J.; Economou, Frossie
 %D 00/1996
 %J Starlink User Note 41
+%B The IRCAM3 data reduction and analysis software package,
+   IRCAMDR (the old IRCAM CLRED updated to work under Unix
+   and renamed) will analyse and display any 2D data image with a .sdf
+   file extension stored in the standard Starlink NDF data format.
+
+   It reduces and analyses IRCAM1/2 data images of 62x58
+   pixels and IRCAM3 images of 256x256 size.  Almost all the
+   applications (with the exception of med3d) will work on NDF
+   images of any physical (pixel) dimensions, for example,
+   1024x1024 CCD images can be processed (med3d median
+   filters stacks of images up to 256x256 in size at present).
+%Z SUN/95
 
 ---sep---
 
@@ -941,6 +953,15 @@
 %A Eaton, Nicholas; Privett, Grant
 %D 00/1996
 %J Starlink User Note 42
+%B DAOPHOT is a stellar photometry package designed by Peter Stetson at DAO to deal
+   with crowded fields. The package performs various tasks including
+   finding objects, aperture photometry, obtaining the point-spread function, and
+   profile-fitting photometry. Profile fitting in crowded regions is performed
+   iteratively, which improves the accuracy of the photometry.
+%Z SUN/33
+   SUN/95
+   SUN/48
+   1987PASP...99..191S
 
 ---sep---
 
@@ -957,6 +978,8 @@
 %A Clayton, C. A.
 %D 00/1988
 %J Starlink User Note 44
+%B This Starlink User Note has been produced in order to provide a basic
+   guide to the use of the VAXnotes conferencing facility.
 
 ---sep---
 
