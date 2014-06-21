@@ -438,6 +438,7 @@
    SUN/98
    SUN/39
    SUN/114
+   SUN/94
 
 ---sep---
 
@@ -870,7 +871,7 @@
 
 %R 1996StaUN..37.....G
 %T IUEDR -- IUE Data Reduction Package
-%A Giddings, Jack; Rees, Paul; Mills, Dave; Clayton, Martin
+%A Giddings, Jack; Rees, Paul; Mills, Dave; Clayton, Martin; Hook, R.N.
 %D 00/1996
 %J Starlink User Note 37
 %B IUEDR is a program that provides facilities for the reduction of IUE data.
@@ -1237,6 +1238,7 @@
    SUN/92
    SGP/38
    SUN/39
+   SUN/94
 
 ---sep---
 
@@ -1649,6 +1651,10 @@
 %A Wallace, P. T.; Broderick, A. J. J.
 %D 00/2000
 %J Starlink User Note 87
+%B The JPL library and data sets provide high-accuracy predictions for
+   the positions and velocities of the Sun and planets.
+%Z SUN/67
+   1992esta.book.....S
 
 ---sep---
 
@@ -1657,6 +1663,12 @@
 %A Rees, P. C. T.; Bly, M. J.; Terrett, D. L.
 %D 00/1999
 %J Starlink User Note 88
+%Z SUN/15
+   SUN/90
+   SUN/85
+   SUN/83
+   SUN/57
+   SUN/144
 
 ---sep---
 
@@ -1665,6 +1677,9 @@
 %A Straede, J.
 %D 00/1986
 %J Starlink User Note 89
+%B Program APLATE is an SGS version of a program developed at the AAT  to
+   compute  required hole positions for a fibre optics aperture plate for
+   the AAT.
 
 ---sep---
 
@@ -1673,6 +1688,13 @@
 %A Rees, P. C. T.; Bly, M. J.; Wallace, P. T.
 %D 00/1995
 %J Starlink User Note 90
+%Z SUN/88
+   SUN/85
+   SUN/15
+   SUN/118
+   SGP/16
+   SUN/83
+   SUN/144
 
 ---sep---
 
@@ -1681,6 +1703,11 @@
 %A Parsons, D. C.; Richards, P. J.; Giaretta, D. L.; Stewart, B.
 %D 00/1989
 %J Starlink User Note 91
+%B This guide describes the IRAS Calibrated Raw Detector Data, how to access the
+   data, and the programs available to process it and examine the results.
+%Z SUN/95
+   SUN/23
+   SUN/96
 
 ---sep---
 
@@ -1689,6 +1716,34 @@
 %A Warren-Smith, R. F.; Lawden, M. D.; McIlwrath, B. K; Jenness, T.; Draper, P. W., Peden, J. C. M.
 %D 00/2008
 %J Starlink User Note 92
+%B HDS is a file-based hierarchical data system designed for the storage
+   of a wide variety of information. It is particularly suited to the
+   storage of large multi-dimensional arrays (with their ancillary data)
+   where efficient access is needed.
+
+   HDS organises data into hierarchies, broadly
+   similar to the directory structure of a hierarchical filing system,
+   but contained within a single HDS container file. The structures
+   stored in these files are self-describing and flexible; HDS supports
+   modification and extension of structures previously created, as well
+   as deletion, copying, renaming, etc.
+
+   All information stored in HDS files is portable between the machines
+   on which HDS is implemented. Thus, there are no format conversion
+   problems when moving between machines.
+
+   The routines described in this document
+   may be used to perform operations on any HDS data. In addition, HDS
+   forms a toolkit for the construction of higher level (more
+   specialised) data structures and the software which accesses them.
+   HDS routines are therefore invoked indirectly by many other items of
+   Starlink software.
+%Z SG/4
+   SSN/20
+   SSN/4
+   SUN/104
+   SUN/209
+   SUN/92
 
 ---sep---
 
@@ -1697,6 +1752,7 @@
 %A Murray, Jo; Charles, Anne
 %D 00/1995
 %J Starlink User Note 93
+%Z SUN/9
 
 ---sep---
 
@@ -1713,6 +1769,77 @@
 %A Currie, Malcolm J.; Berry, David. S.
 %D 00/2013
 %J Starlink User Note 95
+%B KAPPA is an applications package comprising about 180
+   general-purpose commands for image processing, data visualisation, and
+   manipulation of the standard Starlink data format---the NDF.  It is
+   intended to work in conjunction with Starlink's various specialised
+   packages.
+
+   In addition to the NDF, KAPPA can also process data in
+   other formats by using the `on-the-fly' conversion scheme.  Many
+   commands can process data arrays of arbitrary dimension, and others
+   work on both spectra and images. KAPPA operates from
+   both the UNIX C-shell and the ICL command language.
+
+   This document describes how to use KAPPA and its
+   features.  There is some description of techniques too, including a
+   section on writing scripts.  This document includes several tutorials
+   and is illustrated with numerous examples.  The bulk of this document
+   comprises detailed descriptions of each command as well as classified
+   and alphabetical summaries.
+%Z SC/4
+   SG/5
+   SGP/38
+   SIN/117
+   SSN/20
+   SSN/64
+   SUN/101
+   SUN/102
+   SUN/109
+   SUN/11
+   SUN/115
+   SUN/117
+   SUN/124
+   SUN/129
+   SUN/130
+   SUN/132
+   SUN/137
+   SUN/139
+   SUN/141
+   SUN/144
+   SUN/150
+   SUN/152
+   SUN/16
+   SUN/163
+   SUN/164
+   SUN/177
+   SUN/180
+   SUN/183
+   SUN/188
+   SUN/190
+   SUN/194
+   SUN/210
+   SUN/211
+   SUN/214
+   SUN/223
+   SUN/226
+   SUN/238
+   SUN/239
+   SUN/243
+   SUN/255
+   SUN/27
+   SUN/33
+   SUN/39
+   SUN/45
+   SUN/48
+   SUN/5
+   SUN/55
+   SUN/57
+   SUN/61
+   SUN/66
+   SUN/86
+   SUN/92
+   SUN/98
 
 ---sep---
 
