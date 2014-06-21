@@ -988,6 +988,22 @@
 %A Eaton, Nicholas; Draper, Peter W.; Allan, Alasdair
 %D 00/2009
 %J Starlink User Note 45
+%B PHOTOM is a package for measuring the sky corrected
+   magnitudes and fluxes of astronomical objects, within circular and
+   elliptical apertures, using either the aperture or optimal extraction
+   algorithms.
+%Z SUN/214
+   SC/6
+   SUN/145
+   1998MNRAS.296..339N
+   SG/5
+   SG/4
+   SUN/33
+   SUN/55
+   SUN/183
+   SUN/130
+   SUN/95
+   SUN/102
 
 ---sep---
 
@@ -996,6 +1012,8 @@
 %A Prestage, Richard M.
 %D 00/1988
 %J Starlink User Note 46
+%Z 1979A&A....76...92E
+   1974A&AS...15..333H
 
 ---sep---
 
@@ -1004,6 +1022,7 @@
 %A Terrett, D. L.
 %D 00/1989
 %J Starlink User Note 47
+%Z SUN/68
 
 ---sep---
 
@@ -1012,6 +1031,16 @@
 %A Eaton, Nicholas; McIlwrath, Brian
 %D 00/2013
 %J Starlink User Note 48
+%Z SUN/85
+   SUN/15
+   SUN/65
+   SUN/57
+   SUN/92
+   SUN/31
+   SUN/61
+   SUN/113
+   SUN/164
+
 
 ---sep---
 
@@ -1028,6 +1057,16 @@
 %A Howarth, I. D.; Murray, J.; Mills, D.; Berry, D. S.
 %D 00/2004
 %J Starlink User Note 50
+%Z SUN/33
+   SUN/83
+   SUN/90
+   SUN/190
+   SUN/37
+   SUN/20
+   1986MNRAS.222..809H
+   1988ApJS...66..209B
+   ESA IUE Newsletter No.26, p.65, 1986
+   1982ApJ...263..835S
 
 ---sep---
 
@@ -1036,6 +1075,12 @@
 %A Clayton, C. A.
 %D 00/1988
 %J Starlink User Note 51
+%B The purpose of this note is to inform users how to correctly format
+   and submit NEWS items for distribution around Starlink. An incorrectly
+   formatted item can appear garbled when inserted into the
+   NEWS library. At the very least, system managers around Starlink
+   will have to waste time reformatting these items before
+   they can be used.
 
 ---sep---
 
@@ -1052,6 +1097,10 @@
 %A Fisher, Marion; Lupton, William; Charles, Anne
 %D 00/1996
 %J Starlink User Note 53
+%B ECHWIND is used to assist in the planning of observations with either the
+   Utrecht Echelle Spectrograph (UES) or the UCL coude echelle spectrograph
+   (UCLES). It can be run at your home institution, when preparing an observing
+   proposal, or before or during an observing run.
 
 ---sep---
 
@@ -1060,6 +1109,8 @@
 %A Lawden, M. D.
 %D 00/1990
 %J Starlink User Note 54
+%B The GENSTAT system is designed for routine and exploratory statistical data
+   analysis.
 
 ---sep---
 
@@ -1068,6 +1119,38 @@
 %A Currie, Malcolm J.;Privett, G. J.;Berry, D. S.;Davenhall, A. C.
 %D 00/2013
 %J Starlink User Note 55
+%B The CONVERT package contains utilities for converting data files
+   between Starlink's Extensible N-dimensional Data Format (NDF)
+   which is used by most Starlink applications, and a number of other common
+   data formats.
+
+   Using these utilities, astronomers can process their data selecting the best
+   applications from a variety of Starlink or other packages.
+
+   Most of the CONVERT utilities may be run from the shell or ICL in
+   the normal way, or invoked automatically by the NDF library's `on-the-fly'
+   data-conversion system, but there are also IDL
+   procedures for handling NDFs from within IDL.
+%Z SUN/33
+   SUN/86
+   SUN/92
+   SG/5
+   SUN/95
+   SUN/238
+   SUN/140
+   SG/4
+   SUN/150
+   SUN/188
+   SSN/20
+   SUN/98
+   SUN/210
+   SUN/190
+   SGP/38
+   SUN/67
+   SUN/17
+   SC/2
+   SUN/203
+   SUN/2
 
 ---sep---
 
