@@ -1856,6 +1856,7 @@
 %A Lawden, M. D.
 %D 00/1987
 %J Starlink User Note 97
+%Z SUN/70
 
 ---sep---
 
@@ -1864,6 +1865,10 @@
 %A Allan, D. J.; Vallance, R. J.; Saxton, R. D.
 %D 00/1995
 %J Starlink User Note 98
+%Z SUN/183
+   SUN/57
+   SUN/92
+   SUN/62
 
 ---sep---
 
@@ -1872,6 +1877,8 @@
 %A Beard, S. M.
 %D 00/1991
 %J Starlink User Note 99
+%Z SUN/7
+   SUN/8
 
 ---sep---
 
@@ -1880,6 +1887,12 @@
 %A Wallace, P. T.
 %D 00/1994
 %J Starlink User Note 100
+%B TPOINT is an interactive telescope pointing analysis system.  It
+   allows data from pointing tests to be input and fitted to various
+   models.  The residuals from the fits can be displayed in a
+   variety of graphical formats.  If systematic errors are visible,
+   the pointing model can be adjusted by adding and removing terms.
+%Z SUN/57
 
 ---sep---
 
@@ -1888,6 +1901,29 @@
 %A Murray, Jo
 %D 00/1991
 %J Starlink User Note 101
+%B This document is a tutorial in the art
+   of ADAM programming.  ADAM is the Starlink Software Environment.
+%Z SG/4
+   SGP/16
+   SGP/38
+   SUN/104
+   SUN/105
+   SUN/110
+   SUN/114
+   SUN/115
+   SUN/12
+   SUN/15
+   SUN/33
+   SUN/39
+   SUN/40
+   SUN/48
+   SUN/55
+   SUN/65
+   SUN/67
+   SUN/7
+   SUN/90
+   SUN/92
+   SUN/95
 
 ---sep---
 
@@ -1896,6 +1932,11 @@
 %A Currie, Malcolm J.
 %D 00/1993
 %J Starlink User Note 102
+%Z SUN/92
+   SG/4
+   SUN/115
+   SUN/144
+   SGP/38
 
 ---sep---
 
@@ -1912,6 +1953,22 @@
 %A Rees, P. C. T; Chipperfield, A. J.; Jenness, T.
 %D 00/2009
 %J Starlink User Note 104
+%B This document describes two C subroutine libraries, MSG and ERR, which
+   can be used to provide informational text to the user from any application
+   program. It also describes the Fortran interface for the two libraries.
+
+   The Message Reporting System, MSG, is used for reporting non-error information
+   and the Error Reporting System, ERR, is used specifically for reporting error
+   messages. The conventions for reporting errors from Starlink software are also
+   discussed in detail.
+
+   This document is recommended reading for anyone writing applications
+   software for use on Starlink.
+%Z SG/4
+   SGP/16
+   SSN/4
+   SUN/185
+   SUN/40
 
 ---sep---
 
@@ -1920,6 +1977,34 @@
 %A Warren-Smith, R. F.
 %D 00/1991
 %J Starlink User Note 105
+%B STARLSE is a ``Starlink Sensitive'' editor based on the VAX
+   Language Sensitive Editor (LSE). It exploits the extensibility of
+   LSE to provide additional features which assist in the writing of
+   portable Fortran 77 software with a standard Starlink style.
+
+   STARLSE is intended mainly for use by those writing ADAM
+   applications and subroutine libraries for distribution as part of the Starlink
+   Software Collection, although it may also be suitable for other software
+   projects. It is designed to integrate with the SST (Simple Software Tools)
+   package.
+%Z SUN/110
+   SUN/48
+   SUN/11
+   SUN/40
+   SSN/4
+   SUN/104
+   SUN/83
+   SUN/130
+   SUN/92
+   SUN/65
+   SUN/33
+   SUN/15
+   SUN/39
+   SUN/121
+   SUN/85
+   SUN/67
+   SUN/61
+   SUN/7
 
 ---sep---
 
@@ -1928,6 +2013,7 @@
 %A Wood, A. R.
 %D 00/1990
 %J Starlink User Note 106
+%Z SUN/70
 
 ---sep---
 
@@ -1936,6 +2022,12 @@
 %A Bly, M. J.
 %D 00/1998
 %J Starlink User Note 107
+%B MAPLE is a commercial software package for symbolic mathematical
+   calculation developed by the Symbolic Computation Group at the
+   University of Waterloo.  Starlink has a licence to run MAPLE on the
+   central Unix service at RAL. MAPLE has facilities for symbolic algebra
+   mathematical manipulation and provides a powerful facility for solving
+   many types of mathematical problem.
 
 ---sep---
 
