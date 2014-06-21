@@ -471,6 +471,7 @@
    SUN/15
    1994ldps.book.....L
    1984texb.book.....K
+   1988StaUN..77.....L
 
 ---sep---
 
@@ -2044,6 +2045,20 @@
 %A Draper, Peter W.; Eaton, Nicholas
 %D 00/2002
 %J Starlink User Note 109
+%Z SG/4
+   SG/5
+   SUN/120
+   SUN/137
+   SUN/139
+   SUN/15
+   SUN/180
+   SUN/183
+   SUN/190
+   SUN/42
+   SUN/45
+   SUN/48
+   SUN/95
+   1985MNRAS.214..575I
 
 ---sep---
 
@@ -2052,6 +2067,13 @@
 %A Warren-Smith, R. F.
 %D 00/1990
 %J Starlink User Note 110
+%B The Simple Software Tools package (SST) is a package of applications
+   designed to help with the production of software and documentation, with
+   particular emphasis on ADAM programming using Fortran 77.
+%Z SUN/105
+   SUN/9
+   SUN/12
+   SUN/34
 
 ---sep---
 
@@ -2060,6 +2082,10 @@
 %A Terrett, D. L.; Allan, P. M.
 %D 00/1993
 %J Starlink User Note 111
+%B SPT is an inhomogeneous set of
+   software tools designed to assist in the
+   conversion of code from one operating system to another (principally from
+   VMS to UNIX and vice-versa, and between different flavours of UNIX).
 
 ---sep---
 
@@ -2076,6 +2102,19 @@
 %A Allan, P. M.; Chipperfield, A. J.;Terrett, D. L.
 %D 00/1995
 %J Starlink User Note 113
+%B This guide outlines the options available to a programmer writing an ADAM
+   applications program who wishes to incorporate graphics into the program and
+   describes the routines that handle the necessary interaction with the ADAM
+   parameter system when a graphics device is opened for a GKS based graphics
+   package.
+%Z SUN/15
+   SUN/48
+   SUN/88
+   SUN/90
+   SUN/85
+   SUN/65
+   SUN/57
+   SUN/104
 
 ---sep---
 
@@ -2084,6 +2123,23 @@
 %A Currie, Malcolm J.; Chipperfield, Alan J.
 %D 00/1999
 %J Starlink User Note 114
+%B PAR is a library of Fortran subroutines that
+   provides convenient mechanisms for applications to exchange information with
+   the outside world, through input-output channels called parameters.
+   Parameters enable a user to control an application's behaviour.  PAR supports numeric,
+   character, and logical parameters, and is currently implemented
+   only on top of the ADAM parameter system.
+
+   The PAR library permits parameter values to be obtained, without or with
+   a variety of constraints.  Results may be put into parameters to
+   be passed onto other applications.  Other facilities include setting a prompt
+   string, and suggested defaults.
+
+   This document also introduces a preliminary C interface for the PAR library
+   -- this may be subject to change in the light of experience.
+%Z SUN/115
+   SUN/104
+   SUN/39
 
 ---sep---
 
@@ -2092,6 +2148,19 @@
 %A Chipperfield, A. J.; Kelly, B. D.; Wright, S. L.
 %D 00/2002
 %J Starlink User Note 115
+%B ADAM Interface Modules provide an interface between ADAM application programs
+   and the rest of the system.
+
+   This document describes in detail the facilities available with ADAM Interface
+   Modules and the rules for using them. It is intended as a reference manual and
+   should shed light on some of the finer points of the ADAM parameter system.
+   Readers requiring an introduction to Interface Modules should read SG/4.
+%Z SG/4
+   SUN/134
+   SUN/92
+   SG/5
+   SUN/104
+   SUN/124
 
 ---sep---
 
@@ -2100,14 +2169,29 @@
 %A Berry, D. S.
 %D 00/1992
 %J Starlink User Note 116
+%B The MEMCRDD program maps destriped IRAS CRDD (Calibrated Reconstructed Detector
+   Data) into a ``high resolution'' two dimensional image of the sky using a
+   Maximum Entropy Method (MEM) algorithm.
+%Z 1986ARA&A..24..127N
+   SUN/91
+   SUN/4
+   SUN/95
 
 ---sep---
 
 %R 1993StaUN.117.....B
-%T MEMSYS -- A Maximum Entrop image reconstruction package
+%T MEMSYS -- A Maximum Entropy image reconstruction package
 %A Berry, D. S.
 %D 00/1993
 %J Starlink User Note 117
+%B This document gives an introduction to the ``MEMSYS3'' and ``MEMSYS5'' packages
+   of Fortran subroutines produced by Maximum Entropy Data Consultants (MEDC)
+   Ltd. They are designed to find and use maximum entropy reconstructions of
+   images, power spectra, and other such additive distributions from arbitrary sets
+   of data. It should be read in conjunction with the MEMSYS manuals produced by
+   MEDC Ltd.
+%Z 1986ARA&A..24..127N
+   1989mebm.conf.....S
 
 ---sep---
 
@@ -2116,6 +2200,56 @@
 %A Bly, Martin
 %D 00/1992
 %J Starlink User Note 118
+%B This note describes how to use the Starlink software items that have been
+   implemented on Sun SPARC running SunOS and DEC DECstations running
+   ULTRIX.  It is intended as a supplement to the existing Starlink user notes
+   describing these packages and information found in those documents (which may
+   include information about using the package on Unix) is not duplicated here.
+%Z SUN/139
+   SUN/42
+   SUN/95
+   SUN/144
+   SUN/45
+   SUN/109
+   SUN/140
+   SUN/100
+   SG/4
+   SUN/48
+   SUN/11
+   SUN/40
+   SSN/4
+   SUN/104
+   SUN/143
+   SUN/83
+   SUN/57
+   SUN/150
+   SUN/130
+   SUN/92
+   SUN/124
+   SUN/65
+   SUN/28
+   SUN/88
+   SUN/33
+   SUN/15
+   SUN/39
+   SUN/121
+   SUN/31
+   SUN/85
+   SUN/67
+   SUN/90
+   SUN/61
+   SUN/5
+   SUN/13
+   SUN/56
+   SUN/34
+   SUN/124
+   SUN/51
+   SUN/111
+   SUN/9
+   SUN/151
+   SUN/129
+   SUN/139
+   1988StaUN..77.....L
 
 ---sep---
 
@@ -2124,6 +2258,13 @@
 %A Wood, A. R.
 %D 00/1992
 %J Starlink User Note 119
+%B The CHI (Catalogue Handling Interface) and CHP (Catalogue Handling Plus)
+   routines provide access to the STARLINK database systems.
+   Applications written using the CHI and CHP routines will
+   run on the current STARLINK database (ADC) and any future STARLINK database
+   systems.
+%Z SUN/120
+   SUN/67
 
 ---sep---
 
@@ -2132,6 +2273,11 @@
 %A Wood, A. R.
 %D 00/1994
 %J Starlink User Note 120
+%B CATPAC is the STARLINK Catalogue and Table Package. This document
+   describes the CATPAC applications available on UNIX. These  include
+   applications for inputing, processing and reporting tabular data
+   including astronomical catalogues.
+%Z SUN/67
 
 ---sep---
 
@@ -2140,6 +2286,15 @@
 %A Allan, P. M.; Chipperfield, A. J.; Jenness, T.; Berry, David, S.
 %D 00/2007
 %J Starlink User Note 121
+%B PSX is a FORTRAN subroutine library that allows programmers to use the
+   functionality provided by the POSIX and X/OPEN libraries. The use of this
+   library will enable programmers to make use of operating system facilities in a
+   machine independent way.
+%Z SSN/4
+   SGP/16
+   SUN/104
+   SUN/209
+   SUN/39
 
 ---sep---
 
@@ -2148,6 +2303,14 @@
 %A Clayton, C. A.
 %D 00/1991
 %J Starlink User Note 122
+%B It is possible to produce a colour print on the DEC LJ250 inkjet printer of
+   either the entire screen or a portion of the screen from VAXstations,
+   DECstations, SUN workstations and the IKON image display.  This document
+   describes how to achieve this with each of the above workstations. The
+   IKONPAINT software which is used to produce colour hard-copy from the IKON
+   screen on the inkjet printer is fully documented in SUN/71 and is not described
+   here.
+%Z SUN/71
 
 ---sep---
 
@@ -2156,6 +2319,14 @@
 %A Wallace, P. T.
 %D 00/1995
 %J Starlink User Note 124
+%B The Starlink HLP system
+   allows an application program to retrieve named items from
+   a hierarchically-arranged library of text.
+   The facility resembles VAX/VMS HELP.  It consists
+   of a library plus utility programs for creating, listing and reading help
+   libraries.
+%Z SUN/118
+   SGP/16
 
 ---sep---
 
@@ -2164,6 +2335,13 @@
 %A Fish, Adrian
 %D 00/1991
 %J Starlink User Note 125
+%B STEve is an acronym for STarlink EVE and is an extended EDT-style EVE
+   editor for use at Starlink nodes. The facility provides extra commands which
+   are not part of standard EVE, and improves on one or two of the standard EVE
+   commands. Help on all topics and keys is available from within the editor. The
+   extensions and modifications present in STEve are particularly useful to
+   Starlink users.
+%Z SUN/126
 
 ---sep---
 
@@ -2172,6 +2350,7 @@
 %A Fish, Adrian
 %D 00/1992
 %J Starlink User Note 126
+%Z SUN/125
 
 ---sep---
 
@@ -2180,6 +2359,11 @@
 %A Osborne, Julian
 %D 00/1991
 %J Starlink User Note 127
+%B The purpose of this note is to alert users to the existence of the EXOSAT
+   database system, to point them in the direction of the manuals and to
+   provide a very quick guide to accessing the system. It is not intended to be
+   a complete guide to all the facilities available, the on-line
+   and paper documentation fill these needs.
 
 ---sep---
 
@@ -2196,6 +2380,10 @@
 %A Bly, M. J.; Allan, P. M.; McIlwrath, B. K.
 %D 00/2000
 %J Starlink User Note 129
+%B This note describes how to use the XDISPLAY utility on Starlink systems
+   that are running X windows.  It makes no attempt to describe the
+   X windows system.  It assumes that you have some familiarity with using
+   X windows, although not to any great depth.
 
 ---sep---
 
@@ -2204,6 +2392,11 @@
 %A Terrett, David; Eaton, Nicholas
 %D 00/1995
 %J Starlink User Note 130
+%B This note describes how to create graphics
+   windows on an X display that do not disappear when a program terminates.
+%Z SUN/83
+   SUN/65
+   SUN/104
 
 ---sep---
 
@@ -2220,6 +2413,24 @@
 %A Lightfoot, J. F.; Harrison, P. A.; Meyerdierks, H.; Jenness, T.
 %D 00/2003
 %J Starlink User Note 132
+%B JCMTDR is a Starlink applications that is intended to replace NOD2 for the
+   reduction of continuum on-the-fly mapping data obtained with UKT14 or the
+   heterodyne instruments using the IFD on the James Clerk Maxwell Telescope.
+   This programme is intended for reduction of archive data and of heterodyne
+   beam maps.
+%Z SUN/230
+   SUN/95
+   SUN/213
+   SUN/216
+   SUN/214
+   SUN/27
+   SC/1
+   SUN/161
+   SUN/194
+   SUN/229
+   1974A&AS...15..333H
+   1990MNRAS.243..126D
+   1992MNRAS.254..165R
 
 ---sep---
 

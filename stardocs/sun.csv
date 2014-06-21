@@ -14,10 +14,12 @@ O16||---|GKS/HIGR - HIST3D 3D Histograms
 O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
 O22||---|MTCOPY and MTDUMP [cited from SUN/68]
+O22||---|Hindlegs -- Lineprinter outut from TeX files [cited from SUN/9.4]
 O27|Lawden, M. D.|1984|ASPIC -- Image processing programs (3)
 O27||---|Seems to be an NDPROGS document
 O29||---|Interrogating tape catalogues from CDS
 O33||---|SGS Graphics Library
+O34||---|TeX DVI file translators [cited from SUN/9.4 & SUN/131]
 O39|Davenhall, A. C.|1983|GALPHOT - Bright galaxy photometry
 O40|Berry, D. S.|1984|EDRSX - An extension to the EDRS image processing package
 O41|Davenhall, A. C.|1984|STARSIM - Generate simulate starfields
@@ -32,7 +34,7 @@ O63|Hartley, K. F.|1985|PERIODS - Analysing periodic phenomena
 O65||---|SGS --- Reference Manual [cited in SUN/4]
 O73.1|Zealey, W.J.|1985|UKIRTHELP -- A UKIRT help library
 O75.1|Terrett ,D.L.|1985|Graphics on the Versatec and Printronix Printers
-O77.1|Lotts, A.P.|1988|DVIDIS -- a DVI file previewer
+O77.1|Lotts, A.P.|1988|DVIDIS -- a DVI file previewer [SUN/9.4 calls it DVIview]
 O84.1|Peden, Jim|1985|ASTERIX X-Ray data reduction
 O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 
