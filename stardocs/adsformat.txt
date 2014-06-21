@@ -1159,6 +1159,7 @@
 %A Wallace, P. T.
 %D 00/1995
 %J Starlink User Note 56
+%Z SUN/67
 
 ---sep---
 
@@ -1167,14 +1168,39 @@
 %A Terrett, David; Eaton, Nicholas
 %D 00/1995
 %J Starlink User Note 57
+%B This note contains information for three categories of GNS consumer:
+
+   - The user of a graphics application: This consumer is interested in
+     the syntax of graphics workstation names.
+
+   - The system manager: This consumer is interested in the contents
+     of the database and how to set up and modify it. System managers
+     will need to be familiar with the first part which deals with
+     workstation names. The remainder will be of interest to
+     anyone adding support for a new GKS or IDI device.
+
+   - The application programmer: This consumer is interested in the
+     programmer interface, the mechanism for reporting errors
+     and the means of compiling and linking the programs.
+%Z SUN/83
+   SUN/85
+   SUN/15
+   SUN/65
+   SUN/48
+   SUN/130
+   SUN/104
 
 ---sep---
 
 %R 1995StaUN..58.....L
 %T IUEDA -- Access to the IUE data archive
-%A Lloyd, C.; Giaretta, D.
+%A Lloyd, C.; Giaretta, D.; Stickland, D.J.; Harvey, A.S.
 %D 00/1995
 %J Starlink User Note 58
+%Z SUN/20
+   SUN/37
+   SG/7
+   SUN/50
 
 ---sep---
 
@@ -1188,7 +1214,7 @@
 
 %R 1987StaUN..60.....R
 %T IRAS -- Image Analysis Software
-%A Richards, P. J.
+%A Richards, P. J.; Hirst, C. J.; Cudlip, W.
 %D 00/1987
 %J Starlink User Note 60
 
@@ -1199,6 +1225,18 @@
 %A Warren-Smith, R. F.
 %D 00/2006
 %J Starlink User Note 61
+%B TRANSFORM provides a standard, flexible method for manipulating
+   coordinate transformations and for transferring information about them
+   between applications.  It can handle coordinate systems with any number
+   of dimensions and can efficiently process large
+   (i.e., image-sized) arrays of coordinate data using a variety of
+   numerical precisions.  No specific support for astronomical coordinate
+   transformations or map projections is included -- these features are
+   provided by the AST library.
+%Z SUN/210
+   SUN/92
+   SGP/38
+   SUN/39
 
 ---sep---
 
@@ -1207,6 +1245,24 @@
 %A Denby, M.; McGale, P.
 %D 00/1995
 %J Starlink User Note 62
+%B The programs described in this document provide the mechanism for
+   producing ASTERIX (HDS) datasets from Wide Field Camera data collected
+   during the pointed phase of the ROSAT mission. A sort program generates
+   ASTERIX datasets (e.g., time series, images, etc.,) from
+   pre-processed event data supplied as part of the Rosat WFC Observation
+   Datasets (RWODs). An exposure program corrects these datasets allowing
+   for instrument characteristics. In addition a simple database manager
+   allows an index of RWODs to be maintained and searched.  The programs
+   make use of the ADAM and ICL environment and a number of ICL procedures
+   have been provided to perform some of the more commonly required
+   operations such as extracting background subtracted lightcurves.
+
+   WFCPACK is supported under Digital Unix on DEC Alpha AXP, and under
+   Solaris 2.x on Sun SPARC.  There is no longer a VAX/VMS version.  The
+   old VAX RWOD which consisted of several VMS format specific files has
+   been replaced with a single HDS file that is easily transportable
+   between the various UNIX flavours.
+
 
 ---sep---
 
@@ -1215,6 +1271,12 @@
 %A Rees, Paul
 %D 00/1992
 %J Starlink User Note 63
+%B SPAG is a program for unscrambling ``spaghetti'' Fortran code by
+   re-ordering blocks of statements in such a way that the structure of the
+   Fortran is improved, whilst remaining logically equivalent to the original
+   program. The result improves the readability and maintainability of badly-written
+   Fortran.
+%Z SGP/16
 
 ---sep---
 
@@ -1231,6 +1293,19 @@
 %A Eaton, Nicholas
 %D 00/1995
 %J Starlink User Note 65
+%B The Image Display Interface (IDI) is an international standard for
+   displaying astronomical data on an image display.
+   The specification of the interface is given in Terrett et al,
+   1988 A&AS 76, 263. This guide is an introduction to
+   programming with IDI, and describes the details of the current implementation.
+   The user should refer to the specification document, for details of the
+   subroutine calls.
+%Z 1988A&AS...76..263T
+   SUN/83
+   SUN/15
+   SUN/48
+   SUN/57
+   SUN/130
 
 ---sep---
 
@@ -1239,6 +1314,13 @@
 %A Bailey, Jeremy
 %D 00/1997
 %J Starlink User Note 66
+%B TSP is an astronomical data reduction package which handles time series
+   data and polarimetric data. These facilities are missing from most existing
+   data reduction packages which are usually oriented towards either spectroscopy
+   or image processing or both. Where facilities for polarimetry or time series
+   data have been provided they have usually not been sufficiently general
+   to handle data from a variety of different instruments.
+%Z SGP/38
 
 ---sep---
 
@@ -1247,6 +1329,40 @@
 %A Wallace, P. T.
 %D 00/2005
 %J Starlink User Note 67
+%B SLALIB is a library used by writers of positional-astronomy applications.
+   Most of the routines are concerned with astronomical position
+   and time, but a number have wider trigonometrical, numerical or general applications.
+%Z SUN/56
+   SUN/202
+   1960aitc.book.....S
+   1960MNRAS.121..123B
+   1976RC2...C......0D
+   1979A&A....73..282L
+   1980A&AS...41....1S
+   1981USNOC.163.....K
+   1981CeMec..23...33M
+   1983AmJPh..51..712E
+   1983veas.book.....M
+   1983A&A...128..263A
+   1984A&A...134....1L
+   1984QJRAS..25...53H
+   1984LAstr..98..348M
+   1984RSPTA.313...47S
+   1985spas.book.....G
+   1986MNRAS.221.1023K
+   1986PEPI...44..281M
+   1989AJ.....97..265S
+   1989AJ.....97..274Y
+   1990A&A...229..240F
+   1991A&A...244L..11F
+   1991aalg.book.....M
+   1992esta.book.....S
+   1992nrfa.book.....P
+   1993A&A...275..645C
+   1994A&A...282..663S
+   1996PASP..108.1051S
+   1998A&A...331L..33F
+   2001AJ....121.3270S
 
 ---sep---
 
@@ -1255,6 +1371,11 @@
 %A Terrett, D. L.
 %D 00/1989
 %J Starlink User Note 68
+%B TPU is a utility, originally developed for AOIPS (Atmospheric and Oceanographic
+   Information Processing System), for the manipulation, examination and copying of
+   magnetic tapes of any format.
+   TPU sees a magnetic tape as only a series of files or records of unknown number
+   and size.
 
 ---sep---
 
@@ -1268,9 +1389,17 @@
 
 %R 1990StaUN..70.....W
 %T SCAR -- Starlink Catalogue Access and Reporting
-%A Walker, H. J.; Fairclough, J. H.; Lawden, M. D.
+%A Walker, H. J.; Fairclough, J. H.; Lawden, M. D.; Cooke, J. J.; Gershuny, E.J.
 %D 00/1990
 %J Starlink User Note 70
+%Z SUN/106
+   SUN/94
+   SUN/79
+   SUN/83
+   SUN/67
+   SUN/35
+   SUN/64
+   SUN/90
 
 ---sep---
 
@@ -1279,6 +1408,9 @@
 %A Page, Clive G.;Mellor, G. R.
 %D 00/1992
 %J Starlink User Note 71
+%Z SUN/57
+   SUN/65
+   SUN/130
 
 ---sep---
 
@@ -1295,6 +1427,7 @@
 %A Lawden, M. D.
 %D 00/1990
 %J Starlink User Note 73
+%Z SUN/63
 
 ---sep---
 
@@ -1303,6 +1436,8 @@
 %A Lupton, W. F.
 %D 00/1987
 %J Starlink User Note 74
+%Z SUN/23
+   SUN/4
 
 ---sep---
 
@@ -1324,7 +1459,7 @@
 
 %R 1995StaUN..77.....L
 %T NBS -- The Noticeboard System
-%A Lupton, W. F.; Allan, D. J.;Bly, M. J.; Jenness, Tim
+%A Lupton, W. F.; Allan, D. J.; Bly, M. J.; Jenness, Tim
 %D 00/1995
 %J Starlink User Note 77
 
@@ -1332,7 +1467,7 @@
 
 %R 1997StaUN..78.....W
 %T RV -- Radial Components of Observer's Velocity
-%A Wallace, P. T.; Clayton, C. A.
+%A Wallace, P. T.; Clayton, C. A.; Bly, M. J.
 %D 00/1997
 %J Starlink User Note 78
 
@@ -1343,6 +1478,7 @@
 %A Fairclough, J. H.; Lawden, M. D.
 %D 00/1986
 %J Starlink User Note 79
+%Z SUN/70
 
 ---sep---
 
@@ -1351,6 +1487,9 @@
 %A Stewart, B. C.
 %D 00/1986
 %J Starlink User Note 80
+%Z SUN/68
+   SUN/23
+   SUN/60
 
 ---sep---
 
@@ -1359,6 +1498,8 @@
 %A Richards, P. J.
 %D 00/1986
 %J Starlink User Note 81
+%Z SUN/70
+   SUN/50
 
 ---sep---
 
@@ -1367,6 +1508,19 @@
 %A Parsons, D. C.; Walker, H. J.
 %D 00/1993
 %J Starlink User Note 82
+%Z SUN/120
+   SUN/106
+   SUN/70
+   SUN/80
+   SUN/14
+   SUN/50
+   SUN/81
+   SUN/163
+   SUN/161
+   SUN/95
+   1988iras....1.....B
+   1994STIN...9522539W
+   1985STIN...8620771W
 
 ---sep---
 
@@ -1375,6 +1529,12 @@
 %A Terrett, D. L.
 %D 00/1995
 %J Starlink User Note 83
+%Z SUN/85
+   SUN/57
+   SUN/15
+   SUN/9
+   SUN/104
+   SUN/130
 
 ---sep---
 
@@ -1383,6 +1543,7 @@
 %A Wallace, P. T.; Lotts, A. P.
 %D 00/1989
 %J Starlink User Note 84
+%Z SUN/44
 
 ---sep---
 
@@ -1391,6 +1552,10 @@
 %A Wallace, P. T.; Terrett, D. L.
 %D 00/1995
 %J Starlink User Note 85
+%Z SUN/83
+   SUN/113
+   SUN/104
+   SUN/57
 
 ---sep---
 
@@ -1399,6 +1564,83 @@
 %A Shortridge, Keith; Meyerdierks, Horst; Currie, Malcolm; Clayton, Chris;Lockley, Jon;Charles, Anne;Davenhall, Clive;Taylor, Mark; Ash, Tim; Wilkins, Tim; Axon, Dave;Palmer, John; Holloway, Anthony; Graffagnino, Vito; Bridger, Alan; Fuller, N. M.
 %D 00/2004
 %J Starlink User Note 86
+%B Figaro is a general-purpose data reduction package.
+   The programs it contains can be used to process a
+   wide range of images and spectra.
+
+   Figaro can be run in a command-oriented way from the
+   Unix shell or from within ICL.  Figaro supports the
+   Starlink NDF data format by default, plus all foreign formats
+   for which conversion utilities exist.
+   These additional formats include Figaro's old DST format, FITS, and IRAF.
+
+   This document offers novice users an easy starting
+   point to using Figaro, and more experienced users a
+   cookbook of a range of problems which can be addressed
+   using the package.
+%Z 1971A&A....13..169B
+   1980PASAu...4...77H
+   SC/4
+   SG/12
+   SG/4
+   SG/5
+   SG/6
+   SGP/31
+   SGP/5
+   SGP/7
+   SSN/20
+   SSN/3
+   SSN/4
+   SSN/45
+   SSN/64
+   SSN/66
+   SUN/1
+   SUN/101
+   SUN/102
+   SUN/104
+   SUN/113
+   SUN/114
+   SUN/115
+   SUN/118
+   SUN/12
+   SUN/121
+   SUN/124
+   SUN/129
+   SUN/130
+   SUN/131
+   SUN/137
+   SUN/139
+   SUN/143
+   SUN/144
+   SUN/145
+   SUN/15
+   SUN/152
+   SUN/154
+   SUN/155
+   SUN/164
+   SUN/175
+   SUN/184
+   SUN/188
+   SUN/19
+   SUN/194
+   SUN/197
+   SUN/217
+   SUN/28
+   SUN/33
+   SUN/39
+   SUN/40
+   SUN/48
+   SUN/55
+   SUN/57
+   SUN/67
+   SUN/78
+   SUN/83
+   SUN/85
+   SUN/86
+   SUN/9
+   SUN/92
+   SUN/93
+   SUN/95
 
 ---sep---
 
@@ -1436,7 +1678,7 @@
 
 %R 1989StaUN..91.....P
 %T IRAS -- Calibrated Raw Detector Data Analysis
-%A Parsons, D. C.; Richards, P. J.; Giaretta, D. L.
+%A Parsons, D. C.; Richards, P. J.; Giaretta, D. L.; Stewart, B.
 %D 00/1989
 %J Starlink User Note 91
 

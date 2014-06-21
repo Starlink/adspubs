@@ -13,6 +13,7 @@ O15|Pearce, Dave; Pavelin, Cliff|1981|INTERIM
 O16||---|GKS/HIGR - HIST3D 3D Histograms
 O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
+O22||---|MTCOPY and MTDUMP [cited from SUN/68]
 O27|Lawden, M. D.|1984|ASPIC -- Image processing programs (3)
 O27||---|Seems to be an NDPROGS document
 O29||---|Interrogating tape catalogues from CDS
@@ -92,9 +93,9 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 55.29|Currie, Malcolm J.;Privett, G. J.;Berry, D. S.;Davenhall, A. C.|2013|CONVERT -- A Format-conversion Package
 56.10|Wallace, P. T.|1995|COCO -- Conversion of Celestial Coordinates
 57.9|Terrett, David; Eaton, Nicholas|1995|GNS -- Graphics Wokstation Name Service
-58.7|Lloyd, C.; Giaretta, D.|1995|IUEDA -- Access to the IUE data archive
+58.7|Lloyd, C.; Giaretta, D.; Stickland, D.J.; Harvey, A.S.|1995|IUEDA -- Access to the IUE data archive
 59.|Lawden, M. D.|1989|Starlink Software Reorganisation
-60.5|Richards, P. J.|1987|IRAS -- Image Analysis Software
+60.5|Richards, P. J.; Hirst, C. J.; Cudlip, W.|1987|IRAS -- Image Analysis Software
 61.4|Warren-Smith, R. F.|2006|TRANSFORM -- Coordinate Transformation Facility
 62.5|Denby, M.; McGale, P.|1995|WFCPACK -- ROSAT Wide Field Camera data reduction
 63.4|Rees, Paul|1992|SPAG -- Spaghetti Unscrambler
@@ -104,7 +105,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 67.70|Wallace, P. T.|2005|SLALIB -- Positional Astronomy Library
 68.3|Terrett, D. L.|1989|TPU -- Tape Processing Utility
 69.4|Page, Clive G.|1993|CDCOPY -- Reading CDROMs
-70.11|Walker, H. J.; Fairclough, J. H.; Lawden, M. D.|1990|SCAR -- Starlink Catalogue Access and Reporting
+70.11|Walker, H. J.; Fairclough, J. H.; Lawden, M. D.; Cooke, J. J.; Gershuny, E.J.|1990|SCAR -- Starlink Catalogue Access and Reporting
 71.4|Page, Clive G.; Mellor, G. R.|1992|IKONPAINT -- Ikon and GWM window to Inkjet Hard-copy
 72.2|Clayton, C. A.; Wilkins, T. N.|1991|HONEY -- The Honeywell Camera
 73.1|Lawden, M. D.|1990|FORCHECK -- A Fortran Verifier and Programming Aid
@@ -112,7 +113,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 75.1|Lawden, M. D.; Bly, M. J.|1990|TOOLPACK -- Fortran 77 Software Tools
 76.5|Tappin, James|1992|HXIS -- Hard X-ray Imaging Spectrometer
 77.8|Lupton, W. F.; Allan, D. J.;Bly, M. J.; Jenness, Tim|1995|NBS -- The Noticeboard System
-78.9|Wallace, P. T.; Clayton, C. A.|1997|RV -- Radial Components of Observer's Velocity
+78.9|Wallace, P. T.; Clayton, C. A.; Bly, M. J.|1997|RV -- Radial Components of Observer's Velocity
 79.3|Fairclough, J. H.; Lawden, M. D.|1986|CDS - Cenre de Donnees Stellarie Catalogues
 80.2|Stewart, B. C.|1986|IRAS -- Extended Emission and Pointed Observation Data: User Guide
 81.2|Richards, P. J.|1986|LRSEXT -- IRAS LRS Spectra Extraction
@@ -125,7 +126,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 88.6|Rees, P. C. T.; Bly, M. J.; Terrett, D. L.|1999|NCAR -- Graphics Utilities
 89.2|Straede, J.|1986|APLATE -- Aperture Plate Preparation Program
 90.|Rees, P. C. T.; Bly, M. J.; Wallace, P. T.|1995|SNX -- Starlink Extensions to the NCAR Graphics Utilities
-91.2|Parsons, D. C.; Richards, P. J.; Giaretta, D. L.|1989|IRAS -- Calibrated Raw Detector Data Analysis
+91.2|Parsons, D. C.; Richards, P. J.; Giaretta, D. L.; Stewart, B.|1989|IRAS -- Calibrated Raw Detector Data Analysis
 92.12|Warren-Smith, R. F.; Lawden, M. D.; McIlwrath, B. K; Jenness, T.; Draper, P. W., Peden, J. C. M.|2008|HDS -- Hierarchical Data System
 93.3|Murray, Jo; Charles, Anne|1995|TeX -- A superior document preparation system
 94.4|Chipperfield,A.J.|1989|ADAM -- Starlink Software Environemnt
