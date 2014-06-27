@@ -2439,6 +2439,16 @@
 %A Kelly, B. D.; Chipperfield, A. J.
 %D 00/1992
 %J Starlink User Note 134
+%B This guide shows you how to write programs for use as part of
+   instrumentation systems under ADAM Version 2. If you are a programmer
+   experienced with ADAM Version 1, then refer to the Appendix which
+   summarises some of the differences between the new ADAM tasking model
+   and the old one.
+%Z SG/4
+   SG/5
+   SUN/115
+   SUN/104
+   SUN/114
 
 ---sep---
 
@@ -2447,6 +2457,8 @@
 %A Allan, P. M.
 %D 00/1992
 %J Starlink User Note 135
+%B This document describes a utility to add an item to a VMS logical name search
+   list. The utility may be joined by others in the future.
 
 ---sep---
 
@@ -2455,6 +2467,13 @@
 %A Bly, M. J.
 %D 00/1994
 %J Starlink User Note 136
+%B The FITSIO package is a series of subroutines for easy Fortran access
+   to FITS files on disk. It was written by William D. Pence of HEASARC
+   (High Energy Astrophysics Science Archive Research Center) at the
+   Goddard Space Flight Center, USA.  FITSIO was submitted for release on
+   Starlink by Julian Osborne at the University of Leicester.  Starlink is
+   grateful to William Pence for giving his permission for FITSIO to be
+   released on Starlink.
 
 ---sep---
 
@@ -2463,6 +2482,17 @@
 %A Harrison, Paul; Rees, Paul; Draper Peter W.;Allan, Alasdair
 %D 00/2008
 %J Starlink User Note 137
+%B PONGO is a set of commands for interactively plotting data stored
+   in ordinary text files. It is based around the PGPLOT graphics package.
+%Z SUN/15
+   SUN/95
+   SG/5
+   SUN/37
+   SUN/48
+   SG/4
+   SUN/61
+   SUN/130
+   SUN/217
 
 ---sep---
 
@@ -2479,6 +2509,38 @@
 %A Draper, Peter W.; Taylor, Mark; Allan, Alasdair
 %D 00/2011
 %J Starlink User Note 139
+%B CCDPACK is a package of programs for reducing CCD-like data. They
+   allow you to debias, remove dark current, flatfield, register,
+   resample and normalize data from single- or multiple-CCD instruments.
+
+   CCDPACK is designed to help you to reduce your data easily.
+   The basic reduction stages can be set up using an X based GUI that
+   controls an automated reduction system.
+   The GUI is designed to allow you to start working without any
+   detailed knowledge of the package (or indeed of CCD reduction).
+   Registration is performed using graphical, script based or automated
+   techniques that help reduce the amount of work to a minimum.
+
+   This document is intended for all users of CCDPACK.
+   It provides instruction in how to use CCDPACK, describes CCD reduction
+   in general and contains complete descriptions of the individual
+   programs.
+%Z SG/5
+   SSN/20
+   SUN/102
+   SUN/139
+   SUN/15
+   SUN/183
+   SUN/186
+   SUN/210
+   SUN/214
+   SUN/217
+   SUN/33
+   SUN/48
+   SUN/55
+   SUN/61
+   SUN/92
+   SUN/95
 
 ---sep---
 
