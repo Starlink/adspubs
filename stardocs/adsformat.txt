@@ -2786,6 +2786,11 @@
 %A Laspias, V.
 %D 00/1992
 %J Starlink User Note 153
+%B The program RNOTOTEX will read a DEC Standard Runoff (DSR) format
+   text file, translate the RUNOFF commands to LaTeX commands and write a
+   corresponding TEX file.  The output file may then be processed by LaTeX and
+   printed on the local high quality printer.
+%Z SUN/9
 
 ---sep---
 
@@ -2794,6 +2799,11 @@
 %A Bly, M. J.
 %D 00/1992
 %J Starlink User Note 154
+%B This software is an Option Set item within the Starlink Software Collection
+   for adding extra facilities to the Starlink release of TeX on VMS. It includes
+   RNOTOTEX, TEXLSE and MTEX/MLATEX.
+%Z SUN/155
+   SUN/153
 
 ---sep---
 
@@ -2802,6 +2812,12 @@
 %A Laspias, V.
 %D 00/1992
 %J Starlink User Note 155
+%B This guide provides a brief summary of the commands and
+   functions available with LSEDIT and the LaTeX environment on
+   Starlink. TEXLSE is part of the LTEX software item which is an optional addition
+   to Starlink TeX.
+%Z SUN/9
+   1986ldps.book.....L
 
 ---sep---
 
@@ -2810,6 +2826,12 @@
 %A McSherry, M.; Lawden, M. D.
 %D 00/1993
 %J Starlink User Note 159
+%B This manual describes the various programs that are  available for the
+   reduction and analysis of XRP data. These programs have been developed under
+   the VAX operating system. The original programs are resident on a
+   VaxStation 3100 at the Solar Data Analysis Center (NASA/GSFC Greenbelt MD).
+%Z 1980SoPh...65...53A
+   1989ApJ...344..991F
 
 ---sep---
 
@@ -2818,6 +2840,23 @@
 %A Draper, P. W.; Warren-Smith, R. F.
 %D 00/2003
 %J Starlink User Note 160
+%B IMG is a subroutine library for accessing astronomical image data and
+   associated header information. It is designed to be easy to use and
+   understand.
+%Z SUN/33
+   SUN/101
+   SUN/104
+   SUN/115
+   SUN/39
+   SUN/95
+   SUN/139
+   SUN/223
+   SUN/102
+   SUN/55
+   SSN/20
+   SUN/144
+   SUN/209
+   SUN/92
 
 ---sep---
 
@@ -2826,6 +2865,20 @@
 %A Parsons, D. C.; Berry, D. S.; Gong, W.; Walker, H. J.
 %D 00/1994
 %J Starlink User Note 161
+%B IRAS90 is a suite of programs for processing IRAS data. It takes advantage
+   of Starlink's ADAM environment, which provides multi-platform availability
+   of both data and the programs to process it, and the user friendly interface of
+   the parameter entry system.
+%Z SUN/24
+   SUN/55
+   SUN/80
+   SUN/82
+   SUN/91
+   SUN/95
+   SUN/102
+   SUN/130
+   SUN/163
+   SG/4
 
 ---sep---
 
@@ -2834,6 +2887,45 @@
 %A Davenhall, A. C.
 %D 00/1993
 %J Starlink User Note 162
+%B This note is a guide to the astronomical catalogues, databases and
+   archives which are either available on Starlink computers or which can
+   be accessed from Starlink computers. It also describes the Starlink
+   software for manipulating catalogues and tables.
+   A brief description is given of each facility or software item.
+%Z SUN/120
+   SUN/106
+   SUN/70
+   SUN/69
+   SUN/32
+   SUN/58
+   SUN/20
+   SUN/37
+   SUN/14
+   SUN/127
+   1991ASSL..171...35W
+   1991ASSL..171...79E
+   1990AJ.....99.2019L
+   1990AJ.....99.2059R
+   1990AJ.....99.2082J
+   1992BICDS..42...33P
+   1993BICDS..42...33P
+   1989cpg..book.....P
+   1989A&AS...80..299P
+   1994STIN...9522539W
+   1988iras....1.....B
+   1991ASSL..171..115R
+   1993BICDS..42...39C
+   1989daas.book.....J
+   1992BICDS..41...65O
+   1991ASSL..171.....A
+   1991ASSL..171...89H
+   1988ESOC...28..435P
+   1992ESOC...43..429P
+   1991ASSL..171...47S
+   1992ESOC...43..447P
+   1991ASSL..171..127A
+   1991ASSL..171..139W
+   1992ESOC...43..387M
 
 ---sep---
 
