@@ -2549,6 +2549,20 @@
 %A Meyerdierks, H.
 %D 00/1995
 %J Starlink User Note 140
+%Z SG/5
+   SUN/102
+   SUN/137
+   SUN/15
+   SUN/164
+   SUN/33
+   SUN/48
+   SUN/83
+   SUN/85
+   SUN/86
+   SUN/92
+   SUN/95
+   1992ESOC...41...47M
+   1992ESOC...41...73M
 
 ---sep---
 
@@ -2557,6 +2571,12 @@
 %A Penny, Alan, J.
 %D 00/1995
 %J Starlink User Note 141
+%B STARMAN is a stellar photometry package designed for the reduction of data
+   from imaging systems. Its main components are:- crowded-field photometry
+   programs; aperture photometry programs; a star finding program; a CCD
+   reduction program.
+%Z SUN/95
+   SG/4
 
 ---sep---
 
@@ -2565,6 +2585,11 @@
 %A Allan, P. M.; Chipperfield, A. J.
 %D 00/2001
 %J Starlink User Note 143
+%B FIO/RIO is a subroutine package that allows a FORTRAN programmer to access
+   sequential and direct access data files in a machine independent manner. The
+   package consists of stand alone FIO and RIO routines, which can be used
+   independently of the Starlink software environment, plus routines to interface
+   to the Starlink parameter system.
 
 ---sep---
 
@@ -2573,6 +2598,24 @@
 %A Chipperfield, A. J.
 %D 00/2001
 %J Starlink User Note 144
+%B This document describes the use of the Starlink Software Environment, ADAM,
+   on Unix. It is primarily of use to programmers but the early sections contain
+   information useful to any user.
+
+   It is assumed that the reader is familiar with the concepts of ADAM
+   programming and that the Starlink software is installed in the standard way.
+%Z SG/4
+   SG/5
+   SSN/29
+   SSN/4
+   SSN/64
+   SUN/101
+   SUN/124
+   SUN/134
+   SUN/171
+   SUN/209
+   SUN/217
+   SUN/92
 
 ---sep---
 
@@ -2581,6 +2624,38 @@
 %A Lawden, M. D.; Mellor, G. R.; Smalley, B.
 %D 00/1996
 %J Starlink User Note 145
+%B This is a brief introduction to the Unix operating system as it is
+   used in the Starlink Project. It is aimed at users who are new to Unix
+   and to Starlink. Its purpose is to get you started quickly, so it is
+   simple rather than comprehensive.
+
+   It should be read in conjunction with any local guides provided at
+   your local Starlink Site -- these give details of the local facilities
+   available and how to use them. This is important because Starlink
+   Sites differ in their computer hardware and in their versions of Unix.
+
+   A ``Quick Reference Card" is available which summarises the contents of this
+   note.
+%Z SUG
+   SGP/28
+   SGP/7
+   SSN/66
+   SUN/1
+   SUN/129
+   SUN/144
+   SUN/168
+   SUN/169
+   SUN/170
+   SUN/182
+   SUN/184
+   SUN/188
+   SUN/189
+   SUN/192
+   SUN/195
+   SUN/197
+   SUN/202
+   SUN/34
+   SUN/9
 
 ---sep---
 
@@ -2589,6 +2664,15 @@
 %A Osborne, Julian; Ashley, Jeremy; Privett, Grant
 %D 00/1996
 %J Starlink User Note 146
+%B The programme OBSERVE is designed to allow you to get a quick
+   overview of the observability of a star through the year from the
+   geographical location selected. You will be prompted for the RA and Dec
+   of the star, the telescope (you can also specify arbitrary locations),
+   and the year. On the selected GKS graphics device a plot will be drawn
+   that tells you, for all dates of the year, the star rising and setting
+   times and the times that it is 30 degrees above the  horizon, the
+   times of astronomical twilight, the phase and rising and setting  times
+   of the Moon as well as its distance from the star in question.
 
 ---sep---
 
@@ -2597,6 +2681,9 @@
 %A Bly, M. J.
 %D 00/1992
 %J Starlink User Note 147
+%B TAUCAL is an add-on set of applications to the FIGARO package, which are
+   designed to be used for TAURUS data reduction. TAURUS is the instrument on the
+   William Herschel Telescope at Roque de los Muchachos Observatory on La Palma.
 
 ---sep---
 
