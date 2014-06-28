@@ -2692,6 +2692,16 @@
 %A Lewis, J. R.
 %D 00/1992
 %J Starlink User Note 148
+%B This note describes a small set of programs, written at RGO, which deal with
+   basic CCD frame processing (e.g. bias subtraction, flat fielding, trimming
+   etc.).  The need to process large numbers of CCD frames from devices such as
+   FOS or ISIS in order to extract spectra has prompted the writing of routines
+   which will do the basic hack-work with a minimal amount of interaction from the
+   user. Although they were written with spectral data in mind, there are no
+   ``spectrum-specific'' features in the software which means they can be applied
+   to any CCD data.
+%Z SUN/86
+   SGP/16
 
 ---sep---
 
@@ -2700,6 +2710,15 @@
 %A Lewis, J. R.
 %D 00/1992
 %J Starlink User Note 149
+%B In this note a description is given of SAM, a package written at RGO for the
+   extraction of spectra from two dimensional data frames.  The need to extract
+   spectra from two dimensional frames in an optimal manner (e.g. one in which the
+   signal to noise ratio was maximised) was the primary reason for the writing of
+   the package. The programs were originally written with FOS, ISIS and IDS in
+   mind, but contain nothing which  is instrument specific and hence should be
+   applicable to any two dimensional spectral data frame.
+%Z SUN/86
+   SGP/16
 
 ---sep---
 
@@ -2708,6 +2727,18 @@
 %A Berry, D. S.
 %D 00/2012
 %J Starlink User Note 150
+%B GRP provides facilities for handling groups of objects which can be described by
+   character strings (e.g. file names, astronomical objects, numerical values,
+   etc). Facilities are provided for storing and retrieving such character strings
+   within groups, and for passing groups of character strings between applications
+   by means of a text file. It also allows the creation of groups in which each
+   element is a modified version of an element in another group.
+%Z SUN/101
+   SUN/104
+   SUN/144
+   SUN/40
+   SUN/121
+
 
 ---sep---
 
@@ -2716,6 +2747,9 @@
 %A Clayton, C. A.; Tappin, S. J.
 %D 00/1992
 %J Starlink User Note 151
+%B VMSBACKUP is a utility written by John Douglas Carey and Sven-Ove  Westberg
+   (with some local extensions) that allows VMS backup tapes to be read on a Unix
+   machine. VMSBACKUP is available on the Sun and DECstation platforms.
 
 ---sep---
 
@@ -2724,6 +2758,26 @@
 %A Mills, Dave; Webb, John; Clayton, Martin
 %D 00/2003
 %J Starlink User Note 152
+%B ECHOMOP provides facilities for the extraction of spectra from 2-D data
+   frames.  These data can be single-order spectra, or multi-order echelle
+   spectra.
+
+   A substantial degree of automation is provided, particularly in the
+   traditionally manual functions for cosmic-ray detection and
+   wavelength calibration; manual overrides are available.
+
+   Features include; robust and flexible order tracing,
+   optimal extraction, support for variance arrays,
+   and 2-D distortion fitting and extraction.
+%Z SG/9
+   SUN/86
+   SG/4
+   SUN/50
+   SUN/55
+   SUN/95
+   SG/5
+   SUN/33
+   SUN/102
 
 ---sep---
 
