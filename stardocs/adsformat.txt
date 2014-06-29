@@ -2934,6 +2934,19 @@
 %A Berry, David S.; Gong, W.; Parsons, D. C.
 %D 00/1995
 %J Starlink User Note 163
+%B IRAS90 is a package of applications which provides facilities for the
+   reduction and analysis of IRAS Survey and Pointed Observation (PO) data (also
+   known as ``Additional Observation'', or ``AO'' data). It does not provide
+   facilities for handling Low Resolution Spectrometer (LRS) data, or catalogue
+   data.
+%Z SUN/95
+   SUN/82
+   SUN/164
+   SUN/183
+   SUN/165
+   1984StaUN..40.....B
+   SG/4
+   SUN/4
 
 ---sep---
 
@@ -2942,6 +2955,10 @@
 %A Terrett, D. L.
 %D 00/1998
 %J Starlink User Note 164
+%B PSMERGE is a simple tool for creating
+   PostScript images by combining one or more Encapsulated Postscript images.
+   The images to be combined may be scaled, rotated and shifted
+   independently to form the composite.
 
 ---sep---
 
@@ -2950,6 +2967,21 @@
 %A Berry, David S.; Parsons, Diana
 %D 00/1995
 %J Starlink User Note 165
+%B IRAS90 is a package of applications which provides facilities
+   for the reduction and analysis of {\small IRAS} Survey and Pointed
+   Observation (PO) data (also known as ``Additional Observation'', or
+   ``AO'' data). It does not provide facilities for handling Low
+   Resolution Spectrometer (LRS) data, or catalogue data.
+   This document gives some guide-lines for users who want to produce their own
+   IRAS90 applications.
+%Z SUN/163
+   SUN/101
+   SUN/161
+   SUN/150
+   SUN/92
+   SUN/105
+   SUN/110
+   SUN/104
 
 ---sep---
 
@@ -2958,6 +2990,11 @@
 %A Morris, Rhys; Privett, G. J.
 %D 00/1996
 %J Starlink User Note 166
+%B SAOimage is an astronomical image display program which works on
+   computers with X-window displays. It allows you to manipulate images
+   in a number of ways, see the changes applied, and when you are  happy
+   with the result, produce a hard copy on a Postscript
+   printer. An example of the output is included with this document.
 
 ---sep---
 
