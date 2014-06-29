@@ -3032,6 +3032,11 @@
 %A McIlwrath, B. K.; Page, C. G.
 %D 00/1998
 %J Starlink User Note 168
+%B This note describes Starlink extended EDT
+   emulation for the JED editor. It provides a Unix text editor which can
+   utilise the advanced facilities of DEC VTn00, xterm and similar terminals.
+   JED in this mode provides a reasonably good emulation of the VAX/VMS editor
+   EDT in addition to many extra facilities.
 
 ---sep---
 
@@ -3040,6 +3045,13 @@
 %A Mellor, G. R.
 %D 00/1994
 %J Starlink User Note 169
+%B The PINE mail interface is a user-friendly mail utility for Unix systems.
+   It has been adopted by Starlink as the recommended mail utility because
+   of its ease of use compared with the mail utilities supplied as standard with
+   the Unix operating system. PINE is intended to be intuitive and
+   "to be learned by exploration rather than reading manuals". Here however
+   are a few brief notes to get you started.
+%Z SUN/182
 
 ---sep---
 
@@ -3048,6 +3060,14 @@
 %A Clayton, C. A.
 %D 00/1997
 %J Starlink User Note 170
+%B The purpose of this document is to give new users advice on how to
+   choose which editor to use on Unix machines.
+   Under Unix the default editors are considered to be
+   unfriendly and many users prefer to use other more sophisticated
+   alternatives. However, many such alternatives exist; there is not one
+   single editor that everyone finds acceptable and hence
+   each user must decide for himself or herself which to adopt.
+%Z SUN/168
 
 ---sep---
 
@@ -3056,6 +3076,23 @@
 %A Allan, P. M.; Chipperfield, A. J.
 %D 00/1996
 %J Starlink User Note 171
+%B The MAG subroutine library allows a programmer to write portable programs
+   which access data stored on magnetic tapes.
+
+   By using the MAG routines, a program can read and write tapes, position the
+   tape (both in absolute terms and relative to the current position) and can
+   control the allocation of the tape drive and the physical mounting of the tape
+   on systems which provide that facility.
+
+   The library is currently supported for Sun Sparcstations running Solaris and
+   for DEC Alphas running OSF/1. Historically it has been supported for DEC
+   Ultrix and for SunOS and may still work for them.
+
+   The library is also available for VAX/VMS systems.
+%Z SUN/92
+   SUN/144
+   SUN/104
+   SG/4
 
 ---sep---
 
@@ -3064,6 +3101,9 @@
 %A Page, Clive G.
 %D 00/1993
 %J Starlink User Note 172
+%B FTNCHEK is designed to detect a variety of errors in Fortran77
+   source-code, especially mistakes that tend to be missed by compilers
+   and linkers.
 
 ---sep---
 
@@ -3072,6 +3112,12 @@
 %A Lawden, M. D.
 %D 00/1993
 %J Starlink User Note 173
+%B LOOKUP is a command procedure writen by Andy Adamson.
+   Given a command name, LOOKUP searches a list for a description of the command.
+   It prepares a report in a file called LOOKUP.TMP in your current directory.
+   This includes all the lines found in the list which contain the command name
+   you specified (some commands may be common to several application packages).
+   It also stores the names of all the packages searched.
 
 ---sep---
 
@@ -3080,6 +3126,46 @@
 %A Davenhall, A. C.
 %D 00/1993
 %J Starlink User Note 174
+%B This document is a guide to on-line bibliographic databases and other
+   information services which might be useful to astronomers. It
+   concentrates on facilities which are either provided within the
+   astronomical community, or which are available free of charge. For
+   each facility listed a brief description is given, together with details
+   of how to access it and how to obtain further information about it.
+   The document aims to provide sufficient information for you to decide
+   which facilities will be useful to you, and then obtain further
+   information on them, rather than providing comprehensive documentation
+   for each facility. It should be possible to access most of the
+   facilities described here from Starlink computers. This document is
+   complementary to SUN/162 which describes some of the observation and
+   data archives available on-line.
+%Z SUN/162
+   1993ASSL..182.....H
+   1988ESOC...28..453R
+   1991ASSL..171..199W
+   1992wius.book.....K
+   1993ASPC...52..132K
+   1992dpas.conf..149V
+   1993Sci...259.1246T
+   1991ASSL..171..211H
+
+   A. Warnock, J.E. Gass, L.E. Brotzman, M.E. Van Steenberg, D. Kovalsky and F. Giovane, October 1992, Amer. Astron. Soc. Newsletter 62, insert p10.
+   M.E. Van Steenberg, J.E. Gass, L.E. Brotzman, A. Warnock, D. Kovalsky and F. Giovane,
+October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
+   M.E. Van Steenberg, Fall 1992, NSSDC News, 8, number 3, p14.
+   A. Warnock, M.E. Van Steenberg, L.E. Brotzman, J.E. Gass, D. Kovalsky and F. Giovane, 1993, in Astronomical Data Analysis Software and Systems II, eds. R.J. Hanisch, R.J.V. Brissenden and J. Barnes, Astronomical Society of the Pacific Conference Series, 52, pp137-141.
+
+
+   E.D. Feigelson and F. Murtagh (1992, PASP, 104, pp574-581).
+   E. Emtage in Chapter Seven of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
+   F. Anklesaria and M. McCahill in Chapter Nine of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
+  J. Fullton in Chapter Eight of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
+  B. White in Chapter Ten of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
+  Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences eds. A. Heck and F. Murtagh, 1993
+   F. Murtagh and H. -M. Adorf in The ESO Messenger (El Mensajero), June 1993, Number 72, pp45-47
+   Network Resources for Astronomers by R.J. Hanisch, October 1992
+   On-line Data and Information in Astronomy by H. Andernach, February 1993
+
 
 ---sep---
 
@@ -3088,6 +3174,10 @@
 %A Allan, P. M.
 %D 00/1993
 %J Starlink User Note 175
+%B This document provides an introduction to the use of a hypertext help
+   system. It only gives a brief overview since the tools are described more
+   fully in the documents listed herein. The tools have not been
+   written by Starlink, but are freely available over the Internet.
 
 ---sep---
 
@@ -3104,6 +3194,18 @@
 %A Berry, David S.
 %D 00/1994
 %J Starlink User Note 177
+%B IRCAMPACK is a package of applications which provides extra
+   facilities for the processing of IRCAM data. It is expected
+   that the CCDPACK and KAPPA packages will be used to
+   perform the bulk of the processing of such data, with
+   IRCAMPACK providing certain specialised functions not provided by
+   CCDPACK or KAPPA. In particular, IRCAMPACK
+   contains applications which interpret and process the
+   IRCAM-specific header information stored within IRCAM data
+   files.
+%Z SUN/95
+   SUN/139
+   SUN/55
 
 ---sep---
 
@@ -3112,6 +3214,9 @@
 %A Terrett, D. L.
 %D 00/1994
 %J Starlink User Note 178
+%B Xadam is an X windows Graphical User Interface (GUI) for running ADAM
+   applications.
+%Z SUN/175
 
 ---sep---
 
@@ -3120,6 +3225,19 @@
 %A Morris, Rhys; Privett, Grant
 %D 00/1995
 %J Starlink User Note 179
+%B IRAF is a powerful and comprehensive environment for reducing and
+   analyzing optical astronomical data.  The system was developed by the
+   IRAF group at National Optical Astronomy Observatory (NOAO) in Tucson,
+   Arizona, who also maintain it (including the production of versions for
+   new types of computer) and answer queries from users. It has its own
+   file format, programming language, command language and on-line help
+   documentation.  The package can be installed on a number of platforms:
+   Solaris (Beta-test version), SunOS, Ultrix and VMS are supported by the
+   IRAF group, and there is a version for Alpha machines under OSF/1 which
+   is maintained by the Space Telescope Science Institute (STScI). This
+   Starlink User Note is intended as a brief introduction and a pointer to
+   IRAF's own documentation.  A walk through a short IRAF session is
+   included as an example.
 
 ---sep---
 
@@ -3128,6 +3246,27 @@
 %A Gray, Norman; Taylor, Mark; Privett, Grant
 %D 00/2008
 %J Starlink User Note 180
+%B ESP (Extended Surface Photometry) is a package
+   of application programs developed to allow you to determine the photometric
+   properties of galaxies and other extended objects.
+
+   It has applications that:
+   detect flatfielding faults, remove cosmic rays, median filter images,
+   determine image statistics, determine local background values,
+   perform galaxy profiling, fit 2-D Gaussian profiles to galaxies,
+   generate  pie slice cross-sections of galaxies and display
+   profiling results.
+%Z SUN/95
+   SUN/139
+   SUN/86
+   SUN/45
+   SUN/132
+   SUN/109
+   SUN/214
+   SUN/179
+   SUN/52
+   SUN/33
+   SUN/183
 
 ---sep---
 
@@ -3136,6 +3275,27 @@
 %A Davenhall, A. C.; Berry, D. S.
 %D 00/2013
 %J Starlink User Note 181
+%B CAT is the Starlink Fortran subroutine library for manipulating
+   astronomical catalogues and similar tabular datasets. This manual is
+   intended for programmers who plan to write applications which use the
+   CAT library to manipulate such datasets. It is introductory in the
+   sense that it contains sufficient information to enable a programmer new
+   to the CAT library to write applications which use it. The version of
+   the library intended for use in conjunction with the Starlink ADAM
+   programming environment is described. All the subroutines in the
+   interface to the library are covered. However, the principles underlying
+   the library, and their justification, are described only insofar as they
+   affect its use.
+%Z SUN/190
+   SUN/111
+   SUN/92
+   SUN/95
+   SUN/214
+   SSN/75
+   SGP/16
+   SUN/39
+   M.A. Roth, H.F. Korth and A. Silberschatz, 1989, Acta Informatica, 26, pp615-642.
+   J.R.~Rumble and F.J.~Smith, 1990, Database Systems in Science and Engineering
 
 ---sep---
 
@@ -3144,6 +3304,12 @@
 %A Bly, M. J.; Mellor, G. R.
 %D 00/2000
 %J Starlink User Note 182
+%B One of the most common activities on networked computers is the sending
+   and receiving of personal electronic mail (email).  Starlink nodes are
+   connected to the worldwide Internet network.  This document describes
+   how to find email addresses to communicate with other astronomers
+   and astronomy groups in the UK and the rest of the world.
+%Z 1992wius.book.....K
 
 ---sep---
 
@@ -3152,6 +3318,20 @@
 %A Berry, D. S.
 %D 00/2007
 %J Starlink User Note 183
+%B The ARD (ASCII Region Definition) system provides a textual language for
+   describing regions within a data array, together with software for converting
+   a textual description into a pixel mask, or plotting it on a graphics
+   device. The textual language is based on a set of keywords identifying simple
+   shapes (boxes, circles, lines, etc.). These keywords can be combined together
+   using Boolean-style operators (AND, OR, NOT, etc.) to create more complex
+   shapes. Data arrays can be multi-dimensional.
+%Z SUN/210
+   SUN/33
+   SUN/101
+   SUN/39
+   SUN/150
+   SSN/22
+   SUN/144
 
 ---sep---
 
@@ -3160,6 +3340,8 @@
 %A Bly, M. J.
 %D 00/1997
 %J Starlink User Note 184
+%B A2PS is a utility for converting Ascii format files to PostScript for
+   printing on PostScript printers.
 
 ---sep---
 
@@ -3168,6 +3350,16 @@
 %A Chipperfield, A. J.; McIlwrath, B. K.
 %D 00/1994
 %J Starlink User Note 185
+%B This document describes the Starlink
+   MESSGEN program which creates files
+   required for proper operation of the system for associating messages with
+   Starlink facility status values on UNIX platforms. It should be read by
+   authors of Starlink subroutine libraries.
+
+   The utility program CREMSG is also described. It can be used to produce
+   source files for MESSGEN.
+%Z SSN/4
+   SUN/104
 
 ---sep---
 
@@ -3176,6 +3368,21 @@
 %A Terrett, D. L.
 %D 00/1999
 %J Starlink User Note 186
+%B The STARTCL package is a set of extensions to the Tcl/Tk language to
+   enable Tcl and Tk applications to display Starlink graphics inside widgets
+   embedded in the application, send and receive ADAM messages and access
+   ADAM noticeboards.
+
+   This document will be of interest to programmers writing graphics user
+   interfaces for Starlink applications in Tcl/Tk.
+%Z SUN/130
+   SUN/83
+   SUN/85
+   SUN/15
+   SUN/88
+   SUN/65
+   SUN/77
+   Tcl and the Tk toolkit, Ousterhoot,J. 1994
 
 ---sep---
 
@@ -3184,6 +3391,18 @@
 %A Bly, Martin J.
 %D 00/1995
 %J Starlink User Note 187
+%B SKYCAL consists of two programs, SKYCALC and SKYCALENDAR.
+
+   The SKYCALC program is an ``Interactive Almanac''. It is intended
+   for use by astronomers planning and executing observing runs, and
+   allows easy calculation of airmasses, twilight, lunar interference,
+   coordinate transformations, and such --- nearly everything except the
+   weather.
+
+   The SKYCALENDAR program is a ``Nighttime Astronomical Calendar'',
+   for calculating and printing astronomical calendars.  Both have a
+   number of preset Observatory locations to choose from, or you can load
+   your own.
 
 ---sep---
 
@@ -3192,6 +3411,32 @@
 %A Warren-Smith, R. F.; Draper, P. W.
 %D 00/2010
 %J Starlink User Note 188
+%B This document describes a set of ``Hypertext Cross-Reference
+   Utilities'' (HTX) which are designed to help maintain large
+   documentation sets whose constituent documents are written
+   using the Hypertext Markup Languagee (HTML).
+
+   The central part of HTX is a hypertext linker, hlink.
+   This allows hyper-links (or cross-references)
+   to be established between related documents in such a way that it is
+   easy to maintain their integrity as individual documents are updated.
+   Information produced by this linking process is also used by other HTX
+   utilities to provide document
+   search facilities and the ability to
+   randomly access any part of a
+   documentation set. This latter capability forms a basis for
+   constructing hypertext help systems for
+   use by other software.
+
+   The expected readership of this document includes those who read
+   hypertext documentation, those who write it, and those who maintain
+   it, especially those who write and maintain Starlink
+   documentation. Software developers may also be interested in
+   the possibilities for hypertext help that HTX provides.
+%Z SGP/28
+   SUN/201
+   SUN/199
+   SUN/9
 
 ---sep---
 
@@ -3200,6 +3445,9 @@
 %A Clayton, Martin
 %D 00/1996
 %J Starlink User Note 189
+%B ISPELL is a screen-oriented spelling checker that shows errors in the context
+   of the original file, and suggests possible corrections when it can figure
+   them out.
 
 ---sep---
 
@@ -3208,6 +3456,70 @@
 %A Davenhall, A. C.
 %D 00/2001
 %J Starlink User Note 190
+%B CURSA is a package of Starlink applications for manipulating astronomical
+   catalogues and similar tabular datasets. It provides facilities for:
+   browsing or examining catalogues, selecting subsets from a catalogue,
+   sorting catalogues, copying catalogues, pairing two catalogues, converting
+   catalogue coordinates between some celestial coordinate systems, plotting
+   finding charts and photometric calibration.  Also, subsets can be extracted
+   from a catalogue in a format suitable for plotting using other Starlink
+   packages, such as PONGO.  CURSA can access catalogues held in the popular
+   FITS table format, the Tab-Separated Table (TST) format or the Small Text
+   List (STL) format.  Catalogues in the STL and TST formats are simple ASCII
+   text files.  CURSA also includes some facilities for accessing remote
+   on-line catalogues via the Internet.
+%Z SSN/75
+   SC/6
+   SUN/214
+   SUN/95
+   SUN/109
+   SUN/181
+   SUN/210
+   SUN/211
+   SUN/67
+   SUN/56
+   SUN/57
+   SUN/137
+   SUN/45
+   SUN/194
+   SUN/33
+   SUN/86
+   SUN/203
+   SC/2
+   SUN/162
+   SUN/55
+   SSN/76
+   U.~Bastian, S.~R\"{o}ser, V.V.~Nesterov, D.D.~Polozhentsev,
+      Kh.I.~Potter, R.~Wielen, L.I.~Yagudin and Ya.S.~Yatskiv, 1991,
+      {\it Astron. Astrophys. Suppl}, {\bf 87}, pp159-162.
+   W.H. Beyer (editor), 1974, {\it CRC Standard
+      Mathematical Tables}, twenty-fourth edition
+   R.M.~Green, 1985, {\it Spherical Astronomy}
+   R.H.~Hardie, 1962, {\it Photoelectric Reductions},
+      Chapter 8 of {\it Astronomical Techniques}, ed. W.A.~Hiltner, {\it
+      Stars and Stellar Systems}, {\bf II}\, (University of Chicago Press:
+      Chicago), pp178-208.
+   P.~Kunitzsch and T.~Smart, 1986, {\it Short Guide to
+      Modern Star Names and Their Derivations
+   D.~Monet, A.~Bird, B.~Canzian, H.~Harris, N.~Reid,
+      A.~Rhodes, S.~Sell, H.~Ables, C.~Dahn, H.~Guetter, A.~Henden,
+      S.~Leggett, H.~Levison, C.~Luginbuhl, J.~Martini, A.~Monet, J.~Pier,
+      B.~Riepe, R.~Stone, F.~Vrba and R.~Walker,
+      1996, {\it USNO-SA1.0
+   F.~Ochsenbein, 12 September 1994, {\it
+      Astronomical Catalogues at CDS: Adopted Standards
+   S.~R\"{o}ser and U.~Bastian, 1988, {\it Astron.
+      Astrophys. Suppl}, {\bf 74}, pp444-451.
+   J.R.~Rumble and F.J.~Smith, 1990, {\it Database
+      Systems in Science and Engineering}\, (Adam Hilger: Bristol).
+   E.~Schoenberg, 1929, {\it Hdb. d. Ap}, {\bf 2},
+      (Julius Springer: Berlin), p268.
+   R.W.~Sinnott, 1988, {\it NGC 2000.0}\, (Cambridge
+      University Press: Cambridge and Sky Publishing Corporation: Cambridge,
+   M.-P. Veron-Cetty and P. Veron, 1989, {\it Catalogue
+      of Quasars and Active Galactic Nuclei}, fourth edition (ESO Sci. Rep. 7).
+   J.V. Wall, 1979, `Practical Statistics for
+      Astronomers', {\it Q. J. R. Astron. Soc}, {\bf 20}, p138-152.
 
 ---sep---
 
@@ -3216,6 +3528,9 @@
 %A Bly, M. J.; Draper, P. W.
 %D 00/2008
 %J Starlink User Note 191
+%B The SAE package brings together some include files, a facility error file
+   and a shell script needed for development of software in the Starlink
+   environment, and for building the USSC.
 
 ---sep---
 
@@ -3224,14 +3539,24 @@
 %A Rehan, S. C.
 %D 00/1995
 %J Starlink User Note 192
+%B nu/TPU is a fully programmable text processing utility compatible
+   with the TPU system found on VMS systems. People used to using
+   TPU or EDT on the former Starlink VAX/VMS service will find that
+   nu/TPU is very similar to these editors.
+%Z SUN/170
 
 ---sep---
 
 %R 2004StaUN.193.....B
 %T PERL -- Practical Extraction and Report Language
-%A Bly, Martin J.
+%A Bly, Martin J.; Rankin, S. E.
 %D 00/2004
 %J Starlink User Note 193
+%B Perl is an increasingly popular tool in
+   Astronomy data reduction. This document describes the Starlink installation.
+%Z Randal L. Scwartz, \textit{Learning Perl}, O'Reilly Associates, Inc. ISBN 0-56592-042-2.
+   Larry Wall, Tom Christiansen \& Randal L. Schwartz, \textit{Programming Perl}, O'Reilly Associates, Inc. ISBN 0-56592-149-6.
+
 
 ---sep---
 
@@ -3240,6 +3565,25 @@
 %A Meyerdierks, H.; Berry, D. S.; Draper, P. W.; Privett, G.; Currie, M. J.
 %D 00/2005
 %J Starlink User Note 194
+%B This is a preliminary version of the PDA library. PDA
+   is intended to replace the NAG library
+   in Starlink application code. A number of people are working on this
+   project, and as their contributions become available the
+   library will slowly approach version 1.0.
+
+   The library is not intended as a service to Starlink users or as a
+   full NAG replacement, but some users may find routines in this library
+   useful.
+
+   The library is coded in Fortran and has a Fortran 77 binding. Mostly,
+   the interface is for double precision, the Fourier transform part
+   provides for both double and single precision, and the routines from
+   DIERCKX exist only for single precision.
+%Z SUN/28
+   SUN/121
+   SSN/4
+   The Art of Computer Programming, Fundamental Algorithms Vol 1,
+      by Donald E. Knuth (Addison-Wesley).
 
 ---sep---
 
@@ -3248,6 +3592,12 @@
 %A Mellor, G.
 %D 00/1995
 %J Starlink User Note 195
+%B The NEWS command provides access to recent topics of interest for
+   Starlink users.  There are items on the latest Starlink software
+   releases, relevant jobs and other happenings within the astronomical
+   community.  Users are encouraged to regularly browse the {\tt news}
+   system to keep abreast of the latest developments within the
+   community.
 
 ---sep---
 
@@ -3264,6 +3614,11 @@
 %A Bly, M. J.
 %D 00/1997
 %J Starlink User Note 197
+%B Ghostscript is the name of a set of software that provides:
+   o An interpreter for the PostScript (TM) language, and
+   o A set of C procedures (the Ghostscript library) that implement
+     the graphics capabilities that appear as primitive operations in the
+     PostScript language.
 
 ---sep---
 
@@ -3272,6 +3627,33 @@
 %A Draper, P. W.; Chipperfield, A. J.; Lawden, M. D.
 %D 00/2009
 %J Starlink User Note 199
+%B Star2HTML lets you write (or convert) a Starlink document
+   so that you can create two versions of it from a single source file.
+   A paper version is produced by LaTeX,
+   and a hypertext version (suitable for browsing on the web) is produced by
+   latex2html.
+   You can tailor each version to its own medium by marking selected text as
+   LaTeX-only or HTML-only.
+
+   Star2HTML also includes a set of document templates for producing
+   Starlink documents in a standard style (such as Starlink User Note).
+   They also define new LaTeX commands for adding extra links to the
+   hypertext version of your document (without affecting the paper version).
+
+   This document explains these new facilities, and gives advice on good
+   practice and on how to deal with some specific formatting problems when
+   converting a document to hypertext.
+   You are assumed to be familiar with LaTeX.
+%Z SUG
+   SUN/9
+   SUN/188
+   SUN/40
+   SC/9
+   SGP/28
+   SGP/50
+   SUN/201
+   Lamport, Leslie & & \LaTeX\ User's Guide \& Reference Manual,
+     2nd ed, Addison-Wesley, 1994.
 
 ---sep---
 
@@ -3280,6 +3662,16 @@
 %A Bly, M. J.
 %D 00/2000
 %J Starlink User Note 200
+%B TCLSYS is a group of packages consisting of Tcl, Tk, incr Tcl and
+   Expect, which provide a powerful scripting language (Tcl), an Xwindows
+   toolkit (Tk), a set of object-oriented extensions for Tcl (incr Tcl),
+   and a utility to provide interaction between Tcl scripts and interactive
+   programs (Expect).
+
+   This note provides a brief introduction to each and a pointer to where
+   you can find more information.
+%Z SUN/214
+   SUN/78
 
 ---sep---
 
@@ -3288,6 +3680,11 @@
 %A Bly, M. J.
 %D 00/1995
 %J Starlink User Note 201
+%B LATEX2HTML converts LaTeX source files
+   into a set of HTML files, suitable for browsing on the World Wide Web.
+   It is used by STAR2HTML, which is the preferred program to use for
+   converting Starlink documents to hypertext form.
+%Z SUN/199
 
 ---sep---
 
@@ -3296,6 +3693,12 @@
 %A Bly, M. J.
 %D 00/1998
 %J Starlink User Note 202
+%B This note gives a general overview of the methods available for using
+   Starlink Infrastructure subroutine libraries with applications.
+   There is an outline of how to use the include files for a subroutine
+   library, and a guide to the methods available for linking with the
+   subroutine libraries.
+%Z SG/4
 
 ---sep---
 
@@ -3304,6 +3707,26 @@
 %A Berry, D. S.; Privett, G. J.; Davenhall, A. C.
 %D 00/1997
 %J Starlink User Note 203
+%B This manual documents the use of IBM DX (Data Explorer) on Starlink
+   systems. DX is a commercial scientific data visualisation package, suitable
+   for the visualisation and display of many sorts of astronomical data. It is
+   the package which Starlink recommends for the display of three-dimensional
+   scalar and vector data.  DX is not available at all Starlink sites; your
+   site manager should be able to advise on whether or not it is available at
+   your site.
+
+   This manual describes how to access DX and SX, the Starlink enhancements
+   to DX. It also documents these enhancements.
+
+   This edition of the manual applies to version 3.1 of DX and
+   describes version 1.1 of SX. If you have a later version of DX
+   it may be necessary to re-build SX. Your site manager should be able to
+   advise on this.
+%Z SG/8
+   SC/2
+   SUN/33
+   SUN/55
+   SUN/95
 
 ---sep---
 
@@ -3312,6 +3735,13 @@
 %A Harries, T. J.
 %D 00/1996
 %J Starlink User Note 204
+%Z SUN/66
+   SUN/50
+   Codina-Landaberry S., Magalh\~{a}es A. M., 1976, AA, 49 407
+   Serkowski K., 1973, in Greenburg J. M., Hayes D. S., eds, IAU Symp. 52,
+      Interstellar Dust and Related Topics. Reidel, p. 145
+   Whittet D. C. B., Martin P. G., Hough J. H., Rouse M. F., Bailey J. A.,
+      Axon D. J., 1992, ApJ, 386, 562
 
 ---sep---
 
@@ -3320,6 +3750,10 @@
 %A Rawlinson, D. J.; Sherman, J. C.
 %D 00/1995
 %J Starlink User Note 205
+%B This User Note is a brief introduction to FORUM for users.
+   A companion document, SSN/33, intended for Site Managers, describes
+   how to install FORUM.
+%Z SSN/33
 
 ---sep---
 
@@ -3328,6 +3762,10 @@
 %A Daly, P. N.; Krisciunas, K.; Bridger, A.
 %D 00/1996
 %J Starlink User Note 206
+%Z SG/4
+   SUN/186
+   Ousterhoot,J 1994 Tcl and Tk Toolkit
+   Shortridge, K. 1993 ADASS II
 
 ---sep---
 
@@ -3336,6 +3774,20 @@
 %A Palmer, J. W.
 %D 00/1996
 %J Starlink User Note 207
+%B The NRAO Astronomical Image Processing System (AIPS) is a software
+   package for interactive (and, optionally, batch) calibration and
+   editing of radio interferometric data and for the calibration,
+   construction, display and analysis of astronomical images made from
+   those data using Fourier synthesis methods.  It is the principle tool
+   for display and analysis of both two- and three-dimensional radio
+   images (i.e., continuum ``maps'' and spectral-line ``cubes''
+   from the NRAO's Very Large Array (VLA) as well as MERLIN data.
+
+   It is also used for astronomical applications that do not involve radio
+   interferometry.  These uses include the display and analysis of line
+   and continuum data from large single-dish radio surveys, and the
+   processing of image data at infrared, visible, ultraviolet and X-ray
+   wavelengths.
 
 ---sep---
 
@@ -3344,6 +3796,19 @@
 %A McGale, P.; West, Richard
 %D 00/1996
 %J Starlink User Note 208
+%B During 1990 Jul to 1991 Jan, the ROSAT Wide Field Camera (WFC) performed
+   the first all-sky survey at extreme-ultraviolet (EUV) wavelengths.
+   The whole sky, or approximately 96% of it, was imaged in two passbands, S1
+   and S2, covering the ranges 60-140 Angstroms and 110-200 Angstroms respectively.
+   An initial bright source catalogue (BSC) of 383 sources was produced by
+   Pounds et al.  A new list, the 2RE Catalogue,
+   of 479 sources has recently been
+   published.  The survey data i.e., images and `raw' photon event files
+   are now in the public domain.  The REPACK software package has been
+   developed to fully exploit these data.  This document describes the
+   REPACK programs.
+%Z Pye et al 1995, MNRAS, 274, 1165
+   Pounds et al 1993, MNRAS, 260, 77
 
 ---sep---
 
@@ -3352,6 +3817,18 @@
 %A Allan, P. M.; Chipperfield, A. J.; Warren-Smith, R. F.; Draper, P. W.; Berry, D. S.
 %D 00/2011
 %J Starlink User Note 209
+%B The CNF package comprises two sets of software which ease the task of writing
+   portable programs in a mixture of FORTRAN and C.
+   F77 is a set of C macros for handling the FORTRAN/C subroutine linkage in a
+   portable way, and CNF is a set of functions to handle the difference between
+   FORTRAN and C character strings, logical values and pointers to
+   dynamically allocated memory.
+%Z SUN/92
+   SG/4
+   SUN/144
+   SUN/92
+   SUN/121
+   Banahan, M.F., 1988. The C Book: featuring the draft ANSI C standard. Publ, Addison-Wesley
 
 ---sep---
 
@@ -3360,6 +3837,28 @@
 %A Warren-Smith, R. F.; Berry, D. S.
 %D 00/2013
 %J Starlink User Note 210
+%B The AST library provides a comprehensive range of facilities for
+   attaching world coordinate systems to astronomical data, for
+   retrieving and interpreting that information in a variety of formats,
+   including FITS-WCS, and for generating graphical output based on it.
+
+   This programmer's manual should be of interest to anyone writing
+   astronomical applications which need to manipulate coordinate system
+   data, especially celestial or spectral coordinate systems. AST is portable and
+   environment-independent.
+%Z SUN/211
+   SUN/15
+   SUN/212
+   SUN/33
+   SUN/67
+   SG/4
+   SUN/144
+   SSN/4
+   SUN/104
+   SUN/268
+   ``Representation of celestial coordinates in FITS'' Calabretta and Greisen
+   Representation of World coordinates in FITS, Greisen and Calabretta
+   FITS Paper III
 
 ---sep---
 
@@ -3368,6 +3867,28 @@
 %A Warren-Smith, R. F.; Berry, D. S.
 %D 00/2013
 %J Starlink User Note 211
+%B The AST library provides a comprehensive range of facilities for
+   attaching world coordinate systems to astronomical data, for
+   retrieving and interpreting that information in a variety of formats,
+   including FITS-WCS, and for generating graphical output based on it.
+
+   This programmer's manual should be of interest to anyone writing
+   astronomical applications which need to manipulate coordinate system
+   data, especially celestial or spectral coordinate systems. AST is portable and
+   environment-independent.
+%Z SUN/210
+   SUN/15
+   SUN/212
+   SUN/33
+   SUN/67
+   SG/4
+   SUN/144
+   SSN/4
+   SUN/104
+   SUN/268
+   ``Representation of celestial coordinates in FITS'' Calabretta and Greisen
+   Representation of World coordinates in FITS, Greisen and Calabretta
+   FITS Paper III
 
 ---sep---
 
@@ -3376,6 +3897,42 @@
 %A Rankin, S. E.; Bly, M. J.
 %D 00/2003
 %J Starlink User Note 212
+%B This document describes the Summer 2003 distribution of the Starlink
+   Software for Tru64 Unix, RedHat Linux and Solaris, distributed on CD-ROM.
+%Z SUN/245
+   SUN/242
+   SUN/132
+   SUN/251
+   SUN/243
+   SUN/5
+   SUN/246
+   SUN/251
+   SUN/1
+   SUN/5
+   SUN/50
+   SUN/55
+   SUN/67
+   SUN/95
+   SUN/109
+   SUN/121
+   SUN/132
+   SUN/150
+   SUN/160
+   SUN/193
+   SUN/210
+   SUN/211
+   SUN/212
+   SUN/214
+   SUN/216
+   SUN/227
+   SUN/228
+   SUN/230
+   SUN/232
+   SUN/236
+   SUN/238
+   SUN/243
+   SUN/244
+   SUN/188
 
 ---sep---
 
@@ -3384,6 +3941,28 @@
 %A Privett, G.; Jenness, T.; Matthews, H. E.; Barnard, V.
 %D 00/2012
 %J Starlink User Note 213
+%B FLUXES calculates approximate topocentric positions of the planets and also
+   integrated flux densities of five of them at several wavelengths.
+   These provide calibration information at the effective frequencies and
+   beam-sizes employed by the UKT14 and SCUBA receivers on the
+   JCMT telescope based on Mauna Kea, Hawaii.
+
+   The FLUXNOW command, runs FLUXES for the current time and date.
+   This allows you to obtain planetary positions and flux levels quickly.
+%Z SUN/67
+   SUN/95
+   SUN/222
+   SUN/186
+   Ulich (1981, A.J., 86, 1619
+   Wright, E.L. (1976, ApJ, 210, 250)
+   Wright, E.L. arXiv MARS [Fix SUN for this to avoid private comm]
+   Griffin et al 1986, Icarus, 65, 244
+   Orton, 1986, Icarus, 67, 289
+   Van Flandern and Pulkinnen, (1979, Ap.J.Supp., 41, 391)
+   Lieske (1979, A & A, 73, 282)
+   Baars (1973, IEEE trans. on Antennas and Propogation, 21, 461)
+   Moreno, R. 2010, "Neptune and Uranus planetary brightness temperature
+      tabulation, available from ESA Herschel Science Centre."
 
 ---sep---
 
@@ -3392,6 +3971,27 @@
 %A Draper, Peter, W.; Gray, Norman; Berry, David S.; Taylor, Mark
 %D 00/2012
 %J Starlink User Note 214
+%B GAIA is an image and data-cube display
+   and analysis tool for astronomy. It provides the usual facilities of image
+   display tools, plus more astronomically useful ones such as aperture \&
+   optimal photometry, contouring, source detection, surface photometry,
+   arbitrary region analysis, celestial coordinate readout, calibration
+   and modification, grid overlays, blink comparison, defect patching and
+   the ability to query on-line catalogues and image servers. It can
+   also display slices from data-cubes, extract and visualise spectra as
+   well as perform full 3D rendering.
+%Z SUN/255
+   SC/17
+   SUN/33
+   SUN/226
+   SUN/45
+   SUN/180
+   SUN/183
+   SUN/223
+   SUN/190
+   SSN/75
+   SSN/20
+   SUN/55
 
 ---sep---
 
@@ -3400,6 +4000,54 @@
 %A Jenness, T.; Lightfoot, J. F.
 %D 00/2003
 %J Starlink User Note 216
+%B SMURF is a set of ADAM tasks necessary for reducing demodulated
+   Submillimetre Common-User Bolometer Array (SCUBA) data obtained from
+   the James Clerk Maxwell Telescope. The tasks allows one to completely
+   re-reduce your SCUBA data.
+
+   This document describes how to reduce SCUBA data and includes detailed
+   descriptions of each task.
+%Z SUN/95
+   SUN/86
+   SUN/214
+   SUN/55
+   SUN/163
+   SUN/213
+   SUN/33
+   SUN/48
+   SUN/180
+   SC/8
+   SUN/104
+   SUN/210
+   SUN/164
+   SUN/223
+   SUN/139
+   SUN/190
+   SUN/194
+   SUN/150
+   SUN/144
+   SUN/92
+   SSN/72
+   SC/11
+   SC/10
+   SUN/238
+   SUN/222
+   Wall et al 1996, Programming Perl
+   Emerson, Klein, Haslam 1979 ApJ 76, 92
+   Emerson ASP Conf Ser 75, 309
+   Richer 1992, MNRAS, 254, 165
+   Holland 1998, Proc SPIE 3357, 305
+   Holland~W.~S., et al 1999, MNRAS, 303, 659
+   Jenness & Lightfoot 1998, ADASS VII
+   Archibald et al 2002, MNRAS, 336, 1
+   Greisen~E.~W., Calabretta~M., 2002, A&A, 395, 1077
+   Jenness, Lightfoot and Holland, 1998, SPIE 3357, 548
+   Jenness et al 2000, ADASS X
+   Jenness & Economou 1999, ADASS VIII
+   Jenness et al 2002, MNRAS, 336, 14
+   Hughes~D.~H., 1993, {\it JCMT--UKIRT Newsletter}, {\bf 4}, 32
+   Economou et al 1998, ADASS 7, 145, 195
+   Stevens & Robson, 1994, MNRAS, 270, L75
 
 ---sep---
 
@@ -3408,6 +4056,28 @@
 %A Chipperfield, A. J.
 %D 00/1997
 %J Starlink User Note 217
+%B To extend the choice of data-reduction software for IRAF
+   users, a system has been developed which enables applications written for the
+   Starlink software environment to be run from the IRAF CL.
+   Data conversion between the IRAF image format and the Starlink Extensible
+   N-Dimensional Data Format (NDF) can be done without the need for additional
+   conversion steps so IRAF and Starlink applications can be intermixed easily.
+
+   This document assumes that the reader is familiar with running IRAF
+   applications, and describes in general terms how to install and run Starlink
+   applications for use with IRAF.
+   Information about which application packages are available, and more specific
+   information relating to particular packages may be found elsewhere.
+%Z SUN/86
+   SUN/33
+   SUN/57
+   SUN/219
+   SUN/55
+   SSN/35
+   SUN/200
+   SUN/186
+   SUN/188
+   Terrett, Starlink Bulletin 16
 
 ---sep---
 
@@ -3416,6 +4086,14 @@
 %A Bly, M. J.
 %D 00/1997
 %J Starlink User Note 218
+%B The Independent JPEG Group (IJG) JPEG software is a free implementation
+   of the JPEG image compression and decompression methods written in C, for
+   compression and decompression of full-color and gray-scale images.
+
+   This version is distributed under the IJG terms and conditions, and is
+   unchanged from the publicly available version.  The distribution has
+   been wrapped to allow easier manipulation within Starlink installations.
+
 
 ---sep---
 
@@ -3424,6 +4102,13 @@
 %A Bly, M. J.
 %D 00/1997
 %J Starlink User Note 219
+%B The GWM Xdisplay widget is a Tcl/Tk-based replacement for the standard GWM
+   Xdisplay manager.  It provides several facilities not available in the
+   standard display manager, including manipulation of the colour table of the
+   display, capture of the displayed plot or image to JPEG format, and dumping
+   to print files of various formats.
+%Z SUN/130
+   SUN/186
 
 ---sep---
 
