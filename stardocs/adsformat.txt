@@ -4117,6 +4117,21 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/1997
 %J Starlink User Note 220
+%B The general data reduction system, Figaro, may now be run from the
+   IRAF CL. The IRAFFIG package
+   contains the required IRAF-specific files for Figaro and must be installed in
+   addition to Figaro itself for the system to work.
+
+   The main sources of documentation for users of Figaro from IRAF are SUN/217
+   which gives some general guidance on running Starlink applications from IRAF
+   CL, and SUN/86 which gives more specific information about the Figaro applications.
+% SUN/86
+  SUN/217
+  SSN/35
+  SUN/200
+  SUN/186
+  SUN/55
+  SUN/188
 
 ---sep---
 
@@ -4125,6 +4140,16 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/1997
 %J Starlink User Note 221
+%B The Starlink Kernel APplication PAckage, KAPPA,
+   may now be run from the IRAF CL. This document tells you
+   how to get started and points to further information.
+%Z SUN/95
+   SUN/217
+   SSN/35
+   SUN/200
+   SUN/186
+   SUN/55
+   SUN/188
 
 ---sep---
 
@@ -4133,6 +4158,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jenness, T.; Bly, M. J.
 %D 00/1998
 %J Starlink User Note 222
+%B NDFperl is a Perl interface to the extensible
+   N-dimensional data format (NDF) used by Starlink packages for storing data.
+   It may be used within Perl scripts for manipulating NDF data and provides a
+   convenient way of accessing NDF data for users not wanting to use Fortran.
 
 ---sep---
 
@@ -4141,6 +4170,31 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.; Gledhill, T. M.
 %D 00/2012
 %J Starlink User Note 223
+%B POLPACK is a package of applications for
+   reducing imaging polarimetry or spectropolarimetry data. They cover
+   registration, sky subtraction, calculation of Stokes parameters, and
+   display of vector maps.
+
+   The polarization map on the front cover shows 850 micron dust grain
+   emission in the cloud core W3. The map shows large scale magnetic fields
+   in this region of high-mass star-formation. The data were obtained with
+   the SCUBA polarimeter on the James Clerk Maxwell Telescope  (operated by
+   the Joint Astronomy Centre in Hawaii), and reduced using SURF and POLPACK.
+%Z SUN/33
+   SUN/55
+   SUN/95
+   SUN/139
+   SUN/210
+   SUN/214
+   SUN/190
+   SUN/217
+   SSN/35
+   SUN/200
+   SUN/186
+   SUN/188
+   SUN/190
+   SUN/181
+   SUN/61
 
 ---sep---
 
@@ -4149,6 +4203,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/2000
 %J Starlink User Note 224
+%B HDSPAR is a library of subroutines which interface between the
+   Starlink Hierarchical Data System (HDS) and the ADAM
+   parameter system. HDS objects are handled by reference to a
+   program parameter name rather than their object name.
+%Z SG/4
+   SUN/92
+   SUN/115
+   SUN/104
+   SUN/102
+   SUN/114
+   SUN/144
 
 ---sep---
 
@@ -4157,6 +4222,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Taylor, M. B.
 %D 00/1999
 %J Starlink User Note 225
+%B This document describes the installation and use of SCB,
+   the Starlink Source Code Browser.
+   The package consists of two parts, an indexer program and an
+   extractor program.
+   The indexer need only be run infrequently (when the source code collection
+   changes), and the extractor can be run to extract a source file
+   by file- or function-name, either in plain text to the command line,
+   or in HTML including hyperlinks to called routines, viewable
+   using a WWW browser.  In the latter case, the extractor program
+   must be installed as a CGI script.
+%Z SUN/188
 
 ---sep---
 
@@ -4165,6 +4241,22 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.; Draper, P. W.
 %D 00/2009
 %J Starlink User Note 226
+%B EXTRACTOR will detect sources in
+   an astronomical image and build a catalogue listing them. It is based on the
+   popular SExtractor program, has very flexible configuration
+   facilities and can handle images and catalogues in a variety of formats.
+%Z SG/4
+   SUN/33
+   SUN/210
+   SSN/20
+   SUN/95
+   SC/4
+   SG/5
+   SUN/214
+   SUN/109
+   SUN/211
+   SUN/55
+   Bertin and Arnouts 1996, A&AS, 117, 393
 
 ---sep---
 
@@ -4173,6 +4265,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Rankin, S. E.; Bly, M. J.
 %D 00/2009
 %J Starlink User Note 227
+%B The CFITSIO package is a series of C functions that provide easy access
+   to FITS files on disk.  It was written by William D. Pence of HEASARC
+   (High Energy Astrophysics Science Archive Research Center) at the
+   Goddard Space Flight Center, USA.  Starlink is grateful to William
+   Pence for giving his permission for CFITSIO to be released on Starlink.
 
 ---sep---
 
@@ -4181,6 +4278,25 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jenness, Tim; Economou, Frossie
 %D 00/2003
 %J Starlink User Note 228
+%B The StarPerl package is a selection
+   of perl modules that provide access to Starlink infrastructure libraries.
+   Currently, interfaces are provided to the ADAM messaging system,
+   the Starlink Noticeboard system. Additional modules are provided to determine
+   version numbers of installed Starlink packages and to read NDF, HDS and
+   GSD format data files.
+%Z SUN/95
+   SUN/86
+   SUN/144
+   SUN/229
+   SUN/33
+   SSN/4
+   SUN/193
+   SUN/92
+   SUN/11
+   SUN/104
+   SUN/77
+   SUN/222
+   SUN/229
 
 ---sep---
 
@@ -4189,6 +4305,15 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jenness, Tim; Tilanus, Remo; Meyerdierks, Horst; Fairclough, Jon
 %D 00/1999
 %J Starlink User Note 229
+%B This document describes the Global Section Datafile (GSD) access library.
+   This library provides read-only access to GSD files created at the
+   James Clerk Maxwell Telescope. A description of GSD itself is presented
+   in addition to descriptions of the library routines.
+%Z Holland et al 1999, MNRAS, 303, 659
+   SUN/33
+   SUN/132
+   SUN/17
+   SUN/39
 
 ---sep---
 
@@ -4197,6 +4322,27 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Economou, Frossie; Jenness, Tim; Currie, Malcolm J.; Adamson, Andy; Allan, Alasdair; Cavanagh, Brad
 %D 00/2004
 %J Starlink User Note 230
+%B ORAC-DR is a general purpose automatic
+   data reduction pipeline environment. It currently supports data reduction
+   for the United Kingdom Infrared Telescope (UKIRT) instruments UFTI, IRCAM,
+   UIST  and CGS4, for the James Clerk Maxwell Telescope (JCMT) instrument
+   SCUBA, for the William Herschel Telescope (WHT) instrument INGRID, for the
+   European Southern Observatory (ESO) instrument ISAAC and
+   for the Anglo-Australian Telescope (AAT) instrument IRIS-2. This document
+   describes the general pipeline environment. For specific information on how
+   to reduce the data for a particular instrument, please consult the
+   appropriate ORAC-DR instrument guide.
+%Z SUN/95
+   SUN/214
+   SUN/27
+   SUN/219
+   SUN/226
+   SUN/246
+   SUN/232
+   Economou et al 1998, ASP Conf Ser.
+   Cavanagh et al 2008, AN
+   Jenness & Economou 1999
+   Gibb et al 2005
 
 ---sep---
 
@@ -4205,6 +4351,25 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jenness, Tim; Economou, Frossie
 %D 00/2004
 %J Starlink User Note 231
+%B ORAC-DR is a flexible data reduction pipeline designed to reduce
+   data from many different instruments. This document describes how
+   to use the ORAC-DR pipeline to reduce data taken with the
+   Submillimetre Common-User Bolometer Array (SCUBA) obtained from the
+   James Clerk Maxwell Telescope.
+%Z SUN/230
+   SUN/95
+   SUN/213
+   SUN/216
+   SUN/214
+   SUN/27
+   SUN/219
+   SUN/83
+   SUN/223
+   SUN/139
+   SUN/190
+   Holland et al 1999, MNRAS, 303, 659
+   Emerson, Klein and Haslam, 1979, ApJ, 76, 92
+   Emerson, ASP Conf, 75, 309
 
 ---sep---
 
@@ -4213,6 +4378,35 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Currie, Malcolm J.; Cavanagh, Brad
 %D 00/2004
 %J Starlink User Note 232
+%B ORAC-DR is a
+   general-purpose automatic data-reduction pipeline environment.  This
+   document describes its use to reduce imaging data collected at the
+   United Kingdom Infrared Telescope (UKIRT) with the UFTI, UIST, IRCAM,
+   and Michelle instruments; at the Anglo-Australian Telescope (AAT) with
+   the IRIS2 instrument; at the Very Large Telescope with ISAAC and NACO;
+   from Magellan's Classic Cam, at Gemini with NIRI, and from the Isaac
+   Newton Group using INGRID.  It outlines the algorithms used and how to
+   make minor modifications to them, and how to correct for errors made
+   at the telescope.
+%Z SUN/230
+   SUN/139
+   SUN/95
+   SUN/231
+   SUN/246
+   SUN/236
+   SUN/234
+   SUN/233
+   SUN/92
+   SUN/214
+   SUN/226
+   SUN/41
+   SUN/223
+   SUN/190
+   SC/4
+   SUN/109
+   SUN/86
+   SUN/45
+   SUN/267
 
 ---sep---
 
@@ -4221,6 +4415,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jenness, Tim; Economou, Frossie; Cavanagh, Brad
 %D 00/2004
 %J Starlink User Note 233
+%B ORAC-DR is a general purpose
+   automatic data reduction pipeline environment. This document describes
+   how to modify data reduction recipes and how to add new instruments.
+   For a general overview of ORAC-DR see SUN/230.  For specific
+   information on how to reduce the data for a particular instrument,
+   please consult the appropriate ORAC-DR instrument guide.
+%Z SUN/230
+   SUN/95
+   SUN/214
+   SUN/27
+   SUN/219
 
 ---sep---
 
@@ -4229,14 +4434,36 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Platon, R. T.; Jenness, T.
 %D 00/2011
 %J Starlink User Note 234
+%B This library is a set of Fortran and C routines
+   of a general nature and usefulness,
+   which are not suitable for inclusion in other more focussed libraries.
 
 ---sep---
 
 %R 2002StaUN.235.....D
-%T NAOS -- finding NAOMI guid stars
+%T NAOS -- finding NAOMI guide stars
 %A Davenhall, A. C.
 %D 00/2002
 %J Starlink User Note 235
+%B Observations made with the NAOMI adaptive optics system on the
+   William Herschel Telescope (WHT) usually require a guide star located
+   close to the target object being observed.  This manual describes how to
+   find such guide stars.  It documents the NAOS package whose purpose is
+   precisely to find suitable guide stars and also describes various related
+   items of software.  Details of the potential guide stars are produced as
+   tabular lists in text files, finding charts and tables in a format
+   suitable for input into GAIA or CURSA.
+
+   This document is aimed at astronomers who are planning to observe
+   with the NAOMI adaptive optics system on the WHT and need to find guide
+   stars for their target objects.
+%Z SUN/190
+   SUN/214
+   SUN/56
+   SUN/184
+   SSN/75
+   Monet et al 1996, USNO-SA1
+   P.~Kunitzsch and T.~Smart, 1986, Short Guide to Modern Star Names and Their Derivations
 
 ---sep---
 
@@ -4245,6 +4472,21 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Hirst, Paul; Cavanagh, Brad
 %D 00/2005
 %J Starlink User Note 236
+%B ORAC-DR is a general-purpose automatic data-reduction pipeline environment.
+   This document describes its use to reduce spectroscopy data collected at the
+   United Kingdom Infrared Telescope (UKIRT) with the CGS4, UIST and Michelle
+   instruments, at the Anglo-Australian Telescope (AAT) with the IRIS2
+   instrument, and from the Very Large Telescope with ISAAC. It outlines the
+   algorithms used and how to make minor modifications of them, and how
+   to correct for errors made at the telescope.
+%Z SUN/230
+   SUN/139
+   SUN/95
+   SUN/232
+   SUN/246
+   SUN/231
+   SUN/233
+   SUN/92
 
 ---sep---
 
@@ -4253,6 +4495,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, Alasdair; Currie, Malcolm J.
 %D 00/2010
 %J Starlink User Note 237
+%B DATACUBE is a package which includes the IFU Data Product Cookbook (SC/16),
+   and a collection of example shell scripts for IFS data cube manipulation.
+%Z SC/16
+   SUN/86
+   SUN/95
+   SUN/237
+   SUN/190
+   SUN/253
 
 ---sep---
 
@@ -4261,6 +4511,34 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.; Currie, Malcolm, J.
 %D 00/2011
 %J Starlink User Note 238
+%B KAPLIBS is a package of Fortran subroutine
+   libraries which were originally written as part of the KAPPA package (a
+   package of general-purpose image-processing and visualization tools).
+   KAPLIBS provides software developers with access to many of the internal
+   KAPPA routines, so that KAPPA-like applications can be written and built
+   independently of KAPPA.
+%Z SUN/95
+   SUN/210
+   SUN/144
+   SUN/15
+   SUN/262
+   SUN/194
+   SUN/124
+   SUN/234
+   SUN/163
+   SUN/165
+   SUN/181
+   SUN/67
+   SUN/48
+   SUN/150
+   SUN/104
+   SUN/61
+   SUN/57
+   SUN/211
+   SUN/39
+   Gonzalez, R.C. and Wintz, P., 1977, Digital Image Processing
+   Goad, L.E. 1980, in Applications of Digital Image Processing to
+        Astronomy, SPIE 264, 139.
 
 ---sep---
 
