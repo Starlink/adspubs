@@ -4547,6 +4547,42 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, David S.
 %D 00/2001
 %J Starlink User Note 239
+%B KAPRH is an applications package containing commands
+   which have been ``retired'' from the KAPPA package (see SUN/95). They
+   are retained within KAPRH to satisfy any occasional need there may be for
+   them.
+%Z SUN/95
+   SUN/16
+   SGP/38
+   SUN/48
+   SUN/183
+   SUN/98
+   SUN/139
+   SUN/27
+   SUN/55
+   SUN/152
+   SUN/180
+   SUN/86
+   SUN/214
+   SUN/83
+   SUN/130
+   SUN/92
+   SUN/102
+   SG/5
+   SUN/65
+   SUN/177
+   SUN/163
+   SUN/132
+   SUN/33
+   SUN/194
+   SUN/45
+   SUN/109
+   SUN/137
+   SUN/164
+   SUN/85
+   SUN/66
+   SUN/90
+   SUN/61
 
 ---sep---
 
@@ -4555,6 +4591,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.
 %D 00/2001
 %J Starlink User Note 240
+%B FINDCOORDS is a utility for finding the equatorial coordinates of
+   a named astronomical object.  You simply enter the name of the object
+   and its coordinates are displayed.
+%Z SUN/190
+   SSN/76
 
 ---sep---
 
@@ -4563,6 +4604,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Kelly, B. D.; Chipperfield, A. J.
 %D 00/2001
 %J Starlink User Note 241
+%B The ADAM Message System (AMS) library, which
+   implements the ADAM inter-task communications protocol under Unix, is
+   described, along with its Fortran-callable interface (FAMS).
+
+   The description of AMS is distinguished from the current implementation which
+   uses the Message System Primitives (MSP).
+%Z SSN/77
+   SSN/29
 
 ---sep---
 
@@ -4571,6 +4620,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gray, Norman; Cavanagh, Brad
 %D 00/2006
 %J Starlink User Note 242
+%B We describe the AUTOASTROM package, which provides an interface to the
+   ASTROM application. This creates a semi-automatic route to doing astrometry
+   on CCD images.
+%Z SUN/5
+   SUN/139
+   SUN/211
+   SUN/214
+   SUN/226
+   Bertin & Arnouts A&AS, 1996, 117, 393
+   Calabretta & Greisen 2002, FITS Paper II
+   Greisen & Calabretta 2002, FITS Paper I
+   Greisen et al FITS Paper III
+   Hanisch et al 2001, A&A 376, 359
+   Valdes et al 1995, PASP, 107, 1119
 
 ---sep---
 
@@ -4579,6 +4642,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Draper, Peter W.;Taylor, Mark;Neves, Margarida Castro
 %D 00/2013
 %J Starlink User Note 243
+%B SPLAT-VO is an extensible analysis and display tool for extracted
+   spectra that can also interact with the Virtual Observatory.
+%Z SUN/211
+   FITS paper III
+   FITS paper I
+   SUN/95
+   SUN/86
+   SUN/253
 
 ---sep---
 
