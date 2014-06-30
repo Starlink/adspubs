@@ -4650,6 +4650,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/95
    SUN/86
    SUN/253
+   2014ascl.soft02008C
+   A&C paper
 
 ---sep---
 
@@ -4658,6 +4660,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Taylor, Mark
 %D 00/2001
 %J Starlink User Note 244
+%B TREEVIEW is a graphical tool for examination of hierarchical data structures.
+   It knows all about the Starlink HDS and NDF file formats, as well
+   as being able to do basic examination of XML documents,
+   FITS files, Zip or Jar files, and filesystem directory trees.
+%Z SUN/102
+   SUN/95
+   SUN/33
+   SUN/11
+   SUN/92
+   SUN/211
+   SUN/102
 
 ---sep---
 
@@ -4666,6 +4679,15 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/2002
 %J Starlink User Note 245
+%B The HDSTOOLS package contains a number of tools
+   to edit and display HDS objects. The tools originated in the ASTERIX package
+   but have now been modified to run as normal Starlink tasks.
+%Z SUN/92
+   SUN/102
+   SG/5
+   SUN/144
+   SUN/115
+   SUN/104
 
 ---sep---
 
@@ -4674,6 +4696,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Todd, Stephen
 %D 00/2004
 %J Starlink User Note 246
+%B ORAC-DR is a
+   general-purpose automatic data-reduction pipeline environment.  This
+   document describes its use to reduce integral field unit (IFU) data
+   collected at the United Kingdom Infrared Telescope (UKIRT) with the
+   UIST instrument.
+%Z SUN/139
+   SUN/214
+   SUN/86
+   SUN/95
+   SUN/230
+   SUN/232
+   SUN/236
 
 ---sep---
 
@@ -4682,6 +4716,19 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.; Platon, R. T.
 %D 00/2004
 %J Starlink User Note 247
+%B XRT is a package for reducing data acquired with the ROSAT XRT
+   instruments.  The XRT (X-Ray Telescope) was the principal scientific
+   payload of the ROSAT X-ray astronomy satellite.  The XRT had two
+   instruments: the PSPC (Position Sensitive Proportional Counter) and the
+   HRI (High Resolution Imager).  The XRT package operates on data produced
+   by these instruments and can be used to transform them into calibrated
+   images, spectra, time-series \emph{etc}.
+
+   XRT was created by taking the ROSAT XRT-specific functions in the ASTERIX
+   general X-ray astronomy data reduction system and re-packaging them as
+   stand-alone applications.
+%Z SC/5
+   SUN/98
 
 ---sep---
 
