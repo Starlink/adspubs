@@ -4722,7 +4722,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    instruments: the PSPC (Position Sensitive Proportional Counter) and the
    HRI (High Resolution Imager).  The XRT package operates on data produced
    by these instruments and can be used to transform them into calibrated
-   images, spectra, time-series \emph{etc}.
+   images, spectra, time-series etc.
 
    XRT was created by taking the ROSAT XRT-specific functions in the ASTERIX
    general X-ray astronomy data reduction system and re-packaging them as
@@ -4737,6 +4737,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gray, Norman; Ranking, Steve; Draper, Peter
 %D 00/2007
 %J Starlink User Note 248
+%B This document contains instructions on how to build the Starlink `classic'
+   software from source and a comparison with the old 'mk-based' build system.
+   This document is deliberately terse, since we have invested effort in making
+   the processes involved as easy as possible.
+%Z SSN/78
 
 ---sep---
 
@@ -4745,6 +4750,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Taylor, Mark
 %D 00/2005
 %J Starlink User Note 249
+%B Images observed using the Wide Field Camera instrument
+   on the Isaac Newton Telescope contain nonlinear optical distortions.
+   This note gives a quantitative description of these distortions.
+   It also explains how they can be corrected for easily using
+   the CCDPACK package.
+%Z SUN/139
+   SUN/33
+   SUN/55
 
 ---sep---
 
@@ -4753,6 +4766,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Rankin, S. E.
 %D 00/2004
 %J Starlink User Note 251
+%B Starlink is developing a set of Java data reduction and analysis tools
+   and Java data access classes. The new Java tools and classes are needed
+   to produce applications in the Virtual Observatory (VO) era, and to
+   complement the AstroGrid and other VO capabilities such as the International Virtual
+   Observatory Alliance Data Model.
+%Z SUN/243
 
 ---sep---
 
@@ -4761,6 +4780,27 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Taylor, Mark
 %D 00/2013
 %J Starlink User Note 252
+%B STIL is a set of Java class libraries which allow input,
+   manipulation and output of tabular data and metadata. Among its key
+   features are support for many tabular formats (including VOTable,
+   FITS, CDF, text-based formats and SQL databases) and support for
+   dealing with very large tables in limited memory.
+
+   As well as an abstract and format-independent definition of what
+   constitutes a table, and an extensible framework for "pull-model"
+   table processing, it provides a number of format-specific handlers
+   which know how to serialize/deserialize tables. The framework for
+   interaction between the core table manipulation facilities and the
+   format-specific handlers is open and pluggable, so that handlers
+   for new formats can easily be added, programmatically or at
+   run-time.
+
+   The VOTable handling in particular is provided by classes which
+   perform efficient XML parsing and can read and write VOTables in
+   any of the defined formats (TABLEDATA, BINARY or FITS). It supports
+   table-aware SAX- or DOM-mode processing and may be used on its own
+   for VOTable I/O without much reference to the format-independent
+   parts of the library.
 
 ---sep---
 
@@ -4769,6 +4809,37 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Taylor, Mark
 %D 00/2013
 %J Starlink User Note 253
+%B TOPCAT is an interactive graphical viewer and editor for tabular
+   data. It has been designed for use with astronomical tables such as
+   object catalogues, but is not restricted to astronomical
+   applications. It understands a number of different astronomically
+   important formats, and more formats can be added. It is designed to
+   cope well with large tables; a million rows by a hundred columns
+   should not present a problem even with modest memory and CPU
+   resources.
+
+   It offers a variety of ways to view and analyse the data, including
+   a browser for the cell data themselves, viewers for information
+   about table and column metadata, tools for joining tables using
+   flexible matching algorithms, and visualisation facilities
+   including histograms, 2- and 3-dimensional scatter plots, and
+   density maps. Using a powerful and extensible Java-based expression
+   language new columns can be defined and row subsets selected for
+   separate analysis. Selecting a row can be configured to trigger an
+   action, for instance displaying an image of the catalogue object in
+   an external viewer. Table data and metadata can be edited and the
+   resulting modified table can be written out in a wide range of
+   output formats.
+
+   A number of options are provided for loading data from external
+   sources, including Virtual Observatory (VO) services, thus
+   providing a gateway to many remote archives of astronomical
+   data. It can also interoperate with other desktop tools using the
+   SAMP protocol.
+
+   TOPCAT is written in pure Java and is available under the GNU
+   General Public Licence. Its underlying table processing facilities
+   are provided by STIL, the Starlink Tables Infrastructure Library.
 
 ---sep---
 
@@ -4777,6 +4848,16 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, Alasdair
 %D 00/2004
 %J Starlink User Note 254
+%B The FROG application is an extensible analysis and display
+   tool for time series, and is part of the next generation Starlink
+   software work and released under the GNU Public License (GPL).
+
+   Written in Java, it has been designed for the Web and Grid Service
+   era as an extensible, pluggable, tool for time series analysis and
+   display. With an integrated SOAP server the packages functionality
+   is exposed to the user for use in their own code, and to be used
+   remotely over the Grid, as part of the Virtual Observatory (VO).
+%T SUN/167
 
 ---sep---
 
@@ -4785,6 +4866,16 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.
 %D 00/2013
 %J Starlink User Note 255
+%B CUPID is a package of the identification
+   and analysis of clumps of emission within 1-, 2- and 3- dimensional
+   data arrays.
+%Z SUN/33
+   SUN/55
+   SUN/95
+   SUN/214
+   SUN/203
+   Williams, de Geus & Blitz (1994, ApJ 428, 693)
+   Stutzki & Gusten (1990, ApJ 356, 513)
 
 ---sep---
 
@@ -4793,6 +4884,28 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Taylor, Mark
 %D 00/2013
 %J Starlink User Note 256
+%B STILTS is a set of command-line tools for processing tabular data.
+   It has been designed for, but is not restricted to, use on
+   astronomical data such as source catalogues.  It contains both
+   generic (format-independent) table processing tools and tools for
+   processing VOTable documents.  Facilities offered include
+   crossmatching, format conversion, format validation, column
+   calculation and rearrangement, row selection, sorting, plotting,
+   statistical calculations and metadata display.  Calculations on
+   cell data can be performed using a powerful and extensible
+   expression language.
+
+   The package is written in pure Java and based on STIL, the Starlink
+   Tables Infrastructure Library.  This gives it high portability,
+   support for many data formats (including FITS, VOTable, text-based
+   formats and SQL databases), extensibility and scalability.  Where
+   possible the tools are written to accept streamed data so the size
+   of tables which can be processed is not limited by available
+   memory.  As well as the tutorial and reference information in this
+   document, detailed on-line help is available from the tools
+   themselves.
+
+   STILTS is available under the GNU General Public Licence.
 
 ---sep---
 
@@ -4801,6 +4914,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.
 %D 00/2006
 %J Starlink User Note 257
+%B ATL provides high level utility functions for handling WCS and other
+   AST-related tasks.
+%Z SUN/211
 
 ---sep---
 
