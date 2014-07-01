@@ -5774,6 +5774,19 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, Martin
 %D 00/1997
 %J Starlink General Paper 47
+%B This document is designed as an aid to those who need to find, or use,
+   software for computer algebra.
+   Some of the text is based on a review undertaken to determine whether
+   the existing Starlink provision for computer algebra is sufficient and
+   appropriate.
+   At present there is a copy of Maple, available to anyone with a Starlink
+   account, on the central stadat machine.
+
+   The document compares the two main packages available for computer algebra,
+   gives short descriptions of other popular packages, includes a list of
+   `pointers' to other sources of information, and offers some general hints
+   on selecting software.
+%Z SUN/107
 
 ---sep---
 
@@ -5782,6 +5795,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Warren-Smith, R. F.
 %D 00/1996
 %J Starlink General Paper 48
+%B This document presents an overview of Starlink's software priorities
+   for 1996. As background, it also gives details of all the software
+   projects that were proposed and considered, including the written
+   proposals provided by the seven Starlink Software Strategy Groups.
+%Z SGP/45
+   SGP/44
+   SGP/42
 
 ---sep---
 
@@ -5790,6 +5810,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Sherman, J. C.; Clayton, C. A.
 %D 00/1996
 %J Starlink General Paper 49
+%B This paper outlines Starlink's policy on support for PCs.
+   Essentially, we aim to use PCs as low-end multi-user
+   workstations running Linux, a variant of Unix, and to
+   integrate them with existing Unix systems.  We also aim to
+   make most Starlink software available for the PC/Linux
+   platform.
+
+   Starlink's policy on support of PCs is likely to develop
+   over the next few years.  Readers are therefore advised
+   to check that they have the most up-to-date version of this
+   document.  The policy outlined here was agreed by the
+   Starlink Panel at their meeting in March 1996.
 
 ---sep---
 
@@ -5798,6 +5830,28 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.
 %D 00/1997
 %J Starlink General Paper 50
+%B This document describes the various styles which are recommended for Starlink
+   documents.
+   It also explains how to use the templates which are provided by
+   Starlink to help authors create documents in a standard style.
+
+   This paper is concerned mainly with conveying the ``look and feel" of the
+   various styles of Starlink document rather than describing the technical
+   details of how to produce them.
+   Other Starlink papers give recommendations for the detailed
+   aspects of document production, design, layout, and typography.
+
+   The only style that is likely to be used by most Starlink authors is the
+   Standard style.
+%Z SUG
+   SUN/1
+   SUN/145
+   SGP/31
+   SC/9
+   SUN/9
+   SUN/199
+   SGP/28
+   SUN/28
 
 ---sep---
 
@@ -5806,6 +5860,28 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bly, M. J.; Warren-Smith, R. F.
 %D 00/1997
 %J Starlink General Paper 51
+%B This document sets out the steps involved in maintaining and developing
+   the Starlink Software Collection.  The intended audience is all those
+   involved in maintenance and development of Starlink software.   Some
+   sections will be of particular relevance to programmers while other
+   sections will be of interest to those involved in software
+   distribution.
+
+   It details the process from the passing of a bug report to the support
+   programmer through to the final release of a fix to a package.  It also
+   specifies the steps required for handling a new package, porting of
+   existing packages to new platforms, and developing updates to
+   packages.
+
+   There are also sections on beta-testing packages, and the production of
+   CD-ROMs.
+
+   It does not cover Base Set software, nor does it detail the use of
+   Starlink standard makefiles, and does not specify the mechanics of the
+   procedures, which evolve with operational demands.
+%Z SGP/48
+   SGP/50
+   SUN/212
 
 ---sep---
 
@@ -5814,6 +5890,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bly, M. J.
 %D 00/1997
 %J Starlink General Paper 52
+%B This paper outlines changes to the Starlink Software Distribution system.
+
+   The new scheme is based on a twice-yearly release of the whole Unix
+   Starlink Software Collection (USSC) on CD-ROM backed up by releases of
+   bug fixes using the Starlink Software Store.  Development versions of
+   the USSC will be maintained at RAL and made available to sites hosting
+   contract programmers.  Information files and management documentation
+   will be distributed monthly using a simplified version of the current
+   distribution system.  Commercial software will be distributed using a
+   modified version of the current distribution system, to coincide with
+   CD-ROM releases.
+%Z SGP/51
 
 ---sep---
 
