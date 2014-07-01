@@ -5628,14 +5628,6 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Sherman, J. C.
 %D 00/1990
 %J Starlink General Paper 40
-
----sep---
-
-%R 1994StaGP..41.....W
-%T Local Management Arrangements
-%A Wallace, P. T.
-%D 00/1994
-%J Starlink General Paper 41
 %B Wish-lists are the lists of desirable node enhancements drawn
    up by Area Management Committees (AMCs) at each AMC meeting and
    documented as part of the AMC minutes.  The wish-lists include new items
@@ -5647,11 +5639,51 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 
 ---sep---
 
+%R 1994StaGP..41.....W
+%T Local Management Arrangements
+%A Wallace, P. T.
+%D 00/1994
+%J Starlink General Paper 41
+%B In July 1993, the Starlink Panel reviewed the existing local
+   management arrangements, based on the ``Area Management Committees''
+   (AMCs), and decided to introduce a number of reforms.  The new
+   arrangements, which are the subject of this paper,
+   concentrate the old AMC responsibilities
+   into one individual at each site called the Site Chairman, leaving
+   it up to that individual to set up the consultative machinery
+   appropriate to his or her community.  Sites normally opt
+   to set up committees much like the old LMCs or AMCs, but adapted
+   to suit local needs.
+
+   A prospective Site Chairman proposes and agrees with the Starlink
+   Project Scientist local procedures for consulting
+   and representing users which are acceptable to both Starlink and
+   the Institution.  The effectiveness of these procedures is
+   kept under review; accreditation of the Site Chairman is
+   renewed annually.
+%Z SGP/25
+
+---sep---
+
 %R 1995StaGP..42.....W
 %T Starlink Software Strategy
 %A Warren-Smith, R. F.
 %D 00/1995
 %J Starlink General Paper 42
+%B This document contains the text of a paper presented to the Starlink
+   Panel in March 1995 and describes a strategy for Starlink software
+   activities over the next 3 years. It is based heavily on the input
+   provided by the 1993-94 Starlink Software Survey (SGP/43)
+   and subsequent discussions at Starlink Software Strategy Group
+   (SSG) meetings during late 1994.
+%Z SGP/43
+
+---sep---
+
+%R 1994StaGP..43......
+%T 1993-94 Starlink Software Survey
+%D 00/1994
+%J Starlink General Paper 43
 
 ---sep---
 
@@ -5660,6 +5692,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Warren-Smith, R. F.
 %D 00/1995
 %J Starlink General Paper 44
+%B Software Strategy Groups (SSGs) are Starlink user groups which have
+   been set up by the Project to allow it to consult with expert software
+   users and to obtain advice about those software issues which affect
+   the use of its computing service.  The SSGs also form an important
+   part of a procedure for annually
+   re-assessing the software priorities of the Project and for
+   identifying future objectives.
+
+   This document describes the nature of the SSGs and the role which they
+   play in this procedure. It also covers some administrative
+   arrangements.  Its primary purpose is to give
+   guidance to those participating in SSGs, so
+   that they can operate as effectively as possible.
+%Z SGP/42
 
 ---sep---
 
@@ -5668,6 +5714,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A McIlwrath, B. K.
 %D 00/1995
 %J Starlink General Paper 45
+%B The ADAM Review Panel was constituted by SERC in early 1994 under
+   the Chairmanship of Professor R. Hills (MRAO, Cambridge) and met for the
+   first time in March of that year. Its final report was
+   issued on 16th March 1995 and is reproduced here.
 
 ---sep---
 
@@ -5676,6 +5726,46 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Warren-Smih, R. F.
 %D 00/1997
 %J Starlink General Paper 46
+%B This paper presents a summary of the software work carried out by
+   Starlink during 1996.  It is based on the software plan approved by
+   the Starlink Panel in November 1995.
+
+   With some exceptions (marked with an asterisk in the table of
+   contents), most of the planned work has been completed and the
+   resulting products have either been distributed or are queued for
+   distribution shortly (i.e. early in 1997).
+
+   Note that this paper concentrates on the work of Starlink's
+   Applications Programmers, software staff at RAL and those Site
+   Managers with specific software responsibilities. It does not cover
+   related work carried out (e.g.) by other Site Managers, nor
+   does it describe routine ``baseline support'' of established software
+   packages (e.g. minor bug fixes) unless this has resulted in
+   significant new features.
+%Z SGP/47
+   SUN/86
+   SUN/33
+   SUN/95
+   SUN/55
+   SUN/190
+   SUN/214
+   SUN/203
+   SUN/28
+   SUN/194
+   SUN/160
+   SUN/17
+   SUN/92
+   SUN/163
+   SUN/180
+   SUN/213
+   SUN/132
+   SUN/98
+   SC/4
+   SC/5
+   SC/6
+   SC/7
+   SG/10
+   SG/9
 
 ---sep---
 
