@@ -4925,6 +4925,28 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chapin, Edward; Gibb, Andrew G.; Jenness, Tim; Berry, David S.; Scott, Douglas; Tilanus, Remo P. J.
 %D 00/2013
 %J Starlink User Note 258
+%B The Sub-Millimetre User Reduction Facility (SMURF) is a software
+   package for reducing data produced by the ACSIS correlater and the
+   SCUBA-2 bolometer array on the James Clerk Maxwell Telescope
+   (JCMT). This document describes how to use SMURF to process raw
+   ACSIS data into data cubes, and raw SCUBA-2 data into images.
+%Z SUN/139
+   SUN/214
+   SUN/102
+   SUN/190
+   SUN/101
+   SC/19
+   SG/4
+   SUN/211
+   SUN/33
+   SUN/95
+   SUN/253
+   Holland~W.~S., et~al., 2006, Proc. SPIE, 6275, 45
+   Jenness~T., et~al., 2002, MNRAS, 336, 14
+   Le~Poole~R.~S., van~Someren~Greve~H.~W., 1998, Proc. SPIE, 3357, 638
+   Archibald~E.~N., et~al., 2002, MNRAS, 336, 1
+   Buckle~J.~V., et~al., 2009, MNRAS, 399, 1026
+   MUST CITE Chapin et al 2013
 
 ---sep---
 
@@ -4933,6 +4955,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Balfour, Jen
 %D 00/2008
 %J Starlink User Note 259
+%B GSD2ACSIS is a SMURF routine used to convert DAS and AOSC data
+   stored in the GSD file format into the format used for ACSIS data.
+%Z SUN/33
+   SUN/229
 
 ---sep---
 
@@ -4941,6 +4967,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Cavanagh, Brad
 %D 00/2008
 %J Starlink User Note 260
+%B ORAC-DR is a
+   general-purpose automatic data-reduction pipeline environment.  This
+   document describes its use to reduce ACSIS data
+   collected at the James Clark Maxwell Telescope (JCMT).
+%Z SUN/139
+   SUN/214
+   SUN/95
+   SUN/258
+   SUN/232
+   SUN/230
+   SHOULD CITE Buckle et al
 
 ---sep---
 
@@ -4949,6 +4986,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.; Currie, Malcolm, J.
 %D 00/2012
 %J Starlink User Note 261
+%B This library is a set of Fortran routines for manipulation of quality
+   information within NDFs.  In particular it uses names that will be more
+   memorable than bits to assign and set quality attributes of data values
+   within an NDF.
+%Z SUN/95
+   SUN/33
+   SUN/114
+   SG/4
+   SUN/263
+   SUN/40
+   SUN/92
+   SUN/39
 
 ---sep---
 
@@ -4957,6 +5006,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.; Currie, Malcolm, J.
 %D 00/2009
 %J Starlink User Note 262
+%B This document describes the routines provided within the CTG subroutine
+   library for accessing groups of catalogues.
+%Z SUN/181
+   SUN/150
+   SG/4
+   SUN/144
 
 ---sep---
 
@@ -4965,6 +5020,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Currie, Malcolm J.; Berry, D. S.
 %D 00/2009
 %J Starlink User Note 263
+%B This document describes the routines provided within the LPG subroutine
+   library for looping of monolith tasks to process a group of catalogues or NDFs
+   in sequence.
+%Z SUN/95
+   SUN/181
+   SUN/2
+   SUN/33
+   SUN/262
+   SUN/150
+   SUN/238
+   SUN/115
+   SUN/114
+   SUN/144
+   SG/4
 
 ---sep---
 
@@ -4973,6 +5042,36 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gibb, Andrew G.; Jenness, Tim
 %D 00/2013
 %J Starlink User Note 264
+%B The ORAC-DR data reduction pipeline is designed to reduce data from
+   many different instruments. This document describes how to use
+   ORAC-DR to process data taken with the SCUBA-2 instrument on the
+   James Clerk Maxwell Telescope.
+%Z SUN/139
+   SUN/255
+   SUN/190
+   SUN/86
+   SUN/213
+   SUN/214
+   SUN/102
+   SUN/95
+   SUN/45
+   SC/19
+   SC/21
+   SUN/258
+   SG/4
+   SUN/101
+   SUN/211
+   SUN/33
+   SUN/230
+   SUN/231
+   SUN/265
+   Cay{\'o}n, L. et al., 2000, \textit{Isotropic
+       wavelets: a powerful tool to extract point sources from cosmic
+       microwave background maps}, MNRAS, 315, 757
+   Chapin~E.~L., et al., 2013, \textit{SCUBA-2: iterative map-making with
+       the Sub-Millimetre User Reduction Facility}, MNRAS, 430, 2545
+   Dempsey~J.~T. et al., 2013, \textit{SCUBA-2: on-sky calibration using
+       submillimetre standard sources}, MNRAS, 430, 2534
 
 ---sep---
 
@@ -4981,6 +5080,16 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gibb, Andrew G.; Jenness, Tim; Economou, Frossie
 %D 00/2013
 %J Starlink User Note 265
+%B PICARD is a facility for combining and analyzing reduced data,
+   normally the output from the ORAC-DR data reduction pipeline. This
+   document describes an introduction to using PICARD for processing
+   instrument-independent data.
+%Z SUN/95
+   SUN/258
+   SUN/230
+   SUN/233
+   SUN/264
+   SUN/231
 
 ---sep---
 
@@ -4989,6 +5098,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.
 %D 00/2001
 %J Starlink User Note 266
+%B THR provides high level utility functions for creating and using pools of
+   persistent execution thread.
 
 ---sep---
 
@@ -4997,6 +5108,26 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jenness, Tim
 %D 00/2012
 %J Starlink User Note 267
+%B PAL provides a subset of the Fortran SLALIB library but written in C
+   using the SLALIB C API. Where possible the PAL routines are
+   implemented using the C SOFA library. It is provided with a GPL license.
+%Z MUST ADD SUN/67 and SOFA references. Also PAL ADASS.
+   Hardie, R.H., 1962, in {\tt "}Astronomical Techniques{\tt "}
+       ed. W.A. Hiltner, University of Chicago Press, p180.
+   Schoenberg, E., 1929, Hdb. d. Ap., Berlin, Julius Springer, 2, 268.
+   Meeus (l{\tt '}Astronomie, June 1984, p348
+   Stephenson \& Morrison palDt
+   McCarty & Babcock palDt
+   Explanatory Supplement to the Astronomical Almanac,
+      ed P.K.Seidelmann (1992)
+   Everhart \& Pitkin, Am.J.Phys. 51, 712 (1983).
+   Smith, C.A. et al., 1989.  Astr.J. 97, 265.
+   Yallop, B.D. et al., 1989.  Astr.J. 97, 274.
+   Blaauw et al, Mon.Not.R.Astron.Soc.,121,123 (1960)
+   de Vaucouleurs, de Vaucouleurs, \& Corwin, Second Reference
+            Catalogue of Bright Galaxies, U. Texas, page 8.
+   Sterne, Theodore E., {\tt "}An Introduction to Celestial Mechanics{\tt "},
+           Interscience Publishers Inc., 1960.
 
 ---sep---
 
@@ -5005,6 +5136,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.; Currie, M. J.
 %D 00/2013
 %J Starlink User Note 268
+%B CVG provides utility functions for handling data format conversion tasks.
+%Z SUN/33
+   ADD CITE TO SUN/55 CONVERT
 
 ---sep---
 
@@ -5013,6 +5147,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.
 %D 00/1990
 %J Starlink General Paper 31
+%B This paper gives an overview of the Starlink Project.
+   It describes its objectives, history, and organisation; the user
+   population served; and the hardware and software available.
+   It concludes with a review of the main lessons that have been learnt during
+   the life of the Project.
+%Z SGP/35
 
 ---sep---
 
@@ -5021,6 +5161,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Rawlinson, D. J.
 %D 00/1989
 %J Starlink General Paper 1
+%B The present procedure for reporting bugs in the Starlink Software Collection is
+   thought by many to be unsatisfactory. The purpose of this document is to outline
+   the procedures to be followed by the person discovering the bug, the Starlink
+   Software Librarian and the person to whom the bug is reported. In the past,
+   bug reports have seemed to disappear down a black hole, with a fix (maybe)
+   appearing, without warning, sometime later. This was generally due to a lack of
+   communication on all parts and it is hoped that the procedures outlined below
+   will keep all users informed of the progress of a bug through the system.
 
 ---sep---
 
@@ -5029,6 +5177,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Wallace, P. T.
 %D 00/1990
 %J Starlink General Paper 2
+%Z Arthur, Software Evolution, 1988
+   SGP/16
+    STARLINK}, M.J.Disney \& P.T.Wallace, Q.Jl.R.Astr.Soc.(1982) {\bf 23}, p501
 
 ---sep---
 
@@ -5037,6 +5188,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, P. M.
 %D 00/1990
 %J Starlink General Paper 3
+%B Over the history of Starlink, there have been few changes in the way that we
+   have provided network access, but the rate of change is likely to increase in
+   the near future. The purpose of this document is to outline the directions in
+   which things are proceeding so that you can plan for them now.
 
 ---sep---
 
@@ -5045,6 +5200,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Charles, Anne; Murray, Jo
 %D 00/1994
 %J Starlink General Paper 4
+%Z The Elements of C Programming Style} by Jay Ranade and Alan Nash
+   The C programming language} by Brian Kernighan and Dennis Ritchie
+   SGP/16
+   SGP/5
+   SSN/4
 
 ---sep---
 
@@ -5053,6 +5213,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, P. M.
 %D 00/1991
 %J Starlink General Paper 5
+%B This document describes how to write programs in a mixture of FORTRAN and C. It
+   will be of use to anyone who has a need to do this. Two sets of software are
+   described in this document. F77 is a set of C macros to handle the FORTRAN -- C
+   subroutine linkage and CNF is a set of C functions for handling the difference
+   between FORTRAN and C character strings.
+%Z SUN/121
+   SUN/92
 
 ---sep---
 
@@ -5061,6 +5228,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Wallace, P. T.
 %D 00/1991
 %J Starlink General Paper 7
+%B In order to exploit the most cost-effective hardware and to
+   maintain compatibility with the international community, Starlink has
+   begun introducing Unix-based computers.  A mixed Unix/VMS service, with
+   its extra system management and software support costs, will not be
+   efficient in the long term, and over the next few years the existing
+   VMS service will run down and a complete change to Unix will occur.
+   The details and timing of this transition will vary from site to site in
+   accordance with local needs and conditions.  However, as far as possible
+   all future hardware purchases will be Unix-based.  As representatives of
+   the user community, the Starlink Users' Committee has worked closely
+   with the Project in formulating these plans and firmly endorses them.
+%Z SGP/16
+   SGP/4
+   SGP/5
 
 ---sep---
 
@@ -5069,7 +5250,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bromage, G. E.
 %D 00/1992
 %J Starlink General Paper 8
-
+%Z SGP/25
+   SGP/37
+   SGP/16
+   SGP/21
+   SG/4
+   SUN/94
 ---sep---
 
 %R 1991StaGP...9.....L
@@ -5085,6 +5271,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jeffery, C. S.; Rees, P. C. T.
 %D 00/1991
 %J Starlink General Paper 10
+%B It is proposed that a well-documented subroutine library be written in the area
+   of theoretical astrophysics.
+   A questionnaire has been circulated to the UK astronomical community.
+   The response indicated interest in a library of subroutines mainly covering
+   the area of astronomical spectroscopy.
+   A preliminary discussion is presented of the intended contents of the
+   library, in terms of its functionality, design and documentation.
+   Targets for the development of the initial version of the library are given.
+   Comments are invited.
+%Z SGP/16
+   SUN/104
 
 ---sep---
 
