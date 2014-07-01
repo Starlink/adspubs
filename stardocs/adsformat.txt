@@ -5910,14 +5910,38 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Benn, C. R.
 %D 00/1988
 %J Starlink Guide 1
+%B ASPIC is a collection of about 400 image-processing programs.
+   This guide is a summary of useful information about them, with particular
+   reference to simple interactive display and analysis of 2-D images.
+%Z 1984StaUN..27.....L
+   SUN/23
+   SUN/24
+   SUN/74
+   SUN/4
+   SUN/10
+   SUN/96
+   SUN/86
+   SUN/3
+   SUN/94
+   SUN/92
 
 ---sep---
 
 %R 1993StarG...3.....R
 %T IUEDR -- Reference Manual
-%A Rees, Paul; Giddings, Jack; Mills, Dave
+%A Rees, Paul; Giddings, Jack; Mills, Dave; Clayton, Martin
 %D 00/1993
 %J Starlink Guide 3
+%B This manual describes the commands and parameters used by IUEDR.
+   It is intended as a reference aid for people using IUEDR
+%Z SUN/37
+   SG/7
+   SUN/33
+   SUN/102
+   SUN/50
+   SUN/85
+   SUN/83
+   SG/4
 
 ---sep---
 
@@ -5926,6 +5950,86 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D; Hartley, K. F.
 %D 00/1992
 %J Starlink Guide 4
+%B This is a comprehensive description of
+   the Starlink Software Environment as of 1992.
+%Z SUN/1
+   SUN/95
+   SUN/98
+   SUN/139
+   SUN/55
+   SUN/42
+   SUN/86
+   SUN/16
+   SUN/41
+   SUN/45
+   SUN/109
+   SUN/70
+   SUN/140
+   SUN/110
+   SUN/66
+   SUN/33
+   SUN/101
+   SUN/121
+   SUN/73
+   SUN/7
+   SUN/99
+   SUN/8
+   SUN/63
+   SUN/105
+   SUN/75
+   SUN/11
+   SUN/31
+   SUN/92
+   SUN/104
+   SUN/88
+   SUN/15
+   SUN/29
+   SUN/85
+   SUN/83
+   SUN/65
+   SUN/48
+   SUN/57
+   SUN/143
+   SUN/119
+   SUN/40
+   SUN/39
+   SUN/121
+   SUN/67
+   SUN/113
+   SUN/65
+   SUN/139
+   SUN/55
+   SUN/42
+   SUN/41
+   SUN/45
+   SUN/109
+   SUN/70
+   SUN/140
+   SUN/110
+   SUN/66
+   SUN/11
+   SUN/31
+   SUN/88
+   SUN/90
+   SUN/15
+   SUN/29
+   SUN/85
+   SUN/83
+   SUN/65
+   SUN/57
+   SUN/48
+   SUN/143
+   SUN/119
+   SUN/40
+   SUN/39
+   SUN/121
+   SUN/67
+   SUN/61
+   SGP/38
+   SGP/16
+   SGP/4
+   SGP/5
+   SSN/4
 
 ---sep---
 
