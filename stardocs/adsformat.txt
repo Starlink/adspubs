@@ -5256,6 +5256,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SGP/21
    SG/4
    SUN/94
+
 ---sep---
 
 %R 1991StaGP...9.....L
@@ -5290,6 +5291,22 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, C. A.; Bly, M. J.
 %D 00/1991
 %J Starlink General Paper 11
+%B This paper describes the procedure for submission of a piece of
+   software for inclusion in the Unix Starlink Software Collection (USSC).
+
+   The organization of the USSC is described
+   in SSN/66, which must be read by anyone considering submitting
+   software for inclusion in the Collection. The present document assumes that
+   the reader is familiar with the contents of SSN/66, in particular the
+   layout of the Starlink directories and the use and purpose of make files.
+   SUN/118 describes the current USSC and how to use it. Some of the material in
+   the introduction to SUN/118 may also be relevant to your software submission.
+%Z SSN/66
+   SUN/118
+   SGP/19
+   SGP/2
+   SGP/20
+   SGP/11
 
 ---sep---
 
@@ -5298,6 +5315,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Terrett, D. L.
 %D 00/1992
 %J Starlink General Paper 12
+%B The basis of this report is 2 days spent with an AVS expert from DEC's CERN
+   project office attempting to convert an ADAM application into an AVS module.
+   The experiment was successful in that we succeeded in running a KAPPA
+   application (ADD) as a module in an AVS network without modifying the
+   applications program code in any way. We took many short cuts and it became
+   clear that doing the job properly would be a major exercise, but we
+   learned enough to know that the job is feasible and gained a clear idea of
+   what the final system would look like and what it would be capable of.
 
 ---sep---
 
@@ -5306,6 +5331,23 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Dickens, R. J.; Fosbury, R. A. E.; Wallace, P. T.; Lawden, M. D.
 %D 00/1987
 %J Starlink General Paper 13
+%B he purpose of this paper is to announce to the astronomical community the
+   present plans for the development of applications software within Starlink.
+   The paper follows widespread consultation with astronomers---through a survey
+   carried out in December 1979, visits to many university departments and
+   establishments during the first half of 1980 and a workshop held in June 1980.
+   In some areas we can be more specific than others and no doubt plans and
+   priorities will undergo major revision as time passes.
+   We believe that widespread and up-to-date knowledge of the intentions and
+   progress of work on applications is essential if we are effectively to harness
+   the effort and expertise available amongst UK astronomers and to maintain
+   uniformity of style and high standards everywhere.
+   Comments on these proposals and continual feedback as Starlink develops will
+   therefore be greatly appreciated.
+%Z SGP/16
+   SGP/7
+   Wells et al FITS paper 1979
+   Elements of Programming Style, 1978, Kernighan and Plauger
 
 ---sep---
 
@@ -5314,6 +5356,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bromage, G. E.
 %D 00/1988
 %J Starlink General Paper 14
+%B Starlink has set up Special Interest Groups (SIGs) in a number of software
+   areas, primarily composed of astronomers actively involved in the computer
+   reduction of astronomical data.
 
 ---sep---
 
@@ -5322,6 +5367,39 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Wallace, P. T.
 %D 00/1992
 %J Starlink General Paper 16
+%B This Programming Standard should be read by all those who implement
+   programs on Starlink computers.  The techniques described are
+   requirements for Starlink-supported applications software but are equally
+   appropriate for private programming.  The standard applies mainly
+   to the implementation of freestanding VAX/VMS and Unix
+   applications, but also includes some material specific to developing
+   programs for the Starlink ADAM Software Environment.
+
+   Most of the recommendations made here have been available since
+   the appearance of the first edition in June 1981.
+   Apart from a few additions in August 1984, Starlink's advice
+   on general FORTRAN coding standards has not changed.
+   Recent versions of this document
+   have contained additional material on use
+   of graphics and on writing ADAM applications.
+%Z SGP/4
+   SUN/85
+   SUN/88
+   SUN/90
+   SUN/65
+   SUN/63
+   SUN/73
+   SUN/104
+   SUN/8
+   SUN/83
+   SUN/15
+   SUN/48
+   SUN/57
+   SUN/105
+   SUN/110
+   SUN/39
+   SUN/98
+   SUN/111
 
 ---sep---
 
@@ -5330,6 +5408,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.
 %D 00/1987
 %J Starlink General Paper 19
+%B The definition, structure and management of the Starlink Software Collection is
+   described in SGP/20 which should be read by everyone involved in the
+   production of software for the Starlink project.
+   The Collection is managed by the Starlink Software Librarian (username STAR) who
+   decides where new software should be stored in the existing structure and who
+   has editorial control of Starlink documentation.
+   This paper describes the principles governing the preparation and submission of
+   software for inclusion in the Collection.
+%Z SGP/20
+   SGP/28
+   SGP/16
+   SSN/41
 
 ---sep---
 
@@ -5338,6 +5428,22 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.
 %D 00/1990
 %J Starlink General Paper 20
+%B The overall development of Starlink Software is planned by the Project Manager
+   in conjunction with the Head of Applications, the Project Scientist, the
+   Starlink Users' Committee (SUC), and the Special Interest Groups (SIG).
+   This paper deals only with the management of the Collection and does not
+   consider the overall software development problem (see SGP/13).
+%Z SGP/13
+   SGP/21
+   SGP/14
+   SGP/16
+   SGP/25
+   SGP/28
+   SGP/37
+   SUN/1
+   SGP/19
+   SSN/15
+   SSN/41
 
 ---sep---
 
@@ -5346,6 +5452,19 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.; Bly, M. J.; Sherman, J. C.
 %D 00/2000
 %J Starlink General Paper 21
+%B This paper describes Starlink's software
+   distribution policy and the conditions of use of the collection.
+   There is also a section giving contact information of some of the
+   commercial software Starlink provides for its UK sites but may not
+   redistribute.
+%Z SGP/20
+   SSN/15
+   SSN/41
+   SUN/1
+   SUG
+   SGP/25
+   SGP/31
+   SGP/37
 
 ---sep---
 
@@ -5354,6 +5473,31 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Sherman, J. C.; Roberts, A. V.; Clayton, C. A.; Lawden, M. D.; Bly, M. J; Currie, M. J.; Penny, A. J.; Rawlinson, D. J.
 %D 00/1997
 %J Starlink General Paper 25
+%B Managers carry out their role within the Starlink Project.
+   It details their responsibilities and describes the methods of communication
+   and administration used to manage Starlink.
+   It also describes the operating standards for Starlink computers and Starlink
+   software.
+   Finally, it describes the management of Starlink users.
+%Z SGP/4
+   SGP/16
+   SGP/21
+   SGP/31
+   SGP/41
+   SGP/42
+   SGP/46
+   SGP/51
+   SG/4
+   SSN/9
+   SSN/18
+   SSN/23
+   SSN/27
+   SSN/33
+   SUG
+   SUN/1
+   SUN/145
+   SUN/205
+   SUN/212
 
 ---sep---
 
@@ -5362,6 +5506,38 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.; Charles, A. C.; Terrett, D. L.
 %D 00/1997
 %J Starlink General Paper 28
+%B This document gives advice on how to write good Starlink documents.
+   It lists Starlink documents which users said they liked in the 1994
+   Starlink Software Survey, and identifies common characteristics of style
+   and organisation which can be recommended to authors.
+
+   Various features of documentation which the authors believe to be harmful
+   are specified, including common problems with pages produced for
+   the World Wide Web.
+   Many of these will inevitably reflect the taste of the authors, and these
+   may not correspond to your own.
+   However, they derive from our belief that it is right for an author
+   to spend time and effort on a document in order to save the reader time
+   and effort in reading it.
+%Z SUN/40
+   SUN/39
+   SUN/100
+   SUN/33
+   SUN/105
+   SUN/110
+   SUN/31
+   SUN/87
+   SUN/90
+   SUN/188
+   SUN/199
+   SUN/1
+   SUN/9
+   SUN/201
+   SGP/42
+   SGP/43
+   SGP/28
+   SC/9
+   LaTex Lamport 1994
 
 ---sep---
 
@@ -5370,6 +5546,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.
 %D 00/1996
 %J Starlink General Paper 31
+%B Starlink was set up in 1980 to help astronomers use computers to analyse their
+   observations.
 
 ---sep---
 
@@ -5402,6 +5580,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.; Sherman, J. C.
 %D 00/1990
 %J Starlink General Paper 37
+%B This paper is for managers of Starlink's Minor Nodes, some of which have a
+   Site Contract and a site manager paid 50% by Starlink.
+   Where there is such a contract, managers should make themselves familiar with
+   its terms (copies are available from the University or from Starlink).
+   Some of the Minor Nodes without Site Contracts at present may agree contracts
+   in due course but others may prefer to remain without contracts indefinitely.
+%Z SGP/25
+   SUN/36
 
 ---sep---
 
@@ -5410,6 +5596,22 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Currie, Malcolm J.; Wallace, P. T.; Warren-Smith, R. F.
 %D 00/2009
 %J Starlink General Paper 38
+%B This document should be read by programmers wishing to write
+   applications software for Starlink.  It describes various
+   standard ways of arranging data, using the Hierarchical
+   Data System (HDS).  The most important of these is the NDF
+   (Extensible n-Dimensional-Data Format), which is suitable for
+   expressing a wide variety of data which occur in n-dimensional
+   arrays---for example pictures, spectra and time series.
+%B SUN/92
+   SUN/4
+   SUN/95
+   SUN/86
+   SUN/7
+   SGP/16
+   SSN/27
+   SSN/22
+   SG/1
 
 ---sep---
 
@@ -5422,7 +5624,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 ---sep---
 
 %R 1990StaGP..40.....S
-%T The Rolw of Wish-lists in Starlink's Purchasing
+%T The Role of Wish-lists in Starlink's Purchasing
 %A Sherman, J. C.
 %D 00/1990
 %J Starlink General Paper 40
@@ -5434,6 +5636,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Wallace, P. T.
 %D 00/1994
 %J Starlink General Paper 41
+%B Wish-lists are the lists of desirable node enhancements drawn
+   up by Area Management Committees (AMCs) at each AMC meeting and
+   documented as part of the AMC minutes.  The wish-lists include new items
+   of hardware and software and also replacements for worn out or obsolete
+   hardware and software.  They are usually lists of hardware items, but
+   proprietary software, for example, NAG products, Rabbit products or IDL, can
+   also be included.  Desirable enhancements to Starlink's applications software
+   are best dealt with via the Special Interest Groups (SIGs).
 
 ---sep---
 
