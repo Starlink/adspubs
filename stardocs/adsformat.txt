@@ -6035,9 +6035,27 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 
 %R 1998StarG...5.....B
 %T ICL -- The Interactive Command Language for ADAM
-%A Bailey, J. A.
+%A Bailey, J. A.; Chipperfield, A. J.
 %D 00/1998
 %J Starlink Guide 5
+%B ICL is a language designed to provide
+   a programmable user interface to an astronomical data reduction or data
+   acquisition system.
+   It is the primary user interface for the ADAM software environment.
+
+   This document is a re-formatted version of SG/5.1 -- the text has not changed.
+   For information on ICL for Unix, ICL help is more reliable.
+%Z SG/4
+   SUN/101
+   SGP/38
+   SUN/33
+   SUN/134
+   SUN/92
+   SUN/85
+   SUN/113
+   SUN/115
+   SUN/95
+   SUN/104
 
 ---sep---
 
@@ -6046,6 +6064,62 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Warren-Smith, R. F.
 %D 00/1994
 %J Starlink Guide 6
+%B This document contains a directory of the facilities available to the ADAM
+   programmer. All documented aspects of ADAM programming are covered, ranging from
+   introductory documentation, through applications programming to real-time and
+   system programming. Each facility is briefly described along with the type of
+   work for which it might be used. Most importantly, this guide shows at a glance
+   where to obtain the relevant documentation.
+
+   It is hoped to update this document relatively frequently, so that it serves as
+   a guide to the latest ADAM developments. Its format, which includes an overall
+   index, is designed to allow its use as a table of contents for a personal file
+   of programming documentation.
+%Z SG/4
+   SG/5
+   SGP/16
+   SGP/38
+   SGP/4
+   SGP/5
+   SSN/2
+   SSN/4
+   SSN/64
+   SSN/66
+   SSN/8
+   SUN/101
+   SUN/104
+   SUN/105
+   SUN/11
+   SUN/110
+   SUN/111
+   SUN/113
+   SUN/114
+   SUN/115
+   SUN/121
+   SUN/124
+   SUN/130
+   SUN/134
+   SUN/143
+   SUN/15
+   SUN/150
+   SUN/2
+   SUN/224
+   SUN/31
+   SUN/33
+   SUN/39
+   SUN/40
+   SUN/48
+   SUN/57
+   SUN/61
+   SUN/65
+   SUN/67
+   SUN/7
+   SUN/77
+   SUN/83
+   SUN/85
+   SUN/88
+   SUN/90
+   SUN/92
 
 ---sep---
 
