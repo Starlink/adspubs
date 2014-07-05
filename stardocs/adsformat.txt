@@ -6128,6 +6128,19 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Tweedy, R. W.; Clayton, Martin
 %D 00/1996
 %J Starlink Guide 7
+%B The techniques for analysing IUE data have evolved over the fourteen
+   years of the satellite's existence, and are consequently well-developed.
+   However, it remains difficult for someone new to the area to become familiar
+   with the procedures. This document is designed for someone acquiring their
+   first IUE tape, and gives a step-by-step guide from mounting the tape to
+   doing simple analysis of the extracted spectrum.
+%Z 1978Natur.275..372B
+   1987ASSL..129.....K
+   1990ESASP.310.....R
+   SG/3
+   SUN/50
+   SUN/20
+   SUN/58
 
 ---sep---
 
@@ -6136,6 +6149,22 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.
 %D 00/1997
 %J Starlink Guide 8
+%B This document is an introduction to various common visualisation
+   techniques and packages which might be used on Starlink systems. It is
+   aimed at astronomers with complex datasets to display and explore but
+   no prior knowledge of visualisation techniques. Its purpose is to
+   assist such an astronomer to find visualisation software suitable for his
+   problem. It is not a manual for any particular package.
+%Z SUN/203
+   SC/2
+   SUN/32
+   SUN/86
+   SUN/95
+   SUN/15
+   SUN/137
+   SUN/166
+   SUN/55
+   1992A&A...253..515M
 
 ---sep---
 
@@ -6144,6 +6173,32 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, Martin
 %D 00/1996
 %J Starlink Guide 9
+%B Echelle spectrographs are available as
+   common-user instruments at several observatories and satellites.  These
+   spectrographs offer the observer both a reasonably high
+   resolution and a wide wavelength-coverage; at the expense of a fairly complex
+   data-reduction procedure.
+
+   This document is intended as an introductory guide for observers
+   new to echelle work.  Experienced observers may wish to consult
+   the outline information on the main packages available for echelle data reduction.
+%Z SUN/152
+   SUN/139
+   SC/5
+   SC/3
+   SUN/33
+   SUN/95
+   SUN/50
+   SUN/55
+   SUN/86
+   SG/10
+   1989PASP..101.1032M
+   1986PASP...98..609H
+   1987aata.book.....D
+   1991usta.book.....B
+   1995PASP..107..193C
+   1990PASP..102..183M
+   1986PASP...98.1220R
 
 ---sep---
 
@@ -6152,6 +6207,52 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Privett, Grant
 %D 00/1998
 %J Starlink Guide 10
+%B This document identifies a number of software
+   applications and packages that will prove useful to observers writing an
+   observing application or preparing for an observing run.
+   A brief description of the software is given.
+
+   WWW URLs are provided for WWW-based resources such a databases, catalogues and on-line atlases.
+%Z SUN/109
+   SUN/87
+   SUN/137
+   SUN/1
+   SUN/162
+   SUN/32
+   SUN/162
+   SUN/174
+   SUN/187
+   SUN/50
+   SUN/207
+   SUN/139
+   SUN/56
+   SUN/180
+   SUN/86
+   SUN/95
+   SUN/146
+   SUN/42
+   SUN/45
+   SUN/166
+   SUN/152
+   SUN/140
+   SUN/167
+   SUN/204
+   SUN/66
+   SUN/120
+   SUN/190
+   SUN/98
+   SUN/17
+   SUN/161
+   SUN/132
+   SUN/37
+   SUN/37
+   SUN/27
+   SUN/55
+   SUN/137
+   SUN/169
+   SUN/152
+   SUN/140
+   SUN/137
 
 ---sep---
 
@@ -6160,6 +6261,32 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Morris, R.; Privett, G. J.; Davenhall, A. C.
 %D 00/1999
 %J Starlink Guide 12
+%B This document is an introduction to the IRAF software package and
+   its use on Starlink systems.  IRAF is a powerful and comprehensive
+   environment for reducing and analysing astronomical data.  It was
+   developed at the National Optical Astronomy Observatories, Tucson and is
+   in widespread use around the world.  IRAF has its own data file format,
+   command language, on-line help system and programming language.  It is a
+   modular system.  The basic core, which is always present, provides general
+   facilities for image processing and data reduction.  For more specialised
+   tasks additional packages are loaded to augment the core system.
+   Software for processing most sorts of astronomical data is available
+   for the IRAF environment.
+%Z SUN/179
+   SUN/86
+   SUN/207
+   SUN/33
+   SUN/55
+   SUN/217
+   SUN/221
+   SSN/35
+   SUN/214
+   SUN/166
+   SC/4
+   E.~Krol, 1992, The Whole Internet User's Guide and Catalog, O'Reilly
+   B.J.Thomas, 1995, {\it The Internet for Scientists and Engineers, SPIE
+   J.V. Wall, 1979, `Practical Statistics for Astronomers', {\it Q. J. R. Astron. Soc}, {\bf 20}, pp138-152
+   Wells, Greisen, Harten, 1981 A&A 44, 363
 
 ---sep---
 
