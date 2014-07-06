@@ -6295,6 +6295,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, P. M
 %D 00/1991
 %J Starlink System Note 1
+%B Since the introduction of version 5 of VMS and the Coloured Books software
+   (CBS), it has been possible to send CBS mail from within VMS mail by using an
+   address of the form "CBS%nodename::username". This only works
+   on cluster nodes that have CBS installed. The usual situation at Starlink sites
+   that have VAXclusters is that CBS is installed on only one machine in the
+   cluster.
 
 ---sep---
 
@@ -6303,6 +6309,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bailey, Jeremy
 %D 00/1989
 %J Starlink System Note 2
+%B This document describes the message system primitive (MSP) routines.
+   These routines were specified by the workshop on data acquisition environments
+   held at AAO in October 1985. The routines provide a fast, general means of
+   synchronous communication between VMS processes. They are used by version
+   2.0 of the ADAM system to provide the low level message system facilities.
+   However, the routines form an independent package which does not require
+   the existence of any other parts of the ADAM system. Thus they could be used
+   for any application which requires fast interprocess communication.
 
 ---sep---
 
@@ -6311,6 +6325,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lupton, William
 %D 00/1989
 %J Starlink System Note 3
+%B The ECH package consists of a set of routines which model the behaviour of the
+   UCL coude echelle spectrograph (UCLES) and of echelle spectrographs of
+   similar design.
 
 ---sep---
 
@@ -6319,6 +6336,24 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Rees, P. C. T.; Chipperfield, A. J.; Draper, P. W.
 %D 00/2008
 %J Starlink System Note 4
+%B This document describes the Error Message
+   Service, EMS, and its use in system software.
+   The purpose of EMS is to provide facilities for constructing and storing
+   error messages for future delivery to the user -- usually via the Starlink
+   Error Reporting System, ERR (see SUN/104).
+   EMS can be regarded as a simplified version of ERR without the binding to
+   any software environment (e.g., for message output or access to the
+   parameter and data systems).
+   The routines in this library conform to the error reporting conventions
+   described in SUN/104.
+   A knowledge of these conventions, and of the ADAM system
+   (see SG/4), is assumed in what follows.
+
+   This document is intended for Starlink systems programmers and can safely be
+   ignored by applications programmers and users.
+%Z SUN/104
+   SG/4
+   SUN/209
 
 ---sep---
 
@@ -6327,6 +6362,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.
 %D 00/1990
 %J Starlink System Note 5
+%B You should read this document if you are a system manager of other
+   person intending to install the APIG software for analysing high
+   resolution spectra of interstellar absorption lines on a VAX running
+   VMS.
+
+   APIG is a Starlink associated software item. It is distributed by the
+   Starlink project from the Rutherford Appleton Laboratory and this note
+   describes how to install it. It is assumed that you will be installing
+   it on either a Starlink node or at least a VAX where Starlink software
+   is available.
+%Z SUN/83
+   SSN/39
+   SUN/88
+   SUN/40
 
 ---sep---
 
@@ -6335,6 +6384,24 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, C. A.
 %D 00/1990
 %J Starlink System Note 6
+%B Starlink uses a variety of 1600/6250 bpi tape drives at its various sites.
+   These include the SI 9621, the CDC Keystone 3, the Cipher M990 and one or two
+   other drives.
+   Starlink currently has Cipher M990 tape drives at Manchester, Leicester, ROE,
+   Cambridge, Birmingham, Armagh, Belfast, Oxford, UCL, Southampton, St. Andrews,
+   Sussex, Cardiff and QMW. The majority of these are controlled by Dilog DQ153
+   and DQ3153 controllers. Managers as
+   sites which do not have one of these controllers and who
+   are unhappy with the functionality of their present controller should contact
+   the author.
+
+   This document is aimed at Site Managers and describes how to make the most of
+   their Cipher M990s. Some of these devices have not been optimally set-up by
+   engineers and some simple tuning may improve performance dramatically.
+   This document does not attempt to explain
+   to users how to use the drive since this is almost impossible to do this
+   without complex diagrams and it is far more effective for a Site Manager to
+   actually demonstrate the procedures to new users.
 
 ---sep---
 
@@ -6343,6 +6410,15 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, C. A.
 %D 00/1991
 %J Starlink System Note 7
+%B The purpose of this document is to ensure that all of the Starlink Sun systems
+   are set up in a secure, logical and consistent fashion and
+   that they do not begin to diverge from one another. One of the strengths of
+   Starlink is that 90% of a site manager's technical problems can be
+   solved either simply by looking at how another Starlink system is set up or by
+   asking other site managers.
+%Z SSN/66
+   SGP/25
+   SGP/37
 
 ---sep---
 
@@ -6351,6 +6427,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Warren-Smith, R. F.
 %D 00/1991
 %J Starlink System Note 8
+%B This document defines a set of naming conventions to be used for accessing
+   Starlink subroutine libraries on VAX/VMS machines.
+%Z SGP/16
 
 ---sep---
 
@@ -6359,6 +6438,21 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bly, M. J.
 %D 00/1995
 %J Starlink System Note 9
+%B This note is the release note and installation instructions for the
+   DEC Alpha AXP / Digital UNIX, Sun Sparc / Solaris v2.x, and Sun Sparc /
+   SunOS 4.1.x versions of the Starlink Software Collection (USSC).
+
+   You will be supplied with pre-built (and installed) versions on tape
+   and will just need to copy the tape to disk to have a working version.
+
+   The tapes (where appropriate) will contain in addition, copies of the
+   NAG and MEMSYS libraries, and Tcl, Tk, Expect, Mosaic, TeX, Pine, Perl,
+   Jed, Ispell, Ghostscript, LaXeX2html and Ftnchek for the relevant system.
+
+   The Sun Sparc SunOS 4.1.x version of the USSC was frozen at USSC111 and
+   no further updates are available.  The instructions for installing the
+   main section of the USSC may continue to be used for installing Sun
+   Sparc SunOS 4.1.x version.
 
 ---sep---
 
@@ -6367,6 +6461,15 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bly, Martin
 %D 00/1992
 %J Starlink System Note 10
+%B The GENSTAT 5 package is a general statistical analysis package. It is
+   commercial software for which Starlink has a licence agreement with Numerical
+   Algorithms Group (NAG) Ltd. Starlink is currently licenced to install it on any
+   five Starlink VAX clusters within the Starlink network, in the UK only. The
+   agreement with NAG allows the installations to be `mobile', that is, for it to
+   be de-installed at a site that no-longer requires it, and installed at one that
+   does. Provided the number of cluster installations does not exceed five,
+   Starlink is within the agreement.
+%Z SUN/54
 
 ---sep---
 
@@ -6375,6 +6478,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Terrett, D. L.
 %D 00/1989
 %J Starlink System Note 12
+%B This note describes the tools available for  writing  programs  to  be
+   executed  by the ARGS graphics processor and suggests some conventions
+   for such programs in order to encourage uniformity for the benefit  of
+   both  the  users  and  those  who  have  to  develop  and maintain the
+   programs.  Any suggestions for changes or further developments will be
+   welcome.   It  is  assumed  that  the reader is familiar with the ARGS
+   architecture  and  manual,  and  is  familiar  with   assembly   level
+   programming  in general and the VAX MACRO assembler in particular.
 
 ---sep---
 
@@ -6383,6 +6494,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Rawlinson, D. J.
 %D 00/1992
 %J Starlink System Note 13
+%B The COLDMON package has been written to allow system managers to identify those
+   items of software that are not used (or used infrequently) on their systems. It
+   consists of a few command procedures and a Fortran program to analyze the
+   results. It makes use of the AUDIT facility and security ACLs in VMS.
 
 ---sep---
 
@@ -6391,6 +6506,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Daly, P. N.
 %D 00/1992
 %J Starlink System Note 14
+%Z SUN/71
 
 ---sep---
 
@@ -6399,12 +6515,26 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bly, M. J.; Lawden, M. D.; Terrett, D. L.
 %D 00/1992
 %J Starlink System Note 15
+%B This paper describes, in general terms, the characteristics of the Starlink
+   Software Collection and how to install it on a VAX computer. It is meant for
+   the System Manager of that VAX since some integration with and adaptation to
+   the local systems software will be necessary.
+%Z SGP/20
+   SGP/21
+   SGP/25
+   SUN/1
+   SUG
+   SSN/39
+   SSN/33
+   SSN/44
+   SUN/83
+   SUN/33
 
 ---sep---
 
-%R 1982StaSN..17.....X
+%R 1982StaSN..17.....?
 %T Communications Routes into Starlink
-%A XXXX
+%A ????
 %D 00/1982
 %J Starlink System Note 17
 
@@ -6415,6 +6545,22 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, C. A.
 %D 00/1994
 %J Starlink System Note 18
+%B This document is intended for Sun System administrators
+   as a follow up to SSN/7 which described how to set up
+   Starlink Sun systems under SunOS 4.X. The present document refers to the set up
+   of Sun systems under Solaris 2.X (a.k.a. SunOS 5.X). Throughout this document,
+   the term Solaris is understood to mean Solaris 2.X., Sun's new Unix Operating
+   environment based on SVR4. SSN/7 will remain in circulation
+   until all Starlink Suns have moved over to Solaris. Areas of system
+   administration which have not changed  between SunOS 4.X and Solaris and which
+   were discussed in SSN/7 are not covered again in this document. Instead the
+   reader is referred to SSN/7 when appropriate. Some sections however have been
+   significantly updated and thus are reproduced here in full.  This document can
+   be considered as an  extension to SSN/7 in which changes between the two
+   systems are highlighted. Eventually, there will be a single document containing
+   the information in both documents, but relating just to Solaris.
+%Z SSN/7
+   SUN/169
 
 ---sep---
 
@@ -6423,6 +6569,16 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Rees, Paul
 %D 00/1993
 %J Starlink System Note 19
+%B This document provides information concerning the software requirements
+   of each STARLINK site to move entirely to UNIX.
+   It provides a list of proposed UNIX migration deadlines for all sites and
+   lists of software requirements, both STARLINK and non-STARLINK software,
+   which must be met before the existing VMS hardware can be switched off.
+   The information presented in this document is used for the planning
+   of software porting and distribution activities and also for setting
+   realistic migration deadlines for STARLINK sites.
+   The information on software requirements has been provided by STARLINK Site
+   Managers.
 
 ---sep---
 
@@ -6431,6 +6587,34 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Warren-Smith, R. F.; Berry, D. S.
 %D 00/2000
 %J Starlink System Note 20
+%B The NDF (Extensible N-Dimensional Data Format) data access
+   library (SUN/33) provides a programming interface and
+   a data model for astronomical applications software. It is based on a
+   flexible underlying data format HDS (SUN/92) and a set
+   of conventions for structuring data within HDS.
+
+   This document describes facilities for extending the range of data
+   formats accessible via the NDF library, to include any arbitrary
+   ``foreign'' format for which a conversion utility can be defined.
+   This gives NDF-based applications access to a potentially wide range
+   of data formatting possibilities, including data compression.
+
+   The intended readership of this document includes:
+   - Developers working with data formats and associated conversion
+     utilities,
+   - Programmers who anticipate using the NDF library to access foreign data,
+   - Knowledgeable users who need to access data stored in new
+     (e.g., personal) formats.
+%Z SUN/92
+   SUN/33
+   SUN/104
+   SUN/55
+   SUN/95
+   SUN/160
+   SUN/86
+   SUN/139
+   SUN/179
+   SSN/4
 
 ---sep---
 
@@ -6439,6 +6623,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Bly, M. J.
 %D 00/1996
 %J Starlink System Note 21
+%B The STARX Starlink Environment package provides a system independent
+   method of linking with the X libraries, to relieve the other
+   subroutines libraries and applications of having to worry about the
+   various complications involved.
+
+   STARX allows the X Library linking strategy to be changed easily, without
+   changing any of the other Starlink Environment components.
+
+   The system described has been tested for DEC AXP/Digital Unix, Sun
+   Sparc/SunOS4, Sun Sparc/Solaris (version 2.3, 2.4 and 2.5), and Intel
+   PC/Linux.  It does not appear to hinder dynamic linking where
+   available.
 
 ---sep---
 
@@ -6447,6 +6643,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Wallace, P. T.; Bly, M. J.
 %D 00/1992
 %J Starlink System Note 22
+%B Despite early attempts to establish conventions for pixel array coordinate
+   systems, several different ones are now in use. The matter was discussed at the
+   27-28 June 1983 Environment Review Workshop and those present were asked to
+   submit written recommendations for a new, definitive, convention to PTW. These
+   have now been collated, with the following outcome.
+
 
 ---sep---
 
@@ -6455,6 +6657,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gledhill, T. M.; Clayton, C. A.
 %D 00/1997
 %J Starlink System Note 23
+%B The Starlink Benchmarking Utility provides a
+   set of tools for investigating the performance of computer systems running
+   astronomy data reduction software. This manual is intended for Starlink Site Managers and describes how to install
+   and use the package.
 
 ---sep---
 
@@ -6463,6 +6669,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Charles, Anne
 %D 00/1997
 %J Starlink System Note 24
+%B This document gives some information for Site
+   Managers about the Starlink release of the TeX system,
+   which includes LaTeX 2e.
 
 ---sep---
 
@@ -6471,6 +6680,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Dhillon, V. S.; Privett, G. J.
 %D 00/1997
 %J Starlink System Note 25
+%B This document describes how to install PERIOD version 4.2, a
+   software package designed to search for periodicities in data.  A
+   detailed description of how to use PERIOD can be found in
+   SUN/167 and the program itself contains extensive
+   on-line help.
+%Z SUN/167
+   SUN/188
 
 ---sep---
 
@@ -6479,6 +6695,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, C. A.
 %D 00/1995
 %J Starlink System Note 26
+%B The purpose of this brief document is to provide site managers with
+   a starting point to help you check and possibly improve the configuration
+   and performance of your systems without having to spend a lot of time
+   reading complex tuning manuals. The goal is not to fully
+   optimise your systems but to ensure that they are not misconfigured.
 
 ---sep---
 
@@ -6487,6 +6708,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Fish, Adrian
 %D 00/1995
 %J Starlink System Note 27
+%B The subject of this SSN is a utility called STARADMIN. This utility
+   allows the system administrator to build and maintain a Starlink User
+   Database (UDB). The principal source of information for each user is a
+   text file, named after their username. The content of each file is a
+   list consisting of one keyword followed by the relevant user data per
+   line. These user database files reside in a single directory. The
+   STARADMIN program is used to manipulate these user data files and
+   automatically generate user summary lists.
 
 ---sep---
 
@@ -6495,6 +6724,24 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/2001
 %J Starlink System Note 29
+%B Application programs often need to obtain
+   parameter values from a variety of sources and to communicate with other
+   programs.
+   The Parameter and Communication Subsystems (PCS) are a set of closely-related
+   subroutine libraries which provide these facilities for many Starlink
+   applications and the associated user-interfaces.
+
+   The PCS libraries will not generally be called directly by application programs,
+   but form a basic part of the Starlink Software Environment which is
+   described in SG/4. Additional notes on using it under Unix are given in SUN/144.
+%Z SG/4
+   SUN/144
+   SUN/134
+   SUN/241
+   SUN/224
+   SUN/114
+   SSN/77
+   SUN/92
 
 ---sep---
 
@@ -6503,6 +6750,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gledhill, T. M.
 %D 00/1996
 %J Starlink System Note 30
+%B This document follows on from SSN/26 which provides an
+   introduction to performance and tuning issues on SPARC/Solaris systems.
+   Here we describe a package of tools designed to help monitor performance
+   on your system, implement some of the advice given in SSN/26 and provide
+   tuning tips.
+%Z SSN/26
 
 ---sep---
 
@@ -6511,6 +6764,23 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Duffey, K. P.
 %D 00/1995
 %J Starlink System Note 31
+%B Various data storage solutions have been adopted by the Starlink Project,
+   including SCSI (Small Computer Systems Interface) Winchester Disks and
+   different types of magnetic tape storage.
+
+   SCSI Winchester Disk devices are representative of Primary Data Storage,
+   where data is maintained online, and may be accessed randomly. Secondary
+   Data Storage is removable data storage; data is only accessible when the
+   media has been inserted in the appropriate device as, for example with
+   floppy disk drives. Backup Data Storage generally works sequentially, and is
+   often represented by Magnetic Tape Subsystems.
+
+   This guide is concerned with Backup Data Storage, and sets out to highlight
+   the similarities and differences between the three tape options most
+   commonly selected for Starlink applications: DAT (Digital Audio Tape),
+   Exabyte and DLT (Digital Linear Tape). The purpose of this guide is to
+   provide a helpful starting-point for anyone seeking to know more about one
+   or other of these options.
 
 ---sep---
 
@@ -6519,6 +6789,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Mellor, Geoff
 %D 00/1995
 %J Starlink System Note 32
+%B Custom Jumpstart is a facility provided by Sun
+   which allows (almost) hands free Solaris installation.
+
+   This tutorial is not meant to be a comprehensive guide but
+   just details of how I configured my system to utilise Jumpstart.
+   I don't claim it to be the best method but it works for me.
+   Hopefully it will save you some configuration time.
 
 ---sep---
 
@@ -6527,6 +6804,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Fish, Adrian
 %D 00/1995
 %J Starlink System Note 33
+%B Starlink FORUM is a conferencing facility accessed via Web Browsers
+   including Mosiac and Netscape. Starlink FORUM has a look and feel similar
+   to the VAXnotes product from DEC (now called DECnotes). Starlink FORUM is
+   run from an HTTP server as a CGI script and is written in Perl.
 
 ---sep---
 
@@ -6535,6 +6816,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Day, J. P.
 %D 00/1986
 %J Starlink System Note 34
+%B This guide aims to instruct the CDS database administrator in:
+      o  The CDS file system.
+      o  The CDS index files.
+      o  The procedure for  assimilating  a  new  CDS  tape  into  the
+         database.
+   It is assumed that the administrator has read SUN/79.
+%Z SUN/79
 
 ---sep---
 
@@ -6543,6 +6831,24 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.; Terrett, D. L.
 %D 00/1997
 %J Starlink System Note 35
+%B IRAFSTAR contains the infrastructure which enables applications written for
+   the Starlink Software Environment (ADAM) to be run in the
+   IRAF software environment. IRAFSTAR does not include any applications itself.
+
+   Communications between the application and IRAF are handled by an `adaptor'
+   process and conversion between Starlink NDF and IRAF image or FITS files may
+   be done transparently, making it easy to intermix IRAF and Starlink
+   applications.
+
+   This document is intended for software developers and describes the system
+   and the additional files required by Starlink applications to be used with it.
+   Some knowledge of both ADAM and IRAF is assumed.
+
+   Users who just want to run to run Starlink applications
+   in IRAF should read SUN/217.
+%Z SUN/217
+   SG/4
+   SUN/186
 
 ---sep---
 
@@ -6551,6 +6857,16 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Duffey, K. P.
 %D 00/1996
 %J Starlink System Note 36
+%B XpressWare is a set of X terminal software, released by Tektronix Inc, that
+   accommodates the X Window system on a range of host computers. The software
+   comprises boot files (the X server image), configuration files, fonts, and
+   font tools to support the X terminal. The files can be installed on one host
+   or distributed across multiple hosts
+
+   The purpose of this guide is to present the system or network administrator
+   with a step-by-step account of how to install XpressWare, and how subsequently
+   to configure the X terminals appropriately for the environment in which they
+   operate.
 
 ---sep---
 
