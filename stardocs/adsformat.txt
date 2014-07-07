@@ -6875,6 +6875,15 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, C. A.
 %D 00/1996
 %J Starlink System Note 37
+%B There is already a very large amount of documentation on Unix security,
+   indeed too much for your average site manager to find time to read. The
+   purpose of this document is not to duplicate that documentation but
+   instead to discuss just a few topics which are considered to be
+   particularly relevant to Starlink sites and which are not covered to an
+   appropriate depth elsewhere. For example, issues relating to network
+   security are well documented elsewhere but concerns such as disaster
+   recovery are not.
+%Z SGP/25
 
 ---sep---
 
@@ -6883,6 +6892,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Terrett, D. L.
 %D 00/1992
 %J Starlink System Note 39
+%B This note describes how to install GKS 7.2 and how to rebuild the system with a
+   different set of device handlers.
+   GKS 7.2 is distributed by RAL Central Computing Division (CCD) but has been
+   modified by Starlink to suit Starlink's computing environment.
+   It does not describe how to write a handler; a guide for this is being prepared
+   by RAL Computing Services Division.
 
 ---sep---
 
@@ -6891,6 +6906,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Shortridge, K.; Meyerdierks, H.; Bridger, A.
 %D 00/1992
 %J Starlink System Note 40
+%B The main body of this document is formed by the release notes as
+   issued by Keith Shortridge (AAO) with Figaro 3.0. Some additional
+   information on the actual release of (Standard) Figaro within Starlink
+   should however be included. Also some release notes relating to the
+   Figaro national directory and to National Figaro (updates to Standard
+   Figaro) should be given.
+%Z SUN/57
 
 ---sep---
 
@@ -6899,6 +6921,15 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.; Bly, M. J.
 %D 00/1993
 %J Starlink System Note 41
+%B Starlink Software Changes (SSC's) are the mechanism by which the Starlink
+   Software Collection is maintained and updated.
+   They are prepared and distributed by the Starlink Software Librarian who is
+   responsible for the management of the Collection.
+   This paper gives a detailed description of the preparation, implementation and
+   distribution of SSC's.
+%Z SUN/51
+   SGP/19
+   SGP/20
 
 ---sep---
 
@@ -6907,6 +6938,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/1994
 %J Starlink System Note 44
+%B This guide gives instructions on how to install a Starlink release of ADAM.
+   Some guidance is also given for those who wish to set up non-standard
+   installations.
+%Z SG/4
+   SG/5
+   SSN/45
+   SSN/64
+   SUN/57
 
 ---sep---
 
@@ -6915,6 +6954,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/1994
 %J Starlink System Note 45
+%Z SUN/114
+   SUN/143
+   SUN/44
+   SUN/115
+   SSN/44
 
 ---sep---
 
@@ -6923,6 +6967,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, P. M.
 %D 00/1987
 %J Starlink System Note 48
+%B The importance of making regular backups of your disks in well known, but
+   it can be very frustrating to have a head crash and then discover that you
+   cannot recover from your backups because the manuals do not tell you what
+   to do.
+   The DEC documentation covers most possibilities, but not the case where a
+   removable pack is copied to a new pack, the new pack is then used as the
+   current pack, and incremental backups to tape are then made.
+   This situation is a fairly common one when you have two or more removable
+   disk drives.
+   This note covers backup and recovery in general terms, and details
+   exactly what to do in the above mentioned case.
+
 
 ---sep---
 
@@ -6931,6 +6987,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Daly, P. N.
 %D 00/1989
 %J Starlink System Note 50
+%B This item of software is a command procedure which is designed to help Starlink
+   Site Managers maintain their news libraries. It has been written under
+   Version 5 of the VMS operating system and is incompatible with earlier versions.
 
 ---sep---
 
@@ -6939,6 +6998,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Terrett, D. L.
 %D 00/1988
 %J Starlink System Note 51
+%B VAXnotes is a computer conferencing system that lets people conduct on-line
+   conferences or meetings. Each conference has a subject and is hosted by
+   a particular node on DECnet and has a `moderator' who has the job of keeping
+   the discussion in order.
 
 ---sep---
 
@@ -6947,6 +7010,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lotts, A. P.
 %D 00/1988
 %J Starlink System Note 52
+%B This note describes basic clustering and the installation of a MicroVax or
+   VaxStation as a Satellite node of an LAVC (Local Area VaxCluster).
+   It will NOT describe Dual Porting of a MicroVax.
+   It assumes that VMS 4.6 is running on the Boot node, that the LAVC key
+   has been applied and that BOOT_CONFIG has been run as described in the LAVC
+   manual.
 
 ---sep---
 
@@ -6955,6 +7024,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lotts, A. P.
 %D 00/1989
 %J Starlink System Note 53
+%B This note is intended to assist managers with Q-BUS and UNIBUS  configuration.
+   It is not a complete description.
+%Z SSN/47
 
 ---sep---
 
@@ -6963,6 +7035,16 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.
 %D 00/1988
 %J Starlink System Note 56
+%B The best way to keep a copy of the Starlink Software Collection up to date
+   is to receive and implement the Starlink Software Change (SSC) notices
+   issued by the Starlink Software Librarian from Rutherford Appleton Laboratory.
+   About 50 SSC's are issued every year.
+   For you to receive updates in this way, it must be possible for RAL to send you
+   a text file and for you to read a BACKUP save set from the Starlink computer
+   RLVAD at RAL.
+%Z SSN/15
+   SSN/41
+   SGP/25
 
 ---sep---
 
@@ -6971,6 +7053,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Berry, D. S.
 %D 00/1988
 %J Starlink System Note 60
+%Z SUN/23
+   SUN/24
+   1984StaUN..40.....B
 
 ---sep---
 
@@ -6979,6 +7064,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, C. A.
 %D 00/1989
 %J Starlink System Note 63
+%B The PAD (Packet Assembler Disassembler) utility is the part of the VAX/VMS
+   Coloured Book Software (CBS) which allows a user to log onto remote
+   computers from a local VAX. Unfortunately, logging into a computer via
+   either the  Packet SwitchStream (PSS) or the International Packet
+   SwitchStream (IPSS) costs real money. Some users either do not appreciate
+   this or do not care and have been known to clock up rather large quarterly
+   bills. This software package allows a system manager to determine who has
+   used PAD to call where and (most importantly) how much it has cost.
+   The system manager can then take appropriate action - either charging the
+   individuals, warning them to use the facility with more care or even denying
+   access to a greedy user to one or more sites.
 
 ---sep---
 
@@ -6987,6 +7083,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/2002
 %J Starlink System Note 64
+%B This document explains the standard way in which SG/4
+   applications packages
+   are set up to run on Starlink machines. It covers the systems permitting
+   use of the applications direct from the shell and from the Interactive Command
+   Language (ICL) on Unix.
+
+   This document is relevant to applications programmers, the Starlink Software
+   Librarian and Site Managers.
+%Z SG/4
+   SG/5
+   SUN/124
+   SUN/115
+   SUN/144
+   SUN/95
 
 ---sep---
 
@@ -6995,6 +7105,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Huckle, H. E.; Clayton, C. A.
 %D 00/1989
 %J Starlink System Note 65
+%B VSHC works when a detached process is run at boot time which runs a .EXE file that creates a
+   permanent mailbox and redefines UIS$PRINT_DESTINATION to that mailbox. The
+   program then goes into an infinite loop which includes a read to that mailbox.
+   When a hardcopy is initiated, sixel graphics commands are sent to
+   UIS$PRINT_DESTINATION and thus go to the mailbox. The program then reads those
+   graphics commands from the mailbox and interprets them into equivalent Canon
+   commands, using a `State Machine' technique to determine how far it's got, i.e.
+   is it a start of a plot, end of plot, middle of plot, next plot etc. It spools
+   the file of Canon graphics commands thus created (in VSHC_SCRATCH:), to a queue
+   pointed at by the logical name VSHC_QUEUE. UIS$PRINT_DESTINATION can be
+   mysteriously reset to its default value of CSA0: and so every few minutes an
+   AST timeout occurs to reset UIS$PRINT_DESTINATION.
 
 ---sep---
 
@@ -7003,6 +7125,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Terrett, D. L.
 %D 00/1992
 %J Starlink System Note 66
+%B This note describes the organization of the Unix Starlink Software
+   Collection (USSC). The reader is assumed to be familiar with the
+   directory structure used for the Starlink Software Collection (SSC)
+   on VAX/VMS systems and with the UNIX file
+   system. This is not intended to be a user document.
+%Z SUN/118
+   SGP/11
 
 ---sep---
 
@@ -7011,6 +7140,12 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Rehan, S. C.
 %D 00/1996
 %J Starlink System Note 67
+%B This document has been written to help Site Managers secure their
+   Unix hosts from being compromised by hackers. I have given brief
+   introductions to the security tools along with downloading, configuring
+   and running information. I have also included a section on my
+   recommendations for installing these security tools starting from an
+   absolute minimum security requirement.
 
 ---sep---
 
@@ -7019,6 +7154,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/1997
 %J Starlink System Note 68
+%B Interface Definition Files (IFDs) provide a
+   generic method of defining the interface between Starlink
+   (ADAM) applications
+   and various software environments.  Software is described which enables
+   developers to create IFDs and use them to create files required by the
+   Starlink or IRAF environments.
+%Z SG/4
+   SG/5
+   SSN/35
+   SUN/115
+   SSN/64
+   SUN/124
 
 ---sep---
 
@@ -7027,6 +7174,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gray, Norman; Taylor, Mark
 %D 00/2001
 %J Starlink System Note 70
+%B This document is addressed both at those who need to generate Starlink
+   documentation of any kind, and at anyone maintaining the Starlink SGML set.
+%Z SUN/123
+   SUN/124
+   SUN/188
+   SGP/28
+   SUN/199
 
 ---sep---
 
@@ -7035,6 +7189,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gray, Norman
 %D 00/2005
 %J Starlink System Note 71
+%B This application processes a DVI file produced by
+   TeX, converting each page to a single bitmap.  The conversion is done
+   directly, rather than through a chain of intermediate file formats,
+   making the process extremely fast.  It can produce output as XBM, XPM,
+   GIF and PNG files.
 
 ---sep---
 
@@ -7043,6 +7202,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Jenness, Tim; Lightfoot, John F.
 %D 00/2000
 %J Starlink System Note 72
+%B This document describes the SURF programming
+   interface. Including the library API, instructions on how to build
+   a SURF task, the SURF file format and instructions on how to write
+   a SURF import task.
+%Z SUN/33
+   Holland et al 1999, MNRAS, 303, 659
+   SUN/92
+   SUN/216
 
 ---sep---
 
@@ -7051,6 +7218,25 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Taylor, Mark
 %D 00/2001
 %J Starlink System Note 73
+%B This package provides some utilities, background documentation,
+   and associated files
+   for adapting the Starlink Software Collection, and software which uses it,
+   to handle very large data sets.
+   The principal focus of this is to move to use of 64 bits of address
+   space on 64-bit operating systems.
+
+   This document (SSN/73) is squarely aimed at the problem of adapting the
+   Starlink Software Collection, and consequently focuses on
+   the three operating systems (Solaris, Linux and Tru64) supported by Starlink,
+   the compiled languages Fortran 77 and ANSI C,
+   and Starlink's somewhat idiosyncratic build mechanisms.
+   However, some of the discussion here may be of interest or use to
+   people who are considering the change from 32 to 64 bits for
+   software in other contexts.
+%Z SUN/209
+   SUN/92
+   SUN/39
+   SGP/16
 
 ---sep---
 
@@ -7059,6 +7245,23 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.
 %D 00/2000
 %J Starlink System Note 75
+%B GAIA and CURSA can interrogate remote catalogues via the Internet to
+   return lists of objects which satisfy a given criterion.  GAIA can also
+   extract images of a specified region of sky from remote databases.
+   Similar facilities are also available in other packages, such as the
+   ESO SkyCat image display tool and the Gemini observing tool.
+   This functionality is achieved by having servers running on the remote
+   systems which accept queries sent by GAIA etc, interrogate their
+   local copies of the catalogues to find the data which satisfy the query
+   and return them.  The servers can communicate with GAIA etc. because
+   the query is sent, and the results returned, in a standard format.  This
+   document describes how to write such servers.
+%Z SUN/214
+   SUN/190
+   I.S.~Graham, {\it The HTML Sourcebook}, 1995 (John Wiley and Sons: New York).
+   J.K.Ousterhout, 1994, {\it Tcl and the Tk Toolkit}\/ (Addison-Wesley: Reading, Massachusetts).
+   R.L.~Schwartz, 1993, {\it Learning Perl} (O'Reilly and Associates Inc: Sebastopol, California).
+   L.~Wall and R.~L.~Schwartz, 1991, {\it Programming Perl}, (O'Reilly and Associates Inc: Sebastopol, California).
 
 ---sep---
 
@@ -7067,6 +7270,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.
 %D 00/2001
 %J Starlink System Note 76
+%B CATREMOTE is a tool for querying remote astronomical catalogues,
+   databases and archives via the Internet.  It allows remote catalogues
+   to be queried and the resulting table to be saved as a local file.  It also
+   provides a number of related auxiliary functions. CATREMOTE can
+   be used interactively.  However, it is more likely to be incorporated in
+   a script or GUI.  This document describes the use of CATREMOTE in
+   sufficient detail to allow a programmer to use it in a script or GUI that
+   he is developing.
+%Z SUN/190
+   SSN/75
+   SUN/193
+   SUN/200
+   SUN/240
+   J.K.Ousterhout, 1994, {\it Tcl and the Tk Toolkit}\/ (Addison-Wesley: Reading, Massachusetts).
 
 ---sep---
 
@@ -7075,6 +7292,49 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/2001
 %J Starlink System Note 77
+%B This document describes the way an ADAM task
+   interacts with the ADAM Message System (SUN/241).
+   It is intended for system programmers.
+
+   The reader is expected to be familiar with the Starlink Software Environment
+   documented in SG/4, SUN/144 and SUN/134.
+%Z SG/4
+   SUN/144
+   SUN/134
+   SUN/241
+   SUN/104
+   SSN/29
+   SUN/115
+   SUN/114
+   SSN/4
+
+---sep---
+
+%R 2005StaSN..78.....CG
+%T The Starlink Build System
+%A Gray, Norman; Draper, Peter W.; Taylor, Mark B.; Rankin, Steven E.
+%D 00/2005
+%J Starlink System Note 78
+%B This document provides an introduction to the Starlink build
+   system.  It describes how to use the Starlink versions of the GNU
+   autotools (autoconf, automake and libtool), how to build the software
+   set from a checkout, how to add and configure new components, and acts
+   as a reference manual for the Starlink-specific autoconf macros and
+   Starlink automake features.
+
+   It does not describe the management of the CVS repository in
+   detail, nor any other source maintainance patterns.
+
+   It should be read in conjunction with the detailed build
+   instructions in the README file at the top of the source
+   tree (which takes precedence over any instructions in this document,
+   though there should be no major disagreements), and with SUN/248,
+   which additionally includes platform-specific notes.
+%Z SUN/248
+   SGP/28
+   SUN/199
+   SSN/70
+   SUN/123
 
 ---sep---
 
@@ -7083,6 +7343,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lupton, W. F.
 %D 00/1989
 %J Starlink System Note 27
+%B This document is aimed at users of HDS who wish to know something about how it
+   is implemented, and at system programmers who are contemplating maintaining,
+   altering or adding new facilities to HDS. The reader is assumed to be familiar
+   with the VMS operating system, but no prior knowledge of HDS is assumed
+   (although the material will be easier to assimilate if he has used it as an
+   application programmer).
+
+   This is not an exhaustive document and, as is often the case, the ultimate
+   documentation is the code. However, all of the major concepts are discussed
+   here and anybody wishing seriously to get to grips with the internals of
+   HDS should definitely read it.
+%Z SUN/92
 
 ---sep---
 
@@ -7091,6 +7363,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.
 %D 00/1987
 %J Starlink System Note 29
+%B This note introduces the Startup, Shutdown and Login files used at Starlink
+   sites specifically to tailor the VMS system for the execution of Starlink
+   software.
 
 ---sep---
 
@@ -7099,6 +7374,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Terrett, D. L.
 %D 00/1990
 %J Starlink System Note 33
+%B The Starlink Software Collection contains graphics software for plotting on
+   Canon Laser and Printronix P300 printer/plotters, and this requires that the
+   printer queues for these devices are set up according to the rules given in
+   this document.
+   NB: This note applies to VMS Version 5.2 onwards.
 
 ---sep---
 
@@ -7107,6 +7387,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chipperfield, A. J.
 %D 00/1992
 %J Starlink System Note 64
+%B This document describes the way in which Starlink uses the facilities
+   of the Interactive Command Language (ICL) for setting up easy access to ADAM
+   applications packages whilst keeping the installation of packages separate
+   from the release of ADAM.
+%Z SUN/59
+   SUN/95
+   SSN/44
 
 ---sep---
 
