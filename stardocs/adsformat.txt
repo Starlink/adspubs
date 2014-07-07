@@ -7402,6 +7402,40 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Meyerdierks, H.; Ward-Thompson, D.
 %D 00/1995
 %J Starlink Cookbook 1
+%Z This cookbook is intended for users of the JCMT
+   and its common-user bolometer UKT14.
+   It is intended as an introductory guide to the JCMT Data Reduction
+   software package JCMTDR,
+   which has been designed to replace the NOD2
+   software package for reduction of dual-beam on-the-fly
+   continuum maps. It is hoped that users who are new to the telescope
+   as well as users already familiar with NOD2 will benefit from this
+   cookbook. It tries to guide the user through the data reduction
+   process and should be an aid to
+   getting started in producing maps from raw dual-beam data.
+%Z SUN/132
+   Duncan et al 1990, MNRAS, 243, 126
+   Emerson, Klein \& Haslam, 1979, A\&A 76, 92\\
+   Griffin et al., 1986, Icarus  65, 244\\
+   Griffin \& Orton, 1993, Icarus 105, 537\\
+   Orton et al., 1986, Icarus 67, 289\\
+   Renka \& Cline, 1984, Rocky Mountain J. Math 14, 223\\
+   Richer, 1991, MNRAS 254, 165\\
+   Richer, 1992, DBMEM User's Guide, MRAO, Cambridge\\
+   Sandell, 1994, MNRAS 271, 75\\
+   Stevens \& Robson, 1994, MNRAS 270, L75\\
+   SUN/33
+   SUN/42
+   SUN/86
+   SUN/92
+   SUN/102
+   SUN/95
+   SUN/130
+   SUN/140
+   SUN/141
+   SUN/163
+   SUN/164
+   SUN/175
 
 ---sep---
 
@@ -7410,6 +7444,29 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.
 %D 00/1997
 %J Starlink Cookbook 2
+%B IBM DX (Data Explorer) is the
+   data-visualisation package recommended by Starlink, particularly for
+   the visualisation of three-dimensional scalar and vector data. This
+   cookbook provides a set of simple recipes for performing common
+   operations using DX. No prior knowledge of DX is required. You can use
+   the recipes as they are provided, if they are suitable for your
+   purposes, or alternatively you can use them as a starting point for
+   generating your own visualisations.
+
+   The cookbook also contains a brief summary of the DX data model. It is
+   useful to have at least some understanding of this data model in order
+   to use DX effectively.
+%Z SG/8
+   SUN/203
+   SUN/86
+   SUN/95
+   SUN/17
+   SUN/55
+   SUN/33
+   SUN/102
+   SUN/203
+   SC/4
+   SUN/98
 
 ---sep---
 
@@ -7418,6 +7475,20 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, Martin
 %D 00/2003
 %J Starlink Cookbook 3
+%B This document is the first version of the Starlink Echelle Data
+   Reduction Cookbook.  It contains scripts and procedures developed by
+   regular or heavy users of the existing software packages.  These scripts
+   are generally of two types; templates which readers may be able to
+   modify to suit their particular needs and utilities which carry out
+   a particular common task and can probably be used `off-the-shelf'.
+
+   In the nature of this subject the recipes given are quite strongly tied
+   to the software packages, rather than being science-data led.  The major
+   part of this document is divided into two sections dealing with scripts to
+   be used with IRAF and with Starlink software (SUN/1).
+%Z SUN/1
+   SUN/152
+   SG/9
 
 ---sep---
 
@@ -7426,6 +7497,31 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Currie, Malcolm J.
 %D 00/2006
 %J Starlink Cookbook 4
+%B This cookbook describes the fundamentals of writing scripts using
+   the UNIX C shell.  It shows how to combine Starlink and private applications
+   with shell commands and constructs to create powerful and time-saving
+   tools for performing repetitive jobs, creating data-processing
+   pipelines, and encapsulating useful recipes.  The cookbook aims to give
+   practical and reassuring examples to at least get you started without
+   having to consult a UNIX manual.  However, it does not offer a
+   comprehensive description of C-shell syntax to prevent you from
+   being overwhelmed or intimidated.  The topics covered are: how to run a
+   script, defining shell variables, prompting, arithmetic and string
+   processing, passing information between Starlink applications, obtaining
+   dataset attributes and FITS header information, processing multiple
+   files and filename modification, command-line arguments and options, and
+   loops.  There is also a glossary.
+%Z SUN/95
+   SUN/61
+   SUN/55
+   SUN/164
+   SUN/183
+   SUN/86
+   SUN/33
+   SSN/20
+   SUN/190
+   SUN/102
+   SUN/92
 
 ---sep---
 
@@ -7434,6 +7530,73 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.; Privett, G. J.; Taylor, M. B.
 %D 00/2001
 %J Starlink Cookbook 5
+%B This cookbook presents simple recipes and scripts for reducing direct
+   images acquired with optical CCD detectors.  Using these recipes and
+   scripts you can correct un-processed images obtained from CCDs for
+   various instrumental effects to retrieve an accurate picture of the
+   field of sky observed.  The recipes and scripts use standard software
+   available at all Starlink sites.
+
+   The topics covered include: creating and applying bias and flat-field
+   corrections, registering frames and creating a stack or mosaic of
+   registered frames.  Related auxiliary tasks, such as converting between
+   different data formats, displaying images and calculating image statistics
+   are also presented.
+
+   In addition to the recipes and scripts, sufficient background material
+   is presented to explain the procedures and techniques used.  The
+   treatment is deliberately practical rather than theoretical, in keeping
+   with the aim of providing advice on the actual reduction of observations.
+   Additional material outlines some of the differences between using
+   conventional optical CCDs and the similar arrays used to observe at
+   infrared wavelengths.
+%Z SUN/183
+   SUN/139
+   SUN/95
+   SUN/86
+   SG/12
+   SC/7
+   SC/4
+   SC/6
+   SUN/166
+   SUN/102
+   SUN/55
+   SUN/33
+   SUN/214
+   SUN/180
+   Davenhall, 1998, Starlink Bulletin, 20, 17
+   Draper, 1995, Starlink Bulletin, 16, 6
+   C.~Buil, 1991, {\it CCD Astronomy -- Construction
+      and Use of an Astronomical CCD Camera}\, (Willmann-Bell: Richmond,
+      Virginia).  Translated by E.~and~B.~Davoust.  Originally published
+      in French as {\it Astronomie CCD, Construction et Utilisation des
+      Cameras CCD en Astronomie Amateur}\, in 1989
+   S.B.~Howell (ed), 1992, {\it Astronomical CCD
+      Observing and Reduction Techniques}, Astronomical Society of the
+      Pacific Conference Series, {\bf 23}.
+   W.~Jaffe, 1998, {\it Astronomical Images}\,
+      (Twin Press: Vledder) CD-ROM.  To contact Twin Press send an electronic
+      mail message to G.~Kiers ({\tt gkiers@twinpress.nl}).
+   D.C.~Kay and J.R.~Levine, 1995, {\it Graphics File Formats}, second edition
+      (Windcrest/McGraw-Hill: New York).  See in particular Chapter 18, pp235-244.
+   C.R.~Kitchin, 1998, {\it Astrophysical Techniques},
+      third edition (Institute of Physics: Bristol and Philadelphia).
+      First edition published in 1984.
+   P.~Massey and G.H.~Jacoby, 1992, in Howell {\it op. cit.}\/ (\cite{HOWELL92}), pp240-257.
+   I.S.~McLean, 1989, {\it Electronic and Computer-Aided
+      Astronomy -- From Eyes to Electronic Sensors}\, (Ellis Horwood: Chichester).
+   I.S.~McLean, 1997, {\it Electronic Imaging in
+      Astronomy -- Detectors and Instrumentation}\, (Wiley: Chichester and
+      New York).  Published in association with Praxis in the Wiley-Praxis
+      series in Astronomy and Astrophysics.
+   M.V.~Newberry, 1995, {\it CCD Astronomy}, {\bf 2}, No. 1, pp18-21.
+   M.V.~Newberry, 1995, {\it CCD Astronomy}, {\bf 2}, No. 3, pp12-14.
+   M.V.~Newberry, 1996, {\it CCD Astronomy}, {\bf 3}, No. 1, pp18-21.
+   G.~Walker, 1987, {\it Astronomical Observations -- An Optical Perspective}
+   D.C.~Wells, E.W.~Greisen and R.H.~Harten, 1981, {\it Astron. Astrophys. Suppl}, {\bf 44}, pp363-370.
+   D.C.~Wells, 2000, in {\it Information Handling in
+      Astronomy}, ed. A.~Heck (Kluwer: Dordrecht), Astrophysics and Space
+      Science Library, {\bf 250}, pp65-72.
 
 ---sep---
 
