@@ -8094,7 +8094,7 @@ R.E.~Schild, 1977, {\it Astron. J}, {\bf 82},
    SUN/1
    SUN/11
    SUN/9
-   SUN/12   ???
+   SUN/12
    SUN/28
    SUN/73
    SUN/93
