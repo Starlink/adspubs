@@ -7605,6 +7605,269 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Palmer, J.; Davenhall, A. C.
 %D 00/2001
 %J Starlink Cookbook 6
+%B This cookbook presents simple recipes for the photometric calibration
+   of CCD frames.  Using these recipes you can calibrate the brightness
+   of objects measured in CCD frames into magnitudes in standard
+   photometric systems, such as the Johnson-Morgan UBV, system.
+   The recipes use standard software available at all Starlink sites.
+
+   The topics covered include: selecting standard stars, measuring
+   instrumental magnitudes and calibrating instrumental magnitudes into a
+   standard system.  The recipes are appropriate for use with data acquired
+   with optical CCDs and filters, operated in standard ways, and describe the
+   usual calibration technique of observing standard stars.  The software
+   is robust and reliable, but the techniques are usually not suitable where
+   very high accuracy is required.
+
+   In addition to the recipes and scripts, sufficient background material
+   is presented to explain the procedures and techniques used.  The
+   treatment is deliberately practical rather than theoretical, in keeping
+   with the aim of providing advice on the actual calibration of observations.
+
+   This cookbook is aimed firmly at people who are new to astronomical
+   photometry.  Typical readers might have a set of photometric observations
+   to reduce (perhaps observed by a colleague) or be planning a programme of
+   photometric observations, perhaps for the first time.  No prior knowledge
+   of astronomical photometry is assumed.
+
+   The cookbook is not aimed at experts in astronomical photometry.  Many
+   finer points are omitted for clarity and brevity.  Also, in order to
+   make the most accurate possible calibration of high-precision photometry,
+   it is usually necessary to use bespoke software tailored to the
+   observing programme and photometric system you are using.
+%Z C.W.~Allen, 1973, {\it Astrophysical Quantities
+   D.A.~Allen, 1975, {\it Infrared -- the New Astronomy
+   D.A.~Allen and T.A.~Cragg, 1983, {\it Mon. Not. R. Astron. Soc}, {\bf 203}, pp777-783
+M.~Bersanelli, P.~Bouchet and R.~Falomo, 1991,
+   {\it Astron. Astrophys}, {\bf 252}, pp854-860.
+
+  \bibitem{BOUCHET91} P.~Bouchet, J.~Manfroid and F.X.~Schmider, 1991,
+   {\it Astron. Astrophys. Suppl}, {\bf 91}, pp409-424.
+
+  \bibitem{CARTER84} B.S.~Carter, 1984, M.Sc. Thesis, University of
+   Cape Town.
+
+  \bibitem{CARTER90} B.S.~Carter, 1990, {\it Mon. Not. R. Astron. Soc},
+   {\bf 242}, pp1-5.
+
+  \bibitem{CASALI92} M.M.~Casali and T.J.~Hawarden, 1992, {\it The
+   JCMT -- UKIRT Newsletter}, No. {\bf 4}, pp33-35.
+
+  \bibitem{CHRISTIAN85} C.A.~Christian, M.~Adams, J.V.~Barnes,
+   H.~Butcher, D.S.~Hayes, J.R.~Mould and M.~Siegel, 1985, {\it Publ.
+   Astron. Soc. Pacific}, {\bf 97}, pp363-372.
+A.W.J.~Cousins, 1976, {\it Mem. R. Astron. Soc},
+   {\bf 81}, pp25-36.
+
+  \bibitem{COUSINS78} A.W.J.~Cousins, 1978, {\it Mon. Notes Astron. Soc.
+   South. Africa}, {\bf 37} pp8-10.
+
+  \bibitem{DACOSTA90} G.S.~DaCosta, 1990, {\it CCDs in Astronomy},
+   Astronomical Society of the Pacific Conference Series {\bf 8},
+   pp326-334.
+
+J.H.~Elias, J.A.~Frogel, A.R.~Hyland and T.J.~Jones,
+   1983, {\it Astron. J}, {\bf 88}, pp1027-1030.
+
+  \bibitem{ELIAS82} J.H.~Elias, J.A.~Frogel, K.~Matthews and G.~Neugebauer,
+   1982, {\it Astron. J}, {\bf 87} pp1029-1034 and erratum on p1893.
+
+  \bibitem{ENGELS81} D.~Engels, W.A.~Sherwood, W.~Wamsteker and
+   G.V.~Shultz, 1981, {\it Astron. Astrophys. Suppl}, {\bf 45}, pp5-9.
+
+  \bibitem{FORBES95} M.C.~Forbes, T.~Banks, D.J.~Sullivan, R.J.~Dodd,
+   A.C.~Gilmore and P.M.~Kilmartin, 1995, {\it The Observatory},
+   {\bf 115}, No. 1124, pp29-30.
+
+  \bibitem{FROGEL78} J.A.~Frogel, S.E.~Persson, M.~Aaronson and
+   K.~Matthews, 1978, {\it Astrophys. J}, {\bf 220}, pp75-97.
+
+  \bibitem{GLASS74} I.S.~Glass, 1974, {\it Mon. Notes Astron. Soc.
+   South. Africa}, {\bf 33}, pp53-58 and errata on p71.
+
+  \bibitem{GRAHAM82} S.A.~Graham, 1982, {\it Publ. Astron.
+   Soc. Pacific}, {\bf 94}, pp244-265.
+
+  \bibitem{GREEN85} R.M.~Green, 1985, {\it Spherical Astronomy}\,
+   (Cambridge University Press: Cambridge).
+
+  \bibitem{GOLAY74} M.~Golay, 1974, {\it Introduction to Astronomical
+   Photometry}\, (D. Reidel: Dordrecht).
+
+  \bibitem{GRONBECH76} B.~Gr\o nbech, E.H.~Olsen and B.~Str\"{o}mgren,
+   1976, {\it Astron. Astrophys. Suppl}, {\bf 26} pp155-176.
+
+  \bibitem{GRONBECH77} B.~Gr\o nbech and E.H.~Olsen, 1977, {\it
+   Astron. Astrophys. Suppl}, {\bf 25}, pp213-270.
+
+  \bibitem{HARDIE62} R.H.~Hardie, 1962, `Photoelectric Reductions',
+   Chapter 8 of {\it Astronomical Techniques}, W.A.~Hiltner (Ed), {\it
+   Stars and Stellar Systems}, {\bf II}\, (University of Chicago Press:
+   Chicago), pp178-208.
+
+  \bibitem{HARRIS81} W.E.~Harris, W.P.~Fitzgerald and B.C.~Reed, 1981,
+   {\it Publ. Astron. Soc. Pacific}, {\bf 93}, pp507-517.
+
+J.B.~Hearnshaw, 1991, {\it Southern Stars},
+   {\bf 34}, pp33-44.
+
+  \bibitem{HENDEN90} A.A.~Henden and R.H.~Kaitchuck, 1990, {\it
+   Astronomical Photometry}\, (Willmann-Bell: Richmond, Virginia).
+   Originally published in 1982.
+
+  \bibitem{HOWELL92} S.B.~Howell (Ed), 1992, {\it Astronomical CCD
+   Observing and Reduction Techniques}, Astronomical Society of the
+   Pacific Conference Series {\bf 23}.
+
+  \bibitem{JASCHEK87} C.~Jaschek and M.~Jaschek, 1987, {\it The
+  Classification of Stars}\, (Cambridge University Press: Cambridge).
+
+  \bibitem{JOHNSON64} H.L.~Johnson, 1964, {\it Boletin de los
+   Observatorios Tonantzintla y Tacubaya}, {\bf 3}, pp305-324.
+
+  \bibitem{JOHNSON65} H.L.~Johnson, 1965, {\it Comm. Lunar. Planet.
+   Lab}, No. 53 (Univ. Arizona) {\bf 3}, pp73-77.
+
+  \bibitem{JOHNSON51} H.L.~Johnson and W.W.~Morgan, 1951, {\it
+   Astrophys. J}, {\bf 114}, pp522-543.
+
+  \bibitem{JOHNSON53} H.L.~Johnson and W.W.~Morgan, 1953, {\it
+   Astrophys. J}, {\bf 117}, pp313-352.
+
+  \bibitem{JONES82} T.J.~Jones and A.R.~Hyland, 1982, {\it Mon. Not. R.
+   Astron. Soc}, {\bf 200}, pp509-520.
+
+  \bibitem{KAITCHUCK94} R.H.~Kaitchuck, A.A.~Henden and R.~Truax,
+   1994, `Photometry in the Digital Age', {\it CCD Astronomy}, {\bf 1},
+   No. 3, pp20-23.
+
+  \bibitem{KAY95} D.C.~Kay and J.R.~Levine, 1995, {\it Graphics File
+   Formats}, second edition
+  \newline (Windcrest/McGraw-Hill: New York).  See in particular
+   Chapter 18, pp235-244.
+
+  \bibitem{KROL93} E.~Krol, 1992, {\it The Whole Internet User's Guide
+   and Catalog}\, (O'Reilly and Associates Inc, Sebastopol, California).
+
+  \bibitem{LAMLA82} E.~Lamla, 1982, in {\it Landolt-B\"{o}rnstein,
+   Zahlenwerte und Funktionen aus Naturwissenschaften und Technik},
+   K.~Schaifers and H.H.~Voigt (Eds), {\bf VI/2b}, Astronomie und
+   Astrophysik (Springer-Verlag: Berlin).
+
+  \bibitem{LANDOLT73} A.U.~Landolt, 1973, {\it Astron. J}, {\bf 78},
+   pp959-981.
+
+A.U.~Landolt, 1983, {\it Astron. J}, {\bf 88},
+   pp439-460.
+%  (also Contribution of the Louisiana State University Observatory No. 174).
+
+  \bibitem{LANDOLT83B} A.U.~Landolt, 1983, {\it Astron. J}, {\bf 88},
+   pp853-866.  Note that the stars listed in this paper are not
+   necessarily suitable as general-purpose photometric standards and
+   care  should be exercised before using them as such.  See the
+   discussion in the paper for details.
+%  (also Contribution of the Louisiana State University Observatory No. 178).
+
+  \bibitem{LANDOLT92} A.U.~Landolt, 1992, {\it Astron. J}, {\bf 104},
+   pp340-371.
+%  (also Contribution of the Louisiana State University Observatory No. 230).
+
+  \bibitem{LEGGETT92} S.K.~Leggett, 1992, {\it Astrophys. J. Suppl}, {\bf
+   82}, pp351-394.  In particular see pp357-358 for a discussion of
+   photometric systems and the Appendix on pp391-393 for details of the
+   transformations between them.
+
+  \bibitem{MASSEY89} P.~Massey, C.D.~Garmany, M.~Silkey and
+   K.~DeGioia-Eastwood, 1989, {\it Astron. J}, {\bf 97}, pp107-130.
+
+  \bibitem{MCLEAN97} I.S.~McLean, 1997, {\it Electronic Imaging in
+   Astronomy -- Detectors and Instrumentation}\, (Wiley: Chichester and
+   New York).  Published in association with Praxis in the Wiley-Praxis
+   series in Astronomy and Astrophysics.
+
+  \bibitem{MENZIES89} J.W.~Menzies, R.M.~Barfield, A.W.J.~Cousins and
+   J.D.~Laing, 1989, SAAO Circular number {\bf 13}.
+
+  \bibitem{MENZIES91} J.W.~Menzies, F.~Marang, J.D.~Laing, I.M.~Coulson
+   and C.A.~Engelbrecht, 1991, {\it Mon. Not. Roy. Astron. Soc.},
+   {\bf 248}, pp642-652.
+
+  \bibitem{NECKEL66} Th.~Neckel, 1966, {\it Z. f\"{u}r Astrophs}, {\bf
+   63}, pp221-241.
+
+  \bibitem{NECKEL80} Th. Neckel and G. Klare, 1980, {\it Astron.
+   Astrophys. Suppl}, {\bf 42}, pp251-281.
+
+R.E.~Schild, 1977, {\it Astron. J}, {\bf 82},
+   pp337-344.
+
+  \bibitem{SCHMIDTKALER82} Th.~Schmidt-Kaler, 1982, in {\it
+   Landolt-B\"{o}rnstein, Zahlenwerte und Funktionen aus
+   Naturwissenschaften und Technik}, K.~Schaifers and H.H.~Voigt (Eds),
+   {\bf VI/2c}, Astronomie und Astrophysik (Springer-Verlag: Berlin), p45.
+
+  \bibitem{SIMONS01} D. A. Simons and A. Tokunaga, 2001, to appear in
+   {\it Publ. Astron. Soc. Pacific}.  Also available as
+   \htmladdnormallink{Gemini Preprint no. 73}
+   {http://www.gemini.edu/documentation/preprints/pre73.html}.
+
+  \bibitem{STERKEN92} Chr.~Sterken and J.~Manfroid, 1992, {\it
+   Astronomical Photometry --- A Guide}\, (Kluwer Academic Publishers:
+   Dordrecht).
+
+  \bibitem{STETSON87} P.B.~Stetson, 1987, {\it Publ. Astron.
+   Soc. Pacific}, {\bf 99}, pp191-222.
+
+  \bibitem{STETSON88} P.B.~Stetson and W.E.~Harris, 1988, {\it
+   Astron. J}, {\bf 96}, pp909-975.
+
+  \bibitem{STRAIZYS92} V.~Strai\v{z}ys, 1992, {\it Multicolor
+   Stellar Photometry}, Pachart Astronomy and Astrophysics Series {\bf 15}
+   (Pachart: Tucson).
+
+  \bibitem{STROMGREM63} B. Str\"{o}mgren, 1963, {\it Q. J. Roy. Astron.
+   Soc.}, {\bf 4}, pp8-36.
+
+  \bibitem{STROMGREM66} B. Str\"{o}mgren, 1966, {\it Annu. Rev. Astron.
+   Astrophys}\, (Annual Reviews Inc: Palo Alto, California), {\bf 4},
+   pp433-472.
+
+  \bibitem{TAPIA86} M.~Tapia, L.~Neri and M.~Roth, 1986, {\it Rev.
+   Mexicana Astron. Astrofisica}, {\bf 13}, pp115-118.
+
+  \bibitem{UNSOLD67} A.~Uns\"{o}ld, 1967, {\it The New Cosmos}
+   (Longmans and Springer-Verlag: New York), translated by W.H.~McCrea.
+   Originally published in German as {\it Der neue Kosmos}.
+
+   W.~Wamsteker, 1981, {\it Astron. Astrophys},
+   {\bf 97}, pp329-333.
+
+   D.C.~Wells, E.W.~Greisen and R.H.~Harten, 1981,
+   {\it Astron. Astrophys. Suppl}, {\bf 44}, pp363-370.
+
+  \bibitem{YOUNG67} A.T.~Young and W.M.~Irvine, 1967, {\it Astron.
+   J}, {\bf 72}, pp945-950.
+
+  \bibitem{ZOMBECK90} M.V.~Zombeck, 1990, {\it Handbook of Space
+   Astronomy and Astrophysics}\, (Cambridge University press: Cambridge).
+
+   SUN/102
+   SUN/95
+   SUN/55
+   SUN/190
+   SC/17
+   SC/5
+   SUN/139
+   SUN/214
+   SUN/48
+   SUN/45
+   SUN/42
+   SUN/146
+   SUN/141
+   SG/10
+   SUN/67
+   SUN/33
+   SUN/92
 
 ---sep---
 
@@ -7613,6 +7876,47 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Clayton, Martin; Holloway, Anthony
 %D 00/1998
 %J Starlink Cookbook 7
+%B This Cookbook describes the basic concepts and methods used in optical
+   astronomical spectroscopy; it is aimed at those new to the field.
+   Complete worked example reductions for both one- and two-dimensional
+   longslit spectra, using real datasets, are described.  Common problems and
+   their solutions are discussed.  A section on related resources is
+   included, as is a glossary of commonly used terms.
+%Z SUN/86
+   SUN/139
+   SUN/55
+   SUN/50
+   SUN/95
+   SUN/33
+   SUN/92
+   SUN/16
+   SUN/129
+   SG/9
+   SC/3
+   SUN/152
+   J.~G.~Robertson,\\
+     {\sl Optimal Extraction of Single-Object Spectra from Observations
+     with Two-Dimensional Detectors,}\\
+     pp.~1220\scspec{--}{-}1231, Pub.~A.~S.~P.~Vol.~98, November 1986
+   Ian S.~McLean,\\
+      {\sl Electronic and Computer-Aided Astronomy
+   Tom Marsh,\\
+      {\sl The Extraction of Highly Distorted Spectra,}\\
+      pp.~1032\scspec{--}{-}1037, Pub.~A.~S.~P.~Vol.~101, November 1989.
+   Keith Horne,\\
+      {\sl An Optimal Extraction Algorithm for CCD Spectroscopy,}\\
+      pp.~609\scspec{--}{-}617, Pub.~A.~S.~P.~Vol.~98, June 1986.
+   S.~D'Odorico, M.~Ghigo and D.~Ponz,\\
+      {\sl An Atlas of the Thorium-Argon Spectrum for the ESO Echelle
+      Spectrograph in the $\lambda\lambda$~3400\scspec{--}{-}9000\AA\ Region,}\\
+      ESO, 1987.
+   L.~Achmad and L.~Pasquini,\\
+      {\sl CASPEC Thorium-Argon Atlas in the
+      3050\scspec{--}{-}3650\AA\ Region,}\\
+      ESO Document ASD-MAN-SCI-000-001, May 1995.
+   Michael Bessell and Max Pettini,\\
+      {\sl UCLES Spectrum of the Thorium-Argon Hollow-Cathode Lamp,}\\
+      \htmlref{AAO}{gl_aao_aat} UM 28.1, January 1991.
 
 ---sep---
 
@@ -7621,6 +7925,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Matthews, Henry E.; Jenness, Tim
 %D 00/1997
 %J Starlink Cookbook 8
+%B This cookbook provides an introduction to the facilities
+   found in the SPECX data reduction package.
 
 ---sep---
 
@@ -7629,6 +7935,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lawden, M. D.; Charles, Anne
 %D 00/1997
 %J Starlink Cookbook 9
+%B This cookbook shows some examples of LATEX in action and should help you to get to know how to use LATEX
+   effectively.
+%Z SUN/9
+   1962AJ.....67..471K
 
 ---sep---
 
@@ -7637,6 +7947,23 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Stevens, J. A.; Ivison, R. J.; Jenness, T.
 %D 00/1997
 %J Starlink Cookbook 10
+%B This document describes the basic reduction of photometric data taken with the
+   Submillimetre Common-User Bolometer Array (SCUBA) at the James Clerk Maxwell Telescope.
+   The adopted method is applicable
+   to the full range of SCUBA's photometric observing modes: simple `stare' type
+   observations such as those performed with UKT14, small jiggle maps taken with
+   a single pixel or either of the above but chopping between 2 or 3 bolometers
+   on the arrays.
+%Z SUN/216
+   SUN/95
+   SUN/33
+   SUN/213
+   SUN/55
+   Duncan~W.~D., Robson~E.~I., Ade~P.~A.~R., Griffin~M.~J., Sandell~G., 1990,
+      \textit{MNRAS}, \textbf{243}, 126
+   Wall et al Programming Perl, 1996
+   Hughes 1993 JCMT-UKIRT Newsletter 4, 32
+   Sandell~G., 1994, \textit{MNRAS}, \textbf{271}, 75
 
 ---sep---
 
@@ -7645,6 +7972,32 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Sandell, G.; Jessop, N.; Jenness, T.
 %D 00/2001
 %J Starlink Cookbook 11
+%B This cookbook tells you how to reduce and analyze maps obtained with SCUBA using
+   the off-line SCUBA reduction package, SURF, and the Starlink KAPPA, Figaro, GAIA
+   and CONVERT applications. The easiest way of using these packages is to run-up ORAC-DR, a
+   general purpose pipeline for reducing data from any telescope.  A set
+   of data reduction recipes are available to ORAC-DR for use when
+   working with scuba maps, these recipes utilize the SURF and KAPPA packages.
+
+   This cookbook makes no attempts to explain why and how, for that there
+   is a comprehensive Starlink User Note 216 which properly documents all the software tasks in SURF,
+   which should be consulted for those who need to know details of a
+   task, or how the task really works.
+%Z SUN/216
+   SUN/48
+   SUN/212
+   SUN/95
+   SUN/86
+   SUN/214
+   SUN/132
+   2002MNRAS.336...14J
+   Emerson, D.T., Klein, U., \& Haslam, C.G.T., 1979, A\&A, 76, 92
+   SUN/55
+   2002MNRAS.336....1A
+   Hogherheijde, M.R., Sandell, G., 2000, ApJ, 534, 880
+   2000ApJ...545L.121P
+   Sandell, G., Weintraub, D.A., 2001, ApJS, 134, 115
+   Weintraub, D.A., et al., 1999, ApJ, 517, 819
 
 ---sep---
 
@@ -7653,6 +8006,41 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Lockley, Jon
 %D 00/1997
 %J Starlink Cookbook 12
+%B This Cookbook shows you how to write your
+   own software for astronomical data reduction.
+   There are two parts.
+   The first part introduces you to simple data reduction using Starlink's
+   IMG subroutine library.
+   This hides a lot of the underlying complications.
+   The second part introduces you to the more powerful (but more complex)
+   NDF subroutine library for handling data.
+%Z SUN/188
+   SUN/160
+   SUN/33
+   SUN/55
+   SGP/28
+   SUN/143
+   SUN/124
+   SUN/194
+   SUN/67
+   SG/4
+   SUN/101
+   SUN/144
+   SG/6
+   SUN/113
+   SUN/115
+   SUN/134
+   SSN/20
+   SUN/209
+   SUN/136
+   SUN/143
+   SUN/172
+   SUN/73
+   SUN/102
+   SSN/35
+   SUN/104
+   SGP/16
+   SGP/4
 
 ---sep---
 
@@ -7661,6 +8049,80 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Gray, Norman
 %D 00/2003
 %J Starlink Cookbook 13
+%B This cookbook is intended to assemble references to
+   resources likely to be of interest to theorists and modellers.
+   It's not a collection of standard recipes, but instead a
+   repository of brief introductions to facilities.  It includes
+   references to sources of authoritative information, including
+   those Starlink documents most likely to be of interest to
+   theorists.
+
+   Although the topics are chosen for their
+   relevance to theoretical work, a good proportion of the
+   information should be of interest to all of the astronomical
+   computing community.
+%Z SUN/145
+   SUN/170
+   SUN/168
+   1992nrfa.book.....P
+   1992nrca.book.....P
+   1988cpl..book.....K
+   SUN/209
+   SUN/107
+   SG/8
+   SGP/47
+   SUN/160
+   SUN/33
+   SUN/92
+   SUN/136
+   SUN/9
+   SC/9
+   SGP/50
+   SUN/199
+   SUN/55
+   SUN/203
+   SUN/15
+   SUN/194
+   SUG
+   SGP/16
+   SGP/4
+   SGP/28
+   SGP/47
+   SUN/174
+   SUN/127
+   SUN/162
+   SUN/1
+   SUN/11
+   SUN/9
+   SUN/12   ???
+   SUN/28
+   SUN/73
+   SUN/93
+   SUN/107
+   SUN/136
+   SUN/127
+   SUN/145
+   SUN/160
+   SUN/167
+   SUN/170
+   SUN/172
+   SUN/174
+   SUN/181
+   SUN/193
+   SUN/194
+   SUN/203
+   SC/12
+   SG/6
+   SC/2
+   1992unse.book.....G
+   1993hpc..book.....D
+   1995cpl..book.....S
+   1996jpl..book.....A
+   1996prpe.book.....W
+   1993lepe.book.....S
+   1985effo.book.....M
+   1994ldps.book.....L
+   1984texb.book.....K
 
 ---sep---
 
@@ -7669,6 +8131,203 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.
 %D 00/1999
 %J Starlink Cookbook 14
+%B This cookbook is an introduction to fibre spectroscopy and, in
+   particular, the techniques and software available for reducing fibre
+   spectroscopy observations.  It covers the principal common-user
+   instruments available to UK astronomers: the Anglo-Australian Telescope
+   2dF, WYFFOS/AUTOFIB2 on the William Herschel Telescope and FLAIR on
+   the UK Schmidt.  It is not a manual for any particular package, though
+   it does contain some worked examples.
+
+   This cookbook is aimed firmly at people who are new to fibre
+   spectroscopy.  Typical readers might either be planning or considering
+   their first programme of observations with a fibre-fed spectrograph or
+   have a set of fibre spectroscopy observations to reduce (perhaps observed
+   by a colleague).  No prior knowledge of fibre spectroscopy is assumed.
+%Z 
+  \bibitem{ALLINGTON97} J.~Allington-Smith, P.~Bettess, E.~Chadwick,
+   R.~Content, R.~Davies, G.~Dodsworth, R.~Haynes, D.~Lee, I.~Lewis,
+   J.~Webster, E.~Atad, S.~Beard, R.~Bennett, M.~Ellis, P.~Hastings,
+   P.~Williams, T.~Bond, D.~Crampton, T.~Davidge, M.~Fletcher,
+   B.~Leckie, C.~Morbey, R.~Murowinski, S.~Roberts, L.~Saddlemyer,
+   J.~Sebesta, J.~Stilburn and K.~Szeto, 1997, in Kontizas {\it et al.
+   op. cit.}\/ (\cite{KONTIZAS97}), pp73-79.
+
+  \bibitem{ARRIBAS98} S.~Arribas, E.~Mediavilla and F.G.~Watson (eds),
+   1998, {\it Fiber Optics in Astronomy III}, Astronomical Society of
+   the Pacific Conference Series, {\bf 152}.
+
+  \bibitem{BAILEY97} J.A.~Bailey and K.~Glazebrook, 1997, {\it 2dF
+   User Manual}\, (Anglo-Australian Observatory: Sydney).
+
+  \bibitem{BARDEN88} S.C.~Barden (ed), 1988, {\it Fiber Optics in
+   Astronomy}, Astronomical Society of the Pacific Conference Series,
+   {\bf 3}.
+
+  \bibitem{BARDEN95} S.C.~Barden (ed), 1995, {\it Fiber Optics in
+   Astronomical Applications}, Proc. SPIE, {\bf 2476}.
+
+  \bibitem{BARDEN98} S.C.~Barden 1998, in Arribas {\it et al. op. cit.}\/
+   (\cite{ARRIBAS98}), pp14-19.
+
+  \bibitem{BARDEN93} S.C.~Barden, T.~Armandroff, P.~Massey, L.~Groves,
+   A.C.~Rudeen, D.~Vaughnn and G.~Muller, 1993, in Gray {\it op. cit.}\/
+   (\cite{GRAY93}), pp185-202.
+
+  \bibitem{BARNES93} J.~Barnes, 1993, {\it A Beginner's Guide to
+   Using IRAF}\, (National Optical Astronomy Observatories: Tucson).
+   See \xref{SG/12}{sg12}{} {\it op. cit.}\/ (\cite{SG12}) for details of
+   obtaining IRAF manuals.
+
+  \bibitem{BOWEN98} D.V.~Bowen, M.~Pettini and B.J.~Boyle, 1998,
+   {\it Mon. Not. R. Astron. Soc}, {\bf 297}, pp239-250.
+
+  \bibitem{CANNON97} R.D.~Cannon, 1997, in Kontizas {\it et al.
+   op. cit.}\/ (\cite{KONTIZAS97}), pp33-40.
+
+  \bibitem{CHAMBERLAIN61} J.W.~Chamberlain, 1961, {\it Physics of the
+   Aurora and Airflow}, International Geophysics Series, {\bf 2},
+   (Academic Press: New York).
+
+  \bibitem{CHU97} Y.~Chu, 1997, in Kontizas {\it et al. op. cit.}\/
+   (\cite{KONTIZAS97}), pp67-72.
+
+  \bibitem{SC7} M.J.~Clayton, 1998, \xref{SC/7.2}{sc7}{}: {\it Simple
+   Spectroscopy Reductions}\, (Starlink).
+
+  \bibitem{SUN95} M.J.~Currie and D.S.~Berry, 1998, \xref{SUN/95.13}{sun95}{}:
+   {\it KAPPA -- Kernel Application Package}\, (Starlink).
+
+  \bibitem{SC4} M.J.~Currie, 1998, \xref{SC/4.2}{sc4}{}: {\it C-shell
+   Cookbook}\, (Starlink).
+
+  \bibitem{SUN55} M.J.~Currie, G.J.~Privett, A.J.~Chipperfield,
+   D.S.~Berry and A.C.~Davenhall, 1998, \xref{SUN/55.10}{sun55}{}:
+   {\it CONVERT -- A Format-conversion Package}\, (Starlink).
+
+  \bibitem{SUN190} A.C.~Davenhall, 1998, \xref{SUN/190.6}{sun190}{}:
+   {\it CURSA -- Catalogue and Table Manipulation Applications}\, (Starlink).
+
+  \bibitem{SC5} A.C.~Davenhall, G.J.~Privett and M.B.~Taylor, 1999,
+   \xref{SC/5.2}{sc5}{}: {\it The 2-D CCD Data Reduction Cookbook}\,
+   (Starlink).
+
+  \bibitem{SUN139} P.W.~Draper, 1998, \xref{SUN/139.9}{sun139}{}: {\it
+   CCDPACK -- CCD Data Reduction Package}\, (Starlink).
+
+  \bibitem{DRINK96} M.~Drinkwater and B.~Holman, 1996, {\it FLAIR Data
+   Reduction with IRAF}\, (Anglo-Australian Observatory: Sydney).
+
+  \bibitem{GRAY93} P.M.~Gray (ed), 1993, {\it Fiber Optics in Astronomy
+   II}, Astronomical Society of the Pacific Conference Series,
+   {\bf 37}.
+
+  \bibitem{HEACOX92} W.D.~Heacox and P.~Connes, 1992, {\it Astron.
+   Astrophys. Rev}, {\bf 3}, pp169-199.
+
+  \bibitem{HECHT98} J.Hecht, 1998,
+   \htmladdnormallink{{\it Understanding Fiber Optics}}
+   {http://www.sff.net/people/jeff.hecht/UFO.html},
+   (Prentice Hall: Saddle River, New Jersey).
+
+  \bibitem{HECHT99} J.Hecht, 1999,
+   \htmladdnormallink{{\it City of Light}}
+   {http://www.sff.net/people/Jeff.Hecht/City.html},
+   (Oxford University Press: Oxford).
+
+  \bibitem{HILL88} J.M.~Hill, 1988, in Barden {\it op. cit.}\/
+   (\cite{BARDEN88}), pp77-92.
+
+  \bibitem{HILL80} J.M.~Hill, J.R.P.~Angel, J.S.~Scott, D.~Lindley and
+   P.~Hintzen, 1980, {\it  Astrophys. J. Lett}, {\bf 242}, ppL69-L72.
+
+  \bibitem{KAY95} D.C.~Kay and J.R.~Levine, 1995, {\it Graphics File
+   Formats}, second edition
+  \newline (Windcrest/McGraw-Hill: New York).  See in particular
+   Chapter 18, pp235-244.
+
+  \bibitem{KONTIZAS97} E.~Kontizas, M.~Kontizas, D.H.~Morgan and
+   G.P.~Vettolani (eds), 1997, {\it Wide-Field Spectroscopy}\,
+   (Kluwer Academic Publishers: Dordrecht).
+
+  \bibitem{LEWIS96} J.R.~Lewis, 1996, {\it WYFFOS Data Reduction
+   Manual}\, (Royal Greenwich Observatory: Cambridge).
+
+  \bibitem{LISS94} C.~Lissandrini, S.~Cristiani and F.~La~Franca,
+   1994, {\it  Publ. Astron. Soc. Pacific}, {\bf 106}, pp1157-1164.
+
+  \bibitem{MADDOX95} S.J.~Maddox and A.~Arag\'{o}n-Salamanca (eds),
+   1995, {\it Wide Field Spectroscopy and the Distant Universe},
+   the 35th Herstmonceux Conference (World Scientific: Singapore).
+
+  \bibitem{MASSEY97} P.~Massey, 1997, {\it A User's Guide to CCD
+   Reductions with IRAF}\, (National Optical Astronomy Observatories:
+   Tucson).  See \xref{SG/12}{sg12}{} {\it op. cit.}\/ (\cite{SG12})
+   for details of obtaining IRAF manuals.
+
+  \bibitem{MASSEY92} P.~Massey, F.~Valdes and J.~Barnes, 1992, {\it
+   A User's Guide to Reducing Slit Spectra with IRAF}\, (National
+   Optical Astronomy Observatories: Tucson).  See \xref{SG/12}{sg12}{}
+   {\it op. cit.}\/ (\cite{SG12}) for details of obtaining IRAF manuals.
+
+  \bibitem{SG12} R.~Morris, G.J.~ Privett and A.C.~Davenhall, 1998,
+   \xref{SG/12.1}{sg12}{}: {\it IRAF -- Image Reduction Analysis Facility}\,
+   (Starlink).
+
+  \bibitem{SUN166} R.~Morris and G.J.~ Privett, 1966,
+   \xref{SUN/166.4}{sun166}{}: {\it SAOIMAGE -- Astronomical Image Display}\,
+   (Starlink).
+
+  \bibitem{NELSON88} G.W.~Nelson, 1988, in Barden {\it op. cit.}\/
+   (\cite{BARDEN88}), pp2-22.
+
+  \bibitem{PARKER97A} Q.A.~Parker, 1997, in Kontizas {\it et al. op.
+   cit.}\/ (\cite{KONTIZAS97}), pp25-31.
+
+  \bibitem{PARKER97B} Q.A.~Parker and M.~Hartley, 1997, in Kontizas {\it
+   et al. op. cit.}\/ (\cite{KONTIZAS97}), pp17-23.
+
+  \bibitem{PARKER98} Q.A.~Parker, F.G.~Watson and S.~Miziarski, 1998, in
+   Arribas {\it et al. op. cit.}\/ (\cite{ARRIBAS98}), pp80-91.
+
+  \bibitem{PARRY97} I.R.~Parry, 1997, in Kontizas {\it et al. op. cit.}\/
+   (\cite{KONTIZAS97}), pp3-16.
+
+  \bibitem{PARRY98} I.R.~Parry, 1998, in Arribas {\it et al. op. cit.}\/
+   (\cite{ARRIBAS98}), pp3-13.
+
+  \bibitem{PARRY90} I.R.~Parry and E.~Carrasco, 1990, in {\it
+   Instrumentation in Astronomy VII}, Proc. SPIE, {\bf 1235} pp702-708.
+
+  \bibitem{VALDES92A} F.~Valdes, 1992, {\it Guide to the Multifiber
+   Reduction Task DOFIBERS}\, (National Optical Astronomy
+   Observatories: Tucson).  See \xref{SG/12}{sg12}{} {\it op. cit.}\/
+   (\cite{SG12}) for details of obtaining IRAF manuals.
+
+  \bibitem{VALDES92B} F.~Valdes, 1992, {\it Guide to the Slit Spectra
+   Reduction Task DOSLIT}\, (National Optical Astronomy Observatories:
+   Tucson).  See \xref{SG/12}{sg12}{} {\it op. cit.}\/ (\cite{SG12}) for
+   details of obtaining IRAF manuals.
+
+  \bibitem{WALKER87} G.~Walker, 1987, {\it Astronomical Observations
+   -- An Optical Perspective}\, (Cambridge University Press: Cambridge).
+
+  \bibitem{SUN33} R.F.~Warren-Smith, 1998, \xref{SUN/33.6}{sun33}{}:
+   {\it NDF -- Routines for Accessing the Extensible N-Dimensional Data
+   Format}\, (Starlink).
+
+  \bibitem{WATSON95} F.G.~Watson, 1995, in Maddox and Arag\'{o}n-Salamanca
+   {\it op. cit.}\/ (\cite{MADDOX95}), pp25-32.
+
+  \bibitem{WATSON98} F.G.~Watson, A.R.~Offer, I.J.~Lewis, J.A.~Bailey
+   and K.~Glazebrook, 1998, in Arribas {\it et al. op. cit.}\/
+   (\cite{ARRIBAS98}), pp50-59.
+
+  \bibitem{WELLS81} D.C.~Wells, E.W.~Greisen, and R.H.~Harten, 1981,
+   {\it Astron. Astrophys. Suppl}, {\bf 44}, pp363-370.
+
+  \bibitem{WYSE92} F.G.~Wyse and G.~Gilmore, 1992, {\it Mon. Not. R.
+   Astron. Soc}, {\bf 257}, pp1-10.
 
 ---sep---
 
@@ -7677,6 +8336,28 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, A.; Terrett, D. L.
 %D 00/2000
 %J Starlink Cookbook 15
+%B This cookbook is a collection of introductory material covering a
+   wide range of topics dealing with data display, format conversion and
+   presentation. Along with this material are pointers to more advanced
+   documents dealing with the various packages, and hints and tips about
+   how to deal with commonly occurring graphics problems.
+%Z SC/13
+   SUN/15
+   SUN/113
+   SUN/83
+   SUN/85
+   SUN/137
+   SUN/48
+   SUN/95
+   SUN/130
+   SUN/33
+   SUN/166
+   SUN/214
+   SUN/203
+   SC/2
+   SG/8
+   SUN/55
+   SUN/164
 
 ---sep---
 
@@ -7685,6 +8366,34 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Allan, A.; Currie, Malcolm, J.
 %D 00/2008
 %J Starlink Cookbook 16
+%B This cookbook is a collection of material covering IFU data reduction and analysis. Along
+   with this material are pointers to more advanced documents dealing with the various packages,
+   and hints and tips about how to deal with commonly occurring problems.
+%Z SUN/237
+   SUN/194
+   SUN/230
+   SUN/246
+   SUN/33
+   SUN/55
+   SUN/95
+   SUN/39
+   SUN/139
+   SUN/86
+   SUN/140
+   SUN/237
+   SUN/255
+   SC/4
+   SUN/48
+   SC/15
+   SUN/211
+   SUN/210
+   SUN/214
+   SC/17
+   SUN/217
+   SUN/190
+   1998PASP..110.1216A
+   2006A&A...446..747G
+   1999ASPC..172...11E
 
 ---sep---
 
@@ -7693,6 +8402,43 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Davenhall, A. C.; Draper, P. W.
 %D 00/2001
 %J Starlink Cookbook 17
+%B GAIA (Graphical Astronomy and Image Analysis) is an interactive
+   astronomical image display and analysis tool.  It includes a comprehensive
+   suite of facilities for displaying and manipulating images.  It also has
+   extensive facilities for the astronomical analysis of images, including:
+   astrometric calibration, automatic object detection and aperture, optimal
+   and surface photometry.  GAIA can access images in most of the data formats
+   common in astronomy and can also retrieve copies of remote images and
+   catalogues via the Internet.
+
+   This cookbook is an introduction to GAIA.  It describes the facilities
+   that GAIA provides and gives some simple examples of their use.  It
+   refers to GAIA version 2.6 or higher.
+
+   This cookbook is aimed at astronomers who are new to GAIA, but who think
+   that it might be useful in their work.  It is not aimed at experienced
+   users of GAIA, for whom the GAIA manual (SUN/214) or the
+   on-line help within GAIA itself might be more useful.
+%Z SUN/214
+   SUN/166
+   SUN/45
+   SUN/223
+   SUN/55
+   SUN/33
+   SSN/20
+   SC/5
+   SC/6
+   SUN/210
+   SUN/211
+   SSN/75
+   SUN/190
+   SUN/226
+   SG/12
+   SUN/56
+   SUN/139
+   1996A&AS..117..393B
+   1991rc3..book.....D
+   1981A&AS...44..363W
 
 ---sep---
 
@@ -7701,6 +8447,23 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Chapin, Edward; Dempsey, Jessica; Jenness, Tim; Scott, Douglas; Thomas, Holly; Tilanus, Remo P. J.
 %D 00/2010
 %J Starlink Cookbook 19
+%B This cookbook provides a short introduction to \starlink\ facilities,
+  especially \smurf, the Sub-Millimetre User Reduction Facility, for
+  reducing and displaying SCUBA-2 SRO data. We describe some of the data
+  artefacts present in SCUBA-2 time series and methods we employ to
+  mitigate them. In particular, we illustrate the various steps
+  required to reduce the data, and the Dynamic Iterative Map-Maker,
+  which carries out all of these steps using a single command.
+
+  For information on SCUBA-2 data reduction since SRO, please SC/21.
+%Z SC/21
+   SUN/258
+   SUN/95
+   SGP/38
+   SUN/214
+   2010SPIE.7741E..54D
+   2002MNRAS.336...14J
+   2002MNRAS.336....1A
 
 ---sep---
 
@@ -7709,6 +8472,28 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Thomas, Holly S.; Currie, Malcolm J.
 %D 00/2014
 %J Starlink Cookbook 21
+%B This cookbook provides a short introduction to Starlink facilities,
+   especially SMURF, the Sub-Millimetre User Reduction
+   Facility, for reducing, displaying, and calibrating SCUBA-2 data.
+   It describes some of the data artefacts present in SCUBA-2
+   time-series and methods to mitigate them. In particular, this
+   cookbook illustrates the various steps required to reduce the data;
+   and gives an overview of the Dynamic Iterative Map-Maker, which
+   carries out all of these steps using a single command controlled by
+   a configuration file. Specialised configuration files are
+   presented.
+%Z 2002MNRAS.336....1A
+   2008AN....329..295C
+   SUN/258
+   2013MNRAS.430.2545C
+   SGP/38
+   SUN/95
+   2013MNRAS.430.2534D
+   2010SPIE.7741E..54D
+   SUN/214
+   SUN/265
+   2013MNRAS.430.2513H
+   2002MNRAS.336...14J
 
 ---sep---
 
