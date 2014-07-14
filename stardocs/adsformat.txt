@@ -3294,8 +3294,6 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SSN/75
    SGP/16
    SUN/39
-   M.A. Roth, H.F. Korth and A. Silberschatz, 1989, Acta Informatica, 26, pp615-642.
-   J.R.~Rumble and F.J.~Smith, 1990, Database Systems in Science and Engineering
 
 ---sep---
 
@@ -3382,7 +3380,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/88
    SUN/65
    SUN/77
-   Tcl and the Tk toolkit, Ousterhoot,J. 1994
+   1994ttt..book.....O
 
 ---sep---
 
@@ -3489,37 +3487,17 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/162
    SUN/55
    SSN/76
-   U.~Bastian, S.~R\"{o}ser, V.V.~Nesterov, D.D.~Polozhentsev,
-      Kh.I.~Potter, R.~Wielen, L.I.~Yagudin and Ya.S.~Yatskiv, 1991,
-      {\it Astron. Astrophys. Suppl}, {\bf 87}, pp159-162.
-   W.H. Beyer (editor), 1974, {\it CRC Standard
-      Mathematical Tables}, twenty-fourth edition
-   R.M.~Green, 1985, {\it Spherical Astronomy}
-   R.H.~Hardie, 1962, {\it Photoelectric Reductions},
-      Chapter 8 of {\it Astronomical Techniques}, ed. W.A.~Hiltner, {\it
-      Stars and Stellar Systems}, {\bf II}\, (University of Chicago Press:
-      Chicago), pp178-208.
-   P.~Kunitzsch and T.~Smart, 1986, {\it Short Guide to
-      Modern Star Names and Their Derivations
-   D.~Monet, A.~Bird, B.~Canzian, H.~Harris, N.~Reid,
-      A.~Rhodes, S.~Sell, H.~Ables, C.~Dahn, H.~Guetter, A.~Henden,
-      S.~Leggett, H.~Levison, C.~Luginbuhl, J.~Martini, A.~Monet, J.~Pier,
-      B.~Riepe, R.~Stone, F.~Vrba and R.~Walker,
-      1996, {\it USNO-SA1.0
-   F.~Ochsenbein, 12 September 1994, {\it
-      Astronomical Catalogues at CDS: Adopted Standards
-   S.~R\"{o}ser and U.~Bastian, 1988, {\it Astron.
-      Astrophys. Suppl}, {\bf 74}, pp444-451.
-   J.R.~Rumble and F.J.~Smith, 1990, {\it Database
-      Systems in Science and Engineering}\, (Adam Hilger: Bristol).
-   E.~Schoenberg, 1929, {\it Hdb. d. Ap}, {\bf 2},
-      (Julius Springer: Berlin), p268.
-   R.W.~Sinnott, 1988, {\it NGC 2000.0}\, (Cambridge
-      University Press: Cambridge and Sky Publishing Corporation: Cambridge,
-   M.-P. Veron-Cetty and P. Veron, 1989, {\it Catalogue
-      of Quasars and Active Galactic Nuclei}, fourth edition (ESO Sci. Rep. 7).
-   J.V. Wall, 1979, `Practical Statistics for
-      Astronomers', {\it Q. J. R. Astron. Soc}, {\bf 20}, p138-152.
+   1991A&AS...87..159B
+   1978csmt.book.....B
+   1985spas.book.....G
+   1962aste.book.....H
+   1986sgtm.book.....K
+   1996usno.conf.....M
+   1994BICDS..44...19O
+   1988A&AS...74..449R
+   1988cngc.book.....S
+   1989ESOSR...7....1V
+   1979QJRAS..20..138W
 
 ---sep---
 
