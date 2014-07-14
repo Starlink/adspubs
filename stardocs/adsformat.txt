@@ -4941,12 +4941,15 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/33
    SUN/95
    SUN/253
-   Holland~W.~S., et~al., 2006, Proc. SPIE, 6275, 45
-   Jenness~T., et~al., 2002, MNRAS, 336, 14
-   Le~Poole~R.~S., van~Someren~Greve~H.~W., 1998, Proc. SPIE, 3357, 638
-   Archibald~E.~N., et~al., 2002, MNRAS, 336, 1
-   Buckle~J.~V., et~al., 2009, MNRAS, 399, 1026
-   MUST CITE Chapin et al 2013
+   2013MNRAS.430.2513H
+   2009MNRAS.399.1026B
+   2013MNRAS.430.2545C
+   2013MNRAS.430.2534D
+   2013ascl.soft10007J
+   2010SPIE.7740E..66K
+   2002MNRAS.336...14J
+   2002MNRAS.336....1A
+   1998SPIE.3357..638L
 
 ---sep---
 
@@ -4963,13 +4966,13 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 ---sep---
 
 %R 2008StaUN.260.....C
-%T ORAC-DR -- ACSIS pipeline data reduction
+%T ORAC-DR -- Submm heterodyne pipeline data reduction
 %A Cavanagh, Brad
 %D 00/2008
 %J Starlink User Note 260
 %B ORAC-DR is a
    general-purpose automatic data-reduction pipeline environment.  This
-   document describes its use to reduce ACSIS data
+   document describes its use to reduce heterodyne data
    collected at the James Clark Maxwell Telescope (JCMT).
 %Z SUN/139
    SUN/214
@@ -4977,7 +4980,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/258
    SUN/232
    SUN/230
-   SHOULD CITE Buckle et al
+   2009MNRAS.399.1026B
+   SUN/259
+   SUN/229
 
 ---sep---
 
@@ -5065,13 +5070,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/230
    SUN/231
    SUN/265
-   Cay{\'o}n, L. et al., 2000, \textit{Isotropic
-       wavelets: a powerful tool to extract point sources from cosmic
-       microwave background maps}, MNRAS, 315, 757
-   Chapin~E.~L., et al., 2013, \textit{SCUBA-2: iterative map-making with
-       the Sub-Millimetre User Reduction Facility}, MNRAS, 430, 2545
-   Dempsey~J.~T. et al., 2013, \textit{SCUBA-2: on-sky calibration using
-       submillimetre standard sources}, MNRAS, 430, 2534
+   2000MNRAS.315..757C
+   2013MNRAS.430.2545C
+   2013MNRAS.430.2534D
 
 ---sep---
 
@@ -5111,23 +5112,19 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %B PAL provides a subset of the Fortran SLALIB library but written in C
    using the SLALIB C API. Where possible the PAL routines are
    implemented using the C SOFA library. It is provided with a GPL license.
-%Z MUST ADD SUN/67 and SOFA references. Also PAL ADASS.
-   Hardie, R.H., 1962, in {\tt "}Astronomical Techniques{\tt "}
-       ed. W.A. Hiltner, University of Chicago Press, p180.
-   Schoenberg, E., 1929, Hdb. d. Ap., Berlin, Julius Springer, 2, 268.
-   Meeus (l{\tt '}Astronomie, June 1984, p348
-   Stephenson \& Morrison palDt
-   McCarty & Babcock palDt
-   Explanatory Supplement to the Astronomical Almanac,
-      ed P.K.Seidelmann (1992)
-   Everhart \& Pitkin, Am.J.Phys. 51, 712 (1983).
-   Smith, C.A. et al., 1989.  Astr.J. 97, 265.
-   Yallop, B.D. et al., 1989.  Astr.J. 97, 274.
-   Blaauw et al, Mon.Not.R.Astron.Soc.,121,123 (1960)
-   de Vaucouleurs, de Vaucouleurs, \& Corwin, Second Reference
-            Catalogue of Bright Galaxies, U. Texas, page 8.
-   Sterne, Theodore E., {\tt "}An Introduction to Celestial Mechanics{\tt "},
-           Interscience Publishers Inc., 1960.
+%Z SUN/67
+   2011SchpJ...611404H
+   2013ASPC..475..307J
+   1984LAstr..98..348M
+   1984RSPTA.313...47S
+   1986PEPI...44..281M
+   1992esta.book.....S
+   1983AmJPh..51..712E
+   1989AJ.....97..265S
+   1989AJ.....97..274Y
+   1960MNRAS.121..123B
+   1976RC2...C......0D
+   1960aitc.book.....S
 
 ---sep---
 
@@ -5177,9 +5174,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Wallace, P. T.
 %D 00/1990
 %J Starlink General Paper 2
-%Z Arthur, Software Evolution, 1988
-   SGP/16
-    STARLINK}, M.J.Disney \& P.T.Wallace, Q.Jl.R.Astr.Soc.(1982) {\bf 23}, p501
+%Z SGP/16
+   1982QJRAS..23..485D
 
 ---sep---
 
@@ -5346,8 +5342,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    therefore be greatly appreciated.
 %Z SGP/16
    SGP/7
-   Wells et al FITS paper 1979
-   Elements of Programming Style, 1978, Kernighan and Plauger
+   1979ipia.coll..445W
+   1978eps..book.....K
 
 ---sep---
 
@@ -5537,7 +5533,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SGP/43
    SGP/28
    SC/9
-   LaTex Lamport 1994
+   1994ldps.book.....L
 
 ---sep---
 
@@ -5567,9 +5563,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 
 ---sep---
 
-%R 1986StaGP..35.....X
+%R 1986StaGP..35.....W
 %T Analysis of 1986 Questionnaire on the Future Direction of Starlink
-%A XXX
+%A Wallace, Patrick T.
 %D 00/1986
 %J Starlink General Paper 35
 
@@ -5680,8 +5676,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 
 ---sep---
 
-%R 1994StaGP..43......
+%R 1994StaGP..43.....W
 %T 1993-94 Starlink Software Survey
+%A Warren-Smith, R. F.
 %D 00/1994
 %J Starlink General Paper 43
 
@@ -6283,10 +6280,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/214
    SUN/166
    SC/4
-   E.~Krol, 1992, The Whole Internet User's Guide and Catalog, O'Reilly
-   B.J.Thomas, 1995, {\it The Internet for Scientists and Engineers, SPIE
-   J.V. Wall, 1979, `Practical Statistics for Astronomers', {\it Q. J. R. Astron. Soc}, {\bf 20}, pp138-152
-   Wells, Greisen, Harten, 1981 A&A 44, 363
+   1992wius.book.....K
+   1995iseo.book.....T
+   1979QJRAS..20..138W
+   1981A&AS...44..363W
 
 ---sep---
 
@@ -6649,7 +6646,6 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    submit written recommendations for a new, definitive, convention to PTW. These
    have now been collated, with the following outcome.
 
-
 ---sep---
 
 %R 1997StaSN..23.....G
@@ -6979,7 +6975,6 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    This note covers backup and recovery in general terms, and details
    exactly what to do in the above mentioned case.
 
-
 ---sep---
 
 %R 1989StaSN..50.....D
@@ -7207,7 +7202,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    a SURF task, the SURF file format and instructions on how to write
    a SURF import task.
 %Z SUN/33
-   Holland et al 1999, MNRAS, 303, 659
+   1999MNRAS.303..659H
    SUN/92
    SUN/216
 
@@ -7258,10 +7253,10 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    document describes how to write such servers.
 %Z SUN/214
    SUN/190
-   I.S.~Graham, {\it The HTML Sourcebook}, 1995 (John Wiley and Sons: New York).
-   J.K.Ousterhout, 1994, {\it Tcl and the Tk Toolkit}\/ (Addison-Wesley: Reading, Massachusetts).
-   R.L.~Schwartz, 1993, {\it Learning Perl} (O'Reilly and Associates Inc: Sebastopol, California).
-   L.~Wall and R.~L.~Schwartz, 1991, {\it Programming Perl}, (O'Reilly and Associates Inc: Sebastopol, California).
+   1994ttt..book.....O
+   1995htso.book.....G
+   1996prpe.book.....W
+   1993lepe.book.....S
 
 ---sep---
 
@@ -7283,7 +7278,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/193
    SUN/200
    SUN/240
-   J.K.Ousterhout, 1994, {\it Tcl and the Tk Toolkit}\/ (Addison-Wesley: Reading, Massachusetts).
+   1994ttt..book.....O
 
 ---sep---
 
