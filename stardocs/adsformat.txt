@@ -3554,9 +3554,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %J Starlink User Note 193
 %B Perl is an increasingly popular tool in
    Astronomy data reduction. This document describes the Starlink installation.
-%Z Randal L. Scwartz, \textit{Learning Perl}, O'Reilly Associates, Inc. ISBN 0-56592-042-2.
-   Larry Wall, Tom Christiansen \& Randal L. Schwartz, \textit{Programming Perl}, O'Reilly Associates, Inc. ISBN 0-56592-149-6.
-
+%Z 1996prpe.book.....W
+   1993lepe.book.....S
 
 ---sep---
 
@@ -3582,8 +3581,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %Z SUN/28
    SUN/121
    SSN/4
-   The Art of Computer Programming, Fundamental Algorithms Vol 1,
-      by Donald E. Knuth (Addison-Wesley).
+   1978acp..book.....K
 
 ---sep---
 
@@ -3652,8 +3650,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SGP/28
    SGP/50
    SUN/201
-   Lamport, Leslie & & \LaTeX\ User's Guide \& Reference Manual,
-     2nd ed, Addison-Wesley, 1994.
+   1994ldps.book.....L
 
 ---sep---
 
@@ -3735,13 +3732,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %A Harries, T. J.
 %D 00/1996
 %J Starlink User Note 204
+%B POLMAP provides routines for displaying and analyzing spectropolarimetry data
+   that are not available in the complementary TSP package. Commands are provided
+   to read and write TSP (SUN/66) polarization spectrum format files from within POLMAP.
 %Z SUN/66
    SUN/50
-   Codina-Landaberry S., Magalh\~{a}es A. M., 1976, AA, 49 407
-   Serkowski K., 1973, in Greenburg J. M., Hayes D. S., eds, IAU Symp. 52,
-      Interstellar Dust and Related Topics. Reidel, p. 145
-   Whittet D. C. B., Martin P. G., Hough J. H., Rouse M. F., Bailey J. A.,
-      Axon D. J., 1992, ApJ, 386, 562
+   1976A&A....49..407C
+   1973IAUS...52..145S
+   1992ApJ...386..562W
 
 ---sep---
 
@@ -3764,8 +3762,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
 %J Starlink User Note 206
 %Z SG/4
    SUN/186
-   Ousterhoot,J 1994 Tcl and Tk Toolkit
-   Shortridge, K. 1993 ADASS II
+   1993ASPC...52..219S
+   1994ttt..book.....O
 
 ---sep---
 
@@ -3807,8 +3805,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    are now in the public domain.  The REPACK software package has been
    developed to fully exploit these data.  This document describes the
    REPACK programs.
-%Z Pye et al 1995, MNRAS, 274, 1165
-   Pounds et al 1993, MNRAS, 260, 77
+%Z 1995MNRAS.274.1165P
+   1993MNRAS.260...77P
 
 ---sep---
 
@@ -3828,7 +3826,6 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/144
    SUN/92
    SUN/121
-   Banahan, M.F., 1988. The C Book: featuring the draft ANSI C standard. Publ, Addison-Wesley
 
 ---sep---
 
@@ -3856,9 +3853,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SSN/4
    SUN/104
    SUN/268
-   ``Representation of celestial coordinates in FITS'' Calabretta and Greisen
-   Representation of World coordinates in FITS, Greisen and Calabretta
-   FITS Paper III
+   2002A&A...395.1077C
+   2006A&A...446..747G
+   2002A&A...395.1061G
 
 ---sep---
 
@@ -3886,9 +3883,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SSN/4
    SUN/104
    SUN/268
-   ``Representation of celestial coordinates in FITS'' Calabretta and Greisen
-   Representation of World coordinates in FITS, Greisen and Calabretta
-   FITS Paper III
+   2002A&A...395.1077C
+   2006A&A...446..747G
+   2002A&A...395.1061G
 
 ---sep---
 
@@ -3953,16 +3950,14 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/95
    SUN/222
    SUN/186
-   Ulich (1981, A.J., 86, 1619
-   Wright, E.L. (1976, ApJ, 210, 250)
-   Wright, E.L. arXiv MARS [Fix SUN for this to avoid private comm]
-   Griffin et al 1986, Icarus, 65, 244
-   Orton, 1986, Icarus, 67, 289
-   Van Flandern and Pulkinnen, (1979, Ap.J.Supp., 41, 391)
-   Lieske (1979, A & A, 73, 282)
-   Baars (1973, IEEE trans. on Antennas and Propogation, 21, 461)
-   Moreno, R. 2010, "Neptune and Uranus planetary brightness temperature
-      tabulation, available from ESA Herschel Science Centre."
+   1976ApJ...210..250W
+   2007astro.ph..3640W
+   1981AJ.....86.1619U
+   1986Icar...65..244G
+   1986Icar...67..289O
+   1979ApJS...41..391V
+   1979A&A....73..282L
+   1973ITAP...21..461B
 
 ---sep---
 
@@ -4032,22 +4027,24 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SC/10
    SUN/238
    SUN/222
-   Wall et al 1996, Programming Perl
-   Emerson, Klein, Haslam 1979 ApJ 76, 92
-   Emerson ASP Conf Ser 75, 309
-   Richer 1992, MNRAS, 254, 165
-   Holland 1998, Proc SPIE 3357, 305
-   Holland~W.~S., et al 1999, MNRAS, 303, 659
-   Jenness & Lightfoot 1998, ADASS VII
-   Archibald et al 2002, MNRAS, 336, 1
-   Greisen~E.~W., Calabretta~M., 2002, A&A, 395, 1077
-   Jenness, Lightfoot and Holland, 1998, SPIE 3357, 548
-   Jenness et al 2000, ADASS X
-   Jenness & Economou 1999, ADASS VIII
-   Jenness et al 2002, MNRAS, 336, 14
+   2014ascl.soft03008J
+   1996prpe.book.....W
+   1979A&A....76...92E
+   1995ASPC...75..309E
+   1992MNRAS.254..165R
+   1998SPIE.3357..305H
+   1999MNRAS.303..659H
+   1998ASPC..145..216J
+   1998SPIE.3357..548J
+   2002MNRAS.336....1A
+   2002A&A...395.1061G
+   2002A&A...395.1077C
+   2000ASPC..216..559J
+   1999ASPC..172..171J
+   2002MNRAS.336...14J
+   1998ASPC..145..196E
    Hughes~D.~H., 1993, {\it JCMT--UKIRT Newsletter}, {\bf 4}, 32
-   Economou et al 1998, ADASS 7, 145, 195
-   Stevens & Robson, 1994, MNRAS, 270, L75
+   1994MNRAS.270L..75S
 
 ---sep---
 
@@ -4256,7 +4253,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/109
    SUN/211
    SUN/55
-   Bertin and Arnouts 1996, A&AS, 117, 393
+   1996A&AS..117..393B
 
 ---sep---
 
@@ -4339,10 +4336,11 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/226
    SUN/246
    SUN/232
-   Economou et al 1998, ASP Conf Ser.
-   Cavanagh et al 2008, AN
-   Jenness & Economou 1999
-   Gibb et al 2005
+   1998ASPC..145..196E
+   2008AN....329..295C
+   1999ASPC..172..171J
+   2005ASPC..347..585G
+   2013ascl.soft10001J
 
 ---sep---
 
@@ -4367,9 +4365,9 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/223
    SUN/139
    SUN/190
-   Holland et al 1999, MNRAS, 303, 659
-   Emerson, Klein and Haslam, 1979, ApJ, 76, 92
-   Emerson, ASP Conf, 75, 309
+   1999MNRAS.303..659H
+   1979A&A....76...92E
+   1995ASPC...75..309E
 
 ---sep---
 
@@ -4462,8 +4460,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/56
    SUN/184
    SSN/75
-   Monet et al 1996, USNO-SA1
-   P.~Kunitzsch and T.~Smart, 1986, Short Guide to Modern Star Names and Their Derivations
+   1996usno.conf.....M
+   1986sgtm.book.....K
 
 ---sep---
 
@@ -4536,9 +4534,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/57
    SUN/211
    SUN/39
-   Gonzalez, R.C. and Wintz, P., 1977, Digital Image Processing
-   Goad, L.E. 1980, in Applications of Digital Image Processing to
-        Astronomy, SPIE 264, 139.
+   1977dip..book.....G
+   1980SPIE..264..136G
 
 ---sep---
 
@@ -4628,18 +4625,18 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/211
    SUN/214
    SUN/226
-   Bertin & Arnouts A&AS, 1996, 117, 393
-   Calabretta & Greisen 2002, FITS Paper II
-   Greisen & Calabretta 2002, FITS Paper I
-   Greisen et al FITS Paper III
-   Hanisch et al 2001, A&A 376, 359
-   Valdes et al 1995, PASP, 107, 1119
+   1996A&AS..117..393B
+   2002A&A...395.1077C
+   2002A&A...395.1061G
+   2006A&A...446..747G
+   2001A&A...376..359H
+   1995PASP..107.1119V
 
 ---sep---
 
 %R 2013StaUN.243.....D
 %T SPLAT-VO -- A VO-enabled Spectral Analysis Tool
-%A Draper, Peter W.;Taylor, Mark;Neves, Margarida Castro
+%A Draper, Peter W.; Taylor, Mark; Neves, Margarida Castro
 %D 00/2013
 %J Starlink User Note 243
 %B SPLAT-VO is an extensible analysis and display tool for extracted
@@ -4651,7 +4648,7 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/86
    SUN/253
    2014ascl.soft02008C
-   A&C paper
+   Skoda et al 2014 A&C paper
 
 ---sep---
 
@@ -4708,6 +4705,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/230
    SUN/232
    SUN/236
+   SUN/92
+   2004SPIE.5492.1160R
 
 ---sep---
 
@@ -4874,8 +4873,8 @@ October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
    SUN/95
    SUN/214
    SUN/203
-   Williams, de Geus & Blitz (1994, ApJ 428, 693)
-   Stutzki & Gusten (1990, ApJ 356, 513)
+   1994ApJ...428..693W
+   1990ApJ...356..513S
 
 ---sep---
 
