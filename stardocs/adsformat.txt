@@ -1878,6 +1878,20 @@
 %A Beard, S. M.
 %D 00/1991
 %J Starlink User Note 99
+%B LIBMAINT is a procedure which simplifies the maintenance of software
+   which is held as modules in a text/object library pair.
+   New libraries can be easily created, and modules inserted, extracted,
+   replaced, examined and printed with fairly simple commands.
+   Using LIBMAINT for library maintenance also ensures that corresponding
+   modules within a text/object library pair do not get out of step with
+   one another.
+   There are also commands for optimising the disk space used by the
+   libraries.
+
+   LIBMAINT can also be used to maintain modules held in a help library.
+   Modules can be inserted, extracted, replaced and printed, and the
+   contents of the library can be examined as if called up from a HELP
+   command.
 %Z SUN/7
    SUN/8
 
@@ -1933,6 +1947,19 @@
 %A Currie, Malcolm J.
 %D 00/1993
 %J Starlink User Note 102
+%B One of the most popular features of the ADAM environment is the
+   Hierarchical Data System (HDS) (described in SUN/92 and SG/4).   HDS
+   enables associated data items to be stored together in a single file and
+   in a structured fashion.  HDS is also highly flexible, allowing a myriad
+   of ways to organise your data.  So HDS is jolly useful, but it does have
+   one drawback---you cannot just type or print an HDS file to see its
+   contents---you must run a programme.  Obviously, you (or your friendly
+   programmer) could write some code to list a particular structure, but
+   this would be inefficient given the number of structures that are
+   already in use, let alone the ones to come.  What is required is a
+   single utility that lists the contents of an HDS data structure to your
+   terminal and, optionally, to a file for printing or documentation. This
+   is where HDSTRACE comes in handy.
 %Z SUN/92
    SG/4
    SUN/115
@@ -1946,6 +1973,22 @@
 %A Davenhall, A. C.; Pettini, M.
 %D 00/1990
 %J Starlink User Note 103
+%B APIG, Absorption Profiles in the Interstellar Gas, is a package to
+   perform analysis of the interstellar
+   absorption lines detected in the spectra of Galactic and extragalactic
+   sources. When observed with sufficiently high resolution, these lines
+   often show a complex structure with multiple components formed in
+   absorbing regions at different velocities along the line of sight. The
+   main purpose of the program is to determine the column density of
+   absorbers along the line of sight from an interactive analysis of the
+   equivalent widths and profiles of the observed absorption lines. In
+   cases where the line profiles are resolved the velocity structure
+   of the absorbing material is also determined
+
+   APIG is not a reduction system for astronomical spectra. It assumes
+   that the raw spectra have already been reduced to produce wavelength
+   calibrated spectra normalised relative to the background continuum and
+   that equivalent widths have been determined.
 
 ---sep---
 
@@ -2014,6 +2057,14 @@
 %A Wood, A. R.
 %D 00/1990
 %J Starlink User Note 106
+%B The Starlink Catalogue Access and Reporting system (SCAR) is a relational
+   database management system for astronomical catalogues.
+   Whilst it is primarily designed for the processing of astronomical catalogue
+   data, such as the IRAS catalogue, it can be used for processing any category of
+   relational data.
+   SCAR has the capability to extract data from the requested catalogue using input
+   criteria, to manipulate it using various statistical and plotting routines,
+   to output data from the catalogue, and to assimilate new catalogues.
 %Z SUN/70
 
 ---sep---
@@ -2037,6 +2088,18 @@
 %A Clayton, C. A.
 %D 00/1991
 %J Starlink User Note 108
+%B The Exabyte CTS is a high performance, high capacity 8mm Cartridge Tape
+   Subsystem. It uses helical scan technology, in the same way as a video
+   recorder,
+   to attain a very high areal recording density and data storage capacity.
+   It uses industry standard 8mm tape cartridges, which are capable of storing
+   up to 2.3Gbyte of formatted user data.
+
+   This document is designed to introduce both users and system managers
+   to the idiosyncrasies of the SI59 Exabyte cartridge drives. There are
+   many contradictory rumours concerning the functionality and operation
+   of these devices. This document aims to inform the reader which of these
+   rumours are factual and which are not.
 
 ---sep---
 
@@ -2045,6 +2108,18 @@
 %A Draper, Peter W.; Eaton, Nicholas
 %D 00/2002
 %J Starlink User Note 109
+%B The acronym PISA stands for Position, Intensity and Shape Analysis, and
+   is the group name for a package of routines that deal with the location
+   and parameterisation of objects on an image frame.
+
+   The core of this package is the routine PISAFIND which performs
+   image analysis on a 2-dimensional data frame. The program searches the
+   data array for objects that have a minimum number of connected pixels
+   above a given threshold and extracts the image parameters (position,
+   intensity, shape) for each object. The image parameters can be
+   determined using thresholding techniques or an analytical stellar
+   profile can be used to fit the objects. In crowded regions deblending
+   of overlapping sources can be performed.
 %Z SG/4
    SG/5
    SUN/120
@@ -2094,6 +2169,19 @@
 %A Allan, P. M.
 %D 00/1991
 %J Starlink User Note 112
+%B The JTMP software is a component of the Coloured Books software in addition to
+   PAD, CBS-mail and TRANSFER. It is also  known as Red Book software. It allows
+   you to submit batch jobs to run on remote computers (not necessarily VAXs) and
+   to copy files between computers. It is very flexible and is very powerful, but
+   as with most such things, it can be difficult to get over the first bump of the
+   learning curve and make it do anything at all.
+
+   The software is documented in the DEC document `JTMP User Guide', however,
+   experience has shown that this manual is fairly incomprehensible and some of
+   the examples are simply wrong. The purpose of this document is to give a brief
+   description of what JTMP can do and to provide some examples that have been
+   proven to work. For further information, despite the caveat above, you are
+   referred to the DEC documentation.
 
 ---sep---
 
@@ -2350,6 +2438,11 @@
 %A Fish, Adrian
 %D 00/1992
 %J Starlink User Note 126
+%B This document describes an extended version of the EVE
+   editor that has been tailored to the general Starlink user's requirements.
+   This extended editor is STarlink Eve or STEve, and this document (along
+   with it's introductory companion SUN/125) describes this editor, and offers
+   additional help, advice and tips on general EVE usage.
 %Z SUN/125
 
 ---sep---
@@ -2372,6 +2465,12 @@
 %A Lawden, M. D.
 %D 00/1993
 %J Starlink User Note 128
+%B This note presents a brief introduction to QDP.
+   The Quick and Dandy Plotter (QDP) program reads ASCII files containing
+   various plotting commands and data.
+   It then calls the PLT subroutine which executes the commands
+   and plots the data.
+
 
 ---sep---
 
@@ -2405,6 +2504,10 @@
 %A Rawlinson, D. J.; Clayton, C. A.
 %D 00/1991
 %J Starlink User Note 131
+%B The document describes how to print text, graphics and TeX style output on a
+   PostScript laser printer using a Starlink-distributed PostScript print
+   symbiont. Throughout the document it is assumed that your PostScript laser
+   printer queue is called SYS_PS.
 
 ---sep---
 
@@ -2501,6 +2604,15 @@
 %A McSherry, M
 %D 00/1991
 %J Starlink User Note 138
+%B  This guide is intended to be used in conjunction with the
+    HRTS package, which was originally developed at N.R.L. by John Ewing
+    & Ken Dere but has now been modified for general Starlink use.
+    The guide details each program
+    in the package, which has been divided up according to the categories:
+    data analysis, data reduction and miscellaneous. These sections are also
+    further divided according to language, either DCL+Fortran or IDL.
+    HRTS is the The Naval Research Laboratory (NRL) High Resolution Telescope and
+    Spectrograph.
 
 ---sep---
 
@@ -2549,6 +2661,11 @@
 %A Meyerdierks, H.
 %D 00/1995
 %J Starlink User Note 140
+%B This document contains information on the Specdre
+   package (for SPEctroscopy Data Reduction) on various levels of
+   detail. Specdre is a package for spectroscopy data reduction and analysis.
+   Some of the general features of the package include support for hyper-cubes,
+   coherent storage of fit results and full support for bad values and variance.
 %Z SG/5
    SUN/102
    SUN/137
@@ -3003,6 +3120,11 @@
 %A Dhillon, V. S.; Privett, G. J.; Duffey, K. P.
 %D 00/2001
 %J Starlink User Note 167
+%B PERIOD is a software package designed to search for periodicities in data.
+   This document is intended for use with the UNIX software (version
+   5.0). If you have previously used a VMS version, you should be aware
+   that the UNIX {\em is} case-sensitive with regard to directory
+   structure and file names.
 %Z 1988ApJ...334L..31C
    1992A&A...264..350C
    1975Ap&SS..36..137D
@@ -3148,24 +3270,16 @@
    1992dpas.conf..149V
    1993Sci...259.1246T
    1991ASSL..171..211H
-
-   A. Warnock, J.E. Gass, L.E. Brotzman, M.E. Van Steenberg, D. Kovalsky and F. Giovane, October 1992, Amer. Astron. Soc. Newsletter 62, insert p10.
-   M.E. Van Steenberg, J.E. Gass, L.E. Brotzman, A. Warnock, D. Kovalsky and F. Giovane,
-October 1992, Amer. Astron. Soc. Newsletter 62, insert p11.
-   M.E. Van Steenberg, Fall 1992, NSSDC News, 8, number 3, p14.
-   A. Warnock, M.E. Van Steenberg, L.E. Brotzman, J.E. Gass, D. Kovalsky and F. Giovane, 1993, in Astronomical Data Analysis Software and Systems II, eds. R.J. Hanisch, R.J.V. Brissenden and J. Barnes, Astronomical Society of the Pacific Conference Series, 52, pp137-141.
-
-
-   E.D. Feigelson and F. Murtagh (1992, PASP, 104, pp574-581).
-   E. Emtage in Chapter Seven of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
-   F. Anklesaria and M. McCahill in Chapter Nine of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
-  J. Fullton in Chapter Eight of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
-  B. White in Chapter Ten of Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences
-  Intelligent Information Retrieval: The Case of Astronomy and Related Space Sciences eds. A. Heck and F. Murtagh, 1993
-   F. Murtagh and H. -M. Adorf in The ESO Messenger (El Mensajero), June 1993, Number 72, pp45-47
-   Network Resources for Astronomers by R.J. Hanisch, October 1992
-   On-line Data and Information in Astronomy by H. Andernach, February 1993
-
+   1993ASPC...52..137W
+   1992PASP..104..574F
+   1993ASSL..182.....H
+   1993ASSL..182..103E
+   1993ASSL..182..119A
+   1993ASSL..182..113F
+   1993ASSL..182..127W
+   1993Msngr..72...45M
+   1994PASP..106.1190A
+   1993IACTN........1A
 
 ---sep---
 
