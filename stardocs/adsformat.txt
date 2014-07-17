@@ -149,6 +149,9 @@
 %A Allan, P. M.
 %D 00/1993
 %J Starlink User Note 129
+%B TPAU is a mixed bag of
+   Starlink utilities. They have been grouped together simply to reduce the number
+   of small software items.
 
 ---sep---
 
@@ -379,20 +382,51 @@
 %A Lawden, M. D.
 %D 00/1989
 %J Starlink User Note 3
+%B Two data format conversion utilities are available:
+   - IPCSIN: Convert IPCS data to Starlink format.
+   - VICARIN: Convert VICAR data to Starlink format.
+   The Starlink format referred to is that used by the INTERIM Starlink
+   environment described in SUN/4 and used by programs such as those in the ASPIC
+   package.
+   The input data is assumed to be held on magnetic tape.
+   Both these programs are Starlink Application Programs and should be used within
+   the INTERIM environment.
 %Z SUN/4
 
 ---sep---
 
 %R 1989StaUN...4.....L
 %T INTERIM -- Starlink Software Environment
-%A Lawden, M. D.
+%A Lawden, M. D.; Pearce, Dave; Pavelin, Cliff
 %D 00/1989
 %J Starlink User Note 4
+%B Early versions of this paper were based on a number of other papers produced
+   at a very early stage of the Starlink project.
+   They contained a description of a specific implementation of a subroutine
+   library, speculations on the desirable attributes of a software environment,
+   and future development plans.
+   They reflected the experimental nature of the Starlink software environment
+   at that time.
+   Since then, the situation has changed.
+   The implemented subroutine library, INTERIM_DIR:INTERIM.OLB, is now a well
+   established and widely used piece of software.
+   A completely new Starlink software environment (ADAM) has been developed and
+   distributed.
+   Thus the library released in 1980 as `STARLINK' and now called `INTERIM' has
+   reached the end of its development cycle and is now frozen in its current state,
+   apart from bug corrections.
+   This paper has, therefore, been completely rewritten and restructured to reflect
+   the new situation.
+   Its aim is to describe the facilities of the INTERIM subroutine library as
+   clearly and concisely as possible.
+   It avoids speculation, discussion of design decisions, and announcements of
+   future plans.
 %Z SUN/74
    SUN/83
    SUN/85
    SGP/16
    1979ipia.coll..445W
+   1981StaUN..15.....P
 
 ---sep---
 
@@ -447,6 +481,13 @@
 %A Wallace, P. T.
 %D 00/1989
 %J Starlink User Note 8
+%B This document describes two very simple library tools:
+
+   - LIBIND, which outputs a list of all the modules in a library and is useful
+     for building more elaborate library utility procedures, and
+
+   - LIBPRE, which extracts preamble comments from all the modules
+     in a Fortran source library.
 %Z SUN/99
 
 ---sep---
@@ -480,6 +521,22 @@
 %A Gallop, J. R.; Lawden, M. D.
 %D 00/1986
 %J Starlink User Note 10
+%B The ARGS FORTRAN-callable subroutine library "ARGSLIB" provides access
+   to the following facilities in the ARGS:
+
+   -  allocate and optionally reset the ARGS - (SRINIT)
+   -  draw image - (SRPXP, SRPXI2)
+   -  draw filled rectangle - (SRBLOC)
+   -  alter colour table - (SRCOLS, SRCOL1)
+   -  buffer control - (SRSEND)
+   -  trackerball/cursor control - (ARGS_*)
+
+   Some ARGS facilities are also available through the device-independent
+   graphics system GKS (SUN/83).
+
+   In this note, the ARGS coordinate system used is 0 to 511 in each of x
+   and  y.   (0,0)  is  bottom  left and (511,511) is top right.  A pixel
+   value can be written at each point.
 %Z SUN/83
 
 ---sep---
@@ -502,9 +559,14 @@
 %A Lawden, M. D.
 %D 00/1989
 %J Starlink User Note 12
+%B This paper shows some examples of LaTeX in action and should help you to
+   get to know how to use LaTeX effectively.
+   Sample inputs to LaTeX are shown on the left hand pages and the output they
+   generate when processed by LaTeX is shown on the opposite page.
 %Z SUN/9
    SUN/93
    1986ldps.book.....L
+   SC/9
 
 ---sep---
 
@@ -513,6 +575,11 @@
 %A Allan, P. M.
 %D 00/1992
 %J Starlink User Note 13
+%B Astronomers often have to contend with data that is incomplete in the sense
+   that it contains upper or lower limits. This is known as censored data. The
+   term `survival statistics' comes from their use in testing objects to find
+   their average lifetime without actually testing all the objects to destruction.
+   ASURV is a program that performs statistical calculations on such data.
 %B 1986ApJ...306..490I
    1985ApJ...293..192F
 
@@ -523,6 +590,33 @@
 %A Walker, H; Giaretta, D.
 %D 00/1989
 %J Starlink User Note 14
+%B The IRAS LRS (Low Resolution Spectrograph) database contains about
+   170,000 spectra for about 40,000 sources.
+   The LRS Atlas contains the ``best'' averaged spectra for 5425 sources, so
+   there are a lot of new spectra; some good, some rubbish.
+   The LRS operates from around 7$mum to 24mum, using a blue and red
+   channel, with some overlap around 12mum to 13mum.
+   There are 100 sample points in each channel.
+   The LRS is a slitless spectrograph, so extended sources and multiple sources
+   confuse the blue and the red channels.
+   During the IRAS mission, whenever a sufficiently bright point source
+   triggered the algorithm, the spectrum was extracted from the LRS datastream
+   and stored in the LRS dataset.
+   This means that, although the source may not be in the Point Source Catalog
+   (but in the Rejects file) the spectra are still in the dataset.
+
+   The program to average the spectra, and output them, started life as a batch
+   program on an old IBM main-frame.
+   Parts of this program are the original pieces used to create the LRS Atlas,
+   and by setting flags appropriately you could recreate the Atlas.
+   The original program was written by E. Raimond, F. Olnon, K. Lugtenberg.
+   The program was modified to run ``interactively'' on a Vax (at Groningen)
+   by P. te Lintel, and he added a radio astronomy plotting package, POPS, to it.
+   The present copy was sent to H. Walker (at NASA Ames) by P. Wesselius, and
+   now, having been loaded onto STADAT, the Ames command procedures have been
+   modified by D. Giaretta.
+   This warns you that the package is fragile, and temperamental.
+   There is a complete user manual available, in the [iraslrs] directory.
 
 ---sep---
 
@@ -545,6 +639,16 @@
 %A Wilkins, T. N.; Axon, D. J.
 %D 00/1994
 %J Starlink User Note 16
+%B TWODSPEC is a package of programs for the reduction and analysis of
+   long-slit and optical fibre array spectra, implemented within the FIGARO
+   package (Shortridge 1988).
+   If you wish to use the ADAM version of TWODSPEC you should look at the
+   ADAM documentation or at least ensure you are familiar with the ADAM
+   parameter system.
+   If you wish to use the native Figaro TWODSPEC you should read the
+   FIGARO documentation.
+   However, a number of the functions will be found useful outside the area
+   of spectroscopy.
 %Z SG/5
    1986PhDT.......143B
    SUN/35
@@ -625,10 +729,41 @@
 %A Murray, M. J.; Stickland, D.J.
 %D 00/1993
 %J Starlink User Note 20
+%B The usefulness of the data collected by the IUE satellite
+   has been enormously enhanced by the maintenance of a data archive
+   from which interested astronomers can request any image (subject
+   to the six-month data retrieval rule). See SUN/58 for details.
+   Most UK astronomers now reduce their IUE data from the photometric
+   images available in the archive using IUEDR (SUN/37).   However,
+   it is now possible to obtain reduced low-resolution spectra on-line.
+   These data have been reduced in a fairly
+   homogenous way using the IUE Project's Spectral Image Processing System
+   (IUESIPS),
+   and have been made available in the form of a Uniform Low-Dispersion
+   Archive (ULDA).
+   This comprises absolutely-calibrated,  extracted, low-dispersion
+   spectra corrected for exposure times and with the appropriate  ITF correction
+   (flux in ergs cm^-2  s^-1 Angstroms^-1).
+   A full description of the data is given in the ESA IUE Newsletter No.~30,
+   July 1988,
+   and a comparison of the ULDA with IUEDR products is featured in
+   the Starlink Bulletin, no. 4.
+
+   In order to facilitate access to the ULDA, the {\it ULDA Software Support
+   Package} (USSP) has been developed.
+   The USSP enables astronomers to select interactively
+   any images contained in the ULDA and provides facilities for efficient
+   intercomputer data transfer.
+   The USSP enables the searching of the ULDA
+   data base for various types of images.
+   For example, images can be selected on object class, image number, camera,
+   aperture,  homogeneous ID,
+   sky position or any combination of these attributes.
 %Z SUN/58
    SUN/37
    1988EIUEN..30.....T
    SUN/50
+   Starlink Bulletin 4 comparing IUEDR with ULDA
 
 ---sep---
 
@@ -637,6 +772,8 @@
 %A Lawden, M. D.
 %D 00/1989
 %J Starlink User Note 21
+%B This  note  describes  a  set  of  routines  for  performing  physical  I/O
+   operations on non-VAX-standard magnetic tapes.
 
 ---sep---
 
@@ -645,6 +782,20 @@
 %A Penny, Alan J.; Martin, Bill L.
 %D 00/1996
 %J Starlink User Note 22
+%B FORMLOAD is a programme which embeds user supplied text at positions
+   within suitably fashioned LaTeX documents. It is thus useful for `filling
+   in' responses in forms and documents.
+
+   Whilst the programme is a general purpose one for use with any type of
+   document, it is at present supplied with the templates for telescope time
+   application documents.
+
+   The user may make other documents, by making her own template and input
+   forms, following the directions given herein.
+
+   To simplify this description of the programme, this document
+   assumes that the user intends to use it for making telescope time
+   application forms.
 
 ---sep---
 
@@ -671,6 +822,12 @@
 %A Lawden, M. D. ; Davenhall, A. C.; Berry, D. S.; Baines, D. W. T.; Tudhope, D. S.; Kelly, B. D.; Brownrigg, D. R. K.; Cooke, J. A.; Warren-Smith, R. F.; Hartley, K. F.
 %D 00/1988
 %J Starlink User Note 24
+%B This paper gathers together material on ASPIC programs which was previously
+   distributed amongst many separate SUNs.
+   EDRS and PERIODS are implemented as ASPIC packages; all the other programs
+   are stored in the standard ASPIC application program directory ASPDIR.
+   I have not attempted to verify the accuracy of the information contained in this
+   paper.
 %Z SUN/23
    SUN/91
    SUN/4
@@ -704,6 +861,10 @@
 %A Black, S. E.; Lawden, M. D.
 %D 00/1990
 %J Starlink User Note 25
+%B LZCMP implements the Lempel-Ziv file compression algorithm.
+   Files compressed by LZCMP are decompressed using LZDCM.
+   The source files contain documentation (commented out at the beginning of the
+   code) for those curious about the algorithm used.
 
 ---sep---
 
@@ -712,6 +873,34 @@
 %A Currie, Malcolm J.; Parker, Quentin A.
 %D 00/1993
 %J Starlink User Note 26
+%B Astronomers have not, in the past, been among the most imaginative and
+   swift group when it came to realising the potentials afforded by
+   20th century progress in statistics. However, this is now
+   changing and an increasing number of astronomical papers are
+   turning to modern statistical analysis techniques to assist in data exploration
+   and description (e.g. see Murtagh \& Heck 1987, for a list of
+   references).
+
+   A very convincing case highlighting the need for a proper statistical
+   methodology in astronomy has been given by Heck et al. (1985),
+   and details of the applications of such a methodology have been given by
+   Murtagh (1986). Heck et al. stressed that the most important
+   statistical methods for modern astronomical problems are probably the
+   multivariate methods such as principal-components analysis (PCA) and
+   cluster analysis. Astronomers are now realising that ways are urgently
+   needed to adequately handle, condense and interpret the huge and growing
+   quantities of data currently being produced from our telescopes,
+   instruments, satellites and measuring machines.
+
+   To assist UK astronomers working at the forefront in these areas
+   Starlink has purchased an integrated commercial package
+   CLUSTAN, which performs sophisticated Cluster Analysis and Multivariate
+   statistical analysis techniques. It is available at the following sites:
+   Birmingham, Cambridge, Durham, Leicester, Manchester, Preston, Queen
+   Mary and Westfield College, RAL, ROE, and Southampton.  Users at other
+   Starlink sites can access CLUSTAN on STADAT.  They will need to
+   ask their site manager to obtain a manual for their site from the
+   Starlink Software Librarian.
 %Z 1973caa..book.....A
    1985Msngr..41...22H
    1987ASSL..131.....M
@@ -723,6 +912,12 @@
 %A Daly, P. N.; Beard, S. M.
 %D 00/1996
 %J Starlink User Note 27
+%B This document describes the CGS4 data reduction system now called
+   Portable--CGS4DR. The software has been carefully designed and tested
+   under the Figaro (Shortridge 1993) and ADAM (Lawden \& Hartley 1992)
+   environments under Unix.  The data files produced by Portable--CGS4DR
+   are readable by standard Figaro applications although not all may
+   handle the quality and error arrays correctly.
 %Z 1990SPIE.1235...25M
    1991ApJ...381L...5C
    1993SPIE.1946..547W
@@ -741,6 +936,9 @@
 %A Bly, M. J.; Lawden, M. D.
 %D 00/1992
 %J Starlink User Note 28
+%B The NAG library is the primary general purpose mathematical subroutine library
+   installed by the Starlink project. It is a commercial package and cannot be
+   distributed by Starlink to non-Starlink sites.
 
 ---sep---
 
@@ -749,6 +947,11 @@
 %A Bly, M. J.
 %D 00/1991
 %J Starlink User Note 29
+%B The NAG Graphics Library is a library of versatile plotting
+   routines which supercedes the ``NAG Graphical Supplement'' which was an
+   addition to the ``NAG Fortran Library''.
+   At the introduction of the Fortran Library Mk 14, the Graphical
+   Supplement was released as a stand-alone Graphics Library, Mk 3.
 %Z SUN/83
 
 ---sep---
@@ -849,6 +1052,10 @@
 %A Mellor, G. R.
 %D 00/1991
 %J Starlink User Note 34
+%B This document describes the GNU EMACS editor as distributed by Starlink
+   for UNIX systems. It is intended to provide an introduction for the
+   new user. For a comprehensive description of the editor, refer to
+   the GNU EMACS Manual.
 
 ---sep---
 
@@ -865,6 +1072,21 @@
 %A Allan, P. M.; Terrett, D. L.
 %D 00/1990
 %J Starlink User Note 36
+%B The Starlink project uses the Joint Academic Network (JANET) to provide
+   communications between the Starlink VAXs and to other systems in the academic
+   community.
+
+   The main uses of the network are to provide access for remote users (i.e. users
+   not situated at a Starlink site), communication between users by electronic
+   mail, and the transfer of modestly sized files (i.e. software and documentation
+   rather than data).
+
+   It is not intended that the network should be used for users at one node to
+   access facilities at another
+   (apart from using the database machine at RAL)
+   and it is not normal for a user to have usernames
+   on more than one node, although in certain special circumstances this may
+   happen.
 %Z SUN/30
    SUN/25
 
@@ -890,6 +1112,30 @@
 %A Bly, M. J.; Allan, P. M.
 %D 00/1996
 %J Starlink User Note 38
+%B One of the recurrent problems with Starlink is that as the volume of
+   software grows, so does the number of documents describing it.  These
+   include project wide documents and documents which are local to other
+   sites.  It is often extremely difficult to find out which document
+   should be consulted about a particular topic.
+
+   Starlink maintains a list of currently valid project wide documents
+   called `STARLINK DOCUMENTATION' in the file /star/docs/docs\_lis.
+   This may be printed if required.  It is maintained at RAL by the
+   Starlink Software Librarian and updated at other sites by the Starlink
+   software update process.  The current date is stated at the beginning of
+   the file so you can see if your site is up to date by comparing your
+   site's file with the RAL file available via the WWW.
+
+   An alternative approach is to consult file /star/docs/subject\_lis.
+   This is a Key-Word index to Starlink documentation which does not rely
+   only on document titles.  Once again, it is maintained up to date at RAL
+   but other sites may lag behind.  The specified current date will tell all.
+   /star/docs/analysis\_lis is also centrally maintained.  This is a
+   list of the Starlink documents listed by which Software item is the main
+   subject of each document.
+
+   The docfind program has been developed to help users search this
+   mass of information.
 %Z SUN/188
 
 ---sep---
@@ -972,6 +1218,19 @@
 %A Shortridge, Keith
 %D 00/1989
 %J Starlink User Note 43
+%B EDFITS is a program used at AAO to copy and edit FITS tapes.  Since it is
+   designed to be used with original data tapes, it has a slightly unusual
+   style which places a heavy emphasis on making as sure as possible that you
+   are not doing anything rash---such as mounting an input tape with a write
+   ring fitted---and that you understand the consequences of the commands
+   given.  So, for example, after most commands the effect that the command will
+   have is described and you are asked to confirm the command before it is
+   executed.  Apart from its ability to produce usefully formatted header listings
+   for a variety of flavours of FITS tapes, EDFITS provides little that cannot
+   be done with standard tape manipulation programs such as MTCOPY.  However,
+   you may find its particular style to your taste, and may come to appreciate
+   the way it makes it that little bit more difficult to mess up a FITS tape
+   copy.
 
 ---sep---
 
@@ -1014,6 +1273,13 @@
 %A Prestage, Richard M.
 %D 00/1988
 %J Starlink User Note 46
+%B NOD2 (Haslam, 1974) is a subroutine library for the general
+   manipulation of radio single-dish observations. The package was
+   developed at the Max Planck Institut fur Radioastronomie, Bonn. The
+   library also forms the basis of the data reduction
+   package developed by NRAO, Tucson, for the 12-m telescope (Salter, 1985).
+   A large part of this package, with some extensions, has been adopted for
+   use with the James Clerk Maxwell Telescope.
 %Z 1979A&A....76...92E
    1974A&AS...15..333H
 
@@ -1024,6 +1290,11 @@
 %A Terrett, D. L.
 %D 00/1989
 %J Starlink User Note 47
+%B TAPECOPY is a utility for duplicating magnetic tapes. The contents of the
+   original tape are copied to a disk file (the container file) which is then
+   copied to a new tape to create an exact copy of the original. TAPECOPY can
+   therefore make copies on a system with only one tape drive. TAPECOPY can also
+   copy selected files from one tape to another.
 %Z SUN/68
 
 ---sep---
@@ -1033,6 +1304,10 @@
 %A Eaton, Nicholas; McIlwrath, Brian
 %D 00/2013
 %J Starlink User Note 48
+%B AGI is a graphics database system. It can be used to store information
+   about the size and position of a plot on a graphics device. This can be
+   used by subsequent applications to find out where the plot has been drawn
+   and how the coordinate system maps onto the plotting area.
 %Z SUN/85
    SUN/15
    SUN/65
@@ -1051,6 +1326,10 @@
 %A Lotts, A. P.
 %D 00/1989
 %J Starlink User Note 49
+%B QUOTAS is a utility to display the usage of disk quota on VMS disks.
+   On a VMS system the manager usually allocates individual users a quota
+   of disk space on one or more VMS disk volumes.
+   Normally a user can only examine their own usage on a particular volume.
 
 ---sep---
 
@@ -1059,6 +1338,17 @@
 %A Howarth, I. D.; Murray, J.; Mills, D.; Berry, D. S.
 %D 00/2004
 %J Starlink User Note 50
+%B DIPSO is, historically, a simple plotting package incorporating some
+   basic astronomical applications. If you just want to read in some
+   data, plot them, and measure some equivalent widths or fluxes, you can
+   do that without much effort. First-time users with this type of modest
+   goal can skim through the documentation to get a feel for what's going
+   on, then check the command reference section to find the commands
+   required. You could even go straight to the terminal, and type DIPSO;
+   there's no substitute for hands-on experience. However, DO read the
+   documentation fully at some time; DIPSO can do a lot of things, some
+   of which you might not know that you needed until you read about
+   them....
 %Z SUN/33
    SUN/83
    SUN/90
@@ -1091,6 +1381,9 @@
 %A Bly, M. J.
 %D 00/1991
 %J Starlink User Note 52
+%B The RGASP package is a reduced version of the Cardiff GASP package, and was
+   prepared for Starlink by J Davies. A document: ``The RGASP Reduced GAlaxy
+   Surface Photometry package'' by Davies gives further details.
 
 ---sep---
 
@@ -1161,6 +1454,9 @@
 %A Wallace, P. T.
 %D 00/1995
 %J Starlink User Note 56
+%B The COCO program converts star coordinates from one system to
+   another.  Both the improved IAU system, post-1976, and the old pre-1976
+   system are supported.
 %Z SUN/67
 
 ---sep---
@@ -1199,6 +1495,23 @@
 %A Lloyd, C.; Giaretta, D.; Stickland, D.J.; Harvey, A.S.
 %D 00/1995
 %J Starlink User Note 58
+%B The International Ultraviolet Explorer satellite (IUE) is one of the
+   most successful, versatile and productive astronomical satellites, providing
+   ultraviolet spectra of a wide range of sources for the whole astronomical
+   community.
+
+   The UK hosts one of the three full archives of IUE data
+   which is supported and maintained by members of the UK IUE
+   Project in the Space Science Department at RAL.
+   The archive comprises some 100,000 images,
+   and a catalogue which gives details of the exposures.
+   The aim is to provide UK astronomers with quick and painless
+   access to IUE data.
+
+   This document describes how to interrogate the catalogue and extract data from
+   the archive. There is also a subsidiary archive of extracted low-resolution spectra, the
+   Uniform Low Dispersion Archive,
+   which is described in SUN/20: ULDA/USSP - Accessing the IUE ULDA.
 %Z SUN/20
    SUN/37
    SG/7
@@ -1211,6 +1524,7 @@
 %A Lawden, M. D.
 %D 00/1989
 %J Starlink User Note 59
+%B The new (1989) organisation of the Starlink Software Collection.
 
 ---sep---
 
@@ -1219,6 +1533,11 @@
 %A Richards, P. J.; Hirst, C. J.; Cudlip, W.
 %D 00/1987
 %J Starlink User Note 60
+%B This note describes software and data files provided to  analyse  IRAS
+   image data.  It is not a complete self-contained package, but is meant
+   to be used in conjuction with the other software packages available on
+   Starlink.   To  make  these facilities available, the command IRASTART
+   must be executed.
 
 ---sep---
 
@@ -1288,6 +1607,13 @@
 %A Terrett,D.L.
 %D 00/1987
 %J Starlink User Note 64
+%B MONGO is a set of commands which  make  it  possible  to  build  up  a
+   complicated  diagram, including graphics, text, axes and so on, and to
+   create publishable quality output.  It was written by John L Tonry and
+   modified  to run over SGS and GKS 7.2 by D J King (RGO).  It therefore
+   works on ALL devices supported by GKS.  MONGO is also available  as  a
+   collection  of  subroutines  which enthusiasts may use to create their
+   own programs.
 
 ---sep---
 
@@ -1387,6 +1713,24 @@
 %A Page, Clive G.
 %D 00/1993
 %J Starlink User Note 69
+%B The compact disc is an increasingly popular medium for the distribution
+   of astronomical data, especially for large files such as source
+   catalogues and images. CDs can be pressed cheaply in quantity and hold
+   around 600 megabytes each.  ISO 9660 specifies a standard physical
+   layout and file structure which is almost universally used (although DEC
+   is a notable exception). The advent of recordable CD-ROM may provide us
+   with an inexpensive and convenient archiving medium.
+
+   Although CD-ROM readers such as DEC's RRD40 are physically capable of
+   reading these discs, VMS cannot (at present) cope with the ISO 9660 file
+   structure. DEC have produced an alternative device driver in an attempt
+   to overcome this limitation but it does not handle the file
+   characteristics satisfactorily, and the software is unreliable and
+   unsupported. There are rumours that the next major release of VMS will
+   include proper support for ISO standard CD-ROMs. Until then, the
+   CDCOPY program described here is probably the best alternative for
+   VAX/VMS users. It can copy files from ISO 9660 discs to other devices
+   and provides several options for format conversion on the fly.
 
 ---sep---
 
@@ -1395,6 +1739,17 @@
 %A Walker, H. J.; Fairclough, J. H.; Lawden, M. D.; Cooke, J. J.; Gershuny, E.J.
 %D 00/1990
 %J Starlink User Note 70
+%B The Starlink Catalogue Access and Reporting system (SCAR) is a relational
+   database management system for astronomical catalogues.
+   Whilst it is primarily designed for the processing of astronomical catalogue
+   data, such as the IRAS catalogue, it can be used for processing any category of
+   relational data.
+
+   SCAR has the capability to extract data from the requested catalogue using input
+   criteria, to manipulate it using various statistical and plotting routines,
+   to output data from the catalogue, and to assimilate new catalogues.
+   This new version of the SUN document refers specifically to SCAR version 5.3,
+   which is run in the ADAM environment (SUN/94).
 %Z SUN/106
    SUN/94
    SUN/79
@@ -1411,6 +1766,12 @@
 %A Page, Clive G.;Mellor, G. R.
 %D 00/1992
 %J Starlink User Note 71
+%B IKONPAINT provides ``push-button'' colour hard-copy from the Ikon screen
+   or from a GWM window to an inkjet printer.
+   The DEC Companion Colour Printer (LJ250/LJ252) and the Hewlett-Packard
+   Paintjet are both supported.
+   These printers normally take 8 by 11 inch fan-fold paper but
+   single transparency sheets can be hand-fed.
 %Z SUN/57
    SUN/65
    SUN/130
@@ -1421,6 +1782,25 @@
 %T HONEY -- The Honeywell Camera
 %A Clayton, C. A.; Wilkins, T. N.
 %D 00/1991
+%B The Honeywell model 3000 colour graphic recorder system (hereafter referred to
+   simply as Honeywell) has been bought by Starlink for producing publishable
+   quality photographic hardcopy from the IKON image displays. Full colour and
+   black & white images can be recorded on positive or negative 35mm film.
+   The Honeywell consists of a built-in high resolution flat-faced monochrome
+   video monitor, a red/green/blue colour filter mechanism and a 35mm camera.
+
+   The device works on the direct video signals from the IKON. This means that
+   changing the brightness or contrast on the IKON monitor will not affect any
+   photographs that you take. The video signals from the IKON consist of separate
+   red, green and blue signals. When you take a picture, the Honeywell takes the
+   red, green and blue signals in turn and displays three pictures consecutively
+   on its internal monitor. It takes an exposure through each of three filters
+   (red, green and blue) onto the film in the camera. This builds up the complete
+   colour picture on the film.
+
+   Honeywell systems are installed at nine Starlink sites, namely Belfast
+   (locally funded), Birmingham, Cambridge, Durham, Leicester, Manchester,
+   Rutherford, ROE and UCL.
 %J Starlink User Note 72
 
 ---sep---
@@ -1430,6 +1810,12 @@
 %A Lawden, M. D.
 %D 00/1990
 %J Starlink User Note 73
+%B FORCHECK is a Fortran verifier and programming aid which has been purchased
+   from Polyhedron software and installed on the Starlink Database computer
+   (STADAT) for the use of all Starlink users.
+   It was developed by Erik W. Kruyt at Leiden University.
+   It is only available on STADAT and is not installed on any other Starlink
+   nodes.
 %Z SUN/63
 
 ---sep---
@@ -1439,6 +1825,19 @@
 %A Lupton, W. F.
 %D 00/1987
 %J Starlink User Note 74
+%B This paper contains the internal documentation on DSCL stored in file
+   ASPDIR:FULLDSCL.LIS. It is issued as a SUN so that it is visible in the Starlink documentation
+   indexing system. The layout has been revised by M D Lawden but the text mostly derives from 1981
+   and so may no longer be fully up-to-date.
+
+   At the moment (1981), we have the Starlink Subroutine  Interface  (SUN/4) but no
+   command language.
+   This means each application program must run in isolation from all others and
+   the unfortunate user is saddled with the endless specification of parameters and
+   answering of prompts.
+   Clearly, some sort of interim command language is needed which will allow one
+   program to communicate its results to another one.
+   DSCL is a response to this need.
 %Z SUN/23
    SUN/4
 
@@ -1449,6 +1848,13 @@
 %A Lawden, M. D.; Bly, M. J.
 %D 00/1990
 %J Starlink User Note 75
+%B Starlink has purchased Release 2 of Toolpack/1 from NAG for its users.
+   The first release of Toolpack was the result of an international collaborative
+   effort started in 1979.
+
+   Readers who are interested in learning about the facilities offered by
+   Toolpack should read the Toolpack/1 Release 2 Introductory Guide which
+   can be obtained from your Site Manager.
 
 ---sep---
 
@@ -1457,6 +1863,11 @@
 %A Tappin, James
 %D 00/1992
 %J Starlink User Note 76
+%B The programs which make up the HXIS software package allow the display
+   of images produced by the Hard X-ray Imaging Spectrometer (HXIS)
+   carried on the Solar Maximum Mission (SMM). There are also facilities
+   for displaying time series and for editing bad data. Programs are also
+   provided for accessing and archiving the data files to and from tapes.
 
 ---sep---
 
@@ -1465,6 +1876,9 @@
 %A Lupton, W. F.; Allan, D. J.; Bly, M. J.; Jenness, Tim
 %D 00/1995
 %J Starlink User Note 77
+%B This document describes the Noticeboard System. It
+   is aimed at programmers interested in or intending to use the system and
+   contains all information necessary to use it.
 
 ---sep---
 
@@ -1473,6 +1887,19 @@
 %A Wallace, P. T.; Clayton, C. A.; Bly, M. J.
 %D 00/1997
 %J Starlink User Note 78
+%B The RV program produces a report listing the components, in a given
+   direction, of the observer's velocity on a given date.  This allows an
+   observed radial velocity to be referred to an appropriate standard of
+   rest -- typically either the Sun or an LSR.
+
+   As a secondary function, RV computes light time components to the Sun,
+   thus allowing the times of phenomena observed from a terrestrial
+   observatory to be referred to a heliocentric frame of reference.
+   (n.b. It will of course, in addition, be necessary to express the
+   observations in the appropriate timescale as well as applying light
+   time corrections.  In particular, it is likely that an observed UTC
+   will need to be converted to TDB as well as being corrected to the
+   Sun.)
 
 ---sep---
 
@@ -1481,6 +1908,15 @@
 %A Fairclough, J. H.; Lawden, M. D.
 %D 00/1986
 %J Starlink User Note 79
+%B This note should be read by any astronomer who uses catalogue data, or
+   any person in the UK who intends to use CDS Astronomical catalogues.
+
+   The Centre De Donnees Stellaires - (Stellar Data  Centre,  Strasbourg,
+   France)  -  is the major distributor of Astronomical Catalogue Data in
+   Europe.  Its products are astronomical catalogues on magnetic tape and
+   microfiche.   It  is  also  responsible  for  the  SIMBAD Astronomical
+   Catalogue Database System.  It publishes a regular bulletin describing
+   its products.
 %Z SUN/70
 
 ---sep---
@@ -1490,6 +1926,21 @@
 %A Stewart, B. C.
 %D 00/1986
 %J Starlink User Note 80
+%B The IRAS extended mission data set has four components:
+
+   o A set of 212 high resolution 'SKY Plates' covering the  whole
+     sky.
+
+   o A set of 24 'Galactic Plane Maps'  obtained  by  rebinning  a
+     subset of the SKY Plates.
+
+   o A set of 2 'Low Resolution All Sky Maps'  each  covering  the
+     whole sky.  One map is centred on the galactic centre and the
+     other the anti-centre.
+
+   o A Zodiacal Observation History File  giving  a  time  ordered
+     history  of  the Zodiacal emission as seen by IRAS during the
+     survey.
 %Z SUN/68
    SUN/23
    SUN/60
@@ -1501,6 +1952,11 @@
 %A Richards, P. J.
 %D 00/1986
 %J Starlink User Note 81
+%B The program LRSEXT provides access to the  spectra  in  the  IRAS  Low
+   Resolution  Spectrometer  (LRS)  Catalogue.  This program extracts the
+   8-13 micron and the 12-22 micron spectra for a source and  writes  the
+   spectra  to  files  in  a  format  suitable  for input to the spectrum
+   analysis program DIPSO.
 %Z SUN/70
    SUN/50
 
@@ -1511,6 +1967,10 @@
 %A Parsons, D. C.; Walker, H. J.
 %D 00/1993
 %J Starlink User Note 82
+%B The purpose of this note is to introduce the IRAS data products,
+   describe how to gain access or obtain copies of selected data,
+   and to guide potential users to Starlink software and documentation which
+   can help in the analysis of the data.
 %Z SUN/120
    SUN/106
    SUN/70
@@ -1532,6 +1992,23 @@
 %A Terrett, D. L.
 %D 00/1995
 %J Starlink User Note 83
+%B This note describes the release on Starlink of the RAL/ICL GKS graphics
+   package. GKS has two major advantages over other graphics packages:
+
+   o It is an international standard and real portability of graphics software
+     is now possible. An illustration of this is that the NCAR
+     package---an extensive library of scientific graphics utilities produced by the
+     National Center for Atmospheric Research in the USA---runs on the RAL/ICL GKS
+     without any modification, despite the fact that it was developed using a
+     completely independent GKS implementation.
+
+   o No other package provides the ability to write device independent graphics
+     programs to the extent that GKS does.
+     Only with GKS can you write a program that will run, and produce good pictures,
+     on all devices supported by the implementation, including devices not supported
+     at the time the program was written.
+     Programs can nonetheless still fully exploit all the facilities offered by the
+     hardware.
 %Z SUN/85
    SUN/57
    SUN/15
@@ -1555,6 +2032,13 @@
 %A Wallace, P. T.; Terrett, D. L.
 %D 00/1995
 %J Starlink User Note 85
+%B SGS is a set of subroutines for performing low-level graphics input/output.
+   SGS is implemented above the GKS package (described in SUN/83,
+   the RAL GKS Guide and the ISO document GKS 7.4) which is a device independent
+   graphics system designed to be the kernel of a wide variety of graphics systems.
+   GKS, which is very comprehensive, does not itself set out to provide the most
+   convenient interfaces for all applications, and SGS allows easy access to many
+   of its more straightforward features.
 %Z SUN/83
    SUN/113
    SUN/104
@@ -1664,6 +2148,19 @@
 %A Rees, P. C. T.; Bly, M. J.; Terrett, D. L.
 %D 00/1999
 %J Starlink User Note 88
+%B The National Center for Atmospheric Research in Boulder, Colorado has,
+   for many years, distributed a extensive suite of high level graphics
+   utilities.  When NCAR converted these utilities to run over the ISO
+   standard GKS, Starlink was used as a test site.  Starlink was
+   subsequently given permission to release the NCAR utilities as part of
+   the Starlink Software Collection.  The NCAR utilities offer an
+   alternative high level graphics package to PGPLOT (SUN/15)
+   for use within Starlink applications.  The NCAR package is arguably more
+   powerful than PGPLOT in functionality and flexibility, but it does
+   require a little more time to master.  Starlink provides a set of
+   extensions to the NCAR graphics utilities, SNX (SUN/90), to make the
+   use of NCAR more accessible to the beginner.  For lower level work, SGS
+   (SUN/85) or GKS (SUN/83) should be used.
 %Z SUN/15
    SUN/90
    SUN/85
@@ -1689,6 +2186,29 @@
 %A Rees, P. C. T.; Bly, M. J.; Wallace, P. T.
 %D 00/1995
 %J Starlink User Note 90
+%B The NCAR graphics suite (SUN/88) consists of a set of subprograms which
+   can be used to produce complete graphs in a variety of formats.  The
+   package has been in wide use for some years; the latest version employs
+   the ISO standard GKS interfaces for its low-level plotting, giving it
+   access to all Starlink graphics devices, present and future.
+
+   The NCAR routines themselves are thoroughly documented, and just a few
+   simple calls will produce graphs of excellent appearance.  The package
+   also provides a high level of flexibility, with dozens of different
+   details of the plot independently controllable to give exactly the
+   result required.  However, beginners may be daunted by the mass of
+   features offered, and unless they take the extreme step of reading the
+   manual may give up before they realise what the package can do for
+   them.  This document describes minor extensions which provide more
+   convenient access to certain features without sacrificing flexibility.
+
+   The AUTOGRAPH part of the NCAR suite, used in conjunction with the
+   Starlink NCAR extensions and the Starlink low level plotting package
+   SGS (SUN/85), offers an alternative high level system to PGPLOT
+   (SUN/15) for producing graphs of one variable plotted against another.
+   All of the Starlink extensions provided within SNX enhance the power of
+   the facilities provided by AUTOGRAPH and make it more accessible to the
+   beginner.
 %Z SUN/88
    SUN/85
    SUN/15
@@ -1753,6 +2273,7 @@
 %A Murray, Jo; Charles, Anne
 %D 00/1995
 %J Starlink User Note 93
+%B An introduction to the use of TeX  on Starlink machines.
 %Z SUN/9
 
 ---sep---
@@ -1857,6 +2378,15 @@
 %A Lawden, M. D.
 %D 00/1987
 %J Starlink User Note 97
+%B REXEC is a relational database management system (DBMS) developed by the
+   Scientific Databases Section within the Central Computing Division at Rutherford
+   Appleton Laboratory.
+
+   This note demonstrates how to set up and use a private database using REXEC
+   and SCAR.
+   Its main purpose is to help you start to use REXEC effectively and to compare
+   its features with those of SCAR.
+   It is not intended to replace the R-EXEC guide or SUN/70.
 %Z SUN/70
 
 ---sep---
@@ -1866,6 +2396,13 @@
 %A Allan, D. J.; Vallance, R. J.; Saxton, R. D.
 %D 00/1995
 %J Starlink User Note 98
+%B ASTERIX provides a comprehensive set of tools for the reduction and
+   analysis of X-ray data, ie. the conversion of raw instrument data
+   into the images, spectra and other data products from which useful science
+   can be derived. Although developed primarily for the analysis of data
+   from the German/UK/US ROSAT satellite, ASTERIX can now use data
+   supplied by other projects which use the internationally defined
+   standard data format.
 %Z SUN/183
    SUN/57
    SUN/92
