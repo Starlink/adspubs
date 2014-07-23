@@ -1,5 +1,13 @@
 -*- Text -*-
 
+%R 1981StaUN...2.....L
+%T The GEROFF text processing system
+%A Lawden, M. D.
+%D 00/1981
+%J Starlink User Note 2
+
+---sep---
+
 %R 1981StaUN...9.....G
 %T STAK and TRAK IUE data reduction tasks
 %A Giddings, J.
