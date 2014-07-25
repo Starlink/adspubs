@@ -5,12 +5,15 @@ number|authors|year|title
 
 O2||---|MAG
 O2|Lawden, M.D.|1981|The GEROFF text processing system
+O3|Pearce, Dave|1981|Starlink tape handling utility -- IPCSIN
+O7||1981|VICARIN - convert VICAR format to Starlink format
+O8||1981|Dunn camera access for remote sites
 O9|Giddings, J.|1981|STAK and TRAK IUE data reduction tasks
-O11||---|GKS 6.2
-O12||---|GKS something
-O13||---|GKS/HIGR - DRPLOT Graphs and histograms
-O14||---|GKS/HIGR - CONTOUR Contour drawing
-O15|Pearce, Dave; Pavelin, Cliff|1981|INTERIM
+O11||1981|GKS on VAX -- reference note
+O12||1981|GKS primer
+O13||1981|GKS/HIGR - DRPLOT Graphs and histograms
+O14||1981|GKS/HIGR - CONTOUR Contour drawing
+O15|Pavelin, Cliff|1981|INTERIM Starlink Environment
 O16||---|GKS/HIGR - HIST3D 3D Histograms
 O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
@@ -42,7 +45,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 1.24|Rankin,Steve;Lawden, Mike;Bly, Martin|2003|STARLINK Software Collection
 2.8|Berry, D. S.; Taylor, M. B.|2012|NDG -- Routines for Accessing Groups of NDFs
 3.6|Lawden, M. D.|1989|FORMCON -- Data Format Conversion
-4.7|Lawden, M. D.; Pearce, Dave; Pavelin, Cliff|1989|INTERIM -- Starlink Software Environment
+4.7|Pearce, Dave; Pavelin, Cliff; Lawden, M. D.|1989|INTERIM -- Starlink Software Environment
 5.18|Wallace, P. T.; Gray, Norman|2003|ASTROM -- Basic astrometry program
 6.2|Wallace, P. T.|1986|AATGS -- Guide Probe Predictions for AAT
 7.5|Beard, S. M.; Allan, P. M.; Currie, Malcolm J.; Draper, Peter W.|2006|GENERIC -- A Utility for Compiling Generic Fortran Subroutines

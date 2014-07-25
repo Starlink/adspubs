@@ -9,7 +9,15 @@ SGP/32 and SGP/33 are referenced as 1985/86 ADAM workshops [no repo copy]
 
 Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfaces"
 
+3||1981|Starlink documentation
+4||1981|Printers for Starink
+5||1981|Starlink subroutine interface -- comments on draft
+6||1981|Starlink environment (end-user)
 7.x|||Specification of Starlink Subroutine Interfaces
+9||1981|Starlink subroutine library
+10||1981|On-line documentation standards
+11||1981|Operational standards
+12||1981|RUNSTAR - interim environment for Starlink
 31.9|Lawden, M. D.|1990|THE STARLINK PROJECT
 
 # Current
@@ -18,7 +26,7 @@ Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfa
 2.2|Wallace, P. T.|1990|Starlink Software Support Responsibilities
 3.1|Allan, P. M.|1990|Network Futures
 4.2|Charles, Anne; Murray, Jo|1994|Starlink C Programming Standard
-5.1|Allan, P. M.|1991|CNF and F77 -- Mixed Language Programmin: Fortran and C
+5.1|Allan, P. M.|1991|CNF and F77 -- Mixed Language Programming: Fortran and C
 6.|||First Draft Proposal for Starlink Command Language
 7.1|Wallace, P. T.|1991|Unix and Starlink
 8.9|Bromage, G. E.|1992|Starlink Local Management
@@ -28,9 +36,9 @@ Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfa
 12.1|Terrett, D. L.|1992|AVS as a GUI for ADAM
 13.3|Dickens, R. J.; Fosbury, R. A. E.; Wallace, P. T.; Lawden, M. D.|1987|Starlink Application Software Development
 14.5|Bromage, G. E.|1988|Starlink Special Interest Groups -- SIGs
-15.
+15.||1981|ARGS - proposed pixel store computations
 16.10|Wallace, P. T.|1992|Starlink Application Programming Standard
-17.
+17.||1981|WGCAS - report on meeting of 21 May 1981
 18.1||1981|Starlink Primitive Interface Mk. 2
 19.5|Lawden, M. D.|1987|Starlink Software Submission
 20.6|Lawden, M. D.|1990|Starlink Software Management
