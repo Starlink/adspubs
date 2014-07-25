@@ -8,6 +8,14 @@
 
 ---sep---
 
+%R 1981StaUN...3.....P
+%T Starlink tape handling utility -- IPCSIN
+%A Pearce, Dave
+%D 00/1981
+%J Starlink User Note 3
+
+---sep---
+
 %R 1981StaUN...9.....G
 %T STAK and TRAK IUE data reduction tasks
 %A Giddings, J.
@@ -17,8 +25,8 @@
 ---sep---
 
 %R 1981StaUN..15.....P
-%T INTERIM
-%A Pearce, Dave; Pavelin, Cliff
+%T INTERIM Starlink Environment
+%A Pavelin, Cliff
 %D 00/1981
 %J Starlink User Note 15
 
@@ -403,9 +411,9 @@
 
 ---sep---
 
-%R 1989StaUN...4.....L
+%R 1989StaUN...4.....P
 %T INTERIM -- Starlink Software Environment
-%A Lawden, M. D.; Pearce, Dave; Pavelin, Cliff
+%A Pearce, Dave; Pavelin, Cliff; Lawden, M. D.
 %D 00/1989
 %J Starlink User Note 4
 %B Early versions of this paper were based on a number of other papers produced
@@ -5841,7 +5849,7 @@
 ---sep---
 
 %R 1991StaGP...5.....A
-%T CNF and F77 -- Mixed Language Programmin: Fortran and C
+%T CNF and F77 -- Mixed Language Programming: Fortran and C
 %A Allan, P. M.
 %D 00/1991
 %J Starlink General Paper 5
