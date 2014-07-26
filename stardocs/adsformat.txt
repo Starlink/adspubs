@@ -5840,8 +5840,7 @@
 %A Charles, Anne; Murray, Jo
 %D 00/1994
 %J Starlink General Paper 4
-%Z The Elements of C Programming Style} by Jay Ranade and Alan Nash
-   The C programming language} by Brian Kernighan and Dennis Ritchie
+%Z 1988cpl..book.....K
    SGP/16
    SGP/5
    SSN/4
