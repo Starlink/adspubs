@@ -6101,7 +6101,7 @@
    SSN/15
    SSN/41
    SUN/1
-   SUG
+   1986sug..book.....L
    SGP/25
    SGP/31
    SGP/37
@@ -6133,7 +6133,7 @@
    SSN/23
    SSN/27
    SSN/33
-   SUG
+   1986sug..book.....L
    SUN/1
    SUN/145
    SUN/205
@@ -6484,7 +6484,7 @@
 
    The only style that is likely to be used by most Starlink authors is the
    Standard style.
-%Z SUG
+%Z 1986sug..book.....L
    SUN/1
    SUN/145
    SGP/31
@@ -7164,7 +7164,7 @@
    SGP/21
    SGP/25
    SUN/1
-   SUG
+   1986sug..book.....L
    SSN/39
    SSN/33
    SSN/44
@@ -8526,7 +8526,7 @@
    SUN/203
    SUN/15
    SUN/194
-   SUG
+   1986sug..book.....L
    SGP/16
    SGP/4
    SGP/28
