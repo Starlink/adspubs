@@ -8040,7 +8040,7 @@
 %A Meyerdierks, H.; Ward-Thompson, D.
 %D 00/1995
 %J Starlink Cookbook 1
-%Z This cookbook is intended for users of the JCMT
+%B This cookbook is intended for users of the JCMT
    and its common-user bolometer UKT14.
    It is intended as an introductory guide to the JCMT Data Reduction
    software package JCMTDR,
