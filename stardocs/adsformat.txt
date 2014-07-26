@@ -7948,7 +7948,7 @@
 
 ---sep---
 
-%R 2005StaSN..78.....CG
+%R 2005StaSN..78.....G
 %T The Starlink Build System
 %A Gray, Norman; Draper, Peter W.; Taylor, Mark B.; Rankin, Steven E.
 %D 00/2005
