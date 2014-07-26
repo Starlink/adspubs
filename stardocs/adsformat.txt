@@ -16,19 +16,181 @@
 
 ---sep---
 
+%R 1981StaUN...7.....P
+%T VICARIN - convert VICAR format to Starlink format
+%A Pearce, Dave
+%D 00/1981
+%J Starlink User Note 7
+
+---sep---
+
+%R 1981StaUN...8......
+%T Dunn camera access for remote sites
+%D 00/1981
+%J Starlink User Note 8
+
+---sep---
+
 %R 1981StaUN...9.....G
-%T STAK and TRAK IUE data reduction tasks
-%A Giddings, J.
+%T A set of programs for handling IUE data
+%A Giddings, J. ; Snijders, M. A. J.; Adams, S.; Wright, S. L.
 %D 00/1981
 %J Starlink User Note 9
+%B This note describes the operating procedure for a set of programs
+   that handle data from the IUE satellite.
+
+   The programs can be split into 4 categories:
+
+   a) Program ANIUE is a simple IUE tape analysis program that
+      gives a summary of the contents of an IUE tape
+
+   b) STAK and TRAK enable the user to extract both high and low
+      resolution data from the GPHOT image. STAK reads the IUE tape
+      and puts the GPHOT image onto disk in a form suitable for TRAK.
+      TRAK then takes this disk file and extracts the data specified by
+      the user's input data.
+
+   c) TAPERD, SWPLORES and LWRLORES are three programs for extracting low
+      resolution IUE data from the GPHOT image. TAPERD reads the GPHOT image
+      and puts part of it onto disk for use by SWPLORES and LWRLORES. These
+      latter programs extract the low-resolution spectrum from the SWP and
+      LWR (respectively) cameras.
+
+   d) Program DRP is a fairly general data reduction system which will handle
+      IPCS and IUE data. The IUE part of DRP allows absolute calibration of
+      the data and simple measurement facilities.
+
+---sep---
+
+%R 1981StaUN..11......
+%T Reference note for GKS on the VAX
+%D 00/1981
+%J Starlink User Note 11
+%B GKS is a device-independent graphics system provided on Starlink. It is
+   an implementation of the Draft International Standard GKS 6.2.
+
+   The ISO document is deliberately written as a language-independent
+   document. A GKS user currenly would use the ISO document and use this
+   note to find out details of the Starlink implementation. There is in
+   production a GKS Reference Manual that needs no cross-reference to the
+   ISO document and has the FORTRAN details in it.
+%Z 1981StaUN..12......
+   SUN/83
+
+---sep---
+
+%R 1981StaUN..12......
+%T GKS Primer
+%D 00/1981
+%J Starlink User Note 12
+%B This is a primer for the GKS package on the VAX. Apart from section 9,
+   it is substantially VAX independent. The facilities of the GKS device
+   drivers are limited at present; further facilities will be added later.
+   Thus facilities like choice of marker type and area filling may not be
+   present.
+%Z 1981StaUN..11......
+   SUN/83
+
+---sep---
+
+%R 1981StaUN..13......
+%T The DRPLOT Graphs and Histograms Package on VAX
+%D 00/1981
+%J Starlink User Note 13
+%B The DRPLOT subroutine package enables its user to draw graphs and
+   histograms of several forms. A simple line graph can be drawn with just
+   one command and more sophisticated drawings with perhaps several graphs
+   and histograms on the same frame are simple to construct. The many user
+   routines are documented here. This package was transferred from the
+   central IBM computer.
+
+---sep---
+
+%R 1981StaUN..14......
+%T The CONTOUR Package on VAX
+%D 00/1981
+%J Starlink User Note 14
+%B A FORTRAN contouring package is now available on the VAX. There are two
+   user level routines (HIGR_CNTR2A, HIGR_CNTR2B) for the production of
+   contour maps of a surface, for which the heights are given at the points
+   of a mesh. HIGR_CNTR2A is used for contouring over a (possibly skewed)
+   regular rectangular mesh, and HIGR_CNTR2B for an irregular (but still
+   rectangular) one. Within each routine a number of options concerning the
+   drawing are available. These allow for a choice of two methods contouring
+   over the grid, user specified or touine calculated heights, specification
+   of the angle between the axes and the grid, and various options concerning
+   the layout of the map, labelling of the contours and distinctions between
+   the contours. However as these are available via a common block the user
+   need only specify those options he or she requires (if any) which are
+   different from the default set. Only those items of data which are necessary
+   for a contour map are supplied as arguments to the routines.
+
+   This documentation is based on the ATLAS GRAPHICS USER NOTE 1; issued 2
+   April 1976.
 
 ---sep---
 
 %R 1981StaUN..15.....P
-%T INTERIM Starlink Environment
+%T Enhancements to the Starlink Interim Environment
 %A Pavelin, Cliff
 %D 00/1981
 %J Starlink User Note 15
+%Z SUN/4
+%B This note should be used in conjunction with SUN/4, "An interim environment
+   for the development of Starlink Applications Software." It describes the
+   changes made to the environment since the last software release (08-JAN-81).
+
+   Users who wish to take advantage of the new facilities should re-link their
+   applications programs with the Starlink Subroutine Library.
+
+---sep---
+
+%R 1981StaUN..16......
+%T Drawing Three Dimensional Histograms on VAX
+%D 00/1981
+%J Starlink User Note 16
+%B A FORTRAN routine HIGR_HIST3D which draws three dimensional histograms has
+   been added to the VAX software. Data is supplied to the routine in a two
+   dimensional array of values. The three dimensional histogram is drawn as
+   a set of rectangular columns ("pillars") whose bases form a rectangular
+   grid and whose heights are proportional to the corresponding array elements.
+   It is drawn using a perspective projection with hidden line removal. Scaling
+   factors for the histogram may be specified as well as horizontal and
+   vertical viewing angles and the viewing distance. It is possible to shade
+   the histogram on a "Raster" device.
+
+---sep---
+
+%R 1981StaUN..17......
+%T The IDL Language
+%D 00/1981
+%J Starlink User Note 17
+%B "IDL" stands for "Interactive Data Language". It is a commercially produced
+   piece of software for analysing data consisting of arrays of any number of
+   dimensions. It was purchased from Research Systems, In., of Denver, Colorado,
+   mainly for a group of users working on data from the SMM satellite. It is not
+   Starlink supported software and this information is provided for users who may
+   wish to attempt to use it on their own initiative without support. We are
+   unable to modify IDL or correct any bugs. All problems will be passed back to
+   the author in the USA.
+%Z 1981StaUN..18......
+
+---sep---
+
+%R 1981StaUN..18......
+%T IDLP1 - Convert Starlink image frames to IDL format
+%D 00/1981
+%J Starlink User Note 18
+%B The purpose of IDLP1 is to convert 1 or 2-D Starlink frames into a format
+   that can be read by the IDL system. Many different data formats can be
+   converted to Starlink frame format by other utility programs, (e.g. IPCSIN,
+   see SUN/3). Thus, IDLP1 forms a link which enables many different data
+   formats to be converted into a format suitable for IDL. IDL is a powerful
+   interactive data processing system that is installed on all Starlink
+   computers. The main limitation of IDL is that it cannot handle variables
+   larger than 16484 bytes. This limiation should be overcome when the VAX
+   native mode version of IDL is released next year.
+%Z 1981StaUN...3.....P
 
 ---sep---
 
@@ -37,6 +199,68 @@
 %A Bridger, A.
 %D 00/1984
 %J Starlink User Note 19
+%B The purpose of this note is:
+
+   1. To announce the availability of the SPICA package
+
+   2. To give brief information about the history and characteristics
+      of SPICA.
+
+   3. To point to sources of further information about SPICA.
+
+   This note is not a primer for SPICA. You must refer to other sources of
+   information in order to find out how to use it.
+
+---sep---
+
+%R 1981StaUN..22.....P
+%T Utilities for Analysing, Dumping and Copying Magnetic Tapes
+%A Pearce, D.
+%D 00/1981
+%J Starlink User Note 22
+%B Three utilities are available for analysing, dumping and copying
+   magnetic tapes (usually non-standard or "foreign"): MTANAL, MTCOPY
+   and MTDUMP.
+
+---sep---
+
+%R 1981StaUN..24......
+%T STE - The Software Tools Editor
+%D 00/1981
+%J Starlink User Note 24
+%B Software tools is an excellent book written by B. W. Kernighan and
+   P. J. Plauger, published by Addison-Wesley. In it the authors discuss
+   how to write programs that make good tools, and how to program well in
+   the process. One of the tools they develop is a fairly powerful editor,
+   written in Ratfor (a structured form of FORTRAN IV). This program has
+   been implemented on the UCL Starlink VAX (with a few modifications and
+   extensions) and is recommended as the editor to use on the VAX.
+
+   This note gives a brief introduction to, and description of, the editor
+   which has been abstracted from the book (which you are recommended to buy).
+   There are some short command summary sections at the end of this note. After
+   reading this note you may like to print these short files and use them
+   for reference when using the editor.
+%Z 1976soto.book.....K
+
+---sep---
+
+%R 1981StaUN..26.....L
+%T Starlink Site Locations
+%A Lawden, M. D.
+%D 00/1981
+%J Starlink User Note 26
+%B People who visit ant of the Starlink Sites for the first time usually
+   need help in finding them. This note contains maps and other material
+   which should be of help to such people.
+
+---sep---
+
+%R 1981StaUN..27.....L
+%T Implementation of a new Starlink directory structure
+%A Lawden, M. D.
+%D 00/1981
+%J Starlink User Note 27
 
 ---sep---
 
@@ -45,6 +269,50 @@
 %A Lawden, M. D.
 %D 00/1984
 %J Starlink User Note 27
+
+---sep---
+
+%R 1982StaUN..29.....B
+%T ADC - Astronomical Data Catalogues on Magnetic Tape
+%A Brownrigg, D.; Tritton, K. P.
+%D 00/1982
+%J Starlink User Note 29
+%B Starlink is in the process of acquiring magnetic tape versions of a
+   large number of astronomical data catalogues from the Strasbourg stellar
+   data centre (CDS), and Starlink tape versions of these catalogues are
+   being distributed to all sites. The CDS tapes are not written in a standard
+   format, and so the catalogues ar ebeing converted to a uniform Starlink
+   format (ADC format) before distribution.
+
+   In due course, Starlink may acquire astronomical catalogues from other
+   sources as well as the CDS.
+
+---sep---
+
+%R 1982StaUN..35.....L
+%T Changes in the Starlink and VAX software environments
+%A Lawden, M. D.
+%D 00/1982
+%J Starlink User Note 35
+%B Starlink computers are about to undergo a major enhancement to their
+   operating system with the release of version 3.0 of VMS. At the same time,
+   a number of changes will be made to the Starlink Software Collection. The
+   fact that these changes are occuring at the same time is largely
+   coincidental.
+
+   This note explains the changes that may have a direct impact on users, and
+   the actions that will be required to deal with them. Please read this note
+   carefully and contact your Site Manager if you are unsure of what to do.
+
+   The changes to VMS will affect every user of the Starlink VAX computers.
+   The changes to the Starlink Software Collection will only affect those
+   people who use items in it. The Starlink computers will no longer assume
+   that you intend to use the Collection and you will have to take appropriate
+   action if you intend to do so.
+
+   The system will tell you what version of VMS it is running under when you
+   login. You will be told when your site plans to implement the changes
+   described in this paper.
 
 ---sep---
 
@@ -395,7 +663,7 @@
 
 %R 1989StaUN...3.....L
 %T FORMCON -- Data Format Conversion
-%A Lawden, M. D.
+%A Lawden, M. D.; Pearce, Dave
 %D 00/1989
 %J Starlink User Note 3
 %B Two data format conversion utilities are available:
@@ -408,6 +676,8 @@
    Both these programs are Starlink Application Programs and should be used within
    the INTERIM environment.
 %Z SUN/4
+   1981StaUN...3.....P
+   1981StaUN...7.....P
 
 ---sep---
 
@@ -783,9 +1053,9 @@
 
 ---sep---
 
-%R 1989StaUN..21.....L
+%R 1989StaUN..21.....P
 %T TAPEIO -- Magnetic Tape Routines
-%A Lawden, M. D.
+%A Pearce, D.; Lawden, M. D.
 %D 00/1989
 %J Starlink User Note 21
 %B This  note  describes  a  set  of  routines  for  performing  physical  I/O
@@ -822,7 +1092,9 @@
 %J Starlink User Note 23
 %B ASPIC is a collection of image processing programs.
    It is not a monolithic package of the usual kind, nor even a tight group of
-   interacting programs like SPICA.
+   interacting programs like SPICA. The common link is that they are all written
+   using the first version of the Starlink Primitive Subroutine Interface
+   (SUN/4) and are held in a single directory.
 %Z SUN/4
    SUN/32
    SUN/24
@@ -1721,6 +1993,7 @@
    magnetic tapes of any format.
    TPU sees a magnetic tape as only a series of files or records of unknown number
    and size.
+%Z 1981StaUN..22.....P
 
 ---sep---
 
@@ -5783,6 +6056,69 @@
 
 ---sep---
 
+%R 1981StaGP...3......
+%T Starlink documentation
+%D 00/1981
+%J Starlink General Paper 3
+
+---sep---
+
+%R 1981StaGP...4......
+%T Printers for Starlink
+%D 00/1981
+%J Starlink General Paper 4
+
+---sep---
+
+%R 1981StaGP...5......
+%T Starlink subroutine interface -- comments on draft
+%D 00/1981
+%J Starlink General Paper 5
+
+---sep---
+
+%R 1981StaGP...6......
+%T Starlink environment (end-user)
+%D 00/1981
+%J Starlink General Paper 6
+
+---sep---
+
+%R 1981StaGP...7......
+%T Specification of the Starlink Subroutine Interface
+%D 00/1981
+%J Starlink General Paper 7
+
+---sep---
+
+%R 1981StaGP...9......
+%T Starlink subroutine library
+%D 00/1981
+%J Starlink General Paper 9
+
+---sep---
+
+%R 1981StaGP..10......
+%T On-line documentation standards
+%D 00/1981
+%J Starlink General Paper 10
+
+---sep---
+
+%R 1981StaGP..11......
+%T Operational Standards
+%D 00/1981
+%J Starlink General Paper 11
+
+---sep---
+
+%R 1981StaGP..12......
+%T RUNSTAR -- interim environment for Starlink
+%D 00/1981
+%J Starlink General Paper 12
+
+---sep---
+
 %R 1990StaGP..31.....L
 %T THE STARLINK PROJECT
 %A Lawden, M. D.
@@ -6001,6 +6337,13 @@
 
 ---sep---
 
+%R 1981StaGP..15......
+%T ARGS - Proposed pixel store computations
+%D 00/1981
+%J Starlink General Paper 15
+
+---sep---
+
 %R 1992StaGP..16.....W
 %T Starlink Application Programming Standard
 %A Wallace, P. T.
@@ -6039,6 +6382,20 @@
    SUN/39
    SUN/98
    SUN/111
+
+---sep---
+
+%R 1981StaGP..17......
+%T WGCAS - report on meeting of 21 May 1981
+%D 00/1981
+%J Starlink General Paper 17
+
+---sep---
+
+%R 1981StaGP..18......
+%T Starlink Primitive Interface Mk. 2
+%D 00/1981
+%J Starlink General Paper 18
 
 ---sep---
 
@@ -6561,6 +6918,7 @@
    SUN/10
    SUN/96
    SUN/86
+   1981StaUN...3.....P
    SUN/3
    SUN/94
    SUN/92
@@ -6927,6 +7285,76 @@
    1995iseo.book.....T
    1979QJRAS..20..138W
    1981A&AS...44..363W
+
+---sep---
+
+%R 1981StaSN...1......
+%T Starlink software release - No. 1
+%D 00/1981
+%J Starlink System Note 1
+
+---sep---
+
+%R 1981StaSN...2......
+%T Starlink software release - No. 2
+%D 00/1981
+%J Starlink System Note 2
+
+---sep---
+
+%R 1981StaSN...3......
+%T Backup Procedure
+%D 00/1981
+%J Starlink System Note 3
+
+---sep---
+
+%R 1981StaSN...4......
+%T Accounting Procedure
+%D 00/1981
+%J Starlink System Note 4
+
+---sep---
+
+%R 1981StaSN...5......
+%T Starlink software release - No. 3
+%D 00/1981
+%J Starlink System Note 5
+
+---sep---
+
+%R 1981StaSN...6......
+%T Starlink software release - No. 4
+%D 00/1981
+%J Starlink System Note 6
+
+---sep---
+
+%R 1981StaSN...7......
+%T TAPEIO - magnetic tape routines
+%D 00/1981
+%J Starlink System Note 7
+
+---sep---
+
+%R 1981StaSN...8......
+%T MTANAL/MTDUMP - Tape utilities
+%D 00/1981
+%J Starlink System Note 8
+
+---sep---
+
+%R 1981StaSN...9......
+%T Starlink software release - No. 4b
+%D 00/1981
+%J Starlink System Note 9
+
+---sep---
+
+%R 1981StaSN..10......
+%T SPICA Release Notes
+%D 00/1981
+%J Starlink System Note 10
 
 ---sep---
 

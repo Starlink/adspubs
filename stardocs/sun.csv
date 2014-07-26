@@ -6,24 +6,30 @@ number|authors|year|title
 O2||---|MAG
 O2|Lawden, M.D.|1981|The GEROFF text processing system
 O3|Pearce, Dave|1981|Starlink tape handling utility -- IPCSIN
-O7||1981|VICARIN - convert VICAR format to Starlink format
+O7|Pearce, Dave|1981|VICARIN - convert VICAR format to Starlink format
 O8||1981|Dunn camera access for remote sites
-O9|Giddings, J.|1981|STAK and TRAK IUE data reduction tasks
-O11||1981|GKS on VAX -- reference note
+O9|Giddings, J.; Snijders, M. A. J.; Adams, S.; Wright, S. L.|1981|A set of programs for handling IUE data
+O11||1981|Reference note for GKS on the VAX
 O12||1981|GKS primer
-O13||1981|GKS/HIGR - DRPLOT Graphs and histograms
-O14||1981|GKS/HIGR - CONTOUR Contour drawing
-O15|Pavelin, Cliff|1981|INTERIM Starlink Environment
-O16||---|GKS/HIGR - HIST3D 3D Histograms
+O13||1981|The DRPLOT Graphs and Histograms Package on VAX
+O14||1981|The CONTOUR Package on VAX
+O15|Pavelin, Cliff|1981|Enhancements to the Starlink INTERIM Environment
+O16||1981|Drawing Three Dimensional Histograms on VAX
+O17||1981|The IDL Language
+O18||1981|IDLP1 - Convert Starlink image frames to IDL format
 O19|Bridger, A.|1984|SPICA -- Spectral Data Reduction System
 O20||---|VLBI -- Very Long Baseline Interferometry reduction package
-O22||---|MTCOPY and MTDUMP [cited from SUN/68]
-O22||---|Hindlegs -- Lineprinter outut from TeX files [cited from SUN/9.4]
+O22|Pearce, D.|1981|Utilities for Analysing, Dumping and Copying Magnetic Tapes
+O22||---|Hindlegs -- Lineprinter output from TeX files [cited from SUN/9.4]
+O24||1981|STE - The Software Tools Editor
+O26|Lawden, M. D.|1981|Starlink Site Locations
+O27|Lawden, M. D.|1981|Implementation of a new Starlink directory structure
 O27|Lawden, M. D.|1984|ASPIC -- Image processing programs (3)
-O27||---|Seems to be an NDPROGS document
-O29||---|Interrogating tape catalogues from CDS
+O27||---|Seems to be an NDPROGS document [cited Bulletin 4, page 7, 1989]
+O29|Brownrigg, D.; Tritton, K. P.|1982|ADC - Astronomical Data Catalogues on Magnetic Tape
 O33||---|SGS Graphics Library
 O34||---|TeX DVI file translators [cited from SUN/9.4 & SUN/131]
+O35|Lawden, M. D.|1982|Changes in the Starlink and VAX software environments
 O39|Davenhall, A. C.|1983|GALPHOT - Bright galaxy photometry
 O40|Berry, D. S.|1984|EDRSX - An extension to the EDRS image processing package
 O41|Davenhall, A. C.|1984|STARSIM - Generate simulate starfields
@@ -62,7 +68,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 18.6|Ricketts, Martin|1996|RPS -- ROSAT Proposal Submission
 19.5|Privett, G. J.; Gold, J.; Fuller, N.; Lewis, J.; Benn, C.|1996|NDPROGS -- n-D Image Manipulation
 20.4|Murray, M. J.; Stickland, D.J.|1993|ULDA/USSP -- Accessing the IUE Uniform Low-Dispersion Archive
-21.6|Lawden, M. D.|1989|TAPEIO -- Magnetic Tape Routines
+21.6|Pearce, D.; Lawden, M. D.|1989|TAPEIO -- Magnetic Tape Routines
 22.6|Penny, Alan J.; Martin, Bill L.|1996|FORMLOAD -- LaTeX Form Generator
 23.14|Lawden, M. D.; Berry, D. S.; King, Dave; Hartley, Ken|1991|ASPIC -- Image Process programs (1)
 24.2|Lawden, M. D.; Davenhall, A. C.; Berry, D. S.; Baines, D. W. T.; Tudhope, D. S.; Kelly, B. D.; Brownrigg, D. R. K.; Cooke, J. A.; Warren-Smith, R. F.; Hartley, K. F.|1988|ASPIC -- Image processing programs (2)
