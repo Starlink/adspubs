@@ -4951,7 +4951,7 @@
    This library provides read-only access to GSD files created at the
    James Clerk Maxwell Telescope. A description of GSD itself is presented
    in addition to descriptions of the library routines.
-%Z Holland et al 1999, MNRAS, 303, 659
+%Z 1999MNRAS.303..659H
    SUN/33
    SUN/132
    SUN/17
