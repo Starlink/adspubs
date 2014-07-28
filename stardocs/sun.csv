@@ -25,7 +25,7 @@ O24||1981|STE - The Software Tools Editor
 O26|Lawden, M. D.|1981|Starlink Site Locations
 O27|Lawden, M. D.|1981|Implementation of a new Starlink directory structure
 O27|Lawden, M. D.|1984|ASPIC -- Image processing programs (3)
-O27||---|Seems to be an NDPROGS document [cited Bulletin 4, page 7, 1989]
+O27||---|Seems to be an NDPROGS document [cited Bulletin 4, page 7, 1989 also SUN/1.11]
 O29|Brownrigg, D.; Tritton, K. P.|1982|ADC - Astronomical Data Catalogues on Magnetic Tape
 O33||---|SGS Graphics Library
 O34||---|TeX DVI file translators [cited from SUN/9.4 & SUN/131]
@@ -154,7 +154,7 @@ O129.3|Allan, P. M.|1993|TPAU -- The Peter Allan Utilities
 104.12|Rees, P. C. T; Chipperfield, A. J.; Jenness, T.|2009|MERS (MSG and ERR) -- Message and Error Reporting System
 105.5|Warren-Smith, R. F.|1991|STARLSE -- Starlink Extensions to the VAX Language Sensitive Editor
 106.1|Wood, A. R.|1990|SCAR -- Beginner's Guide
-107.4|Bly, M. J.|1998|MAPLE -- Mathematical Manipulation Language
+107.4|Charles, A. C.; Lawden, M. D.; Bly, M. J.|1998|MAPLE -- Mathematical Manipulation Language
 108.3|Clayton, C. A.|1991|Using the Starlink SI59 Exabyte drives
 109.|Draper, Peter W.; Eaton, Nicholas|2002|PISA - Position Intensity and Shape Analysis
 110.2|Warren-Smith, R. F.|1990|SST - A Simple Software Tools Package
