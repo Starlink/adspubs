@@ -2895,9 +2895,9 @@
 
 ---sep---
 
-%R 1998StaUN.107.....B
+%R 1998StaUN.107.....C
 %T MAPLE -- Mathematical Manipulation Language
-%A Bly, M. J.
+%A Charles, A. C.; Lawden, M. D.; Bly, M. J.
 %D 00/1998
 %J Starlink User Note 107
 %B MAPLE is a commercial software package for symbolic mathematical
