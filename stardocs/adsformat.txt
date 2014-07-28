@@ -135,13 +135,13 @@
 %A Pavelin, Cliff
 %D 00/1981
 %J Starlink User Note 15
-%Z SUN/4
 %B This note should be used in conjunction with SUN/4, "An interim environment
    for the development of Starlink Applications Software." It describes the
    changes made to the environment since the last software release (08-JAN-81).
 
    Users who wish to take advantage of the new facilities should re-link their
    applications programs with the Starlink Subroutine Library.
+%Z SUN/4
 
 ---sep---
 
