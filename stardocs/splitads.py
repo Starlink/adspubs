@@ -93,7 +93,7 @@ for line in open(filename):
         # Need to open the output file
         curbib = value
         print("Processing entry", value)
-        curfile = open("bibcode_"+curbib+".txt", "w", encoding="utf8")
+        curfile = open("bibcodes/"+curbib+".txt", "w", encoding="utf8")
 
     if key == "%B":
         inabstract = 1
