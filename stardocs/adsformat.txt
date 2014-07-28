@@ -5560,8 +5560,8 @@
 %B SPLAT-VO is an extensible analysis and display tool for extracted
    spectra that can also interact with the Virtual Observatory.
 %Z SUN/211
-   FITS paper III
-   FITS paper I
+   2006A&A...446..747G
+   2002A&A...395.1061G
    SUN/95
    SUN/86
    SUN/253
