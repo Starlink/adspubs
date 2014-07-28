@@ -13,6 +13,13 @@ number|authors|year|title
 9||1981|Starlink software release - No. 4
 10||1981|SPICA release notes
 
+Re-purposed
+
+O27.5|Lupton, W. F.|1989|HDS -- Hierarchical Data System
+O29.3|Lawden, M. D.|1987|SSL -- Startup, Shutdown, Login files
+O33.6|Terrett, D. L.|1990|Configuring Queues for Starlink Graphics
+O64.2|Chipperfield, A. J.|1992|ADAM -- VAX Organization of Applications
+
 # Current
 
 1.2|Allan, P. M|1991|NOCBS -- Use of CBS mail on satellites
@@ -93,13 +100,6 @@ number|authors|year|title
 76.2|Davenhall, A. C.|2001|CATREMOTE -- A Tool for Querying Remote Catalogues
 77.0|Chipperfield, A. J.|2001|ADAM -- The Control Subsystem
 78.1|Gray, Norman; Draper, Peter W.; Taylor, Mark B.; Rankin, Steven E.|2005|The Starlink Build System
-
-Re-purposed
-
-O27.5|Lupton, W. F.|1989|HDS -- Hierarchical Data System
-O29.3|Lawden, M. D.|1987|SSL -- Startup, Shutdown, Login files
-O33.6|Terrett, D. L.|1990|Configuring Queues for Starlink Graphics
-O64.2|Chipperfield, A. J.|1992|ADAM -- VAX Organization of Applications
 
 Notes
 

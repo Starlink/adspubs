@@ -7358,6 +7358,65 @@
 
 ---sep---
 
+%R 1989StaSN..27.....L
+%T HDS -- Hierarchical Data System
+%A Lupton, W. F.
+%D 00/1989
+%J Starlink System Note 27
+%B This document is aimed at users of HDS who wish to know something about how it
+   is implemented, and at system programmers who are contemplating maintaining,
+   altering or adding new facilities to HDS. The reader is assumed to be familiar
+   with the VMS operating system, but no prior knowledge of HDS is assumed
+   (although the material will be easier to assimilate if he has used it as an
+   application programmer).
+
+   This is not an exhaustive document and, as is often the case, the ultimate
+   documentation is the code. However, all of the major concepts are discussed
+   here and anybody wishing seriously to get to grips with the internals of
+   HDS should definitely read it.
+%Z SUN/92
+
+---sep---
+
+%R 1987StaSN..29.....L
+%T SSL -- Startup, Shutdown, Login files
+%A Lawden, M. D.
+%D 00/1987
+%J Starlink System Note 29
+%B This note introduces the Startup, Shutdown and Login files used at Starlink
+   sites specifically to tailor the VMS system for the execution of Starlink
+   software.
+
+---sep---
+
+%R 1990StaSN..33.....T
+%T Configuring Queues for Starlink Graphics
+%A Terrett, D. L.
+%D 00/1990
+%J Starlink System Note 33
+%B The Starlink Software Collection contains graphics software for plotting on
+   Canon Laser and Printronix P300 printer/plotters, and this requires that the
+   printer queues for these devices are set up according to the rules given in
+   this document.
+   NB: This note applies to VMS Version 5.2 onwards.
+
+---sep---
+
+%R 1992StaSN..64.....C
+%T ADAM -- VAX Organization of Applications
+%A Chipperfield, A. J.
+%D 00/1992
+%J Starlink System Note 64
+%B This document describes the way in which Starlink uses the facilities
+   of the Interactive Command Language (ICL) for setting up easy access to ADAM
+   applications packages whilst keeping the installation of packages separate
+   from the release of ADAM.
+%Z SUN/59
+   SUN/95
+   SSN/44
+
+---sep---
+
 %R 1991StaSN...1.....A
 %T NOCBS -- Use of CBS mail on satellites
 %A Allan, P. M
@@ -7600,9 +7659,8 @@
 
 ---sep---
 
-%R 1982StaSN..17.....?
+%R 1982StaSN..17......
 %T Communications Routes into Starlink
-%A ????
 %D 00/1982
 %J Starlink System Note 17
 
@@ -8401,65 +8459,6 @@
    SUN/199
    SSN/70
    SUN/123
-
----sep---
-
-%R 1989StaSN..27.....L
-%T HDS -- Hierarchical Data System
-%A Lupton, W. F.
-%D 00/1989
-%J Starlink System Note 27
-%B This document is aimed at users of HDS who wish to know something about how it
-   is implemented, and at system programmers who are contemplating maintaining,
-   altering or adding new facilities to HDS. The reader is assumed to be familiar
-   with the VMS operating system, but no prior knowledge of HDS is assumed
-   (although the material will be easier to assimilate if he has used it as an
-   application programmer).
-
-   This is not an exhaustive document and, as is often the case, the ultimate
-   documentation is the code. However, all of the major concepts are discussed
-   here and anybody wishing seriously to get to grips with the internals of
-   HDS should definitely read it.
-%Z SUN/92
-
----sep---
-
-%R 1987StaSN..29.....L
-%T SSL -- Startup, Shutdown, Login files
-%A Lawden, M. D.
-%D 00/1987
-%J Starlink System Note 29
-%B This note introduces the Startup, Shutdown and Login files used at Starlink
-   sites specifically to tailor the VMS system for the execution of Starlink
-   software.
-
----sep---
-
-%R 1990StaSN..33.....T
-%T Configuring Queues for Starlink Graphics
-%A Terrett, D. L.
-%D 00/1990
-%J Starlink System Note 33
-%B The Starlink Software Collection contains graphics software for plotting on
-   Canon Laser and Printronix P300 printer/plotters, and this requires that the
-   printer queues for these devices are set up according to the rules given in
-   this document.
-   NB: This note applies to VMS Version 5.2 onwards.
-
----sep---
-
-%R 1992StaSN..64.....C
-%T ADAM -- VAX Organization of Applications
-%A Chipperfield, A. J.
-%D 00/1992
-%J Starlink System Note 64
-%B This document describes the way in which Starlink uses the facilities
-   of the Interactive Command Language (ICL) for setting up easy access to ADAM
-   applications packages whilst keeping the installation of packages separate
-   from the release of ADAM.
-%Z SUN/59
-   SUN/95
-   SSN/44
 
 ---sep---
 
