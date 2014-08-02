@@ -1,33 +1,33 @@
 title|authors|startpage|endpage|affiliation|references
-The ADAM workshops and meeting summary|Lawden, Mike|7|14|AA(RAL)|SUN/71 SUN/85 SUN/86 SUN/83 SUN/57 SUN/92 SUN/65 SUN/95 SUN/64 SSN/2 SUN/88 SUN/15 SUN/70 AED/1 AED/14 AED/3 AED/2 AED/9 AED/14
+The ADAM workshops and meeting summary|Lawden, Mike|7|14|AA(Rutherford Appleton Laboratory)|SUN/71 SUN/85 SUN/86 SUN/83 SUN/57 SUN/92 SUN/65 SUN/95 SUN/64 SSN/2 SUN/88 SUN/15 SUN/70 AED/1 AED/14 AED/3 AED/2 AED/9 AED/14
 Welcome and Introduction|Lupton, William|17|17|AA(Anglo Australian Observatory)|
-Review of Progress on 1987 Workshop Recommendations|McNally, Bernard|17|18|AA()|
+Review of Progress on 1987 Workshop Recommendations|McNally, Bernard|17|18|AA(Joint Astronomy Centre)|
 Reports from the Sites|Shortridge, Keith|18|21|AA(Anglo Australian Observatory)|
 Software Reliability|Kelly, Dennis|21|22|AA(Royal Observatory, Edinburgh)|Myers,G._J.,_Software_Reliability
-ADAM Management: Documentation|Lawden, Mike|23|23|AA(RAL)|SG/4
-ADAM Organisation and Release Mechanisms|Chipperfield, Alan|23|25|AA(RAL)|
-Splinter Session on Shareable Image Organisation|Chipperfield, Alan|25|26|AA(RAL)|
-Error Reporting|Vallance, Bob|27|28|AA()|
-Package Problems 1|Wallace, Patrick|28|28|AA(RAL)|
-Package Problems 2|Warren-Smith, Rodney|29|31|AA(RAL)|1989ADAM62
-Tasking Architectures|Farrell, Tony|32|35|AA()|
-Splinter Session on D-task Fixed Part|Burch, Jonathan|36|36|AA()|
-Miscellaneous Discussion|Farrell, Tony|36|38|AA()|
-Command Languages|Allan, Peter|39|40|AA(RAL)|
-Graphics and IDI|Terrett, Dave|40|41|AA(RAL)|
+ADAM Management: Documentation|Lawden, Mike|23|23|AA(Rutherford Appleton Laboratory)|SG/4
+ADAM Organisation and Release Mechanisms|Chipperfield, Alan|23|25|AA(Rutherford Appleton Laboratory)|
+Splinter Session on Shareable Image Organisation|Chipperfield, Alan|25|26|AA(Rutherford Appleton Laboratory)|
+Error Reporting|Vallance, Bob|27|28|AA(University of Birmingham)|
+Package Problems 1|Wallace, Patrick|28|28|AA(Rutherford Appleton Laboratory)|
+Package Problems 2|Warren-Smith, Rodney|29|31|AA(Rutherford Appleton Laboratory)|1989ADAM62
+Tasking Architectures|Farrell, Tony|32|35|AA(Anglo Australian Observatory)|
+Splinter Session on D-task Fixed Part|Burch, Jonathan|36|36|AA(Royal Greenwich Observatory)|
+Miscellaneous Discussion|Farrell, Tony|36|38|AA(Anglo Australian Observatory)|
+Command Languages|Allan, Peter|39|40|AA(Rutherford Appleton Laboratory)|
+Graphics and IDI|Terrett, Dave|40|41|AA(Rutherford Appleton Laboratory)|
 Progress on New Software|Kelly, Dennis|42|43|AA(Royal Observatory, Edinburgh)|
 Workstations|Bailey, Jeremy|43|44|AA(Joint Astronomy Centre)|
 Telescope and Instrument Interfaces|Bailey, Jeremy|44|44|AA(Joint Astronomy Centre)|
-ADAM Portability|Terrett, Dave|45|46|AA(RAL)|
+ADAM Portability|Terrett, Dave|45|46|AA(Rutherford Appleton Laboratory)|
 Compute Servers|Lupton, William|46|47|AA(Anglo Australian Observatory)|1989ADAM54
-ADAM Support Group Objectives|Wallace, Patrick|51|53|AA(RAL)|
+ADAM Support Group Objectives|Wallace, Patrick|51|53|AA(Rutherford Appleton Laboratory)|
 Submissions from Dennis Kelly|Kelly, Dennis|54|56|AA(Royal Observatory, Edinburgh)|
 Some musings on ADAM and ADC|Davenhall, Clive|57|61|AA(Royal Observatory, Edinburgh)|
-Suggested Improvements to the Parameter System|Chipperfield, Alan J.|62|66|AA(RAL)|
+Suggested Improvements to the Parameter System|Chipperfield, Alan J.|62|66|AA(Rutherford Appleton Laboratory)|
 Time to Raise Cain? - A critique of the VAX ADAM system|Jones, Lewis|67|82|AA(Royal Greenwich Observatory)|
 Proposal for MAX and MIN Parameter Responses|Lupton, William|85|85|AA(Anglo Australian Observatory)|
-Proposal for Multiline HERLP on Parameter Prompts|Bailey, Jeremy|86|87|AA(Joint Astronomy Centre)|
+Proposal for Multiline HELP on Parameter Prompts|Bailey, Jeremy|86|87|AA(Joint Astronomy Centre)|
 ICL Enhancements|Bailey, Jeremy|88|89|AA(Joint Astronomy Centre)|
-ADAM Related VAX Notes Conferences|Chipperfield, Alan|90|90|AA(RAL)|
-Proposal for Interface File Search Path|Chipperfield, Alan|91|92|AA(RAL)|
+ADAM Related VAX Notes Conferences|Chipperfield, Alan|90|90|AA(Rutherford Appleton Laboratory)|
+Proposal for Interface File Search Path|Chipperfield, Alan|91|92|AA(Rutherford Appleton Laboratory)|
 Thoughts About a Distributed Version of NBS|Lupton, William|93|97|AA(Anglo Australian Observatory)|
