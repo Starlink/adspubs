@@ -59,6 +59,9 @@
    d) Program DRP is a fairly general data reduction system which will handle
       IPCS and IUE data. The IUE part of DRP allows absolute calibration of
       the data and simple measurement facilities.
+%Z Adams & Snijders SRC IUE Newsletter submitted in 1981
+   1981MNRAS.194..353B
+   Snijders 1980 SRC IUE Newsletter #5
 
 ---sep---
 
@@ -158,6 +161,7 @@
    factors for the histogram may be specified as well as horizontal and
    vertical viewing angles and the viewing distance. It is possible to shade
    the histogram on a "Raster" device.
+%Z 1981StaUN..13......
 
 ---sep---
 
@@ -191,6 +195,7 @@
    larger than 16484 bytes. This limiation should be overcome when the VAX
    native mode version of IDL is released next year.
 %Z 1981StaUN...3.....P
+   1981StaUN..17......
 
 ---sep---
 
@@ -261,6 +266,12 @@
 %A Lawden, M. D.
 %D 00/1981
 %J Starlink User Note 27
+%Z SUN/4
+   1989StaUN..21.....P
+   1981StaUN...3.....P
+   1981StaUN...7.....P
+   1981StaUN..18......
+   1981StaUN..22.....P
 
 ---sep---
 
@@ -1060,6 +1071,7 @@
 %J Starlink User Note 21
 %B This  note  describes  a  set  of  routines  for  performing  physical  I/O
    operations on non-VAX-standard magnetic tapes.
+%Z 1981StaSN...7......
 
 ---sep---
 
@@ -1102,6 +1114,7 @@
    SG/1
    SUN/53
    SUN/94
+   1981StaUN..15.....P
 
 ---sep---
 
