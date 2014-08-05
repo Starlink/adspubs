@@ -1,12 +1,12 @@
 title|authors|startpage|endpage|affiliation|references
-The ADAM workshops and meeting summary|Lawden, Mike|7|14|AA(Rutherford Appleton Laboratory)|SUN/71 1985StaUN..84.....P SUN/86 SUN/83 SUN/57 SUN/92 SUN/65 SUN/95 SUN/64 SSN/2 SUN/88 SUN/15 SUN/70 AED/1 AED/14 AED/3 AED/2 AED/9 AED/14 1989ADAM90 1989ADAM91 1989ADAM86 1989ADAM85 1989ADAM88
+The ADAM workshops and meeting summary|Chipperfield, Alan J.|7|14|AA(Rutherford Appleton Laboratory)|SUN/71ADC 1985StaUN..84.....P SUN/86 SUN/83 SUN/57 SUN/92 SUN/65 SUN/95 SUN/64 SSN/2 SUN/88 SUN/15 SUN/70 AED/1 AED/14 AED/3 AED/2 AED/9 AED/14 1989ADAM90 1989ADAM91 1989ADAM86 1989ADAM85 1989ADAM88
 Review Sessions: Welcome and Introduction|Lupton, William|17|17|AA(Anglo Australian Observatory)|
 Review Sessions: Review of Progress on 1987 Workshop Recommendations|McNally, Bernard|17|18|AA(Joint Astronomy Centre)|
 Review Sessions: Reports from the Sites|Shortridge, Keith|18|21|AA(Anglo Australian Observatory)|
 Review Sessions: Software Reliability|Kelly, Dennis|21|22|AA(Royal Observatory, Edinburgh)|Myers,G._J.,_Software_Reliability
 ADAM Management: Documentation|Lawden, Mike|23|23|AA(Rutherford Appleton Laboratory)|SG/4
-ADAM Management: ADAM Organisation and Release Mechanisms|Chipperfield, Alan|23|25|AA(Rutherford Appleton Laboratory)|
-ADAM Management: Splinter Session on Shareable Image Organisation|Chipperfield, Alan|25|26|AA(Rutherford Appleton Laboratory)|
+ADAM Management: ADAM Organisation and Release Mechanisms|Chipperfield, Alan J.|23|25|AA(Rutherford Appleton Laboratory)|
+ADAM Management: Splinter Session on Shareable Image Organisation|Chipperfield, Alan J.|25|26|AA(Rutherford Appleton Laboratory)|
 Package Management: Error Reporting|Vallance, Bob|27|28|AA(University of Birmingham)|
 Package Management: Package Problems 1|Wallace, Patrick|28|28|AA(Rutherford Appleton Laboratory)|
 Package Management: Package Problems 2|Warren-Smith, Rodney|29|31|AA(Rutherford Appleton Laboratory)|1989ADAM62
@@ -28,6 +28,6 @@ Time to Raise Cain? - A critique of the VAX ADAM system|Jones, Lewis|67|82|AA(Ro
 Proposal for MAX and MIN Parameter Responses|Lupton, William|85|85|AA(Anglo Australian Observatory)|
 Proposal for Multiline HELP on Parameter Prompts|Bailey, Jeremy|86|87|AA(Joint Astronomy Centre)|
 ICL Enhancements|Bailey, Jeremy|88|89|AA(Joint Astronomy Centre)|
-ADAM Related VAX Notes Conferences|Chipperfield, Alan|90|90|AA(Rutherford Appleton Laboratory)|
-Proposal for Interface File Search Path|Chipperfield, Alan|91|92|AA(Rutherford Appleton Laboratory)|
+ADAM Related VAX Notes Conferences|Chipperfield, Alan J.|90|90|AA(Rutherford Appleton Laboratory)|
+Proposal for Interface File Search Path|Chipperfield, Alan J.|91|92|AA(Rutherford Appleton Laboratory)|
 Thoughts About a Distributed Version of NBS|Lupton, William|93|97|AA(Anglo Australian Observatory)|
