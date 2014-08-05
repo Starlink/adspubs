@@ -1,0 +1,331 @@
+
+%R 1990adam.proc.....C
+%T Proceedings of the 1989 ADAM Workshop
+%A Chipperfield, Alan
+%J Proceedings of the 1989 ADAM Workshop,
+   held in Cosener's House, Abingdon from 3rd to 7th July 1989.
+   Ed: A. Chipperfield,
+   Starlink Project.
+%C Science and Technology Facilities Council
+%D 01/1990
+
+
+---sep---
+
+%R 1990adam.proc....7C
+%T The ADAM workshops and meeting summary
+%A Chipperfield, Alan J.
+%P 7
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/71ADC
+   1985StaUN..84.....P
+   SUN/86
+   SUN/83
+   SUN/57
+   SUN/92
+   SUN/65
+   SUN/95
+   SUN/64
+   SSN/2
+   SUN/88
+   SUN/15
+   SUN/70
+   AED/1
+   AED/14
+   AED/3
+   AED/2
+   AED/9
+   AED/14
+   1989ADAM90
+   1989ADAM91
+   1989ADAM86
+   1989ADAM85
+   1989ADAM88
+
+---sep---
+
+%R 1990adam.proc...17L
+%T Review Sessions: Welcome and Introduction
+%A Lupton, William
+%P 17
+%L 17
+%F AA(Anglo Australian Observatory)
+
+---sep---
+
+%R 1990adam.proc...17M
+%T Review Sessions: Review of Progress on 1987 Workshop Recommendations
+%A McNally, Bernard
+%P 17
+%L 18
+%F AA(Joint Astronomy Centre)
+
+---sep---
+
+%R 1990adam.proc...18S
+%T Review Sessions: Reports from the Sites
+%A Shortridge, Keith
+%P 18
+%L 21
+%F AA(Anglo Australian Observatory)
+
+---sep---
+
+%R 1990adam.proc...21K
+%T Review Sessions: Software Reliability
+%A Kelly, Dennis
+%P 21
+%L 22
+%F AA(Royal Observatory, Edinburgh)
+%Z Myers,G._J.,_Software_Reliability
+
+---sep---
+
+%R 1990adam.proc...23L
+%T ADAM Management: Documentation
+%A Lawden, Mike
+%P 23
+%L 23
+%F AA(Rutherford Appleton Laboratory)
+%Z SG/4
+
+---sep---
+
+%R 1990adam.proc...23C
+%T ADAM Management: ADAM Organisation and Release Mechanisms
+%A Chipperfield, Alan J.
+%P 23
+%L 25
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...25C
+%T ADAM Management: Splinter Session on Shareable Image Organisation
+%A Chipperfield, Alan J.
+%P 25
+%L 26
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...27V
+%T Package Management: Error Reporting
+%A Vallance, Bob
+%P 27
+%L 28
+%F AA(University of Birmingham)
+
+---sep---
+
+%R 1990adam.proc...28W
+%T Package Management: Package Problems 1
+%A Wallace, Patrick
+%P 28
+%L 28
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...29W
+%T Package Management: Package Problems 2
+%A Warren-Smith, Rodney
+%P 29
+%L 31
+%F AA(Rutherford Appleton Laboratory)
+%Z 1989ADAM62
+
+---sep---
+
+%R 1990adam.proc...32F
+%T Programming: Tasking Architectures
+%A Farrell, Tony
+%P 32
+%L 35
+%F AA(Anglo Australian Observatory)
+
+---sep---
+
+%R 1990adam.proc...36B
+%T Programming: Splinter Session on D-task Fixed Part
+%A Burch, Jonathan
+%P 36
+%L 36
+%F AA(Royal Greenwich Observatory)
+%Z 1989ADAM67
+
+---sep---
+
+%R 1990adam.proc...36F
+%T Programming: Miscellaneous Discussion
+%A Farrell, Tony
+%P 36
+%L 38
+%F AA(Anglo Australian Observatory)
+
+---sep---
+
+%R 1990adam.proc...39A
+%T Programming: Command Languages
+%A Allan, Peter
+%P 39
+%L 40
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...40T
+%T Programming: Graphics and IDI
+%A Terrett, Dave
+%P 40
+%L 41
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...42K
+%T New Features: Progress on New Software
+%A Kelly, Dennis
+%P 42
+%L 43
+%F AA(Royal Observatory, Edinburgh)
+
+---sep---
+
+%R 1990adam.proc...43B
+%T New Features: Workstations
+%A Bailey, Jeremy
+%P 43
+%L 44
+%F AA(Joint Astronomy Centre)
+
+---sep---
+
+%R 1990adam.proc...44B
+%T New Features: Telescope and Instrument Interfaces
+%A Bailey, Jeremy
+%P 44
+%L 44
+%F AA(Joint Astronomy Centre)
+
+---sep---
+
+%R 1990adam.proc...45T
+%T New Features: ADAM Portability
+%A Terrett, Dave
+%P 45
+%L 46
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...46L
+%T New Features: Compute Servers
+%A Lupton, William
+%P 46
+%L 47
+%F AA(Anglo Australian Observatory)
+%Z 1989ADAM54
+
+---sep---
+
+%R 1990adam.proc...51W
+%T ADAM Support Group Objectives
+%A Wallace, Patrick
+%P 51
+%L 53
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...54K
+%T Submissions from Dennis Kelly
+%A Kelly, Dennis
+%P 54
+%L 56
+%F AA(Royal Observatory, Edinburgh)
+%Z 1989ADAM57
+
+---sep---
+
+%R 1990adam.proc...57D
+%T Some musings on ADAM and ADC
+%A Davenhall, Clive
+%P 57
+%L 61
+%F AA(Royal Observatory, Edinburgh)
+
+---sep---
+
+%R 1990adam.proc...62C
+%T Suggested Improvements to the Parameter System
+%A Chipperfield, Alan J.
+%P 62
+%L 66
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...67J
+%T Time to Raise Cain? - A critique of the VAX ADAM system
+%A Jones, Lewis
+%P 67
+%L 82
+%F AA(Royal Greenwich Observatory)
+
+---sep---
+
+%R 1990adam.proc...85L
+%T Proposal for MAX and MIN Parameter Responses
+%A Lupton, William
+%P 85
+%L 85
+%F AA(Anglo Australian Observatory)
+
+---sep---
+
+%R 1990adam.proc...86B
+%T Proposal for Multiline HELP on Parameter Prompts
+%A Bailey, Jeremy
+%P 86
+%L 87
+%F AA(Joint Astronomy Centre)
+
+---sep---
+
+%R 1990adam.proc...88B
+%T ICL Enhancements
+%A Bailey, Jeremy
+%P 88
+%L 89
+%F AA(Joint Astronomy Centre)
+
+---sep---
+
+%R 1990adam.proc...90C
+%T ADAM Related VAX Notes Conferences
+%A Chipperfield, Alan J.
+%P 90
+%L 90
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...91C
+%T Proposal for Interface File Search Path
+%A Chipperfield, Alan J.
+%P 91
+%L 92
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990adam.proc...93L
+%T Thoughts About a Distributed Version of NBS
+%A Lupton, William
+%P 93
+%L 97
+%F AA(Anglo Australian Observatory)
+
+---sep---
