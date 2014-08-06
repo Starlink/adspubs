@@ -128,11 +128,11 @@
    AED/2
    AED/9
    AED/14
-   1989ADAM90
-   1989ADAM91
-   1989ADAM86
-   1989ADAM85
-   1989ADAM88
+   1990adam.proc...90C
+   1990adam.proc...91C
+   1990adam.proc...86B
+   1990adam.proc...85L
+   1990adam.proc...88B
 
 ---sep---
 
@@ -246,7 +246,7 @@
 %P 29
 %L 31
 %F AA(Rutherford Appleton Laboratory)
-%Z 1989ADAM62
+%Z 1990adam.proc...62C
 
 ---sep---
 
@@ -269,7 +269,7 @@
 %F AA(Royal Greenwich Observatory)
 %B To discuss proposals for D-task fixed part enhancements;
    particularly those raised in the document 'Time to Raise Cain'.
-%Z 1989ADAM67
+%Z 1990adam.proc...67J
 
 ---sep---
 
@@ -353,7 +353,7 @@
 %P 46
 %L 47
 %F AA(Anglo Australian Observatory)
-%Z 1989ADAM54
+%Z 1990adam.proc...54K
 
 ---sep---
 
@@ -387,7 +387,7 @@
 %P 54
 %L 56
 %F AA(Royal Observatory, Edinburgh)
-%Z 1989ADAM57
+%Z 1990adam.proc...57D
 
 ---sep---
 
