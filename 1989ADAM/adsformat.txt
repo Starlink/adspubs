@@ -9,6 +9,52 @@
 %C Science and Technology Facilities Council
 %D 01/1990
 
+%B ADAM is now a major software project; it provides a fully
+   integrated environment for both data reduction and data
+   acquisition. It is being used in Hawaii, Australia and the Canary
+   Islands, as well as the UK, and has been adopted by Starlink as the
+   environment in which Starlink data reduction software should run. One
+   of the most remarkable things about ADAM is that it has been
+   developed as a co-operative effort between groups that are spread
+   across the world. Although the initial system came out of RGO, and
+   ROE provided by far the major effort in designing and implementing
+   the VAX version, various parts of what is now regarded as 'ADAM' have
+   also come from other establishments. Co-ordinating a project being
+   developed in this way is not an easy job, but the somewhat varied
+   parentage of ADAM - although sometimes an administrative nightmare -
+   is also one of its strengths; it is not a system developed in one
+   place to serve the specific needs of that one place.
+
+   One way in which this development is co-ordinated is by a series of
+   workshops. These have taken place at about 18 month intervals since
+   the first one in late 1985. The workshops are attended by people
+   actively developing and/or making extensive use of ADAM, and
+   provide a forum for detailed discussion of the problems in the
+   current system and plans for its extension.
+
+   The 1989 ADAM Workshop was held at Cosener's House, Abingdon from
+   3rd to 7th July 1989. An 'Open Meeting' was held on Friday 30th
+   June at RAL to enable members of the Starlink community to provide
+   input to the Workshop discussions.
+
+   Before the previous workshop, in Hawaii, a trend had started to
+   emerge for different establishments to plug the gaps in ADAM
+   (which at the time was missing a number of important facilities)
+   with local solutions. The Hawaii Workshop consolidated these local
+   extensions, adopting some and rejecting others. As a result,
+   ADAM, as reviewed by this third workshop, was a much more complete
+   and uniform system, and it was possible to start to look in detail
+   at the various enhancements that were still needed; in particular,
+   to make it efficient as a data reduction environment.
+
+   This document summarises the conclusions and actions arising from
+   the Workshop and presents brief reports on the discussions,
+   prepared, in most cases, by the session chairmen. Part III consists
+   of documents submitted, prior to the Workshop, for consideration
+   during it; their content was not necessarily endorsed by the
+   Workshop. Part TV consists of those reports and proposals, arising
+   out of Workshop action items, which have already been submitted.
+
 
 ---sep---
 
@@ -18,6 +64,51 @@
 %P 7
 %L 14
 %F AA(Rutherford Appleton Laboratory)
+%B ADAM is now a major software project; it provides a fully
+   integrated environment for both data reduction and data
+   acquisition. It is being used in Hawaii, Australia and the Canary
+   Islands, as well as the UK, and has been adopted by Starlink as the
+   environment in which Starlink data reduction software should run. One
+   of the most remarkable things about ADAM is that it has been
+   developed as a co-operative effort between groups that are spread
+   across the world. Although the initial system came out of RGO, and
+   ROE provided by far the major effort in designing and implementing
+   the VAX version, various parts of what is now regarded as 'ADAM' have
+   also come from other establishments. Co-ordinating a project being
+   developed in this way is not an easy job, but the somewhat varied
+   parentage of ADAM - although sometimes an administrative nightmare -
+   is also one of its strengths; it is not a system developed in one
+   place to serve the specific needs of that one place.
+
+   One way in which this development is co-ordinated is by a series of
+   workshops. These have taken place at about 18 month intervals since
+   the first one in late 1985. The workshops are attended by people
+   actively developing and/or making extensive use of ADAM, and
+   provide a forum for detailed discussion of the problems in the
+   current system and plans for its extension.
+
+   The 1989 ADAM Workshop was held at Cosener's House, Abingdon from
+   3rd to 7th July 1989. An 'Open Meeting' was held on Friday 30th
+   June at RAL to enable members of the Starlink community to provide
+   input to the Workshop discussions.
+
+   Before the previous workshop, in Hawaii, a trend had started to
+   emerge for different establishments to plug the gaps in ADAM
+   (which at the time was missing a number of important facilities)
+   with local solutions. The Hawaii Workshop consolidated these local
+   extensions, adopting some and rejecting others. As a result,
+   ADAM, as reviewed by this third workshop, was a much more complete
+   and uniform system, and it was possible to start to look in detail
+   at the various enhancements that were still needed; in particular,
+   to make it efficient as a data reduction environment.
+
+   This document summarises the conclusions and actions arising from
+   the Workshop and presents brief reports on the discussions,
+   prepared, in most cases, by the session chairmen. Part III consists
+   of documents submitted, prior to the Workshop, for consideration
+   during it; their content was not necessarily endorsed by the
+   Workshop. Part TV consists of those reports and proposals, arising
+   out of Workshop action items, which have already been submitted.
 %Z SUN/71ADC
    1985StaUN..84.....P
    SUN/86
@@ -51,6 +142,7 @@
 %P 17
 %L 17
 %F AA(Anglo Australian Observatory)
+%B Welcome and introduction to the workshop.
 
 ---sep---
 
@@ -60,6 +152,8 @@
 %P 17
 %L 18
 %F AA(Joint Astronomy Centre)
+%B Review of previous workshop and of progress on implementing
+   its recommendations.
 
 ---sep---
 
@@ -69,6 +163,10 @@
 %P 18
 %L 21
 %F AA(Anglo Australian Observatory)
+%B Reports by representatives of observatories, establishments,
+   universities and Starlink on their use of ADAM, any extra rules
+   that they adhere to, the way in which they use tasks, any
+   non-standard components used, special techniques, problems.
 
 ---sep---
 
@@ -88,6 +186,10 @@
 %P 23
 %L 23
 %F AA(Rutherford Appleton Laboratory)
+%B Documentation; following on from a discussion at RAL last October,
+   Mike Lawden has produced a draft ADAM Guide. We should review the
+   guide, identify gaps, and attempt to allocate people to fill those
+   gaps.
 %Z SG/4
 
 ---sep---
@@ -98,6 +200,9 @@
 %P 23
 %L 25
 %F AA(Rutherford Appleton Laboratory)
+%B ADAM release mechanisms, bug/suggestion reporting mechanisms; are
+   we happy? Is there anything to be learned from what observatories are
+   doing with release systems? Would people read a VAX Notes conference?
 
 ---sep---
 
@@ -107,6 +212,10 @@
 %P 25
 %L 26
 %F AA(Rutherford Appleton Laboratory)
+%B To discuss Starlink's use of shareable images. Two main questions were addressed:
+   1. Should ADAM be de-coupled from releases of other stand-alone Starlink
+      software items.
+   2. Efficiency sapects of shareable images.
 
 ---sep---
 
@@ -125,6 +234,9 @@
 %P 28
 %L 28
 %F AA(Rutherford Appleton Laboratory)
+%B Package problems, wishes, plans; a large area including D-task
+   routines, the parameter system, HDS, NBS; support for multiple
+   languages; whatever people want to discuss.
 
 ---sep---
 
@@ -144,6 +256,8 @@
 %P 32
 %L 35
 %F AA(Anglo Australian Observatory)
+%B Unification of ADAM task types. Retention of context between action
+   invocations. Delivery of AST's to other processes.
 
 ---sep---
 
@@ -153,6 +267,8 @@
 %P 36
 %L 36
 %F AA(Royal Greenwich Observatory)
+%B To discuss proposals for D-task fixed part enhancements;
+   particularly those raised in the document 'Time to Raise Cain'.
 %Z 1989ADAM67
 
 ---sep---
@@ -163,6 +279,7 @@
 %P 36
 %L 38
 %F AA(Anglo Australian Observatory)
+%B Miscellaneous; general discussion on new hardware and software possibilities.
 
 ---sep---
 
@@ -172,6 +289,7 @@
 %P 39
 %L 40
 %F AA(Rutherford Appleton Laboratory)
+%B Command language features.
 
 ---sep---
 
@@ -190,6 +308,8 @@
 %P 42
 %L 43
 %F AA(Royal Observatory, Edinburgh)
+%B ADAM version 2, Figaro and ADAM, SCAR and ADAM: what is happening
+   on these fronts and what problems remain.
 
 ---sep---
 
@@ -199,6 +319,8 @@
 %P 43
 %L 44
 %F AA(Joint Astronomy Centre)
+%B Workstations-, VMS and Unix ones. How are people using them and
+   how do they fit into ADAM?
 
 ---sep---
 
@@ -208,6 +330,9 @@
 %P 44
 %L 44
 %F AA(Joint Astronomy Centre)
+%B System portability; the problems of moving the ADAM system itself to
+   run under different operating systems; scope for simplification and
+   rationalisation.
 
 ---sep---
 
@@ -217,6 +342,8 @@
 %P 45
 %L 46
 %F AA(Rutherford Appleton Laboratory)
+%B Compute servers, transputers, VME boards. How are people using
+   them and how do they fit into ADAM?
 
 ---sep---
 
@@ -236,6 +363,21 @@
 %P 51
 %L 53
 %F AA(Rutherford Appleton Laboratory)
+%B At the end of 19S8, Starlink made a successful bid for the creation
+   of an ADAM Support Group (ASG). The Group will be composed of five
+   people; two of the positions are to be drawn from existing resources
+   and three, available from April 1990, are new, including the ASG
+   Head. The Group will concentrate mainly on the system aspects of
+   ADAM, plus various kernel and template applications. While supporting
+   the real-time facilities within ADAM (including performance aspects),
+   the ASG will leave online applications software per se to the
+   observatories.
+
+   The ASG was initially funded for just three years, after which
+   progress is to be assessed and the future of the Group
+   reconsidered. The success of the Group will be judged in relation to a
+   list of objectives which formed part of the original bid. This list
+   forms the rest of this appendix.
 
 ---sep---
 
@@ -255,6 +397,14 @@
 %P 57
 %L 61
 %F AA(Royal Observatory, Edinburgh)
+%B The relation between ADAM and ADC is considered and the following conclusions
+   are drawn:
+   1. ADC forms a natural part of the ADAM environment.
+   2. The ADC subroutine libraries should be fully integrated with ADAM and
+      maintained by the ADAM Support Group.
+   3. There are no significant advantages in re-implementing ADC to access
+      catalogues held inside HDS structures rather than as VMS files.
+   4. SCAR applications should be free to use the full ADAM parameter system.
 
 ---sep---
 
@@ -264,6 +414,11 @@
 %P 62
 %L 66
 %F AA(Rutherford Appleton Laboratory)
+%B There axe a number of anomalies in the way parameters are obtained,
+   leading to confusion amongst programmers and users alike.
+   The two main areas of concern are:
+   • The way in which parameter state affects the value obtained.
+   • The way in which the 'current' value is defined.
 
 ---sep---
 
@@ -273,6 +428,24 @@
 %P 67
 %L 82
 %F AA(Royal Greenwich Observatory)
+%B The VAX ADAM system presently used by ROE, AAO, Starlink and others
+   has been used to build the instrumentation systems for the William
+   Herschel Telescope (WHT). Use of 'intelligent' microprocessor-based
+   hardware within the WHT observing system, together with a
+   fundamental requirement for increased efficiency in the observing
+   process, has resulted in a new approach requiring sophisticated
+   software in order to implement batch-oriented control. The result
+   is that the WHT instrumentation system forms one of the largest and
+   most complex implementations within the ADAM environment to date.
+
+   During the design and implementation stages of the WHT
+   instrumentation software, the ADAM environment has been found to be
+   a less than satisfactory framework within which to construct a
+   high-quality observing system to the original specification. This
+   document is a distillation of specific problems which have been
+   encountered by members of the La Palma Software Group, together
+   with other general observations of shortcomings in the current
+   implementation of the VAX ADAM environment.
 
 ---sep---
 
@@ -282,6 +455,15 @@
 %P 85
 %L 85
 %F AA(Anglo Australian Observatory)
+%B The Figaro parameter system permits responses of 'MAX' and 'MIN'
+   when obtaining numeric values. 'MAX' results in the maximum allowed
+   value being returned and 'MIN' results in the minimum aUowed value
+   being returned. The appropriate values are specified in the
+   argument hst to the parameter reading routine.
+
+   The ADAM parameter system does not support these responses. It is
+   necessary to do so in order to be able to provide the user
+   interface in the ADAM Figaro monolith that Figaro users will expect.
 
 ---sep---
 
@@ -291,6 +473,18 @@
 %P 86
 %L 87
 %F AA(Joint Astronomy Centre)
+%B ADAM allows a '?' response to a parameter prompt, which results in a
+   single line of help text, coming from the HELP field of the
+   parameter description, being output on the terminal. A single line
+   of text is often inadequate to give useful information on the
+   parameter. Figaro, for example, allows multiple line HELP information
+   under the same circumstances.
+
+   The size of the help text cannot easily be increased. This
+   information is stored in the parameter system common blocks, which
+   would have to be increased in size substantially. Also the help
+   text, along with other information, is passed to the user interface
+   as a message, the size of which is limited.
 
 ---sep---
 
@@ -300,6 +494,9 @@
 %P 88
 %L 89
 %F AA(Joint Astronomy Centre)
+%B The following are extracts from the ICL Version 1.5 Release Notes.
+   They describe the enhancements made to ICL in response to actions
+   placed at the 1989 ADAM Workshop.
 
 ---sep---
 
@@ -309,6 +506,8 @@
 %P 90
 %L 90
 %F AA(Rutherford Appleton Laboratory)
+%B This report is derived from the text of a mail message distributed
+   via ADAMSC on 7th September 1989.
 
 ---sep---
 
@@ -318,6 +517,19 @@
 %P 91
 %L 92
 %F AA(Rutherford Appleton Laboratory)
+%B A user requiring a private version of an interface file has to copy
+   the executable image of the task to the same directory as the
+   private interface file.
+
+   It was agreed by the 1989 ADAM Workshop that it would be useful if
+   interface files were located by looking along a search path
+   ADAM_IFL similar to, but distinct from, the ADAM_EXE search path
+   used to locate executable images.
+
+   It was recognised that this feature only becomes really useful if
+   there was an 'include' feature in interface files so that private
+   versions of individual bits within monolith interface files could be
+   easily used. This aspect of the problem has not yet been addressed.
 
 ---sep---
 
@@ -327,5 +539,9 @@
 %P 93
 %L 97
 %F AA(Anglo Australian Observatory)
+%B This report arose from an out-of-hours discussion at the Workshop
+   between WFL, JAB, BVM, BDK, JMB and LRJ. Where there are areas that I
+   believe require further thought, I have bracketed a remark within
+   '????' symbols.
 
 ---sep---
