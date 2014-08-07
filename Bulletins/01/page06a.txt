@@ -1,5 +1,0 @@
-%T Great observatory computing centres of the world -- No. 1 in a short series
-%A Shortridge, Keith
-%P 6
-%L 6
-%F AA(Anglo-Australian Observatory)

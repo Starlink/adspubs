@@ -1,5 +1,0 @@
-%T TeX and Starlink documents
-%A Benn, Chris; Martin, Ralph
-%P 18
-%L 18
-%F AA(Royal Greenwich Observatory)

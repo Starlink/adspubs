@@ -1,5 +1,0 @@
-%T 2-D SIG news
-%A Warren-Smith, Rodney
-%P 8
-%L 8
-%F AA(Durham University)

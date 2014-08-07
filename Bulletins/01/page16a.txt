@@ -1,5 +1,0 @@
-%T A node for Northern Ireland
-%A Murphy, Martin
-%P 16
-%L 16
-%F AA(Armagh Observatory)

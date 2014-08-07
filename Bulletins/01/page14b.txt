@@ -1,7 +1,0 @@
-%T The view from the trenches
-%A Wallace, Pat
-%P 14
-%L 15
-%F AA(Rutherford Appleton Laboratory)
-%Z SB1/14a
-   SGP/16

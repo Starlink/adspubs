@@ -1,0 +1,321 @@
+%R 1988StarB...1.....M
+%T Starlink Bulletin Issue no. 1
+%J Starlink Bulletin Issue no. 1, Ed: Jo Murray, Mike Lawden, Starlink Project
+%A Murray, Jo; Lawden Mike
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%D 01/1988
+%C Rutherford Appleton Laboratory
+
+
+---sep---
+
+%R 1988StarB...1....2M
+%T Editorial
+%A Murray,Jo; Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z SB1/16
+   SB1/8b
+   SB1/8c
+   SB1/9a
+   SB1/9b
+   SB1/4a
+
+---sep---
+
+%R 1988StarB...1....2B
+%T The Starlink Project in 1988
+%A Bromage, Gordon
+%P 2
+%L 3
+%F AA(RAL)
+
+---sep---
+
+%R 1988StarB...1....3L
+%T Starlink Project News: Software and Documentation News
+%A Lawden, Mike
+%P 3
+%L 3
+%F AA(RAL)
+%Z SUN/1
+   SB1/18
+
+---sep---
+
+%R 1988StarB...1....4T
+%T Starlink nework MAIL addresses
+%A Terrett, Dave
+%P 4
+%L 4
+%F AA(RAL)
+%Z SUN/36
+
+---sep---
+
+%R 1988StarB...1....4C
+%T ADAM
+%A Chipperfield, Alan; Wallace, Pat
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/94
+
+---sep---
+
+%R 1988StarB...1....5C
+%T KAPPA - son of ASPIC
+%A Currie, Malcolm
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/95
+
+---sep---
+
+%R 1988StarB...1....6S
+%T Great observatory computing centres of the world -- No. 1 in a short series
+%A Shortridge, Keith
+%P 6
+%L 6
+%F AA(Anglo-Australian Observatory)
+
+---sep---
+
+%R 1988StarB...1....6P
+%T Solar Spectra at IUE dispersion
+%A Philips, Ken
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+%Z 1986MNRAS.220.1021B
+   1981NASRP1069.....C
+
+---sep---
+
+%R 1988StarB...1....7A
+%T 'I've Got this tape'
+%A Allan, Peter
+%P 7
+%L 7
+%F AA(Manchester University)
+
+---sep---
+
+%R 1988StarB...1....8M
+%T SIG news
+%A Murray, Jo; Lawden, Mike
+%P 8
+%L 8
+%F AA(RAL)
+%Z SB1/8b
+   SB1/8c
+   SB1/9a
+   SB1/9b
+   SGP/14
+
+---sep---
+
+%R 1988StarB...1....8C
+%T HST SIG news
+%A Charles, Phil
+%P 8
+%L 8
+%F AA(Oxford University)
+
+---sep---
+
+%R 1988StarB...1....8W
+%T 2-D SIG news
+%A Warren-Smith, Rodney
+%P 8
+%L 8
+%F AA(Durham University)
+
+---sep---
+
+%R 1988StarB...1....9K
+%T Database SIG -- uses of database software
+%A Kelly, Dennis
+%P 9
+%L 9
+%F AA(Royal Observatory Edinburgh)
+%Z SUN/70
+
+---sep---
+
+%R 1988StarB...1....9S
+%T IRAS SIG news
+%A Stewart, Brian
+%P 9
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/60
+   SUN/80
+   SUN/81
+   SUN/82
+   SUN/91
+
+---sep---
+
+%R 1988StarB...1...10S
+%T FIGARO corner
+%A Shortridge, Keith
+%P 10
+%L 10
+%F AA(Anglo-Australian Observatory)
+
+---sep---
+
+%R 1988StarB...1...10S
+%T A database of supernova photometry
+%A Stickland, Dave
+%P 10
+%L 10
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1988StarB...1...11G
+%T NOT! the Starlink programming standards
+%A Godwin, John
+%P 11
+%L 11
+%F AA(Oxford University)
+%Z SGP/16
+
+---sep---
+
+%R 1988StarB...1...12D
+%T IUE low-dispersion spectra archive
+%A Driessen, Cornelius
+%P 12
+%L 12
+%F AA(European Space Agency, VILSPA, Madrid)
+
+---sep---
+
+%R 1988StarB...1...12B
+%T Current UK IUE de-archiving facilities
+%A Bromage, Gordon
+%P 12
+%L 12
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/58
+   SUN/37
+   SUN/50
+
+---sep---
+
+%R 1988StarB...1...13P
+%T Recent developments at Jodrell Bank
+%A Pedlar, Alan; McIlwrath, Brian
+%P 13
+%L 13
+%F AA(Jodrell Bank)
+
+---sep---
+
+%R 1988StarB...1...14M
+%T PGPLOT in the frozen North
+%A McCaughrean, Mark
+%P 14
+%L 14
+%F AA(Edinburgh University)
+
+---sep---
+
+%R 1988StarB...1...14W
+%T The view from the trenches
+%A Wallace, Pat
+%P 14
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+%Z SB1/14a
+   SGP/16
+
+---sep---
+
+%R 1988StarB...1...16M
+%T A node for Northern Ireland
+%A Murphy, Martin
+%P 16
+%L 16
+%F AA(Armagh Observatory)
+
+---sep---
+
+%R 1988StarB...1...16D
+%T Model atmosphere analyses from within DIPSO
+%A Dufton, Philip
+%P 16
+%L 17
+%F AA(Queen's University, Belfast)
+
+---sep---
+
+%R 1988StarB...1...18M
+%T The great TeX debate
+%A Murray, Jo; Lawden, Mike
+%P 18
+%L 18
+%F AA(RAL)
+%Z SUN/93
+
+---sep---
+
+%R 1988StarB...1...18O
+%T The case for TeX
+%A O'Brien, Paul
+%P 18
+%L 18
+%F AA(University College London)
+%Z SGP/35
+
+---sep---
+
+%R 1988StarB...1...18B
+%T TeX and Starlink documents
+%A Benn, Chris; Martin, Ralph
+%P 18
+%L 18
+%F AA(Royal Greenwich Observatory)
+
+---sep---
+
+%R 1988StarB...1...19A
+%T A moral tale...
+%A Anonymous
+%P 19
+%L 19
+%F AA(University of Southampton)
+
+---sep---
+
+%R 1988StarB...1...19R
+%T IUEDR release
+%A Rees, Paul
+%P 19
+%L 19
+%F AA(University College London)
+
+---sep---
+
+%R 1988StarB...1...19P
+%T JCMT data reduction
+%A Prestage, Richard
+%P 19
+%L 19
+%F AA(Jodrell Bank)
+
+---sep---
+
+%R 1988StarB...1...20W
+%T Image Processing of a simulated CCD exposure of Beta Pictoris
+%A Wallace, P. T.; Currie, M. J.
+%P 20
+%L 20
+%F AA(RAL)
+
+---sep---

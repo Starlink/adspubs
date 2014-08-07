@@ -1,5 +1,0 @@
-%T A database of supernova photometry
-%A Stickland, Dave
-%P 10
-%L 10
-%F AA(Rutherford Appleton Laboratory)

@@ -1,6 +1,0 @@
-%T The case for TeX
-%A O'Brien, Paul
-%P 18
-%L 18
-%F AA(University College London)
-%Z SGP/35

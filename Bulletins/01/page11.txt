@@ -1,6 +1,0 @@
-%T NOT! the Starlink programming standards
-%A Godwin, John
-%P 11
-%L 11
-%F AA(Oxford University)
-%Z SGP/16

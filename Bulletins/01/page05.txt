@@ -1,6 +1,0 @@
-%T KAPPA - son of ASPIC
-%A Currie, Malcolm
-%P 5
-%L 5
-%F AA(Rutherford Appleton Laboratory)
-%Z SUN/95

@@ -1,5 +1,0 @@
-%T HST SIG news
-%A Charles, Phil
-%P 8
-%L 8
-%F AA(Oxford University)
