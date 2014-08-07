@@ -1,3 +1,5 @@
+-*-Text-*-
+
 %R 1988StarB...1.....M
 %T Starlink Bulletin Issue no. 1
 %J Starlink Bulletin Issue no. 1, Ed: Jo Murray, Mike Lawden, Starlink Project
@@ -5,7 +7,14 @@
 %F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
 %D 01/1988
 %C Rutherford Appleton Laboratory
-
+%B The Starlink "mission" to co-ordinate software and provide hardware
+   for the UK astronomical community requires a great deal of
+   consultation between the project staff and the users. This need is
+   addressed in several ways: via special interest groups (SIGs);
+   local user groups (SLUGs); area management committees (AMCs);
+   Starlink site managers' meetings etc. This new Bulletin advertises
+   the activities and plans of the Starlink Project, and gives the
+   wider community a further opportunity to express its views.
 
 ---sep---
 
@@ -14,13 +23,37 @@
 %A Murray,Jo; Lawden, Mike
 %P 2
 %L 2
-%F AA(RAL)
-%Z SB1/16
-   SB1/8b
-   SB1/8c
-   SB1/9a
-   SB1/9b
-   SB1/4a
+%F AA(Rutherford Appleton Laboratory)
+
+%B The Starlink user community is now approaching 900 in number, at
+   eleven nodes and seven "mini-nodes" with a node in Northern Ireland
+   the most recent addition.
+
+   The Starlink "mission" to co-ordinate software and provide hardware
+   for the UK astronomical community requires a great deal of
+   consultation between the project staff and the users. This need is
+   addressed in several ways: via special interest groups (SIGs);
+   local user groups (SLUGs); area management committees (AMCs);
+   Starlink site managers' meetings etc. This new Bulletin advertises
+   the activities and plans of the Starlink Project, and gives the
+   wider community a further opportunity to express its views.
+
+   We thank all the contributors to this first issue and extend an
+   invitation to the general Starlink user community to contribute to
+   forthcoming editions. (We prefer text files sent through the
+   electronic MAIL.) The Starlink Bulletin comprises a collection of
+   articles from many different sources. Hence the views expressed do not
+   necessarily reflect those of Starlink management.
+
+   At the end of each article the Starlink DECnet 'MAIL' address and
+   the NRS address of the author are given.
+%Z 1988StarB...1...16M
+   1988StarB...1....4T
+   1988StarB...1....8M
+   1988StarB...1....8C
+   1988StarB...1....8W
+   1988StarB...1....9K
+   1988StarB...1....9S
 
 ---sep---
 
@@ -29,7 +62,7 @@
 %A Bromage, Gordon
 %P 2
 %L 3
-%F AA(RAL)
+%F AA(Rutherford Appleton Laboratory)
 
 ---sep---
 
@@ -38,9 +71,9 @@
 %A Lawden, Mike
 %P 3
 %L 3
-%F AA(RAL)
+%F AA(Rutherford Appleton Laboratory)
 %Z SUN/1
-   SB1/18
+   1988StarB...1...18M
 
 ---sep---
 
@@ -49,7 +82,7 @@
 %A Terrett, Dave
 %P 4
 %L 4
-%F AA(RAL)
+%F AA(Rutherford Appleton Laboratory)
 %Z SUN/36
 
 ---sep---
@@ -60,6 +93,10 @@
 %P 4
 %L 4
 %F AA(Rutherford Appleton Laboratory)
+%B The UK astronomical community is developing a software environment
+   called ADAM for use in both data acquisition (at LPO, JCMT and AAO)
+   and for data analysis (notably on Starlink; also for the UK ROSAT
+   data analysis).
 %Z SUN/94
 
 ---sep---
@@ -70,7 +107,14 @@
 %P 5
 %L 5
 %F AA(Rutherford Appleton Laboratory)
+%B Starlink envisages a kernel of general-purpose software that all users
+   of the Starlink software collection will require, and many associated
+   or specialised items which would be optional. The kernel will include
+   the environment, ADAM; libraries like GKS, HDS, and also general-purpose
+   applications. To this end KAPPA (Kernel Application Package) is being
+   developed.
 %Z SUN/95
+
 
 ---sep---
 
@@ -108,11 +152,20 @@
 %A Murray, Jo; Lawden, Mike
 %P 8
 %L 8
-%F AA(RAL)
-%Z SB1/8b
-   SB1/8c
-   SB1/9a
-   SB1/9b
+%F AA(Rutherford Appleton Laboratory)
+%B The purpose of the Starlink Special Interest Groups (SIGs) is to
+   provide a forum at which the software requirements of various
+   groups of astronomers can be discussed and priorities for
+   software development can be determined. Eight SIGs exist at
+   present, namely the Spectroscopic, IUE, HST, IRAS, 2-D, X-ray,
+   Radio and Database SIGs, and reports from four of them follow. All
+   except the HST SIG now have an associated applications programmer
+   who will endeavour to fulfil what the SIGs identify as the most
+   pressing software needs.
+%Z 1988StarB...1....8C
+   1988StarB...1....8W
+   1988StarB...1....9K
+   1988StarB...1....9S
    SGP/14
 
 ---sep---
@@ -123,6 +176,16 @@
 %P 8
 %L 8
 %F AA(Oxford University)
+
+%B The Hubble Space Telescope (HST) SIG was formed in August 1986. Our
+   aim is to see that the needs of the UK community likely to be using
+   HST data are provided through Starlink. It was generally felt that,
+   until the large delays resulting from Challenger, the data analysis
+   facilities available here would have been sorely stretched by HST
+   requirements. With launch now unlikely before the beginning of 1989
+   at the earliest, we have the opportunity to see that UK astronomers
+   do have access to adequate data-processing resources and are able to
+   benefit from the very large HST data-bank that will accumulate.
 
 ---sep---
 
@@ -141,6 +204,9 @@
 %P 9
 %L 9
 %F AA(Royal Observatory Edinburgh)
+%B This note provides some general background infor- mation which may help
+   potential users to evaluate the relevance of the database software to
+   their computing needs.
 %Z SUN/70
 
 ---sep---
@@ -159,7 +225,7 @@
 
 ---sep---
 
-%R 1988StarB...1...10S
+%R 1988StarB...1Q..10S
 %T FIGARO corner
 %A Shortridge, Keith
 %P 10
@@ -168,7 +234,7 @@
 
 ---sep---
 
-%R 1988StarB...1...10S
+%R 1988StarB...1R..10S
 %T A database of supernova photometry
 %A Stickland, Dave
 %P 10
@@ -260,7 +326,7 @@
 %A Murray, Jo; Lawden, Mike
 %P 18
 %L 18
-%F AA(RAL)
+%F AA(Rutherford Appleton Laboratory)
 %Z SUN/93
 
 ---sep---
@@ -316,6 +382,6 @@
 %A Wallace, P. T.; Currie, M. J.
 %P 20
 %L 20
-%F AA(RAL)
+%F AA(Rutherford Appleton Laboratory)
 
 ---sep---
