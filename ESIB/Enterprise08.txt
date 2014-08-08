@@ -1,17 +1,17 @@
 %R 1983ESIB....8......
 %F AA(Rutherford Appleton Laboratory)
-%J Enterprise Starlink Information Bulletin
-%V 8
+%J Enterprise Starlink Information Bulletin Number 8
 %D 04/1983
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise08.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments. If you are wondering about the significance of the name - so are we.
 %C (C) 1983: Rutherford Appleton Laboratory
-%Z Starlink User Note 38, "DOCFIND"
+%Z 1996StaUN..38.....B
    1982ESIB....7......
-   Starlink User Note 37, "IUEDR"
-   Starlink User Note 23, "ASPIC"
-   Original Starlink User Note 19, "SPICA"
-   Original Starlink User Note 11, "GKS 6.2"
-   Original Starlink User Note 12, "GKS/HIGR"
-   Starlink General Paper 8, "Starlink Local Management"
+   1996StaUN..37.....G
+   1991StaUN..23.....L
+   1984StaUN..19.....B
+   1981StaUN..11......
+   1981StaUN..12......
+   1992StaGP...8.....B
+

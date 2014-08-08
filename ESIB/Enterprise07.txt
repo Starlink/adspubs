@@ -1,11 +1,10 @@
 %R 1982ESIB....7......
 %F AA(Rutherford Appleton Laboratory)
-%J Enterprise Starlink Information Bulletin
-%V 7
+%J Enterprise Starlink Information Bulletin Number 7
 %D 12/1982
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise07.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments. If you are wondering about the significance of the name - so are we.
 %C (C) 1982: Rutherford Appleton Laboratory
-%Z Starlink User Note 23, "ASPIC"
+%Z 1991StaUN..23.....L
    Starlink General Paper 23, "SERCNET Access and Security Control Policy"

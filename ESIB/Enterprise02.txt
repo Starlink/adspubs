@@ -1,11 +1,10 @@
 %R 1980ESIB....2......
 %F AA(Rutherford Appleton Laboratory)
-%J Enterprise Starlink Information Bulletin
-%V 2
+%J Enterprise Starlink Information Bulletin Number 2
 %D 07/1980
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise02.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments. If you are wondering about the significance of the name - so are we.
 %C (C) 1980: Rutherford Appleton Laboratory
-%Z Original Starlink General Paper 7, "Specification of Starlink Subroutine Interfaces"
+%Z 1981StaGP...7......
    Starlink General Paper 6, "First Draft Proposal for Starlink Command Language"
