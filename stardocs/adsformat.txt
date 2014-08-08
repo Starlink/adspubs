@@ -218,6 +218,13 @@
 
 ---sep---
 
+%R 1982StaUN..20......
+%T Very Long Baseline Interferometry reduction package
+%D 00/1982
+%J Starlink User Note 20
+
+---sep---
+
 %R 1981StaUN..22.....P
 %T Utilities for Analysing, Dumping and Copying Magnetic Tapes
 %A Pearce, D.
@@ -297,6 +304,13 @@
 
    In due course, Starlink may acquire astronomical catalogues from other
    sources as well as the CDS.
+
+---sep---
+
+%R 1982StaUN..33......
+%T SGS Graphics Library
+%D 00/1982
+%J Starlink User Note 33
 
 ---sep---
 
@@ -655,6 +669,64 @@
    SUN/93
    SUN/95
    SUN/98
+   SUN/35
+   SUN/94
+   SUN/74
+   SUN/4
+   SUN/19
+   SUN/27 [NDPROGS cited in SUN/1.11]
+   SUN/16
+   SUN/41
+   SUN/70
+   SUN/106
+   SUN/120
+   SUN/110
+   SUN/52
+   SUN/46
+   SUN/76
+   SUN/54
+   SUN/26
+   SUN/97
+   SUN/14
+   SUN/60
+   SUN/80
+   SUN/81
+   SUN/82
+   SUN/91
+   SUN/23
+   SUN/24
+   SG/1
+   SUN/58
+   SUN/20
+   SUN/96
+   SUN/43
+   SUN/62
+   SUN/3
+   SUN/100
+   SUN/89
+   SUN/6
+   1981StaUN...2.....L
+   SUN/71
+   SUN/128
+   SUN/72
+   SUN/68
+   SUN/25
+   SUN/47
+   SUN/69
+   SUN/36
+   SUN/49
+   SUN/63
+   SUN/99
+   SUN/73
+   SUN/105
+   SUN/75
+   SUN/8
+   SUN/118 [MEMSYS cited in SUN/1.11]
+   SUN/119
+   SUN/21
+   SGP/5
+   SUN/10
+   SSN/12
 
 ---sep---
 
@@ -724,6 +796,8 @@
    SGP/16
    1979ipia.coll..445W
    1981StaUN..15.....P
+   SUN/65akaSGSRefManual
+   SUN/53ASPIC
 
 ---sep---
 
@@ -810,6 +884,10 @@
    1994ldps.book.....L
    1984texb.book.....K
    1988StaUN..77.....L
+   SUN/12
+   SUN/176
+   SUN/34 TeX DVI file translators [SUN/9.4 1993]
+   SUN/22 Hindlegs -- Lineprinter output from TeX [SUN/9.4 1993]
 
 ---sep---
 
@@ -1112,7 +1190,7 @@
    SUN/24
    SUN/74
    SG/1
-   SUN/53
+   SUN/53ASPIC [cited in SUN/23]
    SUN/94
    1981StaUN..15.....P
 
