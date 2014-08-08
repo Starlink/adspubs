@@ -260,6 +260,17 @@
 %L 12
 %F AA(European Space Agency, VILSPA, Madrid)
 
+%B A system has been developed for the expectant European
+   astronomical community which will allow any scientist to help himself
+   interactively to certain low dispersion spectra taken by IUE
+   (International Ultravio- let Explorer) and extracted by the latest
+   version of the IUE project's Standard Image Processing System (IUE-SIPS). These
+   spectra will comprise the Uniform Low Dispersion Archive (ULDA) and
+   will be accessible via the ULDA Software Support package
+   (USSP). Amongst other things, this package will enable the astronomer
+   to search for and select those IUESIPS low-dispersion spectra which
+   he wants to downlink to his own computer for subsequent manipulation.
+
 ---sep---
 
 %R 1988StarB...1...12B
@@ -298,7 +309,7 @@
 %P 14
 %L 15
 %F AA(Rutherford Appleton Laboratory)
-%Z SB1/14a
+%Z 1988StarB...1...14M
    SGP/16
 
 ---sep---
@@ -374,6 +385,15 @@
 %P 19
 %L 19
 %F AA(Jodrell Bank)
+%B As an interim solution to help JCMT data reduction, Starlink has
+   released a version of SPECX, Rachael Padman's spectral reduction
+   package. This will be compatible with the version in use at the
+   telescope, but will allow the use of a Canon laser printer as the
+   hard-copy device. In the longer term, it is intended that a package
+   more compatible with the Starlink software environment (ADAM) be
+   developed. This will produce HDS data files, which can then be used
+   by existing reduction packages (e.g. Figaro) and other Starlink
+   software.
 
 ---sep---
 
