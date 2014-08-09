@@ -1,6 +1,7 @@
-Title: Starlink Bulletin
-Editors: Charles, Anne
-Year: 1998
-Month: April
-Issue: 20
-Publisher: Starlink Project
+%R 1998StarB..20.....C
+%T Starlink Bulletin Issue no. 20
+%J Starlink Bulletin Issue no. 20, Ed Anne Charles, Starlink Project
+%A Charles, Anne
+%F AA(Rutherford Appleton Laboratory)
+%D 04/1998
+%C Rutherford Appleton Laboratory

@@ -1,6 +1,7 @@
-Title: Starlink Bulletin
-Editors: Lawden, Mike
-Year: 1992
-Month: October
-Issue: 10
-Publisher: Starlink Project
+%R 1992StarB..10.....L
+%T Starlink Bulletin Issue no. 10
+%J Starlink Bulletin Issue no. 10, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 10/1992
+%C Rutherford Appleton Laboratory

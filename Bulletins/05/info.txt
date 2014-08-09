@@ -1,6 +1,7 @@
-Title: Starlink Bulletin
-Editors: Murray, Jo
-Year: 1990
-Month: January
-Issue: 5
-Publisher: Starlink Project
+%R 1990StarB...5.....M
+%T Starlink Bulletin Issue no. 5
+%J Starlink Bulletin Issue no. 5, Ed Jo Murray, Starlink Project
+%A Murray, Jo
+%F AA(Rutherford Appleton Laboratory)
+%D 01/1990
+%C Rutherford Appleton Laboratory

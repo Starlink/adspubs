@@ -1,6 +1,7 @@
-Title: Starlink Bulletin
-Editors: Lawden, Mike
-Year: 1996
-Month: September
-Issue: 17
-Publisher: Starlink Project
+%R 1996StarB..17.....L
+%T Starlink Bulletin Issue no. 17
+%J Starlink Bulletin Issue no. 17, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 09/1996
+%C Rutherford Appleton Laboratory

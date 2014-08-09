@@ -1,6 +1,8 @@
-Title: Starlink Bulletin
-Editors: Murray, Jo; Lawden Mike
-Year: 1988
-Month: June
-Issue: 2
-Publisher: Starlink Project
+%R 1988StarB...2.....M
+%T Starlink Bulletin Issue no. 2
+%J Starlink Bulletin Issue no. 2, Ed Jo Murray, Mike Lawden, Starlink Project
+%A Murray, Jo; Lawden Mike
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%D 06/1988
+%C Rutherford Appleton Laboratory
+

@@ -1,0 +1,8 @@
+%R 2004StarB..24.....C
+%T Starlink Bulletin Issue no. 24
+%J Starlink Bulletin Issue no. 24, Ed Malcolm Currie and Dave Giaretta, Starlink Project
+%A Currie, Malcolm, J.; Giaretta, Dave
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%D 08/2004
+%C Rutherford Appleton Laboratory
+

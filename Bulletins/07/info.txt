@@ -1,6 +1,8 @@
-Title: Starlink Bulletin
-Editors: Lawden, Mike
-Year: 1991
-Month: April
-Issue: 7
-Publisher: Starlink Project
+%R 1991StarB...7.....L
+%T Starlink Bulletin Issue no. 7
+%J Starlink Bulletin Issue no. 7, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 04/1991
+%C Rutherford Appleton Laboratory
+
