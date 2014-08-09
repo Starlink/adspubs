@@ -74,7 +74,7 @@
 
 ---sep---
 
-%R 1988StarB...2....4L
+%R 1988StarB...2Q...4L
 %T Obituary - Dave Pearce
 %A Lawden, Mike
 %P 4
@@ -84,7 +84,7 @@
 
 ---sep---
 
-%R 1988StarB...2....4L
+%R 1988StarB...2R...4L
 %T Software and documentation news
 %A Lawden, Mike
 %P 4
@@ -109,7 +109,7 @@
 
 ---sep---
 
-%R 1988StarB...2....6T
+%R 1988StarB...2Q...6T
 %T VAXnotes -- electronic conferencing
 %A Terrett, Dave
 %P 6
@@ -127,7 +127,7 @@
 
 ---sep---
 
-%R 1988StarB...2....6T
+%R 1988StarB...2R...6T
 %T Statistics packages on Starlink
 %A Thomson, Bob; Parker, Quentin
 %P 6
@@ -208,7 +208,7 @@
 
 ---sep---
 
-%R 1988StarB...2...12W
+%R 1988StarB...2Q..12W
 %T Help stamp out hackers
 %A Wallace, Patrick
 %P 12
@@ -217,7 +217,7 @@
 
 ---sep---
 
-%R 1988StarB...2...12W
+%R 1988StarB...2R..12W
 %T A fringe-removal algorithm for the RCA CCD
 %A Warren, Graeme
 %P 12
