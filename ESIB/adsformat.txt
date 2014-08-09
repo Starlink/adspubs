@@ -1,0 +1,120 @@
+-*-text-*-
+
+%R 1980ESIB....1......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 1
+%D 04/1980
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise01.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1980: Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1980ESIB....2......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 2
+%D 07/1980
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise02.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1980: Rutherford Appleton Laboratory
+%Z 1981StaGP...7......
+   Starlink General Paper 6, "First Draft Proposal for Starlink Command Language"
+
+---sep---
+
+%R 1980ESIB....3......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 3
+%D 11/1980
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise03.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1980: Rutherford Appleton Laboratory
+%Z 1987StaGP..13.....D
+
+---sep---
+
+%R 1981ESIB....4......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 4
+%D 06/1981
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise04.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1981: Rutherford Appleton Laboratory
+%Z 1981StaUN...9.....G
+
+---sep---
+
+%R 1982ESIB....5......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 5
+%D 04/1982
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise05.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1982: Rutherford Appleton Laboratory
+%Z 1984StaUN..19.....B
+   1991StaUN..23.....L
+   1981StaUN..13......
+   1981StaUN..14......
+   1981StaUN..16......
+   1982StaUN..20......
+   1989StaUN..32.....C
+   1982StaUN..29.....B
+
+---sep---
+
+%R 1982ESIB....6......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 6
+%D 08/1982
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise06.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1982: Rutherford Appleton Laboratory
+%Z 1982ESIB....5......
+   1982StaSN..17......
+   1991StaUN..23.....L
+   1981StaUN..11......
+   1982StaUN..20......
+   1982StaUN..29.....B
+   1981StaUN..13......
+   1982StaUN..33......
+   1981StaUN..14......
+   1981StaUN..16......
+
+---sep---
+
+%R 1982ESIB....7......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 7
+%D 12/1982
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise07.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1982: Rutherford Appleton Laboratory
+%Z 1991StaUN..23.....L
+   Starlink General Paper 23, "SERCNET Access and Security Control Policy"
+
+---sep---
+
+%R 1983ESIB....8......
+%F AA(Rutherford Appleton Laboratory)
+%J Enterprise Starlink Information Bulletin Number 8
+%D 04/1983
+%U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise08.pdf
+%B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
+   interested) up to date on developments.
+%C (C) 1983: Rutherford Appleton Laboratory
+%Z 1996StaUN..38.....B
+   1982ESIB....7......
+   1996StaUN..37.....G
+   1991StaUN..23.....L
+   1984StaUN..19.....B
+   1981StaUN..11......
+   1981StaUN..12......
+   1992StaGP...8.....B
+
