@@ -1,0 +1,327 @@
+-*-Text-*-
+
+%R 1988StarB...2.....M
+%T Starlink Bulletin Issue no. 2
+%J Starlink Bulletin Issue no. 2, Ed Jo Murray, Mike Lawden, Starlink Project
+%A Murray, Jo; Lawden Mike
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%D 06/1988
+%C Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1988StarB...2....1M
+%T The official opening of the Northern Ireland nodes
+%A Murray, Jo; Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1988StarB...2....2M
+%T Editorial
+%A Murray, Jo; Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%B This will be a year of metamorphosis for Starlink with major
+   hardware upgrades and the widespread adoption of the ADAM software
+   environment. Most of the original VAXs will be replaced with MicroVAX
+   3500 based Local Area VAX Clusters (LAVCs); also disappearing from
+   these sites will be the old ARGS as the Digisolve Ikon becomes the
+   principal image display.
+
+   This comes ten years after the idea of co-ordinating the computing
+   activities of the UK astronomical community was first mooted. Those
+   pre-natal days of Starlink are remembered by Professor Mike Disney
+   in the article which follows. Many Starlink users will be surprised
+   to learn that a centralised computing facility with only remote
+   access or occasional visits for users was considered! (Actually the
+   first machine, the RAL database/communictaiont MicroVAX, began
+   operating a user service only this year.) It is instructive to look
+   at some of the proposals for national data-analysis facilities
+   which were forerunners of Starlink. For example, funding of £40,000
+   initially with £10,000 annually was requested for computer
+   enhancements at RGO to provide a spectral reduction service. The
+   hardware recommendation was based on a single Interdata 10
+   computer with a 64KByte memory and a total of 5MByte of disc!
+
+   Once again, it is a pleasure to thank all the contributors to the Bulletin,
+   and invite our readers to contribute to forthcoming editions.
+%Z 1988StarB...2....2D
+
+---sep---
+
+%R 1988StarB...2....2D
+%T Ten years ago...
+%A Disney, Mike
+%P 2
+%L 3
+%F AA(Cardiff University)
+%B Starlink was conceived almost exactly ten years ago today,
+   so a word or two on its conception and infancy, with some
+   reflections on its progress, may be forgiven.
+
+---sep---
+
+%R 1988StarB...2....3S
+%T ADAM -- the early years
+%A Shortridge, Keith
+%P 3
+%L 3
+%F AA(Anglo-Australian Observatory)
+
+---sep---
+
+%R 1988StarB...2....4L
+%T Obituary - Dave Pearce
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/2 Draft of Application Programmer Environmental Description
+
+---sep---
+
+%R 1988StarB...2....4L
+%T Software and documentation news
+%A Lawden, Mike
+%P 4
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/15
+   SUN/23
+   SG/1
+   SUN/20
+   SUN/30
+   SGP/37
+   SGP/38
+
+---sep---
+
+%R 1988StarB...2....5S
+%T Hardware update
+%A Sherman, John
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1988StarB...2....6T
+%T VAXnotes -- electronic conferencing
+%A Terrett, Dave
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1988StarB...2....6L
+%T Not the Starlink Pie Chart
+%A Lawden, Mike
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1988StarB...2....6T
+%T Statistics packages on Starlink
+%A Thomson, Bob; Parker, Quentin
+%P 6
+%L 7
+%F AA(Cardiff University) AB(UKSTU)
+%Z 1987ASSL..131.....M
+   1985ApJ...293..192F
+   1986ApJ...306..490I
+
+---sep---
+
+%R 1988StarB...2....8R
+%T SpecSIG and IUESIG
+%A Rees, Paul
+%P 8
+%L 8
+%F AA(University College London)
+%Z SGP/38
+
+---sep---
+
+%R 1988StarB...2....8M
+%T Solar Astrophysics
+%A Mason, Helen
+%P 8
+%L 9
+%F AA(University of Cambridge)
+
+---sep---
+
+%R 1988StarB...2....9U
+%T Volumetric Imaging SIG
+%A Unger, Steve
+%P 9
+%L 9
+%F AA(Royal Greenwich Observatory)
+
+---sep---
+
+%R 1988StarB...2....9P
+%T X-ray SIG
+%A Ponman, Trevor
+%P 9
+%L 9
+%F AA(University of Birmingham)
+%Z SGP/38
+
+---sep---
+
+%R 1988StarB...2...10R
+%T Letters to the editor
+%A Richards, Phil; Howarth, Ian; Stickland, Dave
+%P 10
+%L 10
+%F  AA(Rutherford Appleton Laboratory) AB(University College London)
+%Z SUN/23
+   SUN/24
+   SG/1
+
+---sep---
+
+%R 1988StarB...2...11C
+%T Standard data formats
+%A Currie, Malcolm
+%P 11
+%L 11
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/38
+
+---sep---
+
+%R 1988StarB...2...11S
+%T FIGARO corner
+%A Shortridge, Keith
+%P 11
+%L 11
+%F AA(Anglo-Australian Observatory)
+
+---sep---
+
+%R 1988StarB...2...12W
+%T Help stamp out hackers
+%A Wallace, Patrick
+%P 12
+%L 12
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1988StarB...2...12W
+%T A fringe-removal algorithm for the RCA CCD
+%A Warren, Graeme
+%P 12
+%L 13
+%F AA(Queen's University Belfast)
+%Z SUN/86
+
+---sep---
+
+%R 1988StarB...2...14A
+%T Starlink VAXclusters
+%A Allan, Peter
+%P 14
+%L 14
+%F AA(Manchester University)
+
+---sep---
+
+%R 1988StarB...2...14C
+%T ADAM latest
+%A Chipperfield, Alan
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/35
+
+---sep---
+
+%R 1988StarB...2...15C
+%T The Wonder of BACKUP
+%A Clayton, Chris
+%P 15
+%L 15
+%F AA(University of Cambridge)
+
+---sep---
+
+%R 1988StarB...2...16S
+%T The design of a new analysis package for X-ray astronomy -- the job so far
+%A Saxton, Richard
+%P 16
+%L 16
+%F AA(Leicester University)
+%Z SGP/38
+
+---sep---
+
+%R 1988StarB...2...16R
+%T IUEDR developments
+%A Rees, Paul
+%P 16
+%L 16
+%F AA(University College London)
+
+---sep---
+
+%R 1988StarB...2...17E
+%T The Aardvark
+%A Eaton, Nick
+%P 17
+%L 17
+%F AA(Durham University)
+
+---sep---
+
+%R 1988StarB...2...18B
+%T New IRAS CRDD software
+%A Berry, Dave
+%P 18
+%L 18
+%F AA(Manchester University)
+%Z SUN/24
+   SUN/23
+   1984StaUN..40.....B
+
+---sep---
+
+%R 1988StarB...2...19L
+%T SCAR news
+%A Leggett, Sandy
+%P 19
+%L 19
+%F AA(University of Edinburgh)
+%Z SUN/70
+
+---sep---
+
+%R 1988StarB...2...19W
+%T Starlink programming standard
+%A Wallace, Patrick
+%P 19
+%L 19
+%F AA(Rutherford Appleton Laboratory)
+%Z 1988StarB...1...11G
+   SGP/16
+
+---sep---
+
+%R 1988StarB...2...20M
+%T IRAS images destriped
+%A Malawi, Abdul
+%P 20
+%L 20
+%F AA(Jodrell Bank)
+%Z 1987AJ.....94.1092V
+
+---sep---

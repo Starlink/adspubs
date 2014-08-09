@@ -1,8 +1,0 @@
-%T New IRAS CRDD software
-%A Berry, Dave
-%P 18
-%L 18
-%F AA(Manchester University)
-%Z SUN/24
-   SUN/23
-   SUN/40

@@ -1,6 +1,0 @@
-%T SCAR news
-%A Leggett, Sandy
-%P 19
-%L 19
-%F AA(University of Edinburgh)
-%Z SUN/70

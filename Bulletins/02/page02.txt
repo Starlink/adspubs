@@ -1,5 +1,0 @@
-%T Ten years ago...
-%A Disney, Mike
-%P 2
-%L 3
-%F AA(Cardiff University)

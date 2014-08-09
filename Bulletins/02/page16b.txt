@@ -1,5 +1,0 @@
-%T IUEDR developments
-%A Rees, Paul
-%P 16
-%L 16
-%F AA(University College London)

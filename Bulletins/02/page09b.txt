@@ -1,6 +1,0 @@
-%T X-ray SIG
-%A Ponman, Trevor
-%P 9
-%L 9
-%F AA(University of Birmingham)
-%Z SGP/38

@@ -1,6 +1,0 @@
-%T IRAS images destriped
-%A Malawi, Abdul
-%P 20
-%L 20
-%F AA(Jodrell Bank)
-%Z 1987AJ.....94.1092V

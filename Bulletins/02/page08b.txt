@@ -1,5 +1,0 @@
-%T Solar Astrophysics
-%A Mason, Helen
-%P 8
-%L 9
-%F AA(University of Cambridge)

@@ -1,8 +1,0 @@
-%T Statistics packages on Starlink
-%A Thomson, Bob; Parker, Quentin
-%P 6
-%L 7
-%F AA(Cardiff University) AB(UKSTU)
-%Z 1987ASSL..131.....M
-   1985ApJ...293..192F
-   1986ApJ...306..490I

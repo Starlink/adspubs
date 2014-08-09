@@ -1,7 +1,0 @@
-%T Starlink programming standard
-%A Wallace, Patrick
-%P 19
-%L 19
-%F AA(Rutherford Appleton Laboratory)
-%Z SB1/11
-   SGP/16

@@ -1,6 +1,0 @@
-%T ADAM latest
-%A Chipperfield, Alan
-%P 14
-%L 14
-%F AA(Rutherford Appleton Laboratory)
-%Z SUN/35

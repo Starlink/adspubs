@@ -1,5 +1,0 @@
-%T VAXnotes -- electronic conferencing
-%A Terrett, Dave
-%P 6
-%L 6
-%F AA(Rutherford Appleton Laboratory)

@@ -1,5 +1,0 @@
-%T ADAM -- the early years
-%A Shortridge, Keith
-%P 3
-%L 3
-%F AA(Anglo-Australian Observatory)

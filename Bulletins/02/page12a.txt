@@ -1,5 +1,0 @@
-%T Help stamp out hackers
-%A Wallace, Patrick
-%P 12
-%L 12
-%F AA(Rutherford Appleton Laboratory)

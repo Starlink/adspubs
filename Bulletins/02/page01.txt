@@ -1,5 +1,0 @@
-%T The official opening of the Northern Ireland nodes
-%A Murray, Jo; Lawden, Mike
-%P 1
-%L 1
-%F AA(Rutherford Appleton Laboratory)
