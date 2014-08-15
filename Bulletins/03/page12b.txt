@@ -1,5 +1,0 @@
-%T Network hints
-%A Terrett,Dave
-%P 12
-%L 13
-%F AA(Rutherford Appleton Laboratory)

@@ -1,6 +1,0 @@
-%T Navigaring the e-MAIL maze
-%A Clayton,Chris
-%P 12
-%L 12
-%F AA(University of Cambridge)
-%Z SUN/36

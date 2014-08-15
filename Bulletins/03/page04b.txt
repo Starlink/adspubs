@@ -1,5 +1,0 @@
-%T Documentation diseases
-%A Lawden,Mike
-%P 4
-%L 5
-%F AA(Rutherford Appleton Laboratory)

@@ -1,6 +1,0 @@
-%T Letters to the editor
-%A Shortridge,Keith;Pike,Dave
-%P 10
-%L 10
-%F AA(Anglo-Australian Observatory) AB(European Space Agency, VILSPA, Madrid)
-%Z SUN/20

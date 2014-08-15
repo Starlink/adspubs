@@ -1,5 +1,0 @@
-%T The treatment of errors
-%A Rees,Paul
-%P 19
-%L 19
-%F AA(University College London)

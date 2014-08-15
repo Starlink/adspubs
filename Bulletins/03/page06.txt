@@ -1,9 +1,0 @@
-%T Unscrambling spaghetti on Starlink
-%A Rees,Paul
-%P 6
-%L 6
-%F AA(University College London)
-%Z SUN/50
-   SGP/16
-   SUN/64
-   SB3/17

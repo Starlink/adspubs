@@ -1,5 +1,0 @@
-%T 1000 Starlink Users
-%A Murray,Jo;Lawden,Mike
-%P 1
-%L 1
-%F AA(Rutherford Appleton Laboratory)

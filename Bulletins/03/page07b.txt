@@ -1,5 +1,0 @@
-%T Real men don't use Latex...
-%A Nicholson,Deanna
-%P 7
-%L 7
-%F AA(University College London)

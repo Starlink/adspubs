@@ -1,5 +1,0 @@
-%T The shape of things to come?
-%A McIlwrath,Briand;Shone,David;Noble,Roger
-%P 11
-%L 11
-%F AA(Jodrell Bank)

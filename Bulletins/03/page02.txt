@@ -1,8 +1,0 @@
-%T Why on Earth do we need ADAM?
-%A Allan,Peter
-%P 2
-%L 3
-%F AA(Manchester University)
-%Z SGP/38
-   SGP/32
-   SGP/33

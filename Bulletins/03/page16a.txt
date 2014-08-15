@@ -1,5 +1,0 @@
-%T Astronet -- Starlink, Italian Style!
-%A Pasian,Fabio
-%P 16
-%L 16
-%F AA(Osservatorio Astronomico di Trieste)

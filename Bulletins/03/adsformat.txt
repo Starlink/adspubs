@@ -1,0 +1,293 @@
+-*-Text-*-
+
+%R 1989StarB...3.....M
+%T Starlink Bulletin Issue no. 3
+%J Starlink Bulletin Issue no. 3, Ed Jo Murray, Mike Lawden, Starlink Project
+%A Murray, Jo; Lawden Mike
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%D 01/1989
+%C Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1989StarB...3....2M
+%T Editorial
+%A Murray, Jo
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%B Thanks are due to all those who took finger to keyboard to write
+   for this issue of the Bulletin. However these represent a small
+   proportion of the Starlink user population. Perhaps you can contribute
+   to forthcoming editions? As the tenth anniversary of Starlink
+   approaches, articles on the early days of the Project would be
+   especially welcome. Please send any contributions via electronic mail
+   to the address below.
+
+   The Starlink Bulletin comprises a collection of articles from
+   many different sources. Hence the views expressed do not
+   necessarily reflect those of Starlink management (not that
+   contributions are unedited!).
+
+---sep---
+
+%R 1989StarB...3....1M
+%T 1000 Starlink Users
+%A Murray, Jo; Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1989StarB...3....2A
+%T Why on Earth do we need ADAM?
+%A Allan, Peter
+%P 2
+%L 3
+%F AA(Manchester University)
+%Z SGP/38
+   SGP/32
+   SGP/33
+   SB5/5
+
+---sep---
+
+%R 1989StarB...3....3C
+%T ADAM latest
+%A Chipperfield, Alan
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+%Z SSN/45
+   1989StarB...3...13E
+
+---sep---
+
+%R 1989StarB...3....3W
+%T Where does all the RAL manpower go?
+%A Wallace, Patrick; Sherman, John
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1989StarB...3Q...4L
+%T Please send me the Starlink software
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1989StarB...3R...4L
+%T Documentation diseases
+%A Lawden, Mike
+%P 4
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1989StarB...3....5L
+%T Software and documentation news
+%A Lawden, Mike
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/48
+   1989StarB...3...13E
+   SUN/42
+   SUN/41
+   SUN/46
+   SUN/45
+   SUN/39
+   SUN/47
+   SUN/24
+   1989StarB...3...14B
+   SG/1
+   SUN/95
+   SUN/28
+   SGP/25
+   SGP/37
+   SGP/16
+   SSN/41
+
+---sep---
+
+%R 1989StarB...3....6R
+%T Unscrambling spaghetti on Starlink
+%A Rees, Paul
+%P 6
+%L 6
+%F AA(University College London)
+%Z SUN/50
+   SGP/16
+   SUN/64
+   1989StarB...3...17G
+
+---sep---
+
+%R 1989StarB...3....7S
+%T Figaro corner
+%A Shortridge, Keith
+%P 7
+%L 7
+%F AA(Anglo-Australian Observatory)
+
+---sep---
+
+%R 1989StarB...3....7N
+%T Real men don't use Latex...
+%A Nicholson, Deanna
+%P 7
+%L 7
+%F AA(University College London)
+
+---sep---
+
+%R 1989StarB...3....8M
+%T Starlink AGM
+%A Murray, Jo; Lawden, Mike
+%P 8
+%L 9
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1989StarB...3...10S
+%T Letters to the editor
+%A Shortridge, Keith; Pike, Dave
+%P 10
+%L 10
+%F AA(Anglo-Australian Observatory) AB(European Space Agency, VILSPA, Madrid)
+%Z SUN/20
+
+---sep---
+
+%R 1989StarB...3...11M
+%T The shape of things to come?
+%A McIlwrath, Brian; Shone, David; Noble, Roger
+%P 11
+%L 11
+%F AA(Jodrell Bank) AB(Jodrell Bank) AC(Jodrell Bank)
+%Z 1988StarB...1...13P
+
+---sep---
+
+%R 1989StarB...3...12C
+%T Navigating the e-MAIL maze
+%A Clayton, Chris
+%P 12
+%L 12
+%F AA(University of Cambridge)
+%Z SUN/36
+
+---sep---
+
+%R 1989StarB...3...12T
+%T Network hints
+%A Terrett, Dave
+%P 12
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+%Z 1989StarB...3...12C
+
+---sep---
+
+%R 1989StarB...3...13E
+%T Applications Graphics Interface (AGI)
+%A Eaton, Nick
+%P 13
+%L 13
+%F AA(Durham University)
+%Z SUN/48
+
+---sep---
+
+%R 1989StarB...3...14B
+%T EDRSX -- more new IRAS software
+%A Berry, Dave
+%P 14
+%L 15
+%F AA(Manchester University)
+%Z 1988StarB...2...18B
+
+---sep---
+
+%R 1989StarB...3...15P
+%T Starlink and Hubble Space Telescope
+%A Penny, Alan
+%P 15
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+%Z 1988StarB...2Q...6T
+   1988StarB...1....8C
+
+---sep---
+
+%R 1989StarB...3Q..16P
+%T Astronet -- Starlink, Italian Style!
+%A Pasian, Fabio
+%P 16
+%L 16
+%F AA(Osservatorio Astronomico di Trieste)
+%Z 1989StarB...3...12T
+
+---sep---
+
+%R 1989StarB...3R..16P
+%T Solar Physics on Starlink
+%A Philips, Ken
+%P 16
+%L 17
+%F AA(Rutherford Appleton Laboratory)
+%Z 1988StarB...2....8M
+
+---sep---
+
+%R 1989StarB...3...17G
+%T Databases on STADAT
+%A Giaretta, Dave
+%P 17
+%L 17
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/30
+   SUN/70
+   SUN/79
+   SUN/32
+   SUN/58
+   SUN/20
+
+---sep---
+
+%R 1989StarB...3...18D
+%T Leicester Space Centre
+%A Daly, Phil; Saxton, Richard
+%P 18
+%L 18
+%F AA(University of Leicester) AB(University of Leicester)
+
+---sep---
+
+%R 1989StarB...3...19R
+%T The treatment of errors
+%A Rees, Paul
+%P 19
+%L 19
+%F AA(University College London)
+%Z 1969drea.book.....B
+
+---sep---
+
+%R 1989StarB...3...19M
+%T The distribution of 2.2 million galaxies brighter than B_J = 20.4 in the Southern Galactic cap
+%A Maddox, Steve
+%P 19
+%L 20
+%F AA(University of Cambidge)
+%Z 1988IAUS..130..151M
+
+---sep---

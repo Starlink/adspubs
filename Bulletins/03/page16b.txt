@@ -1,6 +1,0 @@
-%T Solar Physics on Starlink
-%A Philips,Ken
-%P 16
-%L 17
-%F AA(Rutherford Appleton Laboratory)
-%Z SB2/8b
