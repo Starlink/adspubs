@@ -1,0 +1,353 @@
+-*-Text-*-
+
+%R 1989StarB...4.....M
+%T Starlink Bulletin Issue no. 4
+%J Starlink Bulletin Issue no. 4, Ed Jo Murray, Mike Lawden, Starlink Project
+%A Murray, Jo; Lawden Mike
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%D 07/1989
+%C Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1989StarB...4....2M
+%T Editorial
+%A Murray, Jo
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1989StarB...4....2T
+%T The future of Starlink -- the view from afar
+%A Tennant, Allyn
+%P 2
+%L 4
+%F AA(NASA Marchall Space Flight Center)
+%B If one writes about the future by making a list of predictions,
+   then one is bound to be wrong more times than right. This is not a
+   very pleasant prospect, and therefore it is not my intent to make
+   such a list. Rather, I will try to point out a few paths where the
+   future and Starlink can flow. The actual path taken will depend on
+   many factors, most of which cannot be controlled.
+
+---sep---
+
+%R 1989StarB...4....4T
+%T Sharp practices?
+%A Tanvir, Nial; Shanks, Tom; Redfern, Mike; Devaney, Nick; O'Kane, Peter
+%P 4
+%L 5
+%F AA(Durham University) AB(Durham University) AC(Durham University) AD(Durham University) AE(Durham University)
+
+---sep---
+
+%R 1989StarB...4....6C
+%T I've got this FITS tape...
+%A Currie, Malcolm
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+%Z 1988StarB...1....7A
+   SGP/38
+   1988A&AS...73..359G
+   1988A&AS...73..365H
+   1981A&AS...44..363W
+   1981A&AS...44..371G
+
+---sep---
+
+%R 1989StarB...4....7W
+%T Lunatic's corner
+%A Wallace, Patrick
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+%B Ever swapped telescope time with someone only to find you've scored
+   Full Moon? Or been embarrassed by an amateur astronomer pointing out
+   you couldn't have discovered that 27m pulsar on the night you said? Say
+   goodbye to all that by memorising this surprisingly little-known
+   formula, which predicts the Moon's phase given the calendar date.
+
+---sep---
+
+%R 1989StarB...4....7L
+%T Software and documentation news
+%A Lawden, Mike
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+%B Once again the last six months have seen a lot of software
+   and documentation activity — 28 software releases
+   and 32 document issues.
+%Z SUN/43
+   SUN/76
+   SUN/53
+   SUN/18
+   SUN/63
+   SUN/61
+   SUN/94
+   SUN/19
+   SUN/27NDPROGS
+   SUN/1
+   SGP/8
+   SGP/14
+   SGP/20
+   SGP/21
+   SGP/25
+   SGP/28
+   SG/2 -- Guide to IUEDR package. Maybe means SG/3?
+   SG/4
+   1989StarB...4...16L
+
+---sep---
+
+%R 1989StarB...4....8P
+%T Image Processing Environment (IPE) SIG
+%A Phillipps, Steve
+%P 8
+%L 8
+%F AA(University of Cardiff)
+%Z SUN/45
+   SUN/42
+   1989StarB...4...26W
+   1989StarB...4...14C
+
+---sep---
+
+%R 1989StarB...4....8K
+%T Database SIG
+%A Kelly, Dennis
+%P 8
+%L 9
+%F AA(Royal Observatory, Edinburgh)
+%Z 1988StarB...1....9K
+   1988StarB...2...19L
+   1989StarB...3...17G
+   SUN/70
+
+---sep---
+
+%R 1989StarB...4....9E
+%T IRAS SIG
+%A Emerson, Jim
+%P 9
+%L 9
+%F AA(Queen Mary College)
+%Z SUN/23
+   SUN/24
+   1989StarB...3...14B
+   1988StarB...2...18B
+   1989mebm.conf.....S
+   1988JBIS...41..363B
+
+---sep---
+
+%R 1989StarB...4....9M
+%T Solar Astrophysics SIG
+%A Mason, Helen
+%P 9
+%L 9
+%F AA(University of Cambridge)
+
+---sep---
+
+%R 1989StarB...4...10D
+%T HST and Starlink
+%A Disney, Mike
+%P 10
+%L 11
+%F AA(Cardiff University)
+%Z 1988StarB...1....8C
+   1989StarB...3...15P
+   1989StarB...4...28P
+
+---sep---
+
+%R 1989StarB...4...12C
+%T Transputer power rules, OK!
+%A Coe, Malcolm
+%P 12
+%L 13
+%F AA(University of Southampton)
+%B Powerful computer resources have been available for some time,
+   but have been too costly for most as- tronomers. The transputer,
+   however, now provides the ideal building block for the inexpensive,
+   high power, parallel machines which are becoming commonly available.
+
+---sep---
+
+%R 1989StarB...4...13H
+%T Stellar spectroscopic atlases on Starlink
+%A Hill, Phil
+%P 13
+%L 13
+%F AA(University of St Andrews)
+%Z 1983ApJS...52..121G
+   1984ApJS...56..257J
+   SUN/30
+
+---sep---
+
+%R 1989StarB...4...14C
+%T Letters to the editor
+%A Carswell, Bob; Eaton, Nick; Shortridge, Keith; Montesinos, Benjamin; Terrett, Dave; Warren-Smith, Rodney; Unger, Steve
+%P 14
+%L 16
+%F AA(University of Cambridge) AB(Durham University) AC(Anglo-Australian Observatory) AD(University of Oxford) AE(Rutherford Appleton Laboratory) AF(Royal Greenwich Observatory)
+%Z SGP/38
+   1989StarB...4....8P
+
+---sep---
+
+%R 1989StarB...4...16L
+%T Software reorganisation
+%A Lawden, Mike
+%P 16
+%L 17
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/59
+
+---sep---
+
+%R 1989StarB...4...17A
+%T What's new in VMS 5?
+%A Allan, Peter
+%P 17
+%L 17
+%F AA(University of Manchester)
+
+---sep---
+
+%R 1989StarB...4...18R
+%T IUEDR corner
+%A Rees, Paul
+%P 18
+%L 18
+%F AA(University College London)
+%Z SUN/37
+   SG/3
+   SG/2 IUE DR User Guide
+   1988EIUEN..31....7C
+   !Imhoff,_1989,_NASA_IUE_Newsletter,_37,_p122
+
+---sep---
+
+%R 1989StarB...4...18B
+%T Computer Aided Software Engineering
+%A Beard,Steven
+%P 18
+%L 19
+%F AA(Royal Obervatory, Edinburgh)
+%Z 1985sdrt.book.....W
+
+---sep---
+
+%R 1989StarB...4...20E
+%T Data analysis workshop
+%A Eaton, Nick
+%P 20
+%L 20
+%F AA(Durham University)
+
+---sep---
+
+%R 1989StarB...4...20O
+%T A comparison of ULDA and IUEDR products
+%A O'Brien, Paul
+%P 20
+%L 21
+%F AA(University College London)
+%Z SUN/58
+   SUN/37
+   1988StarB...1...12D
+   1988EIUEN..30.....D
+   SUN/20
+   SUN/50
+
+---sep---
+
+%R 1989StarB...4...22P
+%T Solar maximum observed by SMM
+%A Phillips, Ken
+%P 22
+%L 22
+%F AA(Rutherford Appleton Laboratory)
+%Z 1989StarB...4....9M
+
+---sep---
+
+%R 1989StarB...4...23L
+%T HDS -- How Data Sits
+%A Lupton, William
+%P 23
+%L 23
+%F AA(Anglo-Australian Observatory)
+%Z SGP/38
+
+---sep---
+
+%R 1989StarB...4...23W
+%T MAILclubs
+%A Wallace, Patrick
+%P 23
+%L 23
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1989StarB...4...24S
+%T Figaro corner
+%A Shortridge, Keith
+%P 24
+%L 24
+%F AA(Anglo-Australian Observatory)
+
+---sep---
+
+%R 1989StarB...4...24E
+%T Starlink programming conference
+%A Eaton, Nick
+%P 24
+%L 25
+%F AA(Durham University)
+%Z SGP/16
+
+---sep---
+
+%R 1989StarB...4...25C
+%T Site manager's soapbox
+%A Clayton, Chris
+%P 25
+%L 25
+%F AA(University of Cambridge)
+%Z SUN/1
+
+---sep---
+
+%R 1989StarB...4...26W
+%T IDI -- an Image Display Interface
+%A Warren-Smith, Rodney; Eaton, Nick
+%P 26
+%L 26
+%F AA(Rutherford Appleton Laboratory)
+%Z 1988A&AS...76..263T
+
+---sep---
+
+%R 1989StarB...4...26.
+%T Assess your Starlink appeal
+%P 26
+%L 27
+
+---sep---
+
+%R 1989StarB...4...28P
+%T HST simulation
+%A Penny, Alan
+%P 28
+%L 28
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
