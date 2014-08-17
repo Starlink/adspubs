@@ -1,0 +1,331 @@
+-*-Text-*-
+
+%R 1990StarB...6.....M
+%T Starlink Bulletin Issue no. 6
+%J Starlink Bulletin Issue no. 6, Ed Jo Murray, Starlink Project
+%A Murray, Jo
+%F AA(Rutherford Appleton Laboratory)
+%D 08/1990
+%C Rutherford Appleton Laboratory
+
+
+---sep---
+
+%R 1990StarB...6Q...2M
+%T Editorial
+%A Murray, Jo
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1990StarB...6....4M
+
+---sep---
+
+%R 1990StarB...6R...2M
+%T New Starlink node at Sussex
+%A Murray, Jo
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...6....3W
+%T Language sensitive ADAM programming
+%A Warren-Smith, Rodney
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+%Z 1990StarB...5...27T
+   SUN/105
+   SGP/16
+   SUN/7
+
+---sep---
+
+%R 1990StarB...6....4M
+%T ADAM Support Group
+%A Murray, Jo
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z 1990adam.proc.....C
+
+---sep---
+
+%R 1990StarB...6....5C
+%T The Joy of X
+%A Clayton, Chris
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...6....5R
+%T Error Reporting
+%A Rees, Paul
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/104
+
+---sep---
+
+%R 1990StarB...6....6M
+%T Starlink Users' Committee
+%A Murray, Jo
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...6....6C
+%T ADAM Developments
+%A Chipperfield, Alan
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/57
+   1990StarB...6....5R
+
+---sep---
+
+%R 1990StarB...6....7L
+%T Software and documentation news
+%A Lawden, Mike
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/103
+   SUN/109 was APM renamed to PISA?
+   SUN/13
+   SUN/26
+   SUN/104
+   SUN/73
+   SUN/54
+   SUN/107
+   SUN/49
+   SUN/105
+   1990StarB...6....3W
+   SUN/70
+   SG/4
+   SUN/1
+   SUN/11
+   SUN/33
+   SUN/53
+   SUN/67
+   SUN/82
+   1990StarB...6...25L
+
+---sep---
+
+%R 1990StarB...6....7W
+%T FORCHECK - a Fortran verifier
+%A Wallace, Patrick
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/16
+   SUN/63
+   1989StarB...3....6R
+   SUN/73
+
+---sep---
+
+%R 1990StarB...6....8F
+%T Captain Starlink in Robo-Manager
+%A Foster, Julian; Clayton, Chris
+%P 8
+%L 8
+%F AB(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...6....9R
+%T IUE final archive
+%A Rees, Paul
+%P 9
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+%Z Heck,_1981,_ESA_IUE_Newsletter,_9,_10
+   Heck,_1981,_ESA_IUE_Newsletter,_10
+   West,_1982,_ESA_IUE_Newsletter,_12,_27
+   NASA_IUE_Newsletter_34
+   NASA_IUE_Newsletter_38
+   1988EIUEN..29....9L
+
+---sep---
+
+%R 1990StarB...6....9M
+%T Conferences on VAXnotes
+%A Murray, Jo
+%P 9
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/44
+   1989StarB...4...24E
+
+---sep---
+
+%R 1990StarB...6...10S
+%T X-ray observations from TTM
+%A Skinner, Gerry
+%P 10
+%L 11
+%F AA(University of Birmingham)
+
+---sep---
+
+%R 1990StarB...6...12L
+%T Ultraluminous starbust galaxies
+%A Leech, Kieron; Rowan-Robinson, Michael; Hughes, Joanne; Lawrence, Andy
+%P 12
+%L 12
+%O 001505.5+493732; 181426.5+652717; 185802.6+335612
+%F AA(Queen Mary and Westfield College)
+
+---sep---
+
+%R 1990StarB...6...13L
+%T Ten years ago
+%A Lawden, Mike
+%P 13
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+%Z SB3/1 but front pages are not indexed
+   1980ESIB....1.....
+
+---sep---
+
+%R 1990StarB...6...13C
+%T What's in a node?
+%A Clayton, Chris
+%P 13
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...6...14L
+%T An expedition into Starlink software
+%A Lawden, Mike
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/16
+
+---sep---
+
+%R 1990StarB...6...14W
+%T Starlink software support policy
+%A Wallace, Patrick; Bromage, Gordon
+%P 14
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+%Z 1990StarB...6...14L
+   SGP/2
+
+---sep---
+
+%R 1990StarB...6...16E
+%T IMage analysis on Starlink
+%A Eaton, Nick; Maddox, Steve
+%P 16
+%L 17
+%F AA(Durham University) AB(Oxford University)
+%Z 1990StarB...5...24B
+   SUN/109
+
+---sep---
+
+%R 1990StarB...6...18S
+%T FIGARO 3 -- the FIGARO yet to come
+%A Shortridge, Keith
+%P 18
+%L 18
+%F AA(Anglo-Australian Observatory)
+%Z SGP/38
+
+---sep---
+
+%R 1990StarB...6...19D
+%T IRCAM imaging of the host galaxies of quasars
+%A Dunlop, James
+%P 19
+%L 19
+%O 2135-147
+%F AA(Lancashire Polytechnic)
+%Z SUN/41
+
+---sep---
+
+%R 1990StarB...6...20R
+%T The APM 'Great Attactor' survey
+%A Raychaudhury, Somak
+%P 20
+%L 21
+%F AA(University of Cambridge)
+%Z 1988ApJ...326...19L
+   1989StarB...3...19M
+   1989Natur.342..251R
+   1989PhDT.......122R
+   1930BHarO.874....9S
+
+---sep---
+
+%R 1990StarB...6...22C
+%T Parallel Processors
+%A Coe, Malcolm; Yearworth, Mike
+%P 22
+%L 22
+%F AA(University of Southampton) AB(University of Southampton)
+
+---sep---
+
+%R 1990StarB...6...23W
+%T FLAIR multi-object spectroscopy
+%A Watson, Fred; Parker, Quentin; Oates, Paddy
+%P 23
+%L 25
+%O N22; BR47; BE577
+%F AA(Anglo-Australian Observatory) AB(Royal Observatory, Edinburgh) AC(University of Durham)
+%Z 1986SPIE..627..787W
+   1990SPIE.1235..736W
+   1990A&AS...84..455P
+   1991MNRAS.253..222W
+
+---sep---
+
+%R 1990StarB...6...25P
+%T The COSMOS mail forum
+%A Parker, Quentin
+%P 25
+%L 25
+%F AA(Royal Observatory, Edinburgh)
+
+---sep---
+
+%R 1990StarB...6...25L
+%T MAPLE- maths the easy way
+%A Lawden, Mike
+%P 25
+%L 25
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/107
+
+---sep---
+
+%R 1990StarB...6...26R
+%T Symbiotic stars
+%A Riffat, Siry Isra
+%P 26
+%L 26
+%O AS296
+%F AA(University of Keele)
+%Z SUN/42
+   SUN/95
+   1984ApJ...286..263T
+
+---sep---
