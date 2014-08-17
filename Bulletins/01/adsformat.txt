@@ -132,6 +132,7 @@
 %A Philips, Ken
 %P 6
 %L 6
+%O AT Mic
 %F AA(Rutherford Appleton Laboratory)
 %Z 1986MNRAS.220.1021B
    1981NASRP1069.....C
@@ -239,6 +240,7 @@
 %A Stickland, Dave
 %P 10
 %L 10
+%O SN1885A
 %F AA(Rutherford Appleton Laboratory)
 
 ---sep---

@@ -258,6 +258,7 @@
 %A O'Brien, Paul
 %P 20
 %L 21
+%O 3C273; QSO 0736+017
 %F AA(University College London)
 %Z SUN/58
    SUN/37
