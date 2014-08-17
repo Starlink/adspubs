@@ -1,0 +1,388 @@
+-*-Text-*-
+
+%R 1990StarB...5.....M
+%T Starlink Bulletin Issue no. 5
+%J Starlink Bulletin Issue no. 5, Ed Jo Murray, Starlink Project
+%A Murray, Jo
+%F AA(Rutherford Appleton Laboratory)
+%D 01/1990
+%C Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1990StarB...5....2M
+%T Editorial
+%A Murray, Jo
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1990StarB...5G...2A
+   1990StarB...5G...2S
+   1990StarB...5G...4W
+   1990StarB...5G...5D
+   1990StarB...5G...6B
+   1990StarB...5G...7F
+   1990StarB...5G...8P
+   1990StarB...5G..10W
+
+---sep---
+
+%R 1990StarB...5....2P
+%T The next Fortran
+%A Page, Clive
+%P 2
+%L 4
+%F AA(Leicester University)
+%Z SGP/16
+
+---sep---
+
+%R 1990StarB...5....4L
+%T ADAM bargain offer
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SG/4
+
+---sep---
+
+%R 1990StarB...5....5C
+%T ADAM workshop
+%A Chipperfield, Alan
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z 1990adam.proc.....C
+
+---sep---
+
+%R 1990StarB...5....6M
+%T JCMT observations of protostellar cores
+%A Moore, Toby
+%P 6
+%L 6
+%O NGC2024
+%F AA(Queen Mary & Westfield College)
+%Z SUN/17
+   SUN/41
+   SUN/95
+
+---sep---
+
+%R 1990StarB...5....6C
+%T FITS ain't what it used to be
+%A Currie, Malcolm
+%P 6
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/68
+   1981A&AS...44..363W
+   1981A&AS...44..371G
+   1988A&AS...73..359G
+   1988A&AS...73..365H
+
+---sep---
+
+%R 1990StarB...5....8F
+%T Captain Starlink in "Oh,no, it's backup day"
+%A Foster, Julian; Clayton Chris
+%P 8
+%L 8
+%F AB(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5....8R
+%T Bug reporting in Starlink
+%A Rawlinson, David
+%P 8
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5....9L
+%T Software and documentation news
+%A Lawden, Mike
+%P 9
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/40
+   SUN/57
+   SUN/65
+   SSN/65
+   SUN/55
+   SUN/16
+   SUN/66
+   1990StarB...5...18B
+   1990StarB...5...28C
+   SGP/1
+   SUN/5
+   SUN/14
+   SUN/30
+   SUN/85
+   SUN/91
+   SG/4
+   1990StarB...5....4L
+
+---sep---
+
+%R 1990StarB...5...10M
+%T Make your VAX programs go faster...
+%A Murray, Jo; Warren-Smith, Rodney
+%P 10
+%L 11
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%Z SGP/16
+
+---sep---
+
+%R 1990StarB...5...12P
+%T The EXOSAT database
+%A Pollock, Andy
+%P 12
+%L 12
+%F AA(ESTEC)
+
+---sep---
+
+%R 1990StarB...5...12M
+%T 1989 Starlink AGM
+%A Murray, Jo
+%P 12
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5...14M
+%T The last farewell
+%A Murray, Jo
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5...14T
+%T SPAN gateway
+%A Terrett, Dave
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5...15W
+%T ASTROM
+%A Wallace, Patrick
+%P 15
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/5
+   SUN/32
+   SUN/67
+
+---sep---
+
+%R 1990StarB...5...15B
+%T Reminder - please acknowledge Starlink
+%A Bromage, Gordon
+%P 15
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5...16S
+%T Letters to the editor
+%A Shortridge, Keith; Warmels, Rein; Walker, Helen
+%P 16
+%L 17
+%F AA(Anglo-Australian Observatory) AB(ESO Image Processing Group, Garching) AC(Rutherford Appleton Laboratory)
+%Z 1989StarB...4...20E
+   1989StarB...4...26W
+   SUN/70
+
+---sep---
+
+%R 1990StarB...5...17W
+%T Starlink questionnaire
+%A Wallace, Patrick
+%P 17
+%L 17
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/35
+
+---sep---
+
+%R 1990StarB...5...18S
+%T Figaro corner
+%A Shortridge, Keith
+%P 18
+%L 18
+%F AA(Anglo-Australian Observatory)
+
+---sep---
+
+%R 1990StarB...5...18B
+%T TSP - a Time Series/Polarimetry package
+%A Bailey, Jeremy
+%P 18
+%L 19
+%F AA(Joint Astronomy Centre)
+%Z SUN/66
+   SGP/38
+
+---sep---
+
+%R 1990StarB...5...20B
+%T Observations of variability in white dwarfs
+%A Barstow, Martin
+%P 20
+%L 21
+%O PG1159-035
+%F AA(Leicester University)
+
+---sep---
+
+%R 1990StarB...5...21W
+%T Lunatic's corner revisited
+%A Wallace, Patrick
+%P 21
+%L 21
+%F AA(Rutherford Appleton Laboratory)
+%Z 1989StarB...4....7W
+
+---sep---
+
+%R 1990StarB...5...22J
+%T CCP7 and Starlink
+%A Jeffery, Simon
+%P 22
+%L 23
+%F AA(University of St Andrews)
+%Z SUN/50
+   Dufton,_P.L.,_1987_Newslett._Anal._astr._Spectra_11,_3
+   1989QJRAS..30..195J
+   1985QJRAS..26..521L
+   Lynas-Gray,_A.E.,_1987_Newslett_Anal._astr._Spectra,_11,_8
+
+---sep---
+
+%R 1990StarB...5...24B
+%T The COSMOS crowded field software
+%A Beard, Steven
+%P 24
+%L 26
+%O Abell3158
+%F AA(Royal Observatory, Edinburgh)
+%Z 1990MNRAS.247..311B
+   1984VA.....27..433M
+   doi:10.1016/0262-8856(84)90022-2
+   SUN/24
+   SUN/42
+
+---sep---
+
+%R 1990StarB...5...27T
+%T VAXset
+%A Terrett, Dave
+%P 27
+%L 27
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5...28C
+%T Image processing with KAPPA
+%A Currie, Malcolm
+%P 28
+%L 28
+%O NGC1365
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5G...2A
+%T Unix - the case against
+%A Allan, Peter
+%P G2
+%L G2
+%F AA(Manchester University)
+
+---sep---
+
+%R 1990StarB...5G...2S
+%T Unix - the case in favour
+%A Shone, David
+%P G2
+%L G3
+%F AA(Jodrell Bank)
+
+---sep---
+
+%R 1990StarB...5G...4W
+%T A different view from afar
+%A Wells, Don
+%P G4
+%L G5
+%F AA(National Radio Astronomy Observatory, Charlottesville)
+%Z 1989StarB...4....2T
+   Weizenbaum,_J.,_1976,_Computer_Power_and_Human_Reason,_102;_Freeman,_1976
+   Crocker,_D.H.,_Battle_of_the_Titans:_TCP/IP_vs_OSI,_Computerworld,_11_September_1989,_p._95
+
+---sep---
+
+%R 1990StarB...5G...5D
+%T Interactive Data Language
+%A Dickens, Bob; Payne, Jeff
+%P G5
+%L G6
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1990StarB...5G...6B
+%T MIDAS
+%A Banse, Klaus; Grosbol, Preben; Warmels, Rein
+%P G6
+%L G7
+%F AA(ESO Image Processing Group, Garching) AB(ESO Image Processing Group, Garching) AC(ESO Image Processing Group, Garching)
+
+---sep---
+
+%R 1990StarB...5G...7F
+%T AIPS for non-radio astronomers
+%A Flatters, Chris
+%P G7
+%L G8
+%F AA(National Radio Astronomy Observatory, Socorro)
+
+---sep---
+
+%R 1990StarB...5G...8P
+%T A view from nearby
+%A Penny, Alan
+%P G8
+%L G10
+%F AA(Rutherford Appleton Laboratory)
+%Z 1989StarB...4....2T
+
+---sep---
+
+%R 1990StarB...5G..10W
+%T Comments from Starlink
+%A Wallace, Pat; Warren-Smith, Rodney
+%P G10
+%L G12
+%F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
+%Z 1990StarB...5G...2A
+   1990StarB...5G...2S
+   1990StarB...5G...4W
+   1990StarB...5G...5D
+   1990StarB...5G...7F
+   1990StarB...5G...8P
+
+---sep---
