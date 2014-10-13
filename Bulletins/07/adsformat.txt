@@ -1,0 +1,202 @@
+-*-Text-*-
+
+%R 1991StarB...7.....L
+%T Starlink Bulletin Issue no. 7
+%J Starlink Bulletin Issue no. 7, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 04/1991
+%C Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1991StarB...7....1L
+%T Happy Birthday Starlink!
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...7Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z 1990StarB...6....4M
+   1991StarB...7....6A
+   1991StarB...7R...2L
+
+---sep---
+
+%R 1991StarB...7R...2L
+%T Opening of Kent Starlink Node
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...7....3B
+%T Two hundred years of astronomy at Armagh Observatory
+%A Brown, Paul
+%P 3
+%L 3
+%F AA(Armagh Observatory)
+%Z 1990csai.book.....B
+   1888MmRAS..49....1D
+
+---sep---
+
+%R 1991StarB...7....4L
+%T New software and documentation
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(RAL)
+%Z SUN/11
+   SUN/72
+   SUN/33
+   SUN/110
+   SG/4
+   SUN/54
+   SUN/83
+   SUN/76
+   SUN/28
+   SUN/109
+   SUN/97
+   SUN/70
+   SGP/31
+   SUG
+   SUN/95
+   SUN/101
+   SUN/105
+   SUN/106
+   SUN/107
+
+---sep---
+
+%R 1991StarB...7Q...5L
+%T New sites and people
+%A Lawden, Mike
+%P 5
+%L 5
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...7R...5L
+%T Ten years ago
+%A Lawden, Mike
+%P 5
+%L 5
+%F AA(RAL)
+%Z SGP/13
+   1980ESIB....2......
+   1980ESIB....3......
+
+---sep---
+
+%R 1991StarB...7....6A
+%T The ADAM support group
+%A Allan,Peter
+%P 6
+%L 6
+%F AA(RAL)
+%Z SUN/101
+   Feuer,_A.R.,_Gehani,_N.,_(eds.),_1984,_Comparing_and_Assessing_Programming_Languages:_Ada,_C,_Pascal.,_Prentice-Hall
+
+---sep---
+
+%R 1991StarB...7....7C
+%T UNIX -- The good, the bad and the ugly
+%A Clayton, Chris
+%P 7
+%L 7
+%F AA(RAL)
+%Z 1990StarB...5G...2A
+   1990StarB...5G...2S
+
+---sep---
+
+%R 1991StarB...7....7A
+%T Portable programming
+%A Allan, Peter
+%P 7
+%L 8
+%F AA(RAL)
+%Z SGP/16
+
+---sep---
+
+%R 1991StarB...7....9G
+%T Parallel ASTERIX with Caplin Cybernetics
+%A Gorrod, Martin
+%P 9
+%L 11
+%F AA(University of Southampton)
+
+---sep---
+
+%R 1991StarB...7...12P
+%T IPESIG News
+%A Phillipps, Steve
+%P 12
+%L 12
+%F AA(University of Cardiff)
+
+---sep---
+
+%R 1991StarB...7...12B
+%T IRASIG News
+%A Berry, David
+%P 12
+%L 12
+%F AA(Manchester University)
+%Z SUN/70
+   SUN/82
+   SUN/116
+   SUN/117
+
+---sep---
+
+%R 1991StarB...7...13F
+%T Captain Starlink goes observing!
+%A Foster, Julian; Clayton, Chris
+%P 13
+%L 13
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...7...14O
+%T The ROSAT data are coming
+%A Osborne, Julian
+%P 14
+%L 15
+%F AA(Leicester University)
+%Z 1991StarB...7...16P
+
+---sep---
+
+%R 1991StarB...7...16P
+%T ROSAT and its science data analysis system
+%A Ponman, Trevor
+%P 16
+%L 18
+%F AA(University of Birmingham)
+
+---sep---
+
+%R 1991StarB...7...19S
+%T Absorption-line spectroscopy of galaxies
+%A Shaw, Martin
+%P 19
+%L 19
+%F AA(Manchester University)
+%Z 1990A&A...229..441B
+
+---sep---
