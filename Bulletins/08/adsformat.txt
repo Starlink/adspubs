@@ -1,0 +1,285 @@
+-*-Text-*-
+
+%R 1991StarB...8.....L
+%T Starlink Bulletin Issue no. 8
+%J Starlink Bulletin Issue no. 8, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 11/1991
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1991StarB...8....1L
+%T Opening of Hatfield Starlink Node
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...8Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z SGP/7
+   1991StarB...8...10A
+   1991StarB...8...12C
+   SUN/1
+
+---sep---
+
+%R 1991StarB...8R...2L
+%T Ten years ago
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z 1981ESIB....4......
+
+---sep---
+
+%R 1991StarB...8....3P
+%T Successful launch of Solar-A
+%A Phillips, Ken
+%P 3
+%L 3
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...8....4L
+%T New products
+%A Lawden, Mike; Bly, Martin
+%P 4
+%L 4
+%F AA(RAL)
+%Z SUN/119
+   SUN/120
+   SGP/5
+   SUN/136
+   SUN/124
+   SUN/130
+   SUN/135
+   SUN/22
+   SUN/131
+   SUN/31
+   SUN/52
+   SUN/62
+   SUN/129
+   SSN/45
+   SG/4
+   SUN/92
+   SUN/95
+   SUN/86
+   SUN/9
+   SUN/12
+   SUN/41
+   SGP/4
+   SGP/16
+   SGP/7
+   SUN/34
+   SUN/77
+   SUN/127
+   SUN/128
+   SGP/25
+   SUN/1
+   SUN/109
+   SUN/118
+
+---sep---
+
+%R 1991StarB...8....5L
+%T Comings and goings
+%A Lawden, Mike
+%P 5
+%L 5
+%F AA(RAL
+%Z SUN/101
+   SGP/4
+
+---sep---
+
+%R 1991StarB...8....5M
+%T SPECSIG news
+%A Mills, Dave
+%P 5
+%L 5
+%F AA(University College London)
+
+---sep---
+
+%R 1991StarB...8Q...6P
+%T RASIG news
+%A Pedlar, Alan
+%P 6
+%L 6
+%F AA(Jodrell Bank)
+
+---sep---
+
+%R 1991StarB...8R...6P
+%T SASIG news
+%A Phillips, Ken
+%P 6
+%L 6
+%F AA(RAL)
+%Z SUN/76
+
+---sep---
+
+%R 1991StarB...8....7P
+%T The database problem
+%A Page, Clive
+%P 7
+%L 7
+%F AA(Leicester University)
+
+---sep---
+
+%R 1991StarB...8....8O
+%T The EXOSAT database system
+%A Osborne, Julian
+%P 8
+%L 9
+%F AA(Leicester University)
+%Z SUN/127
+   1991ASSL..171...11W
+   1991edsa.book.....B
+   1991edsb.book.....B
+   1991edso.book.....B
+
+---sep---
+
+%R 1991StarB...8...10A
+%T Progress with ADAM
+%A Allan, Peter
+%P 10
+%L 11
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...8Q..11C
+%T My first ADAM program
+%A Clayton, Chris
+%P 11
+%L 11
+%F AA(RAL)
+%Z SUN/101
+
+---sep---
+
+%R 1991StarB...8R..11C
+%T The Unix Starlink software collection
+%A Clayton, Chris
+%P 11
+%L 12
+%F AA(RAL)
+%Z SUN/118
+   SSN/66
+   SGP/11
+   SSN/9
+
+---sep---
+
+%R 1991StarB...8...12C
+%T Future needs in astronomical computing
+%A Coe, Malcolm; Clayton, Chris
+%P 12
+%L 12
+%F AA(University of Southampton) AB(RAL)
+
+---sep---
+
+%R 1991StarB...8...13F
+%T Captain Starlink and the Five-Mile Telescope
+%A Foster, Julian; Clayton, Chris
+%P 13
+%L 13
+%F AA(RAL)
+
+---sep---
+
+%R 1991StarB...8...14G
+%T Even faster ASTERIX with Caplin Cybernetics
+%A Gorrod, Martin
+%P 14
+%L 15
+%F AA(University of Southampton)
+%Z 1991StarB...7....9G
+
+---sep---
+
+%R 1991StarB...8...16P
+%T Using a parallel computer to do astronomy
+%A Penny, Alan
+%P 16
+%L 19
+%F AA(RAL)
+%Z 1991StarB...7....9G
+
+---sep---
+
+%R 1991StarB...8...19M
+%T Error handling applications
+%A Meyerdierks, Horst
+%P 19
+%L 20
+%F AA(Royal Observatory, Edinburgh)
+%Z SGP/38
+   SUN/33
+   1969drea.book.....B
+
+---sep---
+
+%R 1991StarB...8...21G
+%T Modelling the broad line region of active galactic nuclei
+%A Goad, Mike; O'Brien, Paul
+%P 21
+%L 23
+%F AA(University College London)
+
+---sep---
+
+%R 1991StarB...8...24M
+%T Studies of protostars and comets in Kent
+%A Macdonald, Geoff; Green, Simon
+%P 24
+%L 25
+%F AA(University of Kent)
+
+---sep---
+
+%R 1991StarB...8...25L
+%T The enigma of 10214+4724
+%A Lawrence,Andy
+%P 25
+%L 26
+%F AA(Queen Mary and Westfield College)
+%Z 1991Natur.351..719R
+   1993MNRAS.260...28L
+
+---sep---
+
+%R 1991StarB...8...26S
+%T RV Tauri stars
+%A Shenton, Mervyn
+%P 26
+%L 26
+%F AA(University of Keele)
+
+---sep---
+
+%R 1991StarB...8...27L
+%T Numerical hydrodynamics of Nova remnants
+%A Lloyd, Huw; O'Brien, Tim; Bode, Mike
+%P 27
+%L 27
+%F AA(Lancashire Polytechnic)
+%Z 1991MNRAS.250..581F
+   1992MNRAS.255..683O
+
+---sep---
