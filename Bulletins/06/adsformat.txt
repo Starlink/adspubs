@@ -195,7 +195,7 @@
 %L 13
 %F AA(Rutherford Appleton Laboratory)
 %Z SB3/1 but front pages are not indexed
-   1980ESIB....1.....
+   1980ESIB....1....S
 
 ---sep---
 

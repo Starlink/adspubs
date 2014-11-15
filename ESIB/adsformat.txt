@@ -1,8 +1,9 @@
 -*-text-*-
 
-%R 1980ESIB....1......
+%R 1980ESIB....1.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 1
+%A Starlink Project
 %D 04/1980
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise01.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
@@ -11,9 +12,10 @@
 
 ---sep---
 
-%R 1980ESIB....2......
+%R 1980ESIB....2.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 2
+%A Starlink Project
 %D 07/1980
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise02.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
@@ -24,9 +26,10 @@
 
 ---sep---
 
-%R 1980ESIB....3......
+%R 1980ESIB....3.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 3
+%A Starlink Project
 %D 11/1980
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise03.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
@@ -36,9 +39,10 @@
 
 ---sep---
 
-%R 1981ESIB....4......
+%R 1981ESIB....4.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 4
+%A Starlink Project
 %D 06/1981
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise04.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
@@ -48,9 +52,10 @@
 
 ---sep---
 
-%R 1982ESIB....5......
+%R 1982ESIB....5.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 5
+%A Starlink Project
 %D 04/1982
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise05.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
@@ -67,15 +72,16 @@
 
 ---sep---
 
-%R 1982ESIB....6......
+%R 1982ESIB....6.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 6
+%A Starlink Project
 %D 08/1982
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise06.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments.
 %C (C) 1982: Rutherford Appleton Laboratory
-%Z 1982ESIB....5......
+%Z 1982ESIB....5.....S
    1982StaSN..17......
    1991StaUN..23.....L
    1981StaUN..11......
@@ -88,9 +94,10 @@
 
 ---sep---
 
-%R 1982ESIB....7......
+%R 1982ESIB....7.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 7
+%A Starlink Project
 %D 12/1982
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise07.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
@@ -101,16 +108,17 @@
 
 ---sep---
 
-%R 1983ESIB....8......
+%R 1983ESIB....8.....S
 %F AA(Rutherford Appleton Laboratory)
 %J Enterprise Starlink Information Bulletin Number 8
+%A Starlink Project
 %D 04/1983
 %U http://starlink.jach.hawaii.edu/starlink/Bulletins/Enterprise08.pdf
 %B A series of Bulletins intended to keep users and prospective users of 'Starlink' (and anyone else
    interested) up to date on developments.
 %C (C) 1983: Rutherford Appleton Laboratory
 %Z 1996StaUN..38.....B
-   1982ESIB....7......
+   1982ESIB....7.....S
    1996StaUN..37.....G
    1991StaUN..23.....L
    1984StaUN..19.....B
