@@ -1,0 +1,242 @@
+-*-Text-*-
+
+%R 1992StarB..10.....L
+%T Starlink Bulletin Issue no. 10
+%J Starlink Bulletin Issue no. 10, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 10/1992
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1992StarB..10....1S
+%T A new look at 30 Doradus
+%A Schild, Hans; Currie, Malcolm
+%P 1
+%L 1
+%F AA(University College London) AB(Rutherford Appleton Laboratory)
+%Z 1992A&AS...92..729S
+
+---sep---
+
+%R 1992StarB..10....2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1992StarB...9.....L
+
+---sep---
+
+%R 1992StarB..10....2C
+%T KAPPA => kappa
+%A Currie, Malcolm
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/95
+
+---sep---
+
+%R 1992StarB..10....3L
+%T Two important new documents
+%A Lawden, Mike
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+%Z SG/4
+   SUN/95
+
+---sep---
+
+%R 1992StarB..10Q...4L
+%T New products
+%A Lawden, Mike; Bly, Martin
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/120
+   SSN/13
+   SUN/143
+   SUN/146
+   SUN/149
+   SUN/148
+   SG/4
+   SUN/95
+   1992StarB..10....3L
+
+---sep---
+
+%R 1992StarB..10R...4L
+%T Ten years ago
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z 1982QJRAS..23..485D
+
+---sep---
+
+%R 1992StarB..10....5L
+%T Comings and goings
+%A Lawden, Mike
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB..10....5A
+%T ADAM comes to Silicon Graphics
+%A Allan, Peter
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB..10....6E
+%T GWM window names
+%A Eaton, Nicholas
+%P 6
+%L 6
+%F AA(University of Durham)
+%Z SUN/57
+
+---sep---
+
+%R 1992StarB..10....6A
+%T The ghost of ADAM past
+%A Allan, Peter
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB..10....7L
+%T Finding Starlink software and documents
+%A Lawden, Mike
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/16
+   SUN/86
+
+---sep---
+
+%R 1992StarB..10....7C
+%T The Unix Starlink software collection
+%A Clayton, Chris
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/118
+   1991StarB...8R..11C
+
+---sep---
+
+%R 1992StarB..10....8M
+%T Spectroscopy with SPECDRE
+%A Meyerdierks, Horst
+%P 8
+%L 9
+%F AA(Royal Observatory, Edinburgh)
+%Z SUN/140
+   1992StarB...9...11D
+   1991StarB...8...19M
+
+---sep---
+
+%R 1992StarB..10....9M
+%T Hitchhiker camera
+%A Morgan, Ian
+%P 9
+%L 11
+%F AA(Cardiff University)
+%O HH6229.1
+
+---sep---
+
+%R 1992StarB..10...12S
+%T The ROSAT data archive centre
+%A Sembay, Steve; Watson, Mike
+%P 12
+%L 13
+%F AA(Leicester University)
+%O A2412; M82; Cas A; SN1006; Hyades
+
+---sep---
+
+%R 1992StarB..10...14K
+%T Imaging faint features of galaxies
+%A Kemp, Simon; Meaburn, John
+%P 14
+%L 14
+%F AA(Queen's University Belfast) AB(University of Manchester)
+%O NGC5215
+
+---sep---
+
+%R 1992StarB..10...18F
+%T Captain Starlink in Software City
+%A Foster, Julian; Clayton, Chris
+%P 18
+%L 18
+%F AB(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB..10...19C
+%T Star formation
+%A Chapman, Simon; Turner, Jacob
+%P 19
+%L 21
+%F AA(Cardiff University)
+%Z 1992Natur.359..207C
+
+---sep---
+
+%R 1992StarB..10...22S
+%T Imaging polarimetry of the proto-planetary nebula MZ3
+%A Scarrott, Mike; Scarrott, Rob; Wolstencroft, Ray
+%P 22
+%L 24
+%O MZ3
+%F AA(Durham University) AB(Durham University) AC(Royal Observatory, Edinburgh)
+%Z 1990MNRAS.243..462S
+   1990MNRAS.245..484S
+   1989AJ.....97..462I
+   1989A&A...211..409I
+
+---sep---
+
+%R 1992StarB..10...25S
+%T Isophote twists in the nuclei of barred spiral galaxies
+%A Shaw, Martin; Combes, Francoise; Axon, David; Wright, Gillian
+%P 25
+%L 30
+%O NGC1097; NGC5728; NGC1097
+%F AA(University of Manchester) AB(Obs. de Meudon) AC(Jodrell Bank) AD(Joint Astronomy Centre)
+%Z 1988A&AS...74..513J
+   1986AJ.....92..285P
+   1982ApJ...257...75K
+   1989Natur.338...45S
+   1990ApJ...363..391P
+   1988A&A...197...75W
+   1987A&A...172...32H
+   1988ApJ...324..154S
+   1988ApJ...325..687W
+   1992AJ....103..784D
+
+---sep---
+
+%R 1992StarB..10...30L
+%T Statisticians corner
+%A Lawden, Mike
+%P 30
+%L 31
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
