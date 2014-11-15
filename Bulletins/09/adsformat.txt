@@ -1,0 +1,270 @@
+-*-Text-*-
+
+%R 1992StarB...9.....L
+%T Starlink Bulletin Issue no. 9
+%J Starlink Bulletin Issue no. 9, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 04/1992
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1992StarB...9....1L
+%T The software explosion
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB...9Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB...9R...2L
+%T Ten years ago
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB...9....3S
+%T ASTERIX at the R.A.S.
+%A Saxton, Richard; Mellor, Geoff
+%P 3
+%L 3
+%F AA(University of Leicester)
+
+---sep---
+
+%R 1992StarB...9....4L
+%T New products
+%A Lawden, Mike; Bly, Martin
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/118
+   SUN/139
+   SUN/138
+   SUN/140
+   SUN/111
+   SUN/141
+   SUN/125
+   SUN/126
+   SUN/134
+   SUN/144
+   SUN/98
+   SUN/42
+   SUN/92
+   SUN/33
+   SUN/22
+   SUN/15
+   SUN/97
+   SUN/85
+   SG/5
+   SSN/9
+   SUN/145
+   SGP/16
+   SUN/118
+
+---sep---
+
+%R 1992StarB...9....5L
+%T Comings and goings
+%A Lawden, Mike
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z 1992StarB...9....8M
+
+---sep---
+
+%R 1992StarB...9....5P
+%T X-ray SIG news
+%A Ponman, Trevor
+%P 5
+%L 5
+%F AA(University of Birmingham)
+
+---sep---
+
+%R 1992StarB...9....6C
+%T Porting my first ADAM program
+%A Clayton, Chris
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/16
+   1991StarB...8Q..11C
+
+---sep---
+
+%R 1992StarB...9....6A
+%T ADAM comes to Unix
+%A Allan, Peter
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/144
+   SUN/118
+   SGP/16
+
+---sep---
+
+%R 1992StarB...9....7A
+%T Why have my .EXE files grown so large?
+%A Allan, Peter
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB...9....7L
+%T Wading into the MUD
+%A Lawden, Mike
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1992StarB...9....8M
+%T Transputer Initiative Loan Report
+%A Mills, Dave
+%P 8
+%L 9
+%F AA(University College London)
+
+---sep---
+
+%R 1992StarB...9...10F
+%T The demise of Captain Starlink?
+%A Foster, Julian; Clayton, Chris
+%P 10
+%L 10
+%F AB(RAL)
+
+---sep---
+
+%R 1992StarB...9...11D
+%T What is CCDPACK?
+%A Draper, Peter
+%P 11
+%L 12
+%F AA(University of Durham)
+%Z SUN/139
+
+---sep---
+
+%R 1992StarB...9...12S
+%T Seeing Red in DIPSO...
+%A Scott, Andrew
+%P 12
+%L 13
+%F AA(Keele University)
+%Z 1989ApJ...345..245C
+
+---sep---
+
+%R 1992StarB...9...14L
+%T ADAM Summary
+%A Lawden, Mike; Allan, Peter; Warren-Smith, Rodney
+%P 14
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+%Z SG/6
+   SG4/
+   SUN/144
+   SUN/101
+   SUN/40
+   SUN/143
+   SG/5
+   SUN/115
+   APN/1
+   SUN/104
+   SUN/33
+   APN/6
+   SUN/15
+   SUN/39
+   SUN/85
+   SUN/48
+   SUN/124
+   SUN/88
+   SUN/121
+   SUN/31
+   SUN/67
+   SUN/90
+   SUN/61
+   SUN/11
+   SUN/83
+   SUN/57
+   SUN/130
+   SUN/92
+   SUN/65
+   SUN/7
+   SUN/111
+   SUN/110
+   SUN/105
+   SSN/2
+   SUN/77
+   SUN/134
+   SGP/5
+   SSN/4
+   SGP/4
+   SGP/38
+   SGP/16
+   SSN/8
+   SSN/64
+   SSN/66
+
+---sep---
+
+%R 1992StarB...9...16T
+%T ULYSSES work at Birmingham
+%A Tappin, James
+%P 16
+%L 20
+%F AA(University of Birmingham)
+
+---sep---
+
+%R 1992StarB...9...20K
+%T Imaging stellar surfaces
+%A Kluckers, Vince
+%P 20
+%L 22
+%F AA(Cardiff University)
+
+---sep---
+
+%R 1992StarB...9...22J
+%T IRAS Maps of Galactic far-IR emission
+%A Jones, Mark; Rowan-Robinson, Michael
+%P 22
+%L 26
+%F AA(QMW) AB(QMW)
+%Z 1988ApJ...330..964B
+   1986ApJ...302..432L
+   1984ApJ...278L..19L
+   1990MNRAS.246..273R
+   1991MNRAS.249..729R
+
+---sep---
+
+%R 1992StarB...9...26L
+%T Statistician's Corner
+%A Lawden, Mike
+%P 26
+%L 27
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
