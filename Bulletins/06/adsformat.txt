@@ -18,6 +18,19 @@
 %L 2
 %F AA(Rutherford Appleton Laboratory)
 %Z 1990StarB...6....4M
+   1988StarB...1.....M
+   1988StarB...2.....M
+   1989StarB...3.....M
+   1989StarB...4.....M
+   1990StarB...5.....M
+   1990StarB...5G...2A
+   1990StarB...5G...2S
+   1990StarB...5G...4W
+   1990StarB...5G...5D
+   1990StarB...5G...6B
+   1990StarB...5G...7F
+   1990StarB...5G...8P
+   1990StarB...5G..10W
 
 ---sep---
 
@@ -194,8 +207,8 @@
 %P 13
 %L 13
 %F AA(Rutherford Appleton Laboratory)
-%Z SB3/1 but front pages are not indexed
-   1980ESIB....1....S
+%Z 1989StarB...3....1M
+   1980ESIB....1.....S
 
 ---sep---
 
@@ -230,7 +243,7 @@
 ---sep---
 
 %R 1990StarB...6...16E
-%T IMage analysis on Starlink
+%T Image analysis on Starlink
 %A Eaton, Nick; Maddox, Steve
 %P 16
 %L 17

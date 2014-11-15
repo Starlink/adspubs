@@ -99,6 +99,13 @@
 %F AA(RAL
 %Z SUN/101
    SGP/4
+   1988StarB...1.....M
+   1988StarB...2.....M
+   1989StarB...3.....M
+   1989StarB...4.....M
+   1990StarB...5.....M
+   1990StarB...6.....M
+   1991StarB...7.....L
 
 ---sep---
 
@@ -250,6 +257,7 @@
 %P 24
 %L 25
 %F AA(University of Kent)
+%Z 1991StarB...7R...2L
 
 ---sep---
 
