@@ -1,0 +1,193 @@
+-*-Text-*-
+
+%R 1993StarB..12.....L
+%T Starlink Bulletin Issue no. 12
+%J Starlink Bulletin Issue no. 12, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 11/1993
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1993StarB..12....1L
+%T Starlink's Expanding Universe
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+%Z 1993StarB..12....7L
+
+---sep---
+
+%R 1993StarB..12Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12R...2L
+%T Unix life-lines
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/145
+   SUN/170
+   SUN/168
+   SUN/169
+   SSN/66
+   SUN/144
+   1990uvu..book.....B
+
+---sep---
+
+%R 1993StarB..12....3W
+%T CCDPACK -- Automatic mosaicing
+%A Warren-Smith, Rodney
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12....4L
+%T New products
+%A Lawden,Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/173
+   SUN/167
+   SUN/7
+   SUN/168
+   SUN/117
+   SUN/77
+   SUN/169
+   SUN/164
+   SUN/166
+   SUG
+   SUN/20
+   SUN/77
+   SUN/82
+   SUN/128
+   SUN/145
+   SUN/170
+
+---sep---
+
+%R 1993StarB..12....5F
+%T Captain Starlink and Muon in Astroeconomics
+%A Foster, Julian; Clayton, Chris
+%P 5
+%L 5
+%F AB(RAL)
+
+---sep---
+
+%R 1993StarB..12Q...6A
+%T ADAM workshop
+%A Allan, Peter
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12R...6A
+%T Windows/NT
+%A Allan, Peter
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12....6L
+%T Ten years ago
+%A Lawden, Mike
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+%Z 1983ESIB....8.....S
+
+---sep---
+
+%R 1993StarB..12....7L
+%T New Starlink sites
+%A Lawden, Mike
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12....7T
+%T Xadam -- A graphical user interface for ADAM
+%A Terrett, Dave
+%P 7
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12...10M
+%T Unix Figaro? -- Portable Figaro!
+%A Meyerdierks, Horst
+%P 10
+%L 11
+%F AA(University of Edinburgh)
+%Z SUN/86
+   Shortridge,_K.,_1993,_AAO_Newsletter_No.65
+
+---sep---
+
+%R 1993StarB..12...11L
+%T Comings and goings
+%A Lawden, Mike
+%P 11
+%L 11
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12...12D
+%T On-line bibliographic databases
+%A Davenhall, Clive
+%P 12
+%L 14
+%F AA(University of Leicester)
+%Z SUN/162
+   SUN/174
+   1993Msngr..72...45M
+
+---sep---
+
+%R 1993StarB..12...14C
+%T End of an era
+%A Clayton, Chris; Sherman, John
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..12...14F
+%T Starlink logo quest
+%A Fish, Adrian
+%P 14
+%L 14
+%F AA(University College London)
+
+---sep---
+
+%R 1993StarB..12...14L
+%T Statistician's corner
+%A Lawden, Mike
+%P 14
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
