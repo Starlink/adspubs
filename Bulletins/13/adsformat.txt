@@ -1,0 +1,213 @@
+-*-Text-*-
+
+%R 1994StarB..13.....L
+%T Starlink Bulletin Issue no. 13
+%J Starlink Bulletin Issue no. 13, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 05/1994
+%C Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1994StarB..13....1L
+%T Astronomer Royal assaults Professor
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+%Z 1994StarB..13....3B
+
+---sep---
+
+%R 1994StarB..13Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1993StarB..12Q...2L
+   1994StarB..13...23L
+   1994StarB..13....7P
+   1994StarB..13...10N
+
+---sep---
+
+%R 1994StarB..13R...2L
+%T The NAO report
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1993StarB..11Q...2L
+
+---sep---
+
+%R 1994StarB..13....3B
+%T Glasgow's new link to the Stars
+%A Brown, John
+%P 3
+%L 3
+%F AA(Glasgow University)
+
+---sep---
+
+%R 1994StarB..13....4L
+%T New products
+%A Lawden, Mike
+%P 4
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/181
+   SUN/178
+   SUN/172
+   SUN/175
+   SUN/145
+   SUN/174
+   1993StarB..12....7T
+
+---sep---
+
+%R 1994StarB..13....6L
+%T Comings and goings
+%A Lawden, Mike
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..13....7P
+%T More in Sorrow than in Anger: A Requiem for a Dying Operating System or The Conqueror Has No Clothes
+%A Padman, Rachael
+%P 7
+%L 9
+%F AA(Mullard Radio Astronomy Observatory)
+%Z SGP/7
+   SUN/145
+
+---sep---
+
+%R 1994StarB..13...10N
+%T The changing faces of a Starlink node (Jodrell Bank) or Yes, the move to Unix is possible!
+%A Nicholson, Richard
+%P 10
+%L 11
+%F AA(Jodrell Bank)
+
+---sep---
+
+%R 1994StarB..13...11L
+%T Starlink roams the net
+%A Lawden, Mike
+%P 11
+%L 12
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/182
+   SUN/162
+   1994wius.book.....K
+   SUN/175
+
+---sep---
+
+%R 1994StarB..13...12C
+%T From INTERIM to ADAM
+%A Clayton, Chris
+%P 12
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/101
+   SG/4
+   SUN/33
+
+---sep---
+
+%R 1994StarB..13...13L
+%T Twenty six years ago
+%A Lawden, Mike
+%P 13
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..13...14P
+%T Starlink in Washington, DC
+%A Penny, Alan
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..13...14L
+%T Competition corner
+%A Lawden, Mike
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+%Z 1993StarB..12...14F
+
+---sep---
+
+%R 1994StarB..13...15F
+%T Captain Starlink and Muon the cat in Allocation Round
+%A Foster, Julian; Clayton, Chris
+%P 15
+%L 15
+%F AB(RAL)
+
+---sep---
+
+%R 1994StarB..13Q..16P
+%T RGASP keeps going
+%A Privett, Grant
+%P 16
+%L 16
+%F AA(Cardiff University)
+%Z SUN/52
+
+---sep---
+
+%R 1994StarB..13R..16P
+%T ESP -- Galaxy photometry
+%A Privett, Grant
+%P 16
+%L 17
+%O IC3374C
+%F AA(Cardiff University)
+%Z 1994StarB..13Q..16P
+   SUN/180
+
+---sep---
+
+%R 1994StarB..13...18S
+%T Nuclear bars of triaxial bulges in barred galaxies?
+%A Shaw, Martin; Axon, Dave; Combes, F.; Probst, F; Gatley, I.
+%P 18
+%L 22
+%O NGC4321; NGC4754
+%F AA(Sheffield University) AB(STScI) AC(Obs. de Meudon) AD(KPNO) AE(KPNO)
+%Z 1982ApJ...257...75K
+   1992StarB..10...25S
+
+---sep---
+
+%R 1994StarB..13...23L
+%T Gems from the Questionnaire
+%A Lawden, Mike
+%P 23
+%L 23
+%F AA(Rutherford Appleton Laboratory)
+%Z 1994StarB..13...23L
+
+---sep---
+
+%R 1994StarB..13...23L
+%T Starlink Questionnaire, 1993-94
+%A Lawden, Mike
+%P 23
+%L 27
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
