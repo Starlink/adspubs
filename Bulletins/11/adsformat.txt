@@ -1,0 +1,194 @@
+-*-Text-*-
+
+%R 1993StarB..11.....L
+%T Starlink Bulletin Issue no. 11
+%J Starlink Bulletin Issue no. 11, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 04/1993
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1993StarB..11....1L
+%T Gordon Bromage
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11R...2L
+%T Ten years ago
+%A Lawden, Mike
+%P 2
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+%Z 1983ESIB....8.....S
+
+---sep---
+
+%R 1993StarB..11....4L
+%T Comings and goings
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11....4P
+%T How the WORM turns (Optical Discs in a Nutshell)
+%A Page, Clive
+%P 4
+%L 5
+%F AA(University of Leicester)
+%Z SUN/69
+   Allen,_Dennis,_1993,_Byte_Magazine,_vol_18,_#2,_p12
+
+---sep---
+
+%R 1993StarB..11....5T
+%T Meeting the 64-bit challenge
+%A Terrett, Dave
+%P 5
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11....6A
+%T Real astronomers don't use ADAM
+%A Allan, Peter
+%P 6
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11....7M
+%T ICL -- the ADAM command language
+%A McIlwrath, Brian
+%P 7
+%L 7
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11....8S
+%T ROSAT data archive centre news
+%A Sembay, Steve
+%P 8
+%L 9
+%F AA(University of Leicester)
+%Z SUN/127
+   1992StarB..10...12S
+
+---sep---
+
+%R 1993StarB..11....9D
+%T Astronomical catalogues, databases and archives
+%A Davenhall, Clive
+%P 9
+%L 10
+%F AA(University of Leicester)
+%Z SUN/162
+   SUN/106
+   SUN/70
+   SUN/120
+   SUN/97
+   SUN/132
+   SUN/69
+   SUN/20
+   SUN/58
+   SUN/127
+   SUN/162
+
+---sep---
+
+%R 1993StarB..11...11L
+%T New products
+%A Lawden, Mike
+%P 11
+%L 11
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/27
+   SUN/150
+   SUN/132
+   SUN/153
+   SUN/154
+   SUN/155
+   SUN/137
+   SUN/164
+   SUN/159
+   SSN/45
+   SSN/15
+   SGP/12
+
+---sep---
+
+%R 1993StarB..11...12L
+%T The Starlink Family
+%A Lawden, Mike
+%P 12
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11...14C
+%T The end of SunOS?
+%A Clayton, Chris; Allan, Peter
+%P 14
+%L 14
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1993StarB..11...15F
+%T Captain Starlink and Muon in Look to the Future
+%A Foster, Julian; Clayton, Chris
+%P 15
+%L 15
+%F AB(RAL)
+
+---sep---
+
+%R 1993StarB..11...16S
+%T Photometry of "box/peanut" galactic bulges
+%A Shaw, Martin
+%P 16
+%L 19
+%O NGC4469
+%F AA(Sheffield University)
+
+---sep---
+
+%R 1993StarB..11...19T
+%T Infrared and optical studies of the host galaxies of AGN
+%A Taylor, Geoff; Dunlop, James
+%P 19
+%L 22
+%O 0257+024; 2355-082
+%F AA(University of Central Lancashire) AB(Liverpool John Moores University)
+%Z 1993MNRAS.264..455D
+
+---sep---
+
+%R 1993StarB..11...22L
+%T Statistician's corner
+%A Lawden, Mike
+%P 22
+%L 23
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
