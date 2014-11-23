@@ -185,6 +185,64 @@
 2003StaUN...1.....R SUN/93
 2003StaUN...1.....R SUN/95
 2003StaUN...1.....R SUN/98
+2003StaUN...1.....R SUN/35
+2003StaUN...1.....R SUN/94
+2003StaUN...1.....R SUN/74
+2003StaUN...1.....R SUN/4
+2003StaUN...1.....R SUN/19
+2003StaUN...1.....R SUN/27 [NDPROGS cited in SUN/1.11]
+2003StaUN...1.....R SUN/16
+2003StaUN...1.....R SUN/41
+2003StaUN...1.....R SUN/70
+2003StaUN...1.....R SUN/106
+2003StaUN...1.....R SUN/120
+2003StaUN...1.....R SUN/110
+2003StaUN...1.....R SUN/52
+2003StaUN...1.....R SUN/46
+2003StaUN...1.....R SUN/76
+2003StaUN...1.....R SUN/54
+2003StaUN...1.....R SUN/26
+2003StaUN...1.....R SUN/97
+2003StaUN...1.....R SUN/14
+2003StaUN...1.....R SUN/60
+2003StaUN...1.....R SUN/80
+2003StaUN...1.....R SUN/81
+2003StaUN...1.....R SUN/82
+2003StaUN...1.....R SUN/91
+2003StaUN...1.....R SUN/23
+2003StaUN...1.....R SUN/24
+2003StaUN...1.....R SG/1
+2003StaUN...1.....R SUN/58
+2003StaUN...1.....R SUN/20
+2003StaUN...1.....R SUN/96
+2003StaUN...1.....R SUN/43
+2003StaUN...1.....R SUN/62
+2003StaUN...1.....R SUN/3
+2003StaUN...1.....R SUN/100
+2003StaUN...1.....R SUN/89
+2003StaUN...1.....R SUN/6
+2003StaUN...1.....R 1981StaUN...2.....L
+2003StaUN...1.....R SUN/71
+2003StaUN...1.....R SUN/128
+2003StaUN...1.....R SUN/72
+2003StaUN...1.....R SUN/68
+2003StaUN...1.....R SUN/25
+2003StaUN...1.....R SUN/47
+2003StaUN...1.....R SUN/69
+2003StaUN...1.....R SUN/36
+2003StaUN...1.....R SUN/49
+2003StaUN...1.....R SUN/63
+2003StaUN...1.....R SUN/99
+2003StaUN...1.....R SUN/73
+2003StaUN...1.....R SUN/105
+2003StaUN...1.....R SUN/75
+2003StaUN...1.....R SUN/8
+2003StaUN...1.....R SUN/118 [MEMSYS cited in SUN/1.11]
+2003StaUN...1.....R SUN/119
+2003StaUN...1.....R SUN/21
+2003StaUN...1.....R SGP/5
+2003StaUN...1.....R SUN/10
+2003StaUN...1.....R SSN/12
 2012StaUN...2.....B SUN/33
 2012StaUN...2.....B SSN/20
 2012StaUN...2.....B SUN/150
@@ -197,6 +255,8 @@
 1989StaUN...4.....P SGP/16
 1989StaUN...4.....P 1979ipia.coll..445W
 1989StaUN...4.....P 1981StaUN..15.....P
+1989StaUN...4.....P SUN/65akaSGSRefManual
+1989StaUN...4.....P SUN/53ASPIC
 2003StaUN...5.....W SUN/67
 2003StaUN...5.....W 2002A&A...395.1061G
 2003StaUN...5.....W 2002A&A...395.1077C
@@ -218,6 +278,10 @@
 1997StaUN...9.....M 1994ldps.book.....L
 1997StaUN...9.....M 1984texb.book.....K
 1997StaUN...9.....M 1988StaUN..77.....L
+1997StaUN...9.....M SUN/12
+1997StaUN...9.....M SUN/176
+1997StaUN...9.....M SUN/34 TeX DVI file translators [SUN/9.4 1993]
+1997StaUN...9.....M SUN/22 Hindlegs -- Lineprinter output from TeX [SUN/9.4 1993]
 1986StaUN..10.....G SUN/83
 2012StaUN..11.....W SGP/38
 2012StaUN..11.....W SUN/33
@@ -267,7 +331,7 @@
 1991StaUN..23.....L SUN/24
 1991StaUN..23.....L SUN/74
 1991StaUN..23.....L SG/1
-1991StaUN..23.....L SUN/53
+1991StaUN..23.....L SUN/53ASPIC [cited in SUN/23]
 1991StaUN..23.....L SUN/94
 1991StaUN..23.....L 1981StaUN..15.....P
 1988StaUN..24.....L SUN/23
@@ -1941,7 +2005,7 @@
 1994StarG...6.....W SUN/143
 1994StarG...6.....W SUN/15
 1994StarG...6.....W SUN/150
-1994StarG...6.....W SUN/2
+1994StarG...6.....W SUN/171
 1994StarG...6.....W SUN/224
 1994StarG...6.....W SUN/31
 1994StarG...6.....W SUN/33
@@ -2138,6 +2202,10 @@
 1997StaSN..68.....C SUN/115
 1997StaSN..68.....C SSN/64
 1997StaSN..68.....C SUN/124
+1998StaSN..69.....T SUN/95
+1998StaSN..69.....T SUN/139
+1998StaSN..69.....T SUN/130
+1998StaSN..69.....T SC/5
 2001StaSN..70.....G SUN/123
 2001StaSN..70.....G SUN/124
 2001StaSN..70.....G SUN/188
