@@ -7870,7 +7870,7 @@
 
 %R 1997StaSN..23.....G
 %T Starlink Benchmarking Utility
-%A Gledhill, T. M.; Clayton, C. A.
+%A Gledhill, T. M.; Clayton, C. A.; Rankin, S.E.; Bly, M. J.
 %D 00/1997
 %J Starlink System Note 23
 %B The Starlink Benchmarking Utility provides a
@@ -8381,6 +8381,23 @@
    SUN/115
    SSN/64
    SUN/124
+
+---sep---
+
+%R 1998StaSN..69.....T
+%T CCDBIG: assessing CCDPACK resource usage for large data sets
+%A Taylor, Mark B.
+%D 00/1998
+%J Starlink System Note 69
+%B CCDBIG is a small package to investigate how CCDPACK behaves with
+   large sets of data.  A typical data reduction sequence is performed
+   for various large frame sizes, and the resource (memory and time)
+   usage is logged.  This document describes operation of the package and
+   interpretation of the results.
+%Z SUN/95
+   SUN/139
+   SUN/130
+   SC/5
 
 ---sep---
 
