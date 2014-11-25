@@ -1,0 +1,266 @@
+-*-Text-*-
+
+%R 1995StarB..16.....L
+%T Starlink Bulletin Issue no. 16
+%J Starlink Bulletin Issue no. 16, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 12/1995
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1995StarB..16....1L
+%T Duke of Kent visits Kent node
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..16....2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z 1995StarB..15....3W
+   1995StarB..16...11D
+   1995StarB..16....6D
+   1995StarB..16...20C
+   1995StarB..16....8B
+   1995StarB..16...16L
+   1995StarB..16...14B
+
+---sep---
+
+%R 1995StarB..16....2W
+%T SLALIB in IRAF
+%A Wallace, Patrick; Davis, Lindsey
+%P 2
+%L 2
+%F AA(RAL) AB(NOAO, Tucson)
+%Z SUN/67
+
+---sep---
+
+%R 1995StarB..16....2T
+%T IRAF archive mirrored by Starlink
+%A Terrett, Dave
+%P 2
+%L 2
+%F AA(RAL)
+%Z 1995StarB..16...21S
+
+---sep---
+
+%R 1995StarB..16....3T
+%T Starlink applications as IRAF packages
+%A Terrett, Dave
+%P 3
+%L 4
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..16....4C
+%T USSC release information
+%A Charles, Anne; Bly, Martin
+%P 4
+%L 4
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..16....4L
+%T New products
+%A Lawden, Mike; Blu, Martin
+%P 4
+%L 5
+%F AA(RAL)
+%Z SUN/190
+   SUN/205
+   1995StarB..16...22R
+   SUN/197
+   SUN/188
+   SUN/201
+   SUN/199
+   SSN/27
+   SUN/141
+   SUN/62
+   SUN/194
+   SUN/186
+   1995StarB..16...16L
+   1995StarB..16....6D
+   1995StarB..16...11D
+
+---sep---
+
+%R 1995StarB..16....6D
+%T A new window on CCD data reduction
+%A Draper, Peter
+%P 6
+%L 7
+%F AA(Durham University)
+%Z SUN/139
+
+---sep---
+
+%R 1995StarB..16....8B
+%T Visualisation of 3-dimensional data
+%A Berry, David; Lloyd, Huw; Higgins, Stephen; Slavin, Andrew; O'Brien, Tim
+%P 8
+%L 10
+%F AA(Manchester University) AB(Liverpool John Moores)
+%Z SUN/203
+
+---sep---
+
+%R 1995StarB..16...11D
+%T Viewing the sky with a CAT's eye
+%A Davenhall, Clive
+%P 11
+%L 13
+%F AA(Royal Observatory, Edinburgh)
+%Z SUN/162
+   SUN/190
+   SUN/181
+   SUN/137
+   SUN/120
+   1989ESOSR...7....1V
+
+---sep---
+
+%R 1995StarB..16...13L
+%T Names, acronyms, logotypes, pictograms -- A user's guide, Part 2
+%A Lawden, Mike
+%P 13
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+%Z 1995StarB..15...14L
+
+---sep---
+
+%R 1995StarB..16...14B
+%T Opening of new Starlink node at Bristol
+%A Birkinshaw, Mark; Sherman, John
+%P 14
+%L 14
+%F AA(University of Bristol) AB(RAL)
+
+---sep---
+
+%R 1995StarB..16...15B
+%T Opening of new Observatory at Preston
+%A Bromage, Gordon
+%P 15
+%L 15
+%F AA(Preston)
+
+---sep---
+
+%R 1995StarB..16...16L
+%T Starlink documentation advances
+%A Lawden, Mike; Warren-Smith, Rodney
+%P 16
+%L 18
+%F AA(RAL)
+%Z 1995StarB..15....3W
+   1995StarB..15...12C
+   1995StarB..16....6D
+   SC/1
+   SUN/86
+   SUN/188
+   SUN/199
+   SGP/42
+
+---sep---
+
+%R 1995StarB..16...18L
+%T Ten years ago
+%A Lawden, Mike
+%P 18
+%L 18
+%F AA(RAL)
+%Z SUN/84
+   SUN/98
+   SGP/31
+
+---sep---
+
+%R 1995StarB..16...19F
+%T The Origin of Captain Starlink
+%A Foster, Julian; Clayton, Chris
+%P 19
+%L 19
+%F AB(RAL)
+
+---sep---
+
+%R 1995StarB..16...20C
+%T Echelle data reduction
+%A Clayton, Martin
+%P 20
+%L 20
+%F AA(University College London)
+%Z SG/9
+   SC/3
+   SUN/152
+
+---sep---
+
+%R 1995StarB..16...21L
+%T Comings and goings
+%A Lawden, Mike
+%P 21
+%L 21
+%F AA(RAL)
+%Z 1995StarB..16...22R
+
+---sep---
+
+%R 1995StarB..16...21S
+%T US Internet connection
+%A Smith, Ian L.
+%P 21
+%L 22
+%F AA(UKERNA)
+
+---sep---
+
+%R 1995StarB..16...22R
+%T FORUM -- Starlink conferencing software
+%A Rawlinson, Dave; Sherman, John
+%P 22
+%L 23
+%F AA(RAL)
+%Z SUN/205
+
+---sep---
+
+%R 1995StarB..16...24P
+%T Instrument related software
+%A Penny, Alan
+%P 24
+%L 25
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..16...26S
+%T Captain Starlink escapes the heat
+%A Starlink, Captain
+%P 26
+%L 26
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..16...26L
+%T Statistician's corner
+%A Lawden, Mike
+%P 26
+%L 27
+%F AA(RAL)
+
+---sep---
