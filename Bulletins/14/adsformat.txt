@@ -1,0 +1,212 @@
+-*-Text-*-
+
+%R 1994StarB..14.....L
+%T Starlink Bulletin Issue no. 14
+%J Starlink Bulletin Issue no. 14, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 11/1994
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1994StarB..14....1L
+%T Patrick Moore in knife attack?
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+%Z 1994StarB..13....1L
+   1994StarB..14....3D
+
+---sep---
+
+%R 1994StarB..14Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1994StarB..14....8W
+   1994StarB..14R...2L
+   SGP/43
+   1994StarB..13....7P
+   1994StarB..14....5C
+
+---sep---
+
+%R 1994StarB..14R...2L
+%T StarWeb
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1994StarB..13...11L
+   SUN/1
+
+---sep---
+
+%R 1994StarB..14....3D
+%T Liverpool's new Starlink node
+%A Dunlop, James; O'Brien, Tim; Scott, Alan
+%P 3
+%L 3
+%F AA(Liverpool JMU)
+%Z MNRAS,_21,_112
+
+---sep---
+
+%R 1994StarB..14Q...4L
+%T New products
+%A Lawden, Mike; Bly, Martin
+%P 4
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/183
+   SUN/152
+   SUN/177
+   SUN/185
+   SUN/87
+   SUN/66
+   SUN/16
+   SUN/100
+   SUN/169
+   SGP/4
+   SGP/41
+   SGP/43
+   SG/4
+
+---sep---
+
+%R 1994StarB..14R...4L
+%T Finding e-mail addresses
+%A Lawden, Mike
+%P 4
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..14....5C
+%T The best three WWW pages?
+%A Clayton, Chris
+%P 5
+%L 5
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..14Q...6L
+%T Comings and goings
+%A Lawden, Mike
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..14....6S
+%T Complaints
+%A Sherman, John
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+%Z SUG
+   1994StarB..13R...2L
+
+---sep---
+
+%R 1994StarB..14R...6L
+%T Ten years ago
+%A Lawden, Mike
+%P 6
+%L 6
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..14....7F
+%T Captain Starlink & Muon the cat in The Great CACVAD Workstation Robbery
+%A Foster, Julian; Clayton, Chris
+%P 7
+%L 7
+%F AB(RAL)
+
+---sep---
+
+%R 1994StarB..14....8W
+%T Software Strategy Groups
+%A Warren-Smith, Rodney; Lawden, Mike
+%P 8
+%L 8
+%F AA(Rutherford Appleton Laboratory)
+%Z 1994StarB..13...23L
+
+---sep---
+
+%R 1994StarB..14....9C
+%T Starlink and Linux
+%A Clayton, Chris
+%P 9
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1994StarB..14....9W
+%T SLALIB explained
+%A Wallace, Patrick
+%P 9
+%L 9
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/67
+
+---sep---
+
+%R 1994StarB..14...10K
+%T New HST image of the Abell 2218 cluster of galaxies
+%A Kneib, Jean-Paul; Ellis, Richard
+%P 10
+%L 11
+%F AA(University of Cambridge)
+
+---sep---
+
+%R 1994StarB..14...11L
+%T Password security
+%A Lewis, Geraint
+%P 11
+%L 12
+%F AA(University of Cambridge)
+
+---sep---
+
+%R 1994StarB..14...12W
+%T Local management of Starlink sites
+%A Wallace,Patrick
+%P 12
+%L 12
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/41
+
+---sep---
+
+%R 1994StarB..14...13L
+%T Competition corner
+%A Lawden, Mike
+%P 13
+%L 13
+%F AA(Rutherford Appleton Laboratory)
+%Z 1994StarB..13...14L
+   1994,_DEC_User,_August
+   Computer_Weekly,_1994,_October,_6th
+
+---sep---
+
+%R 1994StarB..14...14L
+%T Statistician's corner
+%A Lawden, Mike
+%P 14
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
