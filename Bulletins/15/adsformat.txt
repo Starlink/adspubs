@@ -1,0 +1,172 @@
+-*-Text-*-
+
+%R 1995StarB..15.....L
+%T Starlink Bulletin Issue no. 15
+%J Starlink Bulletin Issue no. 15, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 05/1995
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1995StarB..15....1L
+%T Captain Starlink greets the world
+%A Lawden,Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1995StarB..15....2L
+%T Editorial
+%A Lawden,Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/1
+   1994StarB..14.....L
+   1995StarB..15...16D
+   1995StarB..15...12S
+   1995StarB..15....3W
+   1995StarB..15...14L
+
+---sep---
+
+%R 1995StarB..15....2C
+%T Power at your fingertips
+%A Clayton, Chris
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1995StarB..15....3W
+%T The future of Starlink software
+%A Warren-Smith, Rodney
+%P 3
+%L 5
+%F AA(RAL)
+%Z SGP/43
+   1994StarB..14....8W
+   SGP/42
+
+---sep---
+
+%R 1995StarB..15....5L
+%T New products
+%A Lawden, Mike; Bly,Martin
+%P 5
+%L 7
+%F AA(RAL)
+%Z SUN/180
+   SUN/189
+   SUN/187
+   SSN/21
+   SUN/120
+   SUN/27
+   SUN/132
+   SUN/19
+   SUN/146
+   SUN/137
+   SUN/17
+   1995StarB..15...12C
+   SUN/144
+   SUN/1
+   SUN/58
+
+---sep---
+
+%R 1995StarB..15Q...8L
+%T Comings and goings
+%A Lawden, Mike
+%P 8
+%L 8
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..15....8T
+%T Sheffield's new Starlink node
+%A Thorpe, Phil
+%P 8
+%L 8
+%F AA(University of Sheffield)
+%Z 1994StarB..14....1L
+
+---sep---
+
+%R 1995StarB..15R...8L
+%T Ten years ago
+%A Lawden, Mike
+%P 8
+%L 8
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..15....9F
+%T Captain Starlink & Muon the Cat in Visitation
+%A Foster, Julian; Clayton, Chris
+%P 9
+%L 9
+%F AB(RAL)
+
+---sep---
+
+%R 1995StarB..15...10L
+%T The Starlink Family - November 1994
+%A Lawden, Mike
+%P 10
+%L 11
+%F AA(RAL)
+%Z 1993StarB..11...12L
+
+---sep---
+
+%R 1995StarB..15...12S
+%T Completion of the move to Unix
+%A Sherman, John; Clayton, Chris
+%P 12
+%L 12
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..15...12C
+%T TeX and LaTeX on Starlink
+%A Charles, Anne
+%P 12
+%L 13
+%F AA(RAL)
+%Z 1994ldps.book.....L
+
+---sep---
+
+%R 1995StarB..15...14L
+%T Names, acronyms, logotypes, pictograms -- A user's guide
+%A Lawden, Mike
+%P 14
+%L 15
+%F AA(RAL)
+
+---sep---
+
+%R 1995StarB..15...16D
+%T Book review -- The UNIX-HATERS Handbook
+%A Daly, Phil
+%P 16
+%L 16
+%F AA(Joint Astronomy Centre, Hawaii)
+
+---sep---
+
+%R 1995StarB..15...16L
+%T Statistician's corner
+%A Lawden, Mike
+%P 16
+%L 19
+%F AA(RAL)
+
+---sep---
