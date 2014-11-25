@@ -27,7 +27,7 @@
 %L 2
 %F AA(Rutherford Appleton Laboratory)
 %Z 1993StarB..12Q...2L
-   1994StarB..13...23L
+   1994StarB..13R..23L
    1994StarB..13....7P
    1994StarB..13...10N
 
@@ -193,17 +193,17 @@
 
 ---sep---
 
-%R 1994StarB..13...23L
+%R 1994StarB..13Q..23L
 %T Gems from the Questionnaire
 %A Lawden, Mike
 %P 23
 %L 23
 %F AA(Rutherford Appleton Laboratory)
-%Z 1994StarB..13...23L
+%Z 1994StarB..13R..23L
 
 ---sep---
 
-%R 1994StarB..13...23L
+%R 1994StarB..13R..23L
 %T Starlink Questionnaire, 1993-94
 %A Lawden, Mike
 %P 23

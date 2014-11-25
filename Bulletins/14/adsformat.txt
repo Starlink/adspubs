@@ -139,7 +139,7 @@
 %P 8
 %L 8
 %F AA(Rutherford Appleton Laboratory)
-%Z 1994StarB..13...23L
+%Z 1994StarB..13R..23L
 
 ---sep---
 
