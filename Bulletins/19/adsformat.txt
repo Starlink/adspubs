@@ -1,0 +1,319 @@
+-*-Text-*-
+
+%R 1997StarB..19.....L
+%T Starlink Bulletin Issue no. 19
+%J Starlink Bulletin Issue no. 19, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 09/1997
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1997StarB..19....1L
+%T The Starlink Panel
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1997StarB..19....2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+%Z 1997StarB..19...20B
+   1997StarB..19....4C
+   1997StarB..19...11D
+   1997StarB..19...23C
+   1997StarB..19...16C
+   1997StarB..19...18C
+   1997StarB..19....2M
+   1997StarB..19....3C
+   1997StarB..19...29C
+
+---sep---
+
+%R 1997StarB..19....2M
+%T Base set software
+%A McIlwrath, Brian
+%P 2
+%L 2
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1997StarB..19....3C
+%T Quick by name...
+%A Currie, Malcolm
+%P 3
+%L 3
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1997StarB..19....4C
+%T Figaro for IRAF
+%A Clayton, Martin; Chipperfield, Alan
+%P 4
+%L 6
+%F AA(University College London) AB(Rutherford Appleton Laboratory)
+%Z SUN/217
+   SUN/86
+
+---sep---
+
+%R 1997StarB..19....6J
+%T The Hubble Space Telescope data archive
+%A Johnson, Rachel; Tanvir, Nial
+%P 6
+%L 8
+%F AA(University of Cambridge)
+
+---sep---
+
+%R 1997StarB..19....8L
+%T New products
+%A Lawden, Mike; Bly, Martin
+%P 8
+%L 10
+%F AA(Rutherford Appleton Laboratory)
+%Z 1997StarB..19...20B
+   SUN/212
+   1997StarB..19...14C
+   1997StarB..19...11D
+   1997StarB..19...23C
+   1997StarB..19...18C
+   1997StarB..19....4C
+   1997StarB..19...16C
+   SUN/213
+   SUN/214
+   1997StarB..18....3D
+   1997StarB..19...22P
+   SSN/68
+   SUN/220
+   SUN/217
+   SSN/35
+   SUN/218
+   SC/10
+   SUN/216
+   SC/2
+   SG/8
+   SUN/203
+   1995StarB..16....8B
+   1997StarB..18....6P
+   SUN/86
+
+---sep---
+
+%R 1997StarB..19...11D
+%T CURSA news
+%A Davenhall, Clive
+%P 11
+%L 13
+%F AA(Royal Observatory, Edinburgh)
+%Z SUN/67
+   SUN/181
+   SUN/32
+   SUN/90
+   SC/6
+   1862bsda.book.....B
+   1861bost.book.....B
+   1859bost.book.....B
+   1991A&AS...87..159B
+   1973AJ.....78..959L
+   1983AJ.....88..439L
+   1992AJ....104..340L
+   1988A&AS...74..449R
+   1996IAUC.6420....2V
+
+---sep---
+
+%R 1997StarB..19...14C
+%T Data-format conversion
+%A Currie, Malcolm J.
+%P 14
+%L 15
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/190
+   SUN/55
+
+---sep---
+
+%R 1997StarB..19...16C
+%T NAG-free KAPPA
+%A Currie, Malcolm J.
+%P 16
+%L 16
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/95
+   SUN/16
+   SUN/214
+   SUN/219
+
+---sep---
+
+%R 1997StarB..19...18C
+%T Figaro -- errors creep in
+%A Clayton, Martin; Lockley, Jon
+%P 18
+%L 19
+%F AA(University College London) AB(University of Southampton)
+%Z 1997StarB..19....4C
+   SUN/86
+   1992drea.book.....B
+
+---sep---
+
+%R 1997StarB..19...19L
+%T Starlink cookbooks
+%A Lawden, Mike
+%P 19
+%L 19
+%F AA(Rutherford Appleton Laboratory)
+%Z SC/2
+   SC/4
+   SC/5
+   SC/6
+   SC/7
+   SC/9
+   1997StarB..19...24H
+   SUN/12
+   SC/1
+   SC/3
+
+---sep---
+
+%R 1997StarB..19...20L
+%T Ten years ago
+%A Lawden, Mike
+%P 20
+%L 20
+%F AA(Rutherford Appleton Laboratory)
+%Z SGP/38
+   SUN/95
+
+---sep---
+
+%R 1997StarB..19...20B
+%T New software distribution plan
+%A Bly, Martin
+%P 20
+%L 20
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1997StarB..19...21F
+%T Captain Starlink & Muon in Site Manager's Meeting
+%A Foster, Julian; Clayton, Chris
+%P 21
+%L 21
+%F AB(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1997StarB..19...22P
+%T GAIA -- A user's view
+%A Proctor, Rob
+%P 22
+%L 22
+%F AA(Preston)
+
+---sep---
+
+%R 1997StarB..19...23C
+%T Spectroscopy news
+%A Clayton, Martin
+%P 23
+%L 23
+%F AA(University College London)
+%Z SC/7
+   1997StarB..19...19L
+   SG/9
+
+---sep---
+
+%R 1997StarB..19...24H
+%T C-shell cookbook
+%A Howarth, Ian
+%P 24
+%L 25
+%F AA(University College London)
+%Z SC/4
+
+---sep---
+
+%R 1997StarB..19Q..26C
+%T TeX and LaTeX on Starlink
+%A Charles, Anne
+%P 26
+%L 26
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/9
+   SC/9
+   1994ldps.book.....L
+
+---sep---
+
+%R 1997StarB..19R..26C
+%T Including Postscript files in LaTeX documents
+%A Charles, Anne
+%P 26
+%L 28
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/9
+   SUN/85
+   SUN/15
+   1994ldps.book.....L
+
+---sep---
+
+%R 1997StarB..19...29C
+%T Power at your fingertips
+%A Clayton, Chris
+%P 29
+%L 29
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1997StarB..19...29L
+%T Enhancements to Starlink's web pages
+%A Lawden, Mike
+%P 29
+%L 29
+%F AA(Rutherford Appleton Laboratory)
+%Z 1997StarB..19....3C
+
+---sep---
+
+%R 1997StarB..19...29C
+%T Starlink's support for amateur astronomy
+%A Clayton, Chris
+%P 29
+%L 30
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/109
+
+---sep---
+
+%R 1997StarB..19Q..30L
+%T Comings and goings
+%A Lawden, Mike
+%P 30
+%L 30
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1997StarB..19R..30L
+%T Statistician's corner
+%A Lawden, Mike
+%P 30
+%L 31
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---

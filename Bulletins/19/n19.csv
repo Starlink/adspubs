@@ -1,26 +1,26 @@
 title|authors|startpage|endpage|affiliation|references
-The Starlink Panel|Lawden, Mike|1|1|AA(RAL)|
-Editorial|Lawden, Mike|2|2|AA(RAL)|SB19/20 SB19/4 SB19/11 SB19/23 SB19/16 SB19/18 SB19/2b SB19/3 SB19/29
-Base set software|McIlwrath, Brian|2|2|AA(RAL)|
-Quick by name...|Currie, Malcolm|3|3|AA(RAL)|
-Figaro for IRAF|Clayton, Martin; Chipperfield, Alan|4|6|AA(University College London) AB(RAL)|SUN/217 SUN/86
+The Starlink Panel|Lawden, Mike|1|1|AA(Rutherford Appleton Laboratory)|
+Editorial|Lawden, Mike|2|2|AA(Rutherford Appleton Laboratory)|SB19/20 SB19/4 SB19/11 SB19/23 SB19/16 SB19/18 SB19/2b SB19/3 SB19/29
+Base set software|McIlwrath, Brian|2|2|AA(Rutherford Appleton Laboratory)|
+Quick by name...|Currie, Malcolm|3|3|AA(Rutherford Appleton Laboratory)|
+Figaro for IRAF|Clayton, Martin; Chipperfield, Alan|4|6|AA(University College London) AB(Rutherford Appleton Laboratory)|SUN/217 SUN/86
 The Hubble Space Telescope data archive|Johnson, Rachel; Tanvir, Nial|6|8|AA(University of Cambridge)|
-New products|Lawden, Mike; Bly, Martin|8|10|AA(RAL)|SB19/20 SUN/212 SB19/14 SB19/11 SB19/23 SB19/18 SB19/4 SB19/16 SUN/213 SUN/214 SB18/3c SB19/22 SSN/68 SUN/220 SUN/217 SSN/35 SUN/218 SC/10 SUN/216 SC/2 SG/8 SUN/203 SB16/8 SB17/6 SB19/11 SUN/86
+New products|Lawden, Mike; Bly, Martin|8|10|AA(Rutherford Appleton Laboratory)|SB19/20 SUN/212 SB19/14 SB19/11 SB19/23 SB19/18 SB19/4 SB19/16 SUN/213 SUN/214 SB18/3c SB19/22 SSN/68 SUN/220 SUN/217 SSN/35 SUN/218 SC/10 SUN/216 SC/2 SG/8 SUN/203 SB16/8 SB17/6 SB19/11 SUN/86
 CURSA news|Davenhall, Clive|11|13|AA(Royal Observatory, Edinburgh)|SUN/67 SUN/181 SUN/32 SUN/90 SC/6 1862bsda.book.....B 1861bost.book.....B 1859bost.book.....B 1991A&AS...87..159B 1973AJ.....78..959L 1983AJ.....88..439L 1992AJ....104..340L 1988A&AS...74..449R 1996IAUC.6420....2V
-Data-format conversion|Currie, Malcolm J.|14|15|AA(RAL)|SUN/190 SUN/55
-NAG-free KAPPA|Currie, Malcolm J.|16|16|AA(RAL)|SUN/95 SUN/16 SUN/214 SUN/219
+Data-format conversion|Currie, Malcolm J.|14|15|AA(Rutherford Appleton Laboratory)|SUN/190 SUN/55
+NAG-free KAPPA|Currie, Malcolm J.|16|16|AA(Rutherford Appleton Laboratory)|SUN/95 SUN/16 SUN/214 SUN/219
 Figaro -- errors creep in|Clayton, Martin; Lockley, Jon|18|19|AA(University College London) AB(University of Southampton)|SB19/4 SUN/86 1992drea.book.....B
-Starlink cookbooks|Lawden, Mike|19|19|AA(RAL)|SC/2 SC/4 SC/5 SC/6 SC/7 SC/9 SB19/24 SUN/12 SC/1 SC/3
-Ten years ago|Lawden, Mike|20|20|AA(RAL)|SGP/38 SUN/95
-New software distribution plan|Bly, Martin|20|20|AA(RAL)|
-Captain Starlink & Muon in Site Manager's Meeting|Foster, Julian; Clayton, Chris|21|21|AB(RAL)|
+Starlink cookbooks|Lawden, Mike|19|19|AA(Rutherford Appleton Laboratory)|SC/2 SC/4 SC/5 SC/6 SC/7 SC/9 SB19/24 SUN/12 SC/1 SC/3
+Ten years ago|Lawden, Mike|20|20|AA(Rutherford Appleton Laboratory)|SGP/38 SUN/95
+New software distribution plan|Bly, Martin|20|20|AA(Rutherford Appleton Laboratory)|
+Captain Starlink & Muon in Site Manager's Meeting|Foster, Julian; Clayton, Chris|21|21|AB(Rutherford Appleton Laboratory)|
 GAIA -- A user's view|Proctor, Rob|22|22|AA(Preston)|
 Spectroscopy news|Clayton, Martin|23|23|AA(University College London)|SC/7 SB19/19 SG/9
 C-shell cookbook|Howarth, Ian|24|25|AA(University College London)|SC/4
-TeX and LaTeX on Starlink|Charles, Anne|26|26|AA(RAL)|SUN/9 SC/9 1994ldps.book.....L
-Including Postscript files in LaTeX documents|Charles, Anne|26|28|AA(RAL)|SUN/9 SUN/85 SUN/15 1994ldps.book.....L
-Power at your fingertips|Clayton, Chris|29|29|AA(RAL)|
-Enhancements to Starlink's web pages|Lawden, Mike|29|29|SB19/3
-Starlink's support for amateur astronomy|Clayton, Chris|29|30|AA(RAL)|SUN/109
-Comings and goings|Lawden, Mike|30|30|AA(RAL)|
-Statistician's corner|Lawden, Mike|30|31|AA(RAL)|
+TeX and LaTeX on Starlink|Charles, Anne|26|26|AA(Rutherford Appleton Laboratory)|SUN/9 SC/9 1994ldps.book.....L
+Including Postscript files in LaTeX documents|Charles, Anne|26|28|AA(Rutherford Appleton Laboratory)|SUN/9 SUN/85 SUN/15 1994ldps.book.....L
+Power at your fingertips|Clayton, Chris|29|29|AA(Rutherford Appleton Laboratory)|
+Enhancements to Starlink's web pages|Lawden, Mike|29|29|AA(Rutherford Appleton Laboratory)|SB19/3
+Starlink's support for amateur astronomy|Clayton, Chris|29|30|AA(Rutherford Appleton Laboratory)|SUN/109
+Comings and goings|Lawden, Mike|30|30|AA(Rutherford Appleton Laboratory)|
+Statistician's corner|Lawden, Mike|30|31|AA(Rutherford Appleton Laboratory)|
