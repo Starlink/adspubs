@@ -5,5 +5,5 @@
 %F AA(Rutherford Appleton Laboratory) AB(Rutherford Appleton Laboratory)
 %D 08/2003
 %C Rutherford Appleton Laboratory
-%Z SUN/212
+%Z 2003StaUN.212.....R
    2003ApJ...587L..15W
