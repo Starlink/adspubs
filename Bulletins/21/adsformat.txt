@@ -1,0 +1,217 @@
+-*-Text-*-
+
+%R 1998StarB..21.....C
+%T Starlink Bulletin Issue no. 21
+%J Starlink Bulletin Issue no. 21, Ed Anne Charles, Starlink Project
+%A Charles, Anne
+%F AA(Rutherford Appleton Laboratory)
+%D 09/1998
+%C Rutherford Appleton Laboratory
+
+---sep---
+
+%R 1998StarB..21....3B
+%T New Products
+%A Bly, Martin
+%P 3
+%L 4
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/212
+   SUN/223
+   SUN/139
+   SUN/55
+   SUN/180
+   SUN/214
+   SUN/95
+   SUN/45
+   SUN/216
+   SUN/210
+   SUN/211
+   SUN/181
+   SUN/209
+   SUN/114
+   SUN/144
+   SUN/224
+   SUN/67
+   SUN/11
+   SUN/86
+   SUN/109
+   SUN/164
+   SUN/121
+   SUN/131
+   SUN/61
+   1998StarB..21....4B
+
+---sep---
+
+%R 1998StarB..21....4B
+%T NEW! POLPACK -- for Dual-beam Imaging Polarimetry
+%A Berry, David
+%P 4
+%L 5
+%F AA(University of Manchester)
+%Z SUN/223
+   SUN/55
+   SUN/139
+   SGP/44
+   SUN/33
+
+---sep---
+
+%R 1998StarB..21....6D
+%T Starlink Packages Accessible from IRAF CL
+%A Draper, Peter W.
+%P 6
+%L 9
+%F AA(University of Durham)
+%Z SUN/217
+   1998StarB..21.....C
+   SUN/95
+   SUN/139
+   1995StarB..16....6D
+   SUN/214
+   1998StarB..20....7D
+   SUN/137
+   SUN/15
+   1995StarB..16....3T
+   SUN/33
+
+---sep---
+
+%R 1998StarB..21...10D
+%T Importing JCMT Heterodyne Data into IDL
+%A Davenhall, Clive
+%P 10
+%L 11
+%F AA(University of Edinburgh)
+%Z SUN/55
+   SC/2
+   SG/8
+   SUN/17
+   1998StarB..20...15D
+
+---sep---
+
+%R 1998StarB..21...12H
+%T Starlink Support for AIPS
+%A Holloway, Anthony
+%P 12
+%L 12
+%F AA(Manchester University)
+
+---sep---
+
+%R 1998StarB..21...12M
+%T Starlink IRAF Mirror
+%A McIlwrath, Brian
+%P 12
+%L 12
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1998StarB..21...13D
+%T How to Access Standard Data Files from Your Own Programs
+%A Davenhall, Clive
+%P 13
+%L 17
+%F AA(University of Edinburgh)
+%Z SUN/136
+   SUN/115
+   SUN/95
+   SUN/102
+   SUN/55
+   SUN/160
+   SC/12
+   SUN/179
+   SUN/101
+   SC/6
+   SUN/86
+   SUN/33
+   SUN/92
+   1998StarB..21...18B
+
+---sep---
+
+%R 1998StarB..21...18B
+%T Quick Service News
+%A Bly, Martin
+%P 18
+%L 18
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1998StarB..21...19M
+%T Text Editors on Starlink Systems
+%A McIlwrath, Brian
+%P 19
+%L 19
+%F AA(Rutherford Appleton Laboratory)
+%Z SUN/168
+   SUN/170
+
+---sep---
+
+%R 1998StarB..21...19C
+%T Software Survey Results
+%A Charles, Anne
+%P 19
+%L 19
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1998StarB..21...20C
+%T Web Page of Astronomical Archives
+%A Charles, Anne
+%P 20
+%L 20
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1998StarB..21...20G
+%T Proposed Theory Resources Cookbook
+%A Gray, Norman
+%P 20
+%L 20
+%F AA(University of Glasgow)
+
+---sep---
+
+%R 1998StarB..21...21N
+%T Timetable for ACP Strategy Development Process
+%A Naylor, Tim
+%P 21
+%L 21
+%F AA(Keele University)
+
+---sep---
+
+%R 1998StarB..21...21R
+%T Comings and Goings
+%A Roberts, Andrea
+%P 21
+%L 21
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1998StarB..21...22B
+%T Introducing... Martin Bly
+%A Bly, Martin
+%P 22
+%L 22
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
+
+%R 1998StarB..21...22R
+%T Introducing... Dave Rawlinson
+%A Rawlinson, Dave
+%P 22
+%L 22
+%F AA(Rutherford Appleton Laboratory)
+
+---sep---
