@@ -1,0 +1,181 @@
+-*-Text-*-
+
+%R 1997StarB..18.....L
+%T Starlink Bulletin Issue no. 18
+%J Starlink Bulletin Issue no. 18, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 03/1997
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1997StarB..18....1L
+%T 2000 Starlink Users
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(RAL)
+
+---sep---
+
+%R 1997StarB..18Q...2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z 1997StarB..18....6P
+   1997StarB..18....3D
+   1997StarB..18...12S
+   1997StarB..18...18P
+   1997StarB..18....3S
+   SGP/48
+
+---sep---
+
+%R 1997StarB..18R...2L
+%T Did you know?
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z SUN/188
+
+---sep---
+
+%R 1997StarB..18....3S
+%T Starlink software for PC/Linux
+%A Sherman, John; McIlwrath, Brian; Bly, Martin
+%P 3
+%L 3
+%F AA(RAL)
+%Z 1996StarB..17....3M
+   1996StarB..17....2C
+   1996StarB..17....4R
+
+---sep---
+
+%R 1997StarB..18....3C
+%T FIGARO for IRAF
+%A Chipperfield, Alan
+%P 3
+%L 3
+%F AA(RAL)
+%Z 1995StarB..16....3T
+
+---sep---
+
+%R 1997StarB..18....3D
+%T GAIA -- Graphical astronomy and image analysis tool
+%A Draper, Peter
+%P 3
+%L 5
+%F AA(University of Durham)
+%Z SUN/214
+
+---sep---
+
+%R 1997StarB..18....6P
+%T GAUFIT -- 2D Gaussian source profiling
+%A Privett, Grant; Ward-Thompson, Derek
+%P 6
+%L 7
+%F AA(Cardiff University) AB(Royal Observatory, Edinburgh)
+%Z SUN/180
+   1996MNRAS.281..294B
+
+---sep---
+
+%R 1997StarB..18....8L
+%T New products
+%A Lawden, Mike; Bly, Martin
+%P 8
+%L 9
+%F AA(RAL)
+%Z 1996StarB..17...16C
+   SUN/171
+   1997StarB..18....3D
+   1997StarB..18....6P
+   SGP/48
+
+---sep---
+
+%R 1997StarB..18...10F
+%T Captain Starlink -- Muon's guide to getting on in Astronomy
+%A Foster, Julian; Clayton, Chris
+%P 10
+%L 10
+%F AB(RAL)
+%Z SUN/188
+
+---sep---
+
+%R 1997StarB..18...11L
+%T The Starlink Family -- October 1996
+%A Lawden, Mike
+%P 11
+%L 11
+%F AA(RAL)
+
+---sep---
+
+%R 1997StarB..18...12D
+%T Remote access to the Digitised Sky Survey
+%A Davenhall, Clive; Page, Clive
+%P 12
+%L 12
+%F AA(Royal Observatory, Edinburgh) AA(University of Leicester)
+%Z SC/5
+   SUN/98
+
+---sep---
+
+%R 1997StarB..18...12S
+%T Difference mapping using DIFMAP and AIPS SCMAP
+%A Shone, Dave
+%P 12
+%L 15
+%F AA(Jodrell Bank)
+
+---sep---
+
+%R 1997StarB..18...16D
+%T CURSA news
+%A Davenhall, Clive
+%P 16
+%L 18
+%F AA(Royal Observatory, Edinburgh)
+%Z SUN/190
+   SUN/181
+   SUN/95
+   SUN/137
+   1991adc..rept.....G
+
+---sep---
+
+%R 1997StarB..18Q..18L
+%T Comings and goings
+%A Lawden, Mike
+%P 18
+%L 18
+%F AA(RAL)
+
+---sep---
+
+%R 1997StarB..18...18P
+%T FTOOLS Help -- it's here
+%A Privett, Grant
+%P 18
+%L 18
+%F AA(University of Cardiff)
+
+---sep---
+
+%R 1997StarB..18R..18L
+%T Statistician's corner
+%A Lawden, Mike
+%P 18
+%L 19
+%F AA(RAL)
+
+---sep---
