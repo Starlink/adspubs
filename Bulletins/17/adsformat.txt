@@ -1,0 +1,242 @@
+-*-Text-*-
+
+%R 1996StarB..17.....L
+%T Starlink Bulletin Issue no. 17
+%J Starlink Bulletin Issue no. 17, Ed Mike Lawden, Starlink Project
+%A Lawden, Mike
+%F AA(Rutherford Appleton Laboratory)
+%D 09/1996
+%C Rutherford Appleton Laboratory
+---sep---
+
+%R 1996StarB..17....1L
+%T Doug Tody visits Starlink
+%A Lawden, Mike
+%P 1
+%L 1
+%F AA(RAL)
+%Z 1995StarB..16....2W
+   1995StarB..16....2T
+   1995StarB..16....3T
+
+---sep---
+
+%R 1996StarB..17....2L
+%T Editorial
+%A Lawden, Mike
+%P 2
+%L 2
+%F AA(RAL)
+%Z 1995StarB..16.....L
+   1996StarB..17....3M
+   1996StarB..17....2C
+   1996StarB..17...25L
+   1996StarB..17....5D
+   1996StarB..17...10C
+   1996StarB..17...12P
+   1996StarB..17...16C
+   1996StarB..17...19C
+   1996StarB..17...20C
+   1996StarB..17...22H
+
+---sep---
+
+%R 1996StarB..17....2C
+%T PCs
+%A Clayton, Chris; Sherman, John
+%P 2
+%L 2
+%F AA(RAL)
+%Z SGP/49
+
+---sep---
+
+%R 1996StarB..17....3B
+%T Starlink software store
+%A Bly, Martin
+%P 3
+%L 3
+%F AA(RAL)
+
+---sep---
+
+%R 1996StarB..17....3M
+%T Starlink Linux CD-ROM
+%A McIlwrath, Brian
+%P 3
+%L 4
+%F AA(RAL)
+%Z 1996StarB..17....2C
+   1996StarB..17....3B
+
+---sep---
+
+%R 1996StarB..17....4R
+%T What is Linux?
+%A Rawlinson, Dave
+%P 4
+%L 5
+%F AA(RAL)
+%Z SGP/49
+   1996StarB..17....3M
+   1996StarB..17....3B
+
+---sep---
+
+%R 1996StarB..17....5D
+%T IMG -- Opening the door on image access
+%A Draper, Peter; Warren-Smith, Rodney
+%P 5
+%L 6
+%F AA(University of Durham) AB(RAL)
+%Z SSN/20
+   SUN/160
+   1996StarB..17...16C
+
+---sep---
+
+%R 1996StarB..17....7F
+%T Captain Starlink and Captain IRAF join forces (Muon Too!)
+%A Foster, Julian; Clayton, Chris
+%P 7
+%L 7
+%F AB(RAL)
+
+---sep---
+
+%R 1996StarB..17Q...8L
+%T Ten years ago
+%A Lawden, Mike
+%P 8
+%L 8
+%F AA(RAL)
+
+---sep---
+
+%R 1996StarB..17R...8L
+%T Comings and goings
+%A Lawden, Mike
+%P 8
+%L 8
+%F AA(RAL)
+%Z 1996StarB..17....2L
+
+---sep---
+
+%R 1996StarB..17....8L
+%T New products
+%A Lawden, Mike; Bly, Martin
+%P 8
+%L 9
+%F AA(RAL)
+
+---sep---
+
+%R 1996StarB..17...10C
+%T A face-lift for RV
+%A Clayton, Chris
+%P 10
+%L 10
+%F AA(RAL)
+
+---sep---
+
+%R 1996StarB..17...10L
+%T Site manager's golden anniversary meeting
+%A Lawden, Mike
+%P 10
+%L 11
+%F AA(RAL)
+
+---sep---
+
+%R 1996StarB..17...12P
+%T PERIOD -- The essential periodicity search software
+%A Privett, Grant
+%P 12
+%L 13
+%F AA(Cardiff University)
+%Z SUN/167
+   SSN/25
+
+---sep---
+
+%R 1996StarB..17...14L
+%T New styles for Starlink documents
+%A Lawden, Mike
+%P 14
+%L 15
+%F AA(RAL)
+%Z SUN/1
+   SUG
+   SUN/145
+   SGP/31
+   SUN/41
+   SUN/86
+   SUN/137
+   SUN/139
+
+---sep---
+
+%R 1996StarB..17...16C
+%T What HAVE they done to Figaro?
+%A Currie, Malcolm J.; Clayton, Martin
+%P 16
+%L 19
+%F AA(University College London) AB(RAL)
+%Z SSN/20
+   SUN/86
+   1996StarB..17....5D
+
+---sep---
+
+%R 1996StarB..17...19C
+%T Figaro tips
+%A Clayton, Martin; Currie, Malcolm J.
+%P 19
+%L 20
+%F AA(University College London) AB(RAL)
+%Z 1996StarB..17...16C
+
+---sep---
+
+%R 1996StarB..17...20C
+%T KAPPA update
+%A Currie, Malcolm J.
+%P 20
+%L 21
+%F AA(RAL)
+%Z SUN/95
+   1996StarB..17...16C
+
+---sep---
+
+%R 1996StarB..17...22H
+%T POLMAP -- An interactive data analysis package for linear spectropolarimetry
+%A Harries, Tim
+%P 22
+%L 23
+%F AA(University of St Andrews)
+%Z SUN/204
+
+---sep---
+
+%R 1996StarB..17...23B
+%T An impossible observation
+%A Bryce, Myfanwy; Clayton, Chris
+%P 23
+%L 24
+%F AA(University of Manchester) AA(RAL)
+%Z SUN/139
+
+---sep---
+
+%R 1996StarB..17...25L
+%T Starlink questionnaire, 1996
+%A Lawden, Mike
+%P 25
+%L 27
+%F AA(RAL)
+%Z 1994StarB..13R..23L
+
+---sep---
