@@ -324,7 +324,7 @@
 1993StaUN..20.....M SUN/37
 1993StaUN..20.....M 1988EIUEN..30.....T
 1993StaUN..20.....M SUN/50
-1993StaUN..20.....M Starlink Bulletin 4 comparing IUEDR with ULDA
+1993StaUN..20.....M 1989StarB...4...20O
 1989StaUN..21.....P 1981StaSN...7......
 1991StaUN..23.....L SUN/4
 1991StaUN..23.....L SUN/32
@@ -669,7 +669,7 @@
 2013StaUN..95.....C SC/4
 2013StaUN..95.....C SG/5
 2013StaUN..95.....C SGP/38
-2013StaUN..95.....C SIN/117
+2013StaUN..95.....C SUN/117
 2013StaUN..95.....C SSN/20
 2013StaUN..95.....C SSN/64
 2013StaUN..95.....C SUN/101
@@ -1370,7 +1370,7 @@
 1997StaUN.217.....C SUN/200
 1997StaUN.217.....C SUN/186
 1997StaUN.217.....C SUN/188
-1997StaUN.217.....C Terrett, Starlink Bulletin 16
+1997StaUN.217.....C 1995StarB..16....3T
 1997StaUN.219.....B SUN/130
 1997StaUN.219.....B SUN/186
 1997StaUN.221.....C SUN/95
@@ -1579,7 +1579,7 @@
 2013StaUN.243.....D SUN/86
 2013StaUN.243.....D SUN/253
 2013StaUN.243.....D 2014ascl.soft02008C
-2013StaUN.243.....D Skoda et al 2014 A&C paper
+2013StaUN.243.....D 2014A&C.....7..108S
 2001StaUN.244.....T SUN/102
 2001StaUN.244.....T SUN/95
 2001StaUN.244.....T SUN/33
@@ -1713,7 +1713,7 @@
 2012StaUN.267.....J 1976RC2...C......0D
 2012StaUN.267.....J 1960aitc.book.....S
 2013StaUN.268.....B SUN/33
-2013StaUN.268.....B ADD CITE TO SUN/55 CONVERT
+2013StaUN.268.....B SUN/55
 1990StaGP..31.....L SGP/35
 1990StaGP...2.....W SGP/16
 1990StaGP...2.....W 1982QJRAS..23..485D
@@ -2305,8 +2305,8 @@
 2001StarC...5.....D SUN/33
 2001StarC...5.....D SUN/214
 2001StarC...5.....D SUN/180
-2001StarC...5.....D Davenhall, 1998, Starlink Bulletin, 20, 17
-2001StarC...5.....D Draper, 1995, Starlink Bulletin, 16, 6
+2001StarC...5.....D 1998StarB..20...17D
+2001StarC...5.....D 1995StarB..16....6D
 2001StarC...5.....D 1991cacu.book.....B
 2001StarC...5.....D 1992ASPC...23.....H
 2001StarC...5.....D 1998aste.book.....K

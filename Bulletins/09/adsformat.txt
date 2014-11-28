@@ -183,7 +183,7 @@
 %L 15
 %F AA(Rutherford Appleton Laboratory)
 %Z SG/6
-   SG4/
+   SG/4
    SUN/144
    SUN/101
    SUN/40

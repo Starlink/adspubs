@@ -1138,7 +1138,7 @@
    SUN/37
    1988EIUEN..30.....T
    SUN/50
-   Starlink Bulletin 4 comparing IUEDR with ULDA
+   1989StarB...4...20O
 
 ---sep---
 
@@ -2692,7 +2692,7 @@
 %Z SC/4
    SG/5
    SGP/38
-   SIN/117
+   SUN/117
    SSN/20
    SSN/64
    SUN/101
@@ -5083,7 +5083,7 @@
    SUN/200
    SUN/186
    SUN/188
-   Terrett, Starlink Bulletin 16
+   1995StarB..16....3T
 
 ---sep---
 
@@ -5657,7 +5657,7 @@
    SUN/86
    SUN/253
    2014ascl.soft02008C
-   Skoda et al 2014 A&C paper
+   2014A&C.....7..108S
 
 ---sep---
 
@@ -6143,7 +6143,7 @@
 %J Starlink User Note 268
 %B CVG provides utility functions for handling data format conversion tasks.
 %Z SUN/33
-   ADD CITE TO SUN/55 CONVERT
+   SUN/55
 
 ---sep---
 
@@ -8735,8 +8735,8 @@
    SUN/33
    SUN/214
    SUN/180
-   Davenhall, 1998, Starlink Bulletin, 20, 17
-   Draper, 1995, Starlink Bulletin, 16, 6
+   1998StarB..20...17D
+   1995StarB..16....6D
    1991cacu.book.....B
    1992ASPC...23.....H
    1998aste.book.....K
